@@ -1,0 +1,65 @@
+nav,
+footer {
+    background-color: rgb(32, 32, 32);
+}
+
+nav {
+    border-bottom: 1px solid rgba(145, 232, 66, 1);
+}
+
+footer {
+    border-top: 1px solid rgba(145, 232, 66, 1);
+    padding: 1vw;
+}
+
+header {
+    color: black;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d2ff52+0,91e842+100;Neon */
+    background: rgb(210, 255, 82);
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(210, 255, 82, 1) 0%, rgba(145, 232, 66, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(210, 255, 82, 1) 0%, rgba(145, 232, 66, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(210, 255, 82, 1) 0%, rgba(145, 232, 66, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+@media only screen and (min-width: 768px) {
+    .row-header {
+        display: table;
+        width: 100%;
+    }
+    .icon {
+        width: 50%;
+        margin: 1vw;
+    }
+    .col-header-icon {
+        display: table-cell;
+        text-align: right;
+        width: 50%;
+    }
+    .col-header-name {
+        text-align: left;
+        vertical-align: middle;
+        display: table-cell;
+        vertical-align: middle;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .row-header {}
+    .icon {
+        width: 50%;
+        margin: 1vw;
+    }
+    .col-header-icon {
+        text-align: center;
+    }
+    .col-header-name {
+        text-align: center;
+    }
+}

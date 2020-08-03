@@ -1,0 +1,29 @@
+html,
+body {
+    background-color: rgb(64, 64, 64);
+    color: white;
+}
+
+.nav-space {
+    height: 58px;
+}
+
+section h1 {
+    margin: 3vw 0;
+    color: rgba(145, 232, 66, 1);
+    border-bottom: 1px solid rgba(145, 232, 66, 1);
+}
+
+section h2 {
+    margin: 2vw 0;
+    color: rgba(145, 232, 66, 1);
+}
+
+@media only screen and (max-width: 767px) {
+    section h1 {
+        margin: 10vw 0;
+    }
+    section h2 {
+        margin: 5vw 0;
+    }
+}
