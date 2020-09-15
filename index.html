@@ -5,32 +5,35 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>About me | Yuta YAMAMOTO</title>
+  <title>PORTFOLIO | Yuta YAMAMOTO</title>
 
   <!-- FontAwesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- Original -->
   <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/timeline.css">
   <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
   <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
-    <a class="navbar-brand" href="#">About me</a>
+    <a class="navbar-brand" href="#header">PORTFOLIO</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item"><a class="nav-link" href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
-        <li class="nav-item"><a class="nav-link" href="#research"><i class="fas fa-search"></i> Research</a></li>
-        <li class="nav-item"><a class="nav-link" href="#awards"><i class="fas fa-award"></i> Awards</a></li>
-        <li class="nav-item"><a class="nav-link" href="#hobby"><i class="fas fa-play"></i> Hobby</a></li>
+        <li class="nav-item"><a class="nav-link" href="#profile"><i class="far fa-id-card"></i> Profile</a></li>
         <li class="nav-item"><a class="nav-link" href="#activities"><i class="fas fa-shoe-prints"></i> Activities</a></li>
+        <li class="nav-item"><a class="nav-link" href="#papers"><i class="fas fa-graduation-cap"></i> Papers</a></li>
+        <li class="nav-item"><a class="nav-link" href="#works"><i class="fas fa-cogs"></i> Works</a></li>
+        <li class="nav-item"><a class="nav-link" href="#links"><i class="fas fa-link"></i> Links</a></li>
       </ul>
       <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link" href="https://github.com/yamamoto-yuta"><i class="fab fa-github"></i></a></li>
@@ -39,7 +42,7 @@
     </div>
   </nav>
 
-  <header style="margin: 0;">
+  <header style="margin: 0;" class="d-flex align-items-center" id="header">
     <div class="container">
       <div class="row row-header">
         <div class="col-sm-6 col-header-icon">
@@ -53,150 +56,327 @@
     </div>
   </header>
 
-  <section id="education">
+  <section style="margin: 0; padding: 0; text-align: center;">
     <div class="container">
-      <h1><i class="fas fa-graduation-cap"></i> Education</h1>
-      <ul>
-        <li>長岡技術科学大学　情報・経営システム工学課程（2019.04 - ）</li>
-        <li>福井工業高等専門学校　電子情報工学科（2014.04 - 2019.03）</li>
-      </ul>
+      <h1 class="color-theme">
+        <i class="fas fa-chevron-down"></i>
+      </h1>
     </div>
   </section>
 
-  <section id="research">
-    <div class="container">
-      <h1><i class="fas fa-search"></i> Research</h1>
+  <section id="profile">
+    <div class="container text-center">
+      <h1 class="h1-topic"><i class="far fa-id-card"></i> Profile</h1>
 
-      <h2>Keywords</h2>
-      <ul>
-        <li>特許解析 / Patent Information Processing</li>
-      </ul>
+      <div class="row">
+        <div class="col-sm-4">
+          <figure><img class="img-responsive-width border-theme" src="img/face.jpg"></figure>
+        </div>
+        <div class="col-sm-8">
 
-      <h2>Conference</h2>
-      <p>
-        査読なし
-        <ul>
-          <li>
-            <b>山本雄太</b>，野中尋史，邊土名朝飛，中井堅誠，作本猛，片岡翔太郎，平岡透，2020， 技術コミュニティの成長性を加味した特許価値評価手法の開発，人工知能学会全国大会（第34回）
-            <a href="https://confit.atlas.jp/guide/event/jsai2020/subject/4K2-GS-3-05/advanced">LINK</a>
-          </li>
-        </ul>
-      </p>
-    </div>
-  </section>
+          <h2 class="h2-topic text-responsive-left-center">Education</h2>
+          <ul class="p-text text-left">
+            <li>長岡技術科学大学　情報・経営システム工学課程（2019.04 - ）</li>
+            <li>福井工業高等専門学校　電子情報工学科（2014.04 - 2019.03）</li>
+          </ul>
 
-  <section id="awards">
-    <div class="container">
-      <h1><i class="fas fa-award"></i> Awards</h1>
-
-      <ul>
-        <li>第29回全国高等専門学校プログラミングコンテスト　課題部門　特別賞 （2018）</li>
-        <li>福井発！ビジネスプランコンテスト2018　学生の部　福井信用金庫賞 （2018）</li>
-        <li>ふくいソフトウェアコンペティション2018　ふくいソフトウェア大賞 （2018）</li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="hobby">
-    <div class="container">
-      <h1><i class="fas fa-play"></i> hobby</h1>
-
-      <ul>
-        <li>音楽ゲーム</li>
-        <li>VOCALOID</li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="activities">
-    <div class="container">
-      <h1><i class="fas fa-shoe-prints"></i> Activities</h1>
-
-      <ul>
-        <li>
-          2020.06<br>
-          <b>人工知能学会全国大会（第34回）　発表</b><br>
-          <ul>
+          <h2 class="h2-topic text-responsive-left-center">Research</h2>
+          <ul class="p-text text-left">
             <li>技術コミュニティの成長性を加味した特許価値評価手法の開発</li>
           </ul>
+          <p class="p-text text-left">
+            <span class="span-fill">KEYWORDS</span> 機械学習，特許解析
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="activities">
+    <div class="container text-center">
+      <h1 class="h1-topic"><i class="fas fa-shoe-prints"></i> Activities</h1>
+      <ul id='timeline'>
+
+        <li class='work'>
+          <input class='radio' name='works' type='radio' checked>
+          <div class="relative">
+            <span class='circle'></span>
+          </div>
+          <div class='content'>
+            <p class="p-topic color-theme"><span class="span-fill">2020.06</span> <br class="sp"><span class="color-theme">人工知能学会全国大会（第34回）　発表</span></p>
+            <p>
+              技術コミュニティの成長性を加味した特許価値評価手法の開発
+            </p>
+          </div>
         </li>
-        <li>
-          2019.12<br>
-          <b>Hult Prize On Campus Program at Nagaoka University of Technology　運営</b>
+
+        <li class='work'>
+          <input class='radio' name='works' type='radio' checked>
+          <div class="relative">
+            <span class='circle'></span>
+          </div>
+          <div class='content'>
+            <p class="p-topic color-theme"><span class="span-fill">2019.12</span> <br class="sp"><span class="color-theme">Hult Prize On Campus Program at Nagaoka University of Technology　運営</span></p>
+            <p></p>
+          </div>
         </li>
-        <li>
-          2019.11<br>
-          <b>4th STI-Gigaku 2019　発表</b>
-          <ul>
-            <li>Yuta YAMAMOTO, Ryusei SHIBATA, Masashi OBA, Koichiro IMAMURA, Daiki MORITA, Kaito MIDO, Takashi YAMAGUCHI, Makoto ICHITSUBO, 2019, Hult Prize -On Campus Program- at Nagaoka University of Technology</li>
-          </ul>
+
+        <li class='work'>
+          <input class='radio' name='works' type='radio' checked>
+          <div class="relative">
+            <span class='circle'></span>
+          </div>
+          <div class='content'>
+            <p class="p-topic color-theme"><span class="span-fill">2019.11</span> <br class="sp"><span class="color-theme">4th STI-Gigaku 2019　発表</span></p>
+            <p></p>
+          </div>
         </li>
-        <li>
-          2019.08<br>
-          <b>アイデア実現RPG「あいキャン」　参加</b>
+
+        <li class='work'>
+          <input class='radio' name='works' type='radio' checked>
+          <div class="relative">
+            <span class='circle'></span>
+          </div>
+          <div class='content'>
+            <p class="p-topic color-theme"><span class="span-fill">2019.08.30-09.01</span> <br class="sp"><span class="color-theme">アイデア実現RPG「あいキャン」　参加</span></p>
+            <p>
+              <a href="https://n-wakamonokikou.net/icam/report/nidcampv1.html" target="_blank">開催レポート <i class="fas fa-external-link-alt"></i></a>
+            </p>
+          </div>
         </li>
-        <li>
-          2019.08<br>
-          <b>ながおか・若者・しごと機構×デザイントーク株式会社（合同インターン）　参加</b>
+
+        <li class='work'>
+          <input class='radio' name='works' type='radio' checked>
+          <div class="relative">
+            <span class='circle'></span>
+          </div>
+          <div class='content'>
+            <p class="p-topic color-theme"><span class="span-fill">2019.08.26-30</span> <br class="sp"><span class="color-theme">ながおか・若者・しごと機構×デザイントーク株式会社（合同インターン）　参加</span></p>
+            <p>
+              <a href="https://www.facebook.com/designtalkinc/posts/2587087781312628" target="_blank">Facebook投稿 <i class="fas fa-external-link-alt"></i></a>
+            </p>
+          </div>
         </li>
-        <li>
-          2019.05-08<br>
-          <b>リーンローンチパッド（長岡）　参加</b>
+
+        <li class='work'>
+          <input class='radio' name='works' type='radio' checked>
+          <div class="relative">
+            <span class='circle'></span>
+          </div>
+          <div class='content'>
+            <p class="p-topic color-theme"><span class="span-fill">2019.05-08</span> <br class="sp"><span class="color-theme">リーンローンチパッド（長岡）　参加</span></p>
+            <p></p>
+          </div>
         </li>
-        <li>
-          2018.12<br>
-          <b>ふくいソフトウェアコンペティション2018　ふくいソフトウェア大賞</b>
-          <ul>
-            <li>「サバ×サバ　～観光客ひとり一人の好みに合った観光コース提案アプリ～」</li>
-          </ul>
+
+        <li class='work'>
+          <input class='radio' name='works' type='radio' checked>
+          <div class="relative">
+            <span class='circle'></span>
+          </div>
+          <div class='content'>
+            <p class="p-topic color-theme"><span class="span-fill">2018.12</span> <br class="sp"><span class="color-theme">ふくいソフトウェアコンペティション2018　ふくいソフトウェア大賞</span></p>
+            <p>
+              「サバ×サバ　～観光客ひとり一人の好みに合った観光コース提案アプリ～」
+            </p>
+          </div>
         </li>
-        <li>
-          2018.12<br>
-          <b>福井発！ビジネスプランコンテスト2018　学生の部　福井信用金庫賞</b>
-          <ul>
-            <li>
+
+        <li class='work'>
+          <input class='radio' name='works' type='radio' checked>
+          <div class="relative">
+            <span class='circle'></span>
+          </div>
+          <div class='content'>
+            <p class="p-topic color-theme"><span class="span-fill">2018.12</span> <br class="sp"><span class="color-theme">福井発！ビジネスプランコンテスト2018　学生の部　福井信用金庫賞</span></p>
+            <p>
               『フク×フク』～観光客ひとり一人の好みに合った観光提案アプリ～
-              <a href="https://www.city.fukui.lg.jp/sigoto/syoukou/kigyoka/busicon18-3.html">結果</a>
-            </li>
-          </ul>
+              <a href="https://www.city.fukui.lg.jp/sigoto/syoukou/kigyoka/busicon18-3.html" target="_blank">→結果 <i class="fas fa-external-link-alt"></i></a>
+            </p>
+          </div>
         </li>
-        <li>
-          2018.10<br>
-          <b>第29回全国高等専門学校プログラミングコンテスト　課題部門　特別賞</b>
-          <ul>
-            <li>
+
+        <li class='work'>
+          <input class='radio' name='works' type='radio' checked>
+          <div class="relative">
+            <span class='circle'></span>
+          </div>
+          <div class='content'>
+            <p class="p-topic color-theme"><span class="span-fill">2018.10</span> <br class="sp"><span class="color-theme">第29回全国高等専門学校プログラミングコンテスト　課題部門　特別賞</span></p>
+            <p>
               「サバ×サバ −サバで時代を⽣き延びる−」
-              <a href="http://www.procon.gr.jp/?p=76025">結果</a>
-            </li>
-          </ul>
+              <a href="http://www.procon.gr.jp/?p=76025" target="_blank">→結果 <i class="fas fa-external-link-alt"></i></a>
+            </p>
+          </div>
         </li>
-        <li>
-          2017.10<br>
-          <b>
-                        スペースバルーンプロジェクト「ふーせん宇宙船」
-                        <a href="">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </b>
+
+        <li class='work'>
+          <input class='radio' name='works' type='radio' checked>
+          <div class="relative">
+            <span class='circle'></span>
+          </div>
+          <div class='content'>
+            <p class="p-topic color-theme"><span class="span-fill">2017.10</span> <br class="sp"><span class="color-theme">スペースバルーンプロジェクト「ふーせん宇宙船」</span></p>
+            <p>
+              <a href="https://www.youtube.com/watch?v=3dknwDvaEGQ" target="_blank">→YouTube <i class="fas fa-external-link-alt"></i></a>
+            </p>
+          </div>
         </li>
-        <li>
-          2017.10<br>
-          <b>第28回全国高等専門学校プログラミングコンテスト　競技部門　出場</b>
+
+        <li class='work'>
+          <input class='radio' name='works' type='radio' checked>
+          <div class="relative">
+            <span class='circle'></span>
+          </div>
+          <div class='content'>
+            <p class="p-topic color-theme"><span class="span-fill">2017.10</span> <br class="sp"><span class="color-theme">第28回全国高等専門学校プログラミングコンテスト　競技部門　出場</span></p>
+            <p></p>
+          </div>
         </li>
-        <li>
-          2017.08<br>
-          <b>株式会社アイジュピタ（インターン）</b>
-          <ul>
-            <li>クラス名簿システムの開発</li>
-          </ul>
+
+        <li class='work'>
+          <input class='radio' name='works' type='radio' checked>
+          <div class="relative">
+            <span class='circle'></span>
+          </div>
+          <div class='content'>
+            <p class="p-topic color-theme"><span class="span-fill">2017.08</span> <br class="sp"><span class="color-theme">株式会社アイジュピタ　インターン</span></p>
+            <p>
+              クラス名簿システムの開発
+            </p>
+          </div>
         </li>
+
       </ul>
+    </div>
+  </section>
+
+
+  <section id="papers">
+    <div class="container text-center">
+      <h1 class="h1-topic"><i class="fas fa-graduation-cap"></i> Papers</h1>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <figure><img class="img-w100 border-theme" src="img/papers/papers_cdgp.jpg"></figure>
+        </div>
+        <div class="col-sm-8">
+          <p class="text-responsive-left-center">
+            <a href="https://www.ai-gakkai.or.jp/jsai2020/" target="_blank">HP</a>｜
+            <a href="pdf/jsai2020/JSAI2020_paper.pdf" target="_blank">Paper</a>｜
+            <a href="pdf/jsai2020/JSAI2020_slide.pdf" target="_blank">Slide</a>
+          </p>
+          <p class="p-text text-left">
+            <sub><b>山本雄太</b>，野中尋史，邊土名朝飛，中井堅誠，作本猛，片岡翔太郎，平岡透，2020， 技術コミュニティの成長性を加味した特許価値評価手法の開発，人工知能学会全国大会（第34回）</sub>
+          </p>
+          <p class="p-text text-left">
+            特許の価値を定量的に評価する手法は，企業の技術力や研究・開発している技術の重要性を評価するために有用である．従来の特許価値評価手法では，現時点での特許価値のみを評価しており，技術コミュニティの成長可能性を加味していなかった．そこで本研究では，技術コミュニティの成長性を加味した特許価値評価手法を提案する．
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <figure><img class="img-w100 border-theme" src="img/papers/papers_4thSTI.jpg"></figure>
+        </div>
+        <div class="col-sm-8">
+          <p class="text-responsive-left-center">
+            <a href="https://sites.google.com/view/sti-gigaku-2019" target="_blank">HP</a>｜
+            <a href="pdf/4th-sti/4thSTI_paper.pdf" target="_blank">Paper</a>｜
+            <a href="pdf/4th-sti/4thSTI_poster.pdf" target="_blank">Poster</a>
+          </p>
+          <p class="p-text text-left">
+            <sub><b>Yuta YAMAMOTO</b>, Ryusei SHIBATA, Masashi OBA, Koichiro IMAMURA, Daiki MORITA, Kaito MIDO, Takashi YAMAGUCHI, Makoto ICHITSUBO, 2019, Hult Prize -On Campus Program- at Nagaoka University of Technology</sub>
+          </p>
+          <p class="p-text text-left">
+            Because of Earth Day, SDGs, and other initiatives, environmental consciousness is greater than before. However, the natural environment is destructing by human economic activity. Our challenge is to replace all industry on our planet for a better future.
+            So, we become a member of Hult Prize: the world’s largest social entrepreneurial platform and start to build bold businesses that will improve our planet.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="works">
+    <div class="container text-center">
+      <h1 class="h1-topic"><i class="fas fa-cogs"></i> Works</h1>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <figure><img class="img-w100 border-theme" src="img/works/works_procon29.jpg"></figure>
+        </div>
+        <div class="col-sm-8">
+          <p class="p-text text-left color-theme">
+            「サバ×サバ −サバで時代を⽣き延びる−」<br>
+            <sub> 第29回全国高等専門学校プログラミングコンテスト　課題部門　特別賞</sub>
+          </p>
+          <p class="text-responsive-left-center">
+            <a href="http://www.procon.gr.jp/?page_id=64541" target="_blank">HP</a>｜
+            <a href="pdf/procon29/procon29_poster.pdf" target="_blank">Poster</a>｜
+            <a href="pdf/procon29/procon29_slide.pdf" target="_blank">Slide</a>
+          </p>
+          <p class="p-text text-left">
+            <sub>開発人数：3人　/　開発期間：7カ月　/　担当役割：Webアプリケーション開発，データベース作成　/　仕様技術：JavaScript, PHP, SQL</sub>
+          </p>
+          <p class="p-text text-left">
+            観光客のスマートフォン内にある写真，音楽および本人のTweet内容から，その観光客の好みに合う観光ルートを提案するWebアプリケーション．
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <figure><img class="img-w100 border-theme" src="img/works/works_balloon.jpg"></figure>
+        </div>
+        <div class="col-sm-8">
+          <p class="p-text text-left color-theme">
+            スペースバルーンプロジェクト「ふーせん宇宙船」
+          </p>
+          <p class="text-responsive-left-center">
+            <a href="https://yume.fukuishimbun.co.jp/sb" target="_blank">Blog</a>｜
+            <a href="https://youtu.be/XxP2_zDJ9_A" target="_blank">Movie <i class="fab fa-youtube"></i></a>｜
+            <a href="https://youtu.be/3dknwDvaEGQ" target="_blank">Documentary <i class="fab fa-youtube"></i></a>
+          </p>
+          <p class="p-text text-left">
+            <sub>開発人数：3人　/　開発期間：7カ月　/　担当役割：Webアプリケーション開発，データベース作成　/　仕様技術：JavaScript, PHP, SQL</sub>
+          </p>
+          <p class="p-text text-left">
+            観光客のスマートフォン内にある写真，音楽および本人のTweet内容から，その観光客の好みに合う観光ルートを提案するWebアプリケーション．
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="links">
+    <div class="container text-center">
+      <h1 class="h1-topic"><i class="fas fa-link"></i> Links</h1>
+      <div>
+        <table class="table-logo">
+          <tr>
+            <td>
+              <a href="https://github.com/yamamoto-yuta" target="_blank">
+                <img class="img-logo" src="img/logo/logo_github.png">
+              </a>
+            </td>
+            <td>
+              <a href="https://www.facebook.com/atuXamamoto" target="_blank">
+                <img class="img-logo" src="img/logo/logo_facebook.png">
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
     </div>
   </section>
 
   <footer class="footer">
     <div class="container">
-      <p></p>
+      <p class="text-center">
+        <sub>Copyight&copy; Yuta YAMAMOTO. All Rights Reserved.</sub>
+      </p>
     </div>
   </footer>
 
@@ -238,4 +418,5 @@
 
     });
   </script>
+</body>ipt>
 </body>

@@ -1,33 +1,145 @@
-body {
-    padding-top: 50px;
-}
+/**************
+    genreral
+**************/
 
 html,
 body {
     background-color: rgb(64, 64, 64);
     color: white;
+    font-family: 'M PLUS 1p', sans-serif;
 }
 
-.nav-space {
-    height: 58px;
+body {
+    padding-top: 50px;
 }
 
-section h1 {
-    margin: 3vw 0;
+.pc {
+    display: block !important;
+}
+
+.sp {
+    display: none !important;
+}
+
+
+/**************
+    section
+**************/
+
+section {
+    padding: 120px 0;
+}
+
+section .h1-topic {
     color: rgba(145, 232, 66, 1);
-    border-bottom: 1px solid rgba(145, 232, 66, 1);
+    border-bottom: 2px solid rgba(145, 232, 66, 1);
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1em;
 }
 
-section h2 {
+section .h2-topic {
     margin: 2vw 0;
     color: rgba(145, 232, 66, 1);
 }
 
+
+/**************
+    font
+**************/
+
+.h1-topic {
+    font-size: 250%;
+}
+
+.h2-topic {
+    font-size: 200%;
+}
+
+
+/**************
+    img
+**************/
+
+.img-w100 {
+    width: 100%;
+}
+
+
+/**************
+    utils
+**************/
+
+.border-theme {
+    border: 1px solid rgba(145, 232, 66, 1);
+}
+
+.color-theme {
+    color: rgba(145, 232, 66, 1);
+}
+
+
+/**************
+    responsive
+**************/
+
+.img-responsive-width {
+    width: 100%;
+}
+
+.text-responsive-left-center {
+    text-align: left;
+}
+
+
+/**************
+    span
+**************/
+
+.span-fill {
+    background-color: rgba(145, 232, 66, 1);
+    color: black;
+    padding: 0 10px;
+}
+
+
+/**************
+    smartphone
+**************/
+
 @media only screen and (max-width: 767px) {
-    section h1 {
-        margin: 10vw 0;
+    /**************
+    general
+    **************/
+    .pc {
+        display: none !important;
     }
+    .sp {
+        display: block !important;
+    }
+    /**************
+    section
+    **************/
     section h2 {
         margin: 5vw 0;
+    }
+    /**************
+    font
+    **************/
+    .h1-topic {
+        font-size: 150%;
+    }
+    .h2-topic {
+        font-size: 130%;
+    }
+    /**************
+    responsive
+    **************/
+    .img-responsive-width {
+        width: 70%;
+    }
+    .text-responsive-left-center {
+        text-align: center;
     }
 }
