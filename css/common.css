@@ -68,6 +68,33 @@ section .h2-topic {
 
 
 /**************
+    link
+**************/
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:link {
+    color: deepskyblue;
+}
+
+a:visited {
+    color: mediumorchid;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgba(145, 232, 66, 1);
+}
+
+
+/**************
     utils
 **************/
 
