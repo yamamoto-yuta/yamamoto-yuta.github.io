@@ -7,7 +7,7 @@ workflow=$(cat $issue_builder)
 workflow=$(echo "$workflow" | sed -e "s/T_GITHUB_USER_NAME/${GITHUB_USER_NAME}/g")
 workflow=$(echo "$workflow" | sed -e "s/T_GITHUB_USER_EMAIL/${GITHUB_USER_EMAIL}/g")
 workflow=$(echo "$workflow" | sed -e "s/T_FRONTEND_REPOSITORY/${FRONTEND_REPOSITORY}/g")
-workflow=$(echo "$workflow" | sed -e "s/T_FRONTEND_OWNER/${FRONTEND_OWNER}/g")
+workflow=$(echo "$workflow" | sed -e "s/T_SIDE_M_REPOSITORY/${SIDE_M_REPOSITORY}/g")
 if [ ! -d ./.github/workflows ]; then
     mkdir -p ./.github/workflows
 fi
