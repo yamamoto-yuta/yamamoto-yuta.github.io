@@ -1,7 +1,7 @@
 #!/bin/bash
 source ./settings.conf
 
-git clone git@github.com:${FRONTEND_OWNER}/${FRONTEND_REPOSITORY}.git ./front
+git clone git@github.com:${FRONTEND_REPOSITORY}.git ./front
 issue_builder='./front/templates/workflows/issue_builder.yml'
 workflow=$(cat $issue_builder)
 workflow=$(echo "$workflow" | sed -e "s/T_GITHUB_USER_NAME/${GITHUB_USER_NAME}/g")
