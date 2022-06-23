@@ -41,7 +41,7 @@ GitHub Issues driven Contents M@nagement System
 1. Fill in the body text in markdown under YAML frontmatter.
 1. Close issue and wait GitHub Actions end.
 
-### Edit Articles (or Profile)
+### Edit Articles
 1. Reopen the issue.
 1. Edit the issue content.
 1. Close the issue and wait GitHub Actions end.
