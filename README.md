@@ -33,16 +33,10 @@ GitHub Issues driven Contents M@nagement System
     1. Wait GitHub Actions end.
 1. (Your Repository) Settings -> Pages -> Source branch `"build"` `"/(root)" `
 
-## sideM
-1. Create Your first post.
-    1. New Issue & use "Article" template.
-    1. You can add `tag/` prefix labels to the issue; it become the article tags. (named `tag/{tag_name}` issues label will be article `{tag_name}` tag.)
-    1. Write Issue markdown with YAML frontmatter & Close. (Rest assured that each value can be re-set at any time by re-closing.)
-    1. Wait GitHub Actions end. (If this process succeeds, the article page is updated.)
-
 # How to manage contents
 ## Post Articles
 1. Create issue with `Article` (or `Reserved Article`) template.
+1. You can add `tag/` prefix labels to the issue; it become the article tags. (named `tag/{tag_name}` issues label will be article `{tag_name}` tag.)
 1. Fill out YAML frontmatter follow a format.
 1. Fill in the body text in markdown under YAML frontmatter.
 1. Close issue and wait GitHub Actions end.
