@@ -5,7 +5,7 @@ GitHub Issues driven Contents M@nagement System
 
 
 # The simplest Setup
-1. Create a new **private** repository on Github. (Memo: repository name will be your site URL.)
+1. Create a new empty **private** repository on Github. (Memo: repository name will be your site URL.)
 1. `git clone --bare git@github.com:RibbonCMS/RibbonCMS.git ./{Your repository name}.git`  
    `cd {Your repository name}.git`  
    `git push --mirror git@github.com:<your_username>/{Your repository name}.git`
