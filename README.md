@@ -3,8 +3,8 @@
 # GitHubIssuesCMS
 GitHub Issues driven Contents M@nagement System
 
-
-# The simplest Setup
+## How to setup
+### The simplest setup
 1. Create a new empty **private** repository on Github. (Memo: repository name will be your site URL.)
 1. `git clone --bare git@github.com:RibbonCMS/RibbonCMS.git ./{Your repository name}.git`  
    `cd {Your repository name}.git`  
@@ -33,15 +33,15 @@ GitHub Issues driven Contents M@nagement System
     1. Wait GitHub Actions end.
 1. (Your Repository) Settings -> Pages -> Source branch `"build"` `"/(root)" `
 
-# How to manage contents
-## Post Articles
+## How to manage contents
+### Post Articles
 1. Create issue with `Article` (or `Reserved Article`) template.
 1. You can add `tag/` prefix labels to the issue; it become the article tags. (named `tag/{tag_name}` issues label will be article `{tag_name}` tag.)
 1. Fill out YAML frontmatter follow a format.
 1. Fill in the body text in markdown under YAML frontmatter.
 1. Close issue and wait GitHub Actions end.
 
-## Edit Articles (or Profile)
+### Edit Articles
 1. Reopen the issue.
 1. Edit the issue content.
 1. Close the issue and wait GitHub Actions end.
