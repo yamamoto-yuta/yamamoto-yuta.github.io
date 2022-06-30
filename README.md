@@ -22,14 +22,14 @@ GitHub Issues driven Contents M@nagement System
    `git commit -m 'exec first setup.sh'`  
    `git push origin main`
 1. [Create new Labels](https://docs.github.com/ja/issues/using-labels-and-milestones-to-track-work/managing-labels#creating-a-label) on your Repository.
-    1. Add `article`, `config` and `delete` labels.
+    1. Add `publish`, `article`, `config` and `delete` labels.
     1. Add labels such as `tag/xx` or `fixed/xx` as needed.
-1. Create & Edit & Close Config Issue on your Repository.
-    1. New Issue & use "Config" template.
+1. Create & Edit Config Issue on your Repository.
+    1. Create New Issue & use "Config" template.
     1. Edit all values.
         1. If `{Your repository name}` is `"<your_user_name>.github.io"`, set the value of `root_url` to `https://<your user name>.github.io`.  
            Else, set the value of `root_url` to `https://<your user name>.github.io/{Your repository name}`
-    1. Create & Close issue. (Rest assured that each value can be re-set at any time by re-closing.)
+    1. Create & Add `publish` label. (Rest assured that each value can be re-set at any time by re-labeling `publish`.)
     1. Wait GitHub Actions end.
 1. (Your Repository) Settings -> Pages -> Source branch `"build"` `"/(root)" `
 
@@ -39,9 +39,17 @@ GitHub Issues driven Contents M@nagement System
 1. You can add `tag/` prefix labels to the issue; it become the article tags. (named `tag/{tag_name}` issues label will be article `{tag_name}` tag.)
 1. Fill out YAML frontmatter follow a format.
 1. Fill in the body text in markdown under YAML frontmatter.
-1. Close issue and wait GitHub Actions end.
+1. Add `publish` label to the issue and wait GitHub Actions end.
 
 ### Edit Articles
-1. Reopen the issue.
+1. Remove `publish` label from the issue.
 1. Edit the issue content.
-1. Close the issue and wait GitHub Actions end.
+1. Add `publish` label to the issue and wait GitHub Actions end.
+
+### Delete Articles
+1. Add `delete` label. Or delete the issue.
+1. Wait GitHub Actions end.
+
+### Re-Post Articles
+1. Remove `delete` label from the issue.
+1. Add `publish` label to the issue and wait GitHub Actions end.
