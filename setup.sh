@@ -1,8 +1,7 @@
 #!/bin/bash
 source ./settings.conf
 
-git clone git@github.com:${FRONTEND_REPOSITORY}.git ./front
-issue_builder='./front/templates/workflows/issue_builder.yml'
+issue_builder='./templates/workflows/issue_builder.yml'
 workflow=$(cat $issue_builder)
 workflow=$(echo "$workflow" | sed -e "s|T_GITHUB_USER_NAME|${GITHUB_USER_NAME}|g")
 workflow=$(echo "$workflow" | sed -e "s|T_GITHUB_USER_EMAIL|${GITHUB_USER_EMAIL}|g")
@@ -20,6 +19,7 @@ else
     echo "$workflow" >| ./.github/workflows/issue_builder.yml
 fi
 
+git clone git@github.com:${FRONTEND_REPOSITORY}.git ./front
 # copy
 if [ ! -d ./.github/ISSUE_TEMPLATE ]; then
     mkdir -p ./.github/ISSUE_TEMPLATE
