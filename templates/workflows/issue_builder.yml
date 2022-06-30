@@ -2,10 +2,11 @@ name: Build_Markdown_from_Issue
 
 on:
   issues:
-    types: closed
+    types: labeled
 
 jobs:
   build_md:
+    if: github.event.label.name == 'publish' || github.event.label.name == 'delete'
     runs-on: ubuntu-latest
     steps: 
     - uses: actions/checkout@v2
@@ -129,3 +130,4 @@ jobs:
         FOLDER: ./front/src/out/
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
+
