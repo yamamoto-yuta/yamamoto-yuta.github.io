@@ -18,7 +18,6 @@ jobs:
         ISSUE_ID: ${{ github.event.issue.number }}
         BODY: ${{ github.event.issue.body }}
         LABELS: ${{ toJson(github.event.issue.labels) }}
-        CLOSED_AT: ${{ github.event.issue.closed_at }}
         STATUS: ${{ github.event.action }}
       run: |
         mkdir issue
@@ -26,7 +25,7 @@ jobs:
         echo "${ISSUE_ID}" >| issue/issue_id.txt
         echo "${BODY}" >| issue/body.txt
         echo "${LABELS}" >| issue/labels.txt
-        echo "${CLOSED_AT}" >| issue/closed_at.txt
+        echo "$(date +'%Y-%m-%dT%H:%M:%SZ')" >| issue/labeled_at.txt
         echo "${STATUS}" >| issue/status.txt
 
     - name: Checkout
@@ -96,15 +95,19 @@ jobs:
         node-version: 16.x.x
 
     - uses: actions/cache@v3
-      id: node_modules_cache_id
-      env:
-        cache-name: cache-node-modules
+      id: node-modules-cache-id
       with:
         path: 'front/src/node_modules'
-        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('front/src/package-lock.json') }}
+        key: ${{ runner.os }}-node-modules-${{ hashFiles('front/src/package-lock.json') }}
+
+    - uses: actions/cache@v3
+      id: nextjs-cache-id
+      with:
+        path: 'front/src/.next/cache'
+        key: ${{ runner.os }}-nextjs-${{ hashFiles('front/src/package-lock.json') }}-${{ hashFiles('front/src/**/*.js') }}
 
     - name: Install NPM packages
-      if: ${{ steps.node_modules_cache_id.outputs.cache-hit != 'true' }}
+      if: ${{ steps.node-modules-cache-id.outputs.cache-hit != 'true' }}
       run: npm ci
       working-directory: ./front/src
 
