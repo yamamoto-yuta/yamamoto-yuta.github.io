@@ -4,16 +4,36 @@
     "copylight_name": "YutaYamamoto",
     "copylight_url": "https://github.com/yamamoto-yuta",
     "issues_page_url": "https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/issues",
-    "favicon_image_url": "https://user-images.githubusercontent.com/42331656/175183205-06dc6033-af20-44b9-ae3d-c3e68770a1f3.png",
+    "favicon_image_url": "https://user-images.githubusercontent.com/55144709/217254968-e131c8d3-3846-4569-8d05-06ccdba503a5.png",
     "author_name": "Yuta Yamamoto",
     "author_introduction": "It's me.",
     "avatar_image_url": {
-        "url": "https://user-images.githubusercontent.com/42331656/175183205-06dc6033-af20-44b9-ae3d-c3e68770a1f3.png",
+        "url": "https://user-images.githubusercontent.com/55144709/217254968-e131c8d3-3846-4569-8d05-06ccdba503a5.png",
         "path": "/static/images/config/avatar.webp"
     },
     "sns": [
         {
             "name": "GitHub",
+            "url": "https://github.com/yamamoto-yuta"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/__Y4M4MOTO__"
+        },
+        {
+            "name": "Facebook",
+            "url": "https://www.facebook.com/atuXamamoto/"
+        },
+        {
+            "name": "LinkedIn",
+            "url": null
+        },
+        {
+            "name": "Instagram",
+            "url": null
+        },
+        {
+            "name": "Youtube",
             "url": null
         }
     ]
