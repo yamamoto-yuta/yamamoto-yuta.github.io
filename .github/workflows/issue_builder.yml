@@ -1,0 +1,135 @@
+name: Build_Markdown_from_Issue
+
+on:
+  issues:
+    types: labeled
+
+jobs:
+  build_md:
+    if: github.event.label.name == 'publish' || github.event.label.name == 'delete'
+    runs-on: ubuntu-latest
+    steps: 
+    - uses: actions/checkout@v2
+
+    # ISSUE BUILD
+    - name: get_issue
+      env:
+        TITLE: ${{ github.event.issue.title }}
+        ISSUE_ID: ${{ github.event.issue.number }}
+        BODY: ${{ github.event.issue.body }}
+        LABELS: ${{ toJson(github.event.issue.labels) }}
+        STATUS: ${{ github.event.action }}
+      run: |
+        mkdir issue
+        echo "${TITLE}" >| issue/title.txt
+        echo "${ISSUE_ID}" >| issue/issue_id.txt
+        echo "${BODY}" >| issue/body.txt
+        echo "${LABELS}" >| issue/labels.txt
+        echo "$(date +'%Y-%m-%dT%H:%M:%SZ')" >| issue/labeled_at.txt
+        echo "${STATUS}" >| issue/status.txt
+
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        repository: RibbonCMS/RibbonCMS_sideM
+        path: side_m
+        ref: main
+
+    - uses: actions/setup-python@v4
+      id: setup_python_id
+      with:
+        python-version: '3.9'
+
+    - uses: actions/cache@v3
+      id: cache-venv
+      with:
+        path: side_m/.venv
+        key: ${{ runner.os }}-venv-${{ hashFiles('side_m/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-venv-
+
+    - name: Create venv
+      if: steps.cache-venv.outputs.cache-hit != 'true'
+      run: |
+        cd side_m
+        python -m venv .venv
+        . ./.venv/bin/activate
+        pip install -r requirements.txt
+
+    - name: Check Publish flag
+      run: |
+        cd side_m
+        . ./.venv/bin/activate
+        python3 check.py
+
+    - name: build markdown
+      run: |
+        cd side_m
+        . ./.venv/bin/activate
+        python3 closed.py
+
+    - name: Commit & Push
+      run: |
+        git config user.name yamamoto-yuta
+        git config user.email automatuX78@gmail.com
+        git add front_contents
+        git commit -m "Issue build: update front_contents"
+        git push
+
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        repository: RibbonCMS/FunctionalBlogTemplate
+        path: front
+        ref: main
+
+    - name: copy contents
+      run: |
+        cd side_m
+        python3 copy_contents.py
+
+    # FRONTEND BUILD
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16.x.x
+
+    - uses: actions/cache@v3
+      id: node-modules-cache-id
+      with:
+        path: 'front/src/node_modules'
+        key: ${{ runner.os }}-node-modules-${{ hashFiles('front/src/package-lock.json') }}
+
+    - uses: actions/cache@v3
+      id: nextjs-cache-id
+      with:
+        path: 'front/src/.next/cache'
+        key: ${{ runner.os }}-nextjs-${{ hashFiles('front/src/package-lock.json') }}-${{ hashFiles('front/src/**/*.js') }}
+
+    - name: Install NPM packages
+      if: ${{ steps.node-modules-cache-id.outputs.cache-hit != 'true' }}
+      run: npm ci
+      working-directory: ./front/src
+
+    - name: Build Next.js app
+      run: npm run build
+      working-directory: ./front/src
+      env:
+        NODE_ENV: production
+
+    - name: Export Next.js app
+      run: |
+          npm run export
+          touch ./out/.nojekyll
+      working-directory: ./front/src
+      env:
+        NODE_ENV: production
+
+    - name: Push to build branch
+      uses: s0/git-publish-subdir-action@master
+      env:
+        REPO: self
+        BRANCH: build
+        FOLDER: ./front/src/out/
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
