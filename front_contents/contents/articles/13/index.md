@@ -3,9 +3,10 @@ description: '## 山本 雄太 - YAMAMOTO Yuta  GitHub: [@yamamoto-yuta](https:/
   Twitter: [@\_\_Y4M4MOTO\_\_](https://twitter.com/__Y4M4MOTO__) Facebook: [山本雄太](https://www.facebook.com/atuXamamot...'
 posted_at: 2023-02-07 10:44:14+00:00
 slug: '13'
-tag_ids: []
+tag_ids:
+- 5125635648
 title: About
-updated_at: ''
+updated_at: 2023-02-07 12:44:06+00:00
 
 ---
 ## 山本 雄太 - YAMAMOTO Yuta
