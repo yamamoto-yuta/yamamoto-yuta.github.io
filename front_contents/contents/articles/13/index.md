@@ -1,16 +1,16 @@
 ---
-description: '## 山本 雄太 - YAMAMOTO Yuta  GitHub: [@yamamoto-yuta](https://github.com/yamamoto-yuta)
-  Twitter: [@\_\_Y4M4MOTO\_\_](https://twitter.com/__Y4M4MOTO__) Facebook: [山本雄太](https://www.facebook.com/atuXamamot...'
+description: '## 山本 雄太 - YAMAMOTO Yuta aaa GitHub: [@yamamoto-yuta](https://github.com/yamamoto-yuta)
+  Twitter: [@\_\_Y4M4MOTO\_\_](https://twitter.com/__Y4M4MOTO__) Facebook: [山本雄太](https://www.facebook.com/atuXama...'
 posted_at: 2023-02-07 10:44:14+00:00
 slug: '13'
 tag_ids:
 - 5125635648
 title: About
-updated_at: 2023-02-07 15:45:50+00:00
+updated_at: 2023-02-08 03:19:52+00:00
 
 ---
 ## 山本 雄太 - YAMAMOTO Yuta
-
+aaa
 GitHub: [@yamamoto-yuta](https://github.com/yamamoto-yuta)
 Twitter: [@\_\_Y4M4MOTO\_\_](https://twitter.com/__Y4M4MOTO__)
 Facebook: [山本雄太](https://www.facebook.com/atuXamamoto/)
