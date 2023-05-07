@@ -6,7 +6,7 @@ posted_at: 2023-05-06 16:56:48+00:00
 slug: '16'
 tag_ids: []
 title: API経由でSlackへカスタム絵文字を追加できないか調査したときのメモ
-updated_at: ''
+updated_at: 2023-05-07 08:54:41+00:00
 
 ---
 ## やりたいこと
@@ -75,7 +75,7 @@ emoji_img_filepath = "./emoji.png"   # 絵文字の画像ファイルへのパ�
 
 URL_ADD = "https://{team_name}.slack.com/api/emoji.add"
 r = requests.post(
-    URL_ADD.format(team_name="myworkspace-fuk8273"),
+    URL_ADD.format(team_name=team_name),
     headers = {'Cookie': COOKIE},
     data = {
         'mode': 'data',
