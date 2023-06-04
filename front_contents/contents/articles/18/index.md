@@ -5,7 +5,7 @@ posted_at: 2023-06-04 12:54:46+00:00
 slug: '18'
 tag_ids: []
 title: Plasmo 触ってみたメモ
-updated_at: ''
+updated_at: 2023-06-04 13:05:35+00:00
 
 ---
 前から気になっていたブラウザ拡張機能の開発フレームワーク「Plasmo」を触ってみたので、その時のメモ。
@@ -89,6 +89,7 @@ $ docker compose run app bash -c "cd learn-plasmo && npm install @plasmohq/messa
 また、今回は試さなかったが下記の機能も良さそうだった:
 
 * Chrome Web Store への自動デプロイ
+* Google Analytics と連携できるっぽい（→ [公式ドキュメント](https://docs.plasmo.com/quickstarts/with-google-analytics) ）
 
 メンテナンスもこまめにされてそうなので、これから拡張機能作るときは Plasmo 使うようにしてみようかな…
 
