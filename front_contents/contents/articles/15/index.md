@@ -1,19 +1,39 @@
 ---
-description: ' 過去の制作物などを掲載しています。  ## 長岡市内の新型コロナウイルス感染症患者の発生状況ダッシュボード    <br>  長岡市HPに掲載されている「
-  [長岡市内での新型コロナウイルス感染症患者の発生状況](https://www.city.nagaoka.niigata.jp/kurashi/cate96/hasseijokyo.html)
-  」のデータを取得し、Google Data St...'
+description: ' ## 株式会社ヤプリ｜2023 -   ### 記事執筆  > [trocco で App Store のレビューをスプレッドシートへ書き出す
+  - Yappli Tech Blog](https://tech.yappli.io/entry/extract-app-store-review-to-spreadsheet-by-trocco)  >
+  [プロダクト開発本部LT大会#8を開催しました ...'
 posted_at: 2023-02-07 12:28:13+00:00
 slug: '15'
 tag_ids:
 - 5125635648
 title: Works
-updated_at: 2023-02-08 02:51:25+00:00
+updated_at: 2023-07-02 14:23:04+00:00
 
 ---
 
-過去の制作物などを掲載しています。
+## 株式会社ヤプリ｜2023 - 
 
-## 長岡市内の新型コロナウイルス感染症患者の発生状況ダッシュボード
+### 記事執筆
+
+> [trocco で App Store のレビューをスプレッドシートへ書き出す - Yappli Tech Blog](https://tech.yappli.io/entry/extract-app-store-review-to-spreadsheet-by-trocco)
+
+> [プロダクト開発本部LT大会#8を開催しました - Yappli Tech Blog](https://tech.yappli.io/entry/lightning-talk-8)
+
+## 長岡技術科学大学｜2019 - 2023
+
+### 記事執筆
+
+> [質問対応業務を DX した話](https://zenn.dev/aidemy/articles/425cf7d9f31945)
+
+> [内定者インターン生が G.I.G. プログラムに参加して Professional Data Engineer 認定資格を取得した話 - Yappli Tech Blog](https://tech.yappli.io/entry/gig-program2022)
+
+> [インターン生がプッシュ通知の配信時刻最適化に取り組んでみた！ - Yappli Tech Blog](https://tech.yappli.io/entry/optimize_notifications_release_time)
+
+### 制作物
+
+**長岡市内の新型コロナウイルス感染症患者の発生状況ダッシュボード**
+
+---
 
 <img src='/static/images/articles/15/2c6459d637378e5aa8c4e00ff4f4d914.webp' origin_url='https://user-images.githubusercontent.com/55144709/217241318-93eeed6f-7bbd-465b-bb65-c85e7d06f811.jpg' alt='works_nagaoka-covid19' />
 
@@ -36,7 +56,11 @@ updated_at: 2023-02-08 02:51:25+00:00
 - 担当役割：全て
 - 使用技術：Google Data Studio, Google Apps Script, スプレッドシート, Python
 
-## SlackDeck
+<br>
+
+**SlackDeck**
+
+---
 
 <img src='/static/images/articles/15/42b38bb3fe23843162d2967029617e42.webp' origin_url='https://user-images.githubusercontent.com/55144709/217240939-0718c1f9-db7e-4454-89b5-f14de48f3833.jpg' alt='works_slack-deck' />
 
@@ -59,7 +83,11 @@ SlackをTweetDeckっぽく使えるようにするChrome拡張機能．
 - 担当役割：全て
 - 使用技術：Docker, React, TypeScript, GitHub Actions
 
-## 俺でも自炊できる君
+<br>
+
+**俺でも自炊できる君**
+
+---
 
 <img src='/static/images/articles/15/3505babf4176d5744f2bce6314aa3bf8.webp' origin_url='https://user-images.githubusercontent.com/55144709/217240738-8f6c0c84-3a5b-4a2f-98d2-a4b8d0c44662.jpg' alt='works_orejisu' />
 
@@ -80,7 +108,11 @@ SlackをTweetDeckっぽく使えるようにするChrome拡張機能．
 
 - 『株式会社VOYAGE GROUP』"Treasure" UI/UX賞、グランプリ受賞作品
 
-## richcat
+<br>
+
+**richcat**
+
+---
 
 <img src='/static/images/articles/15/c4778cf0b01238206b6e2eb0be07ffb9.webp' origin_url='https://user-images.githubusercontent.com/55144709/217239943-ff1e55b1-ffbb-4f50-b72a-6a6723a55c26.jpg' alt='works_richcat' />
 
@@ -105,8 +137,11 @@ SlackをTweetDeckっぽく使えるようにするChrome拡張機能．
 - 担当役割：実装全般
 - 使用技術：Python, GitHub Actions, Codecov, Codacy
 
+<br>
 
-## 「AI × OXゲーム」
+**「AI × OXゲーム」**
+
+---
 
 <img src='/static/images/articles/15/cbe23059323105cbc420b0650de37e65.webp' origin_url='https://user-images.githubusercontent.com/55144709/217239478-f50db776-be4b-4c37-9f36-713b3ab1ae01.jpg' alt='works_ai-tictactoe' />
 
@@ -133,7 +168,11 @@ SlackをTweetDeckっぽく使えるようにするChrome拡張機能．
 
 - 長岡技術科学大学　テクノミュージアム　2020年新展示
 
-## 「サバ×サバ −サバで時代を⽣き延びる−」
+<br>
+
+**「サバ×サバ −サバで時代を⽣き延びる−」**
+
+---
 
 <img src='/static/images/articles/15/eb1e5c32c62fe324468c61c183c402a4.webp' origin_url='https://user-images.githubusercontent.com/55144709/217239225-1ea262d1-2c1c-424f-a525-cd84e6f15eac.jpg' alt='works_procon29' />
 
@@ -160,8 +199,11 @@ SlackをTweetDeckっぽく使えるようにするChrome拡張機能．
 
 - 第29回全国高等専門学校プログラミングコンテスト　課題部門　特別賞受賞作品
 
+<br>
 
-## スペースバルーンプロジェクト「ふーせん宇宙船」
+**スペースバルーンプロジェクト「ふーせん宇宙船」**
+
+---
 
 <img src='/static/images/articles/15/6db771a01440b217985726318a224ad2.webp' origin_url='https://user-images.githubusercontent.com/55144709/217237486-b23229dc-2a9a-48d1-ac3f-adece61216b7.jpg' alt='works_balloon' />
 
