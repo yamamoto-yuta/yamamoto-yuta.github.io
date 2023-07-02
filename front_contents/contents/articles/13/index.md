@@ -6,7 +6,7 @@ slug: '13'
 tag_ids:
 - 5125635648
 title: About
-updated_at: 2023-05-06 15:14:48+00:00
+updated_at: 2023-07-02 13:48:46+00:00
 
 ---
 ## 山本 雄太 - YAMAMOTO Yuta
@@ -16,8 +16,9 @@ Twitter: [@\_\_Y4M4MOTO\_\_](https://twitter.com/__Y4M4MOTO__)
 Facebook: [山本雄太](https://www.facebook.com/atuXamamoto/)
 Qiita: [@yamamoto-yuta](https://qiita.com/yamamoto-yuta)
 
-## Education
+## Career/Education
 
+- 株式会社ヤプリ（2023.04 - )
 - 長岡技術科学大学　情報・経営システム工学専攻（2021.04 - 2023.03）
 - 長岡技術科学大学　情報・経営システム工学課程（2019.04 - 2021.03）
 - 福井工業高等専門学校　電子情報工学科（2014.04 - 2019.03）
@@ -28,6 +29,25 @@ Qiita: [@yamamoto-yuta](https://qiita.com/yamamoto-yuta)
 - 特許解析
 - ネットワーク解析
 - 時系列解析
+
+## Publications
+
+First author:
+
+1. Yuta Yamamoto, Asahi Hentona, Koji Marusaki, Kohei Watabe, Seiya Kawano, Tokimasa Goto, Yutaka Hada, Kazuhisa Fukuzawa and Hirofumi Nonaka, 2021, Development of the patent values evaluation method considering growth of technical community,IEEE Symposium Series on Computational Intelligence (IEEE SSCI 2021)
+--> [HP](https://attend.ieee.org/ssci-2021/) ｜ [Abst](https://ieeexplore.ieee.org/document/9660168)
+1. 山本雄太，邊土名朝飛，中井堅誠，作本猛，片岡翔太郎，野中尋史，2021， 技術コミュニティの成長性を加味した特許価値評価手法の開発およびその有効性の検討，情報処理学会学会全国大会（第83回）
+--> [HP](https://www.ipsj.or.jp/event/taikai/83/) ｜ [Paper](https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=215599&item_no=1&page_id=13&block_id=8) 
+1. 山本雄太，野中尋史，邊土名朝飛，中井堅誠，作本猛，片岡翔太郎，平岡透，2020， 技術コミュニティの成長性を加味した特許価値評価手法の開発，人工知能学会全国大会（第34回）
+--> [HP](https://www.ai-gakkai.or.jp/jsai2020/) ｜ [Paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_4K2GS305/_article/-char/ja/)
+1. Yuta YAMAMOTO, Ryusei SHIBATA, Masashi OBA, Koichiro IMAMURA, Daiki MORITA, Kaito MIDO, Takashi YAMAGUCHI, Makoto ICHITSUBO, 2019, Exploring Possibilities of Education by collaborative creative activities inHult Prize at Nagaoka University of Technology, 4th STI-Gigaku 2019
+--> [HP](https://sites.google.com/view/sti-gigaku-2019)
+
+Co-author:
+
+1. 作本猛，邊土名朝飛，山本雄太，野中尋史．2020．"実験テキストデータ構造化・情報抽出フレームワーク開発のための有機化学特許を対象とした基礎的検討 "．YANS2020
+1. 森雅也，山城広周，山本雄太，森楓，鈴木祥広，平岡透，野中尋史．2021．"機械学習を用いたダム湖上流における有害藻類ブルームの発生予測モデルの開発と発生要因分析への応用 "．情報処理学会第83回全国大会
+1. 作本猛，邊土名朝飛，山本雄太，森楓，野中尋史．2021．"特許文書を対象とした化学実験構造化のための基礎的検討 "．言語処理学会第27回年次大会(NLP2021)
 
 ## Internship
 
@@ -55,27 +75,9 @@ Qiita: [@yamamoto-yuta](https://qiita.com/yamamoto-yuta)
 **株式会社アイジュピタ**
     - WinFormsを用いたクラス名簿システムの開発
 
-## Publications
-
-First author:
-
-1. Yuta Yamamoto, Asahi Hentona, Koji Marusaki, Kohei Watabe, Seiya Kawano, Tokimasa Goto, Yutaka Hada, Kazuhisa Fukuzawa and Hirofumi Nonaka, 2021, Development of the patent values evaluation method considering growth of technical community,IEEE Symposium Series on Computational Intelligence (IEEE SSCI 2021)
---> [HP](https://attend.ieee.org/ssci-2021/) | [Abst](https://ieeexplore.ieee.org/document/9660168)
-1. 山本雄太，邊土名朝飛，中井堅誠，作本猛，片岡翔太郎，野中尋史，2021， 技術コミュニティの成長性を加味した特許価値評価手法の開発およびその有効性の検討，情報処理学会学会全国大会（第83回）
---> [HP](https://www.ipsj.or.jp/event/taikai/83/) ｜ [Paper](https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=215599&item_no=1&page_id=13&block_id=8) 
-1. 山本雄太，野中尋史，邊土名朝飛，中井堅誠，作本猛，片岡翔太郎，平岡透，2020， 技術コミュニティの成長性を加味した特許価値評価手法の開発，人工知能学会全国大会（第34回）
---> [HP](https://www.ai-gakkai.or.jp/jsai2020/) | [Paper](https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_4K2GS305/_article/-char/ja/)
-1. Yuta YAMAMOTO, Ryusei SHIBATA, Masashi OBA, Koichiro IMAMURA, Daiki MORITA, Kaito MIDO, Takashi YAMAGUCHI, Makoto ICHITSUBO, 2019, Exploring Possibilities of Education by collaborative creative activities inHult Prize at Nagaoka University of Technology, 4th STI-Gigaku 2019
---> [HP](https://sites.google.com/view/sti-gigaku-2019)
-
-Co-author:
-
-1. 作本猛，邊土名朝飛，山本雄太，野中尋史．2020．"実験テキストデータ構造化・情報抽出フレームワーク開発のための有機化学特許を対象とした基礎的検討 "．YANS2020
-1. 森雅也，山城広周，山本雄太，森楓，鈴木祥広，平岡透，野中尋史．2021．"機械学習を用いたダム湖上流における有害藻類ブルームの発生予測モデルの開発と発生要因分析への応用 "．情報処理学会第83回全国大会
-1. 作本猛，邊土名朝飛，山本雄太，森楓，野中尋史．2021．"特許文書を対象とした化学実験構造化のための基礎的検討 "．言語処理学会第27回年次大会(NLP2021)
-
 ## Awards
 
+- 長岡技術科学大学 大学院工学研究科 情報・経営システム工学専攻 優秀発表賞 (2023)
 - 株式会社VOYAGE GROUP　Treasure　UI/UX賞、グランプリ（2021）
 - パーソルキャリア株式会社　Sprinters　個人MVP（2021）
 - ふくいソフトウェアコンペティション2018　ふくいソフトウェア大賞（2018）
