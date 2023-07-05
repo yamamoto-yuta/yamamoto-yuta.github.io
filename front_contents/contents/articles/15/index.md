@@ -1,17 +1,23 @@
 ---
-description: ' ## 株式会社ヤプリ｜2023 -   ### 記事執筆  > [trocco で App Store のレビューをスプレッドシートへ書き出す
-  - Yappli Tech Blog](https://tech.yappli.io/entry/extract-app-store-review-to-spreadsheet-by-trocco)  >
-  [プロダクト開発本部LT大会#8を開催しました ...'
+description: ' ## 株式会社ヤプリ｜2023 -   ### 発表資料  技術書LT #11 実践 Docker - ソフトウェアエンジニアの「Docker
+  よくわからない」を終わりにする本  <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/9fed7e33e2b344a2b7e3f...'
 posted_at: 2023-02-07 12:28:13+00:00
 slug: '15'
 tag_ids:
 - 5125635648
-title: Works
-updated_at: 2023-07-02 14:23:04+00:00
+title: 公開業績一覧
+updated_at: 2023-07-05 13:33:51+00:00
 
 ---
 
 ## 株式会社ヤプリ｜2023 - 
+
+### 発表資料
+
+技術書LT #11 実践 Docker - ソフトウェアエンジニアの「Docker よくわからない」を終わりにする本
+
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/9fed7e33e2b344a2b7e3f459831225d8" title="技術書LT #11 実践 Docker - ソフトウェアエンジニアの「Docker よくわからない」を終わりにする本" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+
 
 ### 記事執筆
 
