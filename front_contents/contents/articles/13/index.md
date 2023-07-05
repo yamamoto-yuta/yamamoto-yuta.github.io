@@ -5,8 +5,8 @@ posted_at: 2023-02-07 10:44:14+00:00
 slug: '13'
 tag_ids:
 - 5125635648
-title: About
-updated_at: 2023-07-02 13:48:46+00:00
+title: 自己紹介
+updated_at: 2023-07-05 13:21:32+00:00
 
 ---
 ## 山本 雄太 - YAMAMOTO Yuta
