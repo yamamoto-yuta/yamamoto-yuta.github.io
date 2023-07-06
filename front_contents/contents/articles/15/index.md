@@ -6,7 +6,7 @@ slug: '15'
 tag_ids:
 - 5125635648
 title: 公開業績一覧
-updated_at: 2023-07-05 13:33:51+00:00
+updated_at: 2023-07-06 06:39:15+00:00
 
 ---
 
@@ -20,6 +20,8 @@ updated_at: 2023-07-05 13:33:51+00:00
 
 
 ### 記事執筆
+
+> [「『Docker よくわからない』を終わりにする本」を読んだので社内LT発表してきた話 - Yappli Tech Blog](https://tech.yappli.io/entry/tech-book-lt-understand-docker)
 
 > [trocco で App Store のレビューをスプレッドシートへ書き出す - Yappli Tech Blog](https://tech.yappli.io/entry/extract-app-store-review-to-spreadsheet-by-trocco)
 
