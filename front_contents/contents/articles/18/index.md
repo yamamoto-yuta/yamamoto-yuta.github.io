@@ -5,7 +5,7 @@ posted_at: 2023-06-04 12:54:46+00:00
 slug: '18'
 tag_ids: []
 title: Plasmo 触ってみたメモ
-updated_at: 2023-06-04 13:05:35+00:00
+updated_at: 2023-07-17 12:31:05+00:00
 
 ---
 前から気になっていたブラウザ拡張機能の開発フレームワーク「Plasmo」を触ってみたので、その時のメモ。
@@ -49,7 +49,7 @@ services:
 Plasmo プロジェクトの作成は `docker compose run` コマンドを用いて下記で行える。なお、 Plasmo は pnpm コマンドの利用を推奨していたが、 Node.js のイメージにデフォルトで入っていなかったので今回はデフォルトで入っている npm コマンドで進めた。
 
 ```
-$ docker compose run app npm create plasmo
+$ docker compose run --rm app npm create plasmo
 ```
 
 プロジェクト作成の際に色々訊かれたが、今回は拡張機能の名前を `learn-plasmo` にした以外は既定値で回答した。
@@ -57,19 +57,19 @@ $ docker compose run app npm create plasmo
 Development server の起動も同様に下記のコマンドで行える。プロジェクトディレクトリ（ `learn-plasmo/` ）に移動する必要がある点に注意。
 
 ```
-$ docker compose run app bash -c "cd learn-plasmo && npm run dev"
+$ docker compose run --rm app bash -c "cd learn-plasmo && npm run dev"
 ```
 
 記事中に Storage API を利用するためにパッケージを追加インストールするくだりがあるが、それも下記コマンドで行える:
 
 ```
-$ docker compose run app bash -c "cd learn-plasmo && npm install @plasmohq/storage react-hook-form"
+$ docker compose run --rm app bash -c "cd learn-plasmo && npm install @plasmohq/storage react-hook-form"
 ```
 
 他にも Messaging API を利用するためにも追加インストールのくだりがあったが、それも下記コマンドで行える:
 
 ```
-$ docker compose run app bash -c "cd learn-plasmo && npm install @plasmohq/messaging"
+$ docker compose run --rm app bash -c "cd learn-plasmo && npm install @plasmohq/messaging"
 ```
 
 ## つまづいた点メモ
