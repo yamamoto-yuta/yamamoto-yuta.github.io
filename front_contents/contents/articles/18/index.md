@@ -5,7 +5,7 @@ posted_at: 2023-06-04 12:54:46+00:00
 slug: '18'
 tag_ids: []
 title: Plasmo 触ってみたメモ
-updated_at: 2023-07-17 12:31:05+00:00
+updated_at: 2023-07-17 12:57:38+00:00
 
 ---
 前から気になっていたブラウザ拡張機能の開発フレームワーク「Plasmo」を触ってみたので、その時のメモ。
@@ -46,7 +46,7 @@ services:
     tty: true
 ```
 
-Plasmo プロジェクトの作成は `docker compose run` コマンドを用いて下記で行える。なお、 Plasmo は pnpm コマンドの利用を推奨していたが、 Node.js のイメージにデフォルトで入っていなかったので今回はデフォルトで入っている npm コマンドで進めた。
+Plasmo プロジェクトの作成は `docker compose run` コマンドを用いて下記で行える。なお、 Plasmo は pnpm コマンドの利用を推奨していたが、 Node.js のイメージにデフォルトで入っていなかったので今回はデフォルトで入っている npm コマンドで進めた。コマンド実行のためにコンテナが溜まっていかないよう `--rm` オプションを付けている。
 
 ```
 $ docker compose run --rm app npm create plasmo
@@ -74,10 +74,9 @@ $ docker compose run --rm app bash -c "cd learn-plasmo && npm install @plasmohq/
 
 ## つまづいた点メモ
 
-* 「 [Storageを利用する](https://zenn.dev/nado1001/articles/plasmo-browser-extension#storage%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B) 」のところでなぜか入力値が保存されなくてつまづいたが、一度 Production build で動かした後 Development server に戻ってきたらちゃんと保存されるようになった。原因は不明…
+* 「 [Storageを利用する](https://zenn.dev/nado1001/articles/plasmo-browser-extension#storage%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B) 」のところでなぜか入力値が保存されなくてつまづいたが、一度 Production build で動かした後 Development server に戻ってきたらちゃんと保存されるようになった。原因は不明…（要検証）
 * 「 [New Tab Page](https://zenn.dev/nado1001/articles/plasmo-browser-extension#new-tab-page) 」のところは自分が Vivaldi ユーザだったせいでそもそもカスタマイズできなかった
-* ファイル追加等ではホットリロードが効かないようなので、 Development server を再起動した上でブラウザの「拡張機能の設定」でパッケージを再読み込みさせた方が良さそう
-* Ctrl + C でコンテナを止めた後にコンテナが Exited で残ったままになっていた。こまめに消す必要がありそう…？
+* ファイル変更時は「ホットリロードが走る→拡張機能を再読み込み」の手順を踏むと反映される
 
 ## 個人的な所感
 
