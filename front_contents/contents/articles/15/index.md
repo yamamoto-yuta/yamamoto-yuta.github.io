@@ -6,7 +6,7 @@ slug: '15'
 tag_ids:
 - 5125635648
 title: 公開業績一覧
-updated_at: 2023-07-06 06:39:15+00:00
+updated_at: 2023-07-21 13:48:27+00:00
 
 ---
 
@@ -20,6 +20,10 @@ updated_at: 2023-07-06 06:39:15+00:00
 
 
 ### 記事執筆
+
+> [CSV テキストと Markdown Table をキーボードショートカットで相互変換できる Chrome 拡張機能作ってみた - Qiita](https://qiita.com/yamamoto-yuta/items/826de40c414655e19ced)
+
+> [Docker で dbt プロジェクトを始める方法をいくつか試してみた - Qiita](https://qiita.com/yamamoto-yuta/items/412b6e8167758e174d0a)
 
 > [「『Docker よくわからない』を終わりにする本」を読んだので社内LT発表してきた話 - Yappli Tech Blog](https://tech.yappli.io/entry/tech-book-lt-understand-docker)
 
