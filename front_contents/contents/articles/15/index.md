@@ -6,7 +6,7 @@ slug: '15'
 tag_ids:
 - 5125635648
 title: 公開業績一覧
-updated_at: 2023-07-21 13:48:27+00:00
+updated_at: 2023-07-24 06:56:15+00:00
 
 ---
 
@@ -20,6 +20,8 @@ updated_at: 2023-07-21 13:48:27+00:00
 
 
 ### 記事執筆
+
+> [新卒メンバー企画！「部活動紹介ランチ」とその誕生秘話 #今日のヤプリ｜#times_yappli](https://note.com/times_yappli/n/n35e1f320ba35)
 
 > [CSV テキストと Markdown Table をキーボードショートカットで相互変換できる Chrome 拡張機能作ってみた - Qiita](https://qiita.com/yamamoto-yuta/items/826de40c414655e19ced)
 
