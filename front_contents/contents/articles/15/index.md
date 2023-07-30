@@ -6,7 +6,7 @@ slug: '15'
 tag_ids:
 - 5125635648
 title: 公開業績一覧
-updated_at: 2023-07-30 04:59:17+00:00
+updated_at: 2023-07-30 05:04:43+00:00
 
 ---
 
@@ -23,7 +23,7 @@ updated_at: 2023-07-30 04:59:17+00:00
 
 https://tech.yappli.io/entry/decoding-multi-encoded-urls
 
-ttps://note.com/times_yappli/n/n35e1f320ba35
+https://note.com/times_yappli/n/n35e1f320ba35
 
 ttps://qiita.com/yamamoto-yuta/items/826de40c414655e19ced
 
