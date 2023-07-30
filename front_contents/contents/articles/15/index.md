@@ -6,7 +6,7 @@ slug: '15'
 tag_ids:
 - 5125635648
 title: 公開業績一覧
-updated_at: 2023-07-30 04:53:16+00:00
+updated_at: 2023-07-30 04:59:17+00:00
 
 ---
 
@@ -23,30 +23,27 @@ updated_at: 2023-07-30 04:53:16+00:00
 
 https://tech.yappli.io/entry/decoding-multi-encoded-urls
 
-<br>
+ttps://note.com/times_yappli/n/n35e1f320ba35
 
-https://note.com/times_yappli/n/n35e1f320ba35
+ttps://qiita.com/yamamoto-yuta/items/826de40c414655e19ced
 
+ttps://qiita.com/yamamoto-yuta/items/412b6e8167758e174d0a
 
-- https://qiita.com/yamamoto-yuta/items/826de40c414655e19ced
+ttps://tech.yappli.io/entry/tech-book-lt-understand-docker
 
-- https://qiita.com/yamamoto-yuta/items/412b6e8167758e174d0a
+ttps://tech.yappli.io/entry/extract-app-store-review-to-spreadsheet-by-trocco
 
-- https://tech.yappli.io/entry/tech-book-lt-understand-docker
-
-- https://tech.yappli.io/entry/extract-app-store-review-to-spreadsheet-by-trocco
-
-- https://tech.yappli.io/entry/lightning-talk-8
+ttps://tech.yappli.io/entry/lightning-talk-8
 
 ## 長岡技術科学大学｜2019 - 2023
 
 ### 記事執筆
 
-- https://zenn.dev/aidemy/articles/425cf7d9f31945
+ttps://zenn.dev/aidemy/articles/425cf7d9f31945
 
-- https://tech.yappli.io/entry/gig-program2022
+ttps://tech.yappli.io/entry/gig-program2022
 
-- https://tech.yappli.io/entry/optimize_notifications_release_time
+ttps://tech.yappli.io/entry/optimize_notifications_release_time
 
 ### 制作物
 
