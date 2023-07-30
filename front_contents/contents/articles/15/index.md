@@ -6,7 +6,7 @@ slug: '15'
 tag_ids:
 - 5125635648
 title: 公開業績一覧
-updated_at: 2023-07-30 05:14:19+00:00
+updated_at: 2023-07-30 05:20:28+00:00
 
 ---
 
@@ -39,7 +39,7 @@ https://tech.yappli.io/entry/lightning-talk-8
 
 ### 記事執筆
 
-https://zenn.dev/aidemy/articles/425cf7d9f31945
+ttps://zenn.dev/aidemy/articles/425cf7d9f31945
 
 https://tech.yappli.io/entry/gig-program2022
 
