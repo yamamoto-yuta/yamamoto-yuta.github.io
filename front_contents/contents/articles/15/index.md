@@ -6,7 +6,7 @@ slug: '15'
 tag_ids:
 - 5125635648
 title: 公開業績一覧
-updated_at: 2023-07-30 05:08:17+00:00
+updated_at: 2023-07-30 05:11:13+00:00
 
 ---
 
@@ -29,11 +29,11 @@ https://qiita.com/yamamoto-yuta/items/826de40c414655e19ced
 
 https://qiita.com/yamamoto-yuta/items/412b6e8167758e174d0a
 
-ttps://tech.yappli.io/entry/tech-book-lt-understand-docker
+https://tech.yappli.io/entry/tech-book-lt-understand-docker
 
-ttps://tech.yappli.io/entry/extract-app-store-review-to-spreadsheet-by-trocco
+https://tech.yappli.io/entry/extract-app-store-review-to-spreadsheet-by-trocco
 
-ttps://tech.yappli.io/entry/lightning-talk-8
+https://tech.yappli.io/entry/lightning-talk-8
 
 ## 長岡技術科学大学｜2019 - 2023
 
