@@ -6,5 +6,77 @@
         "description": "こんにちは！データサイエンティストの山本です（ @__Y4M4MOTO__ ）です。 今回は、ヤプリのデータ基盤内にあるウェブビューURLのデコードに取り組んでみました。この記事では、その際につまづいたポイントやその解決策について記します。 ウェブビューURLのエンコード問題 最初のデコード方法｜単純にデコードする 次のデコード方法｜ %25 だけ先にデコードする 最終的なデコード方法｜ r’%25(25)* で先にデコードする まとめ ウェブビューURLのエンコード問題 ヤプリではアプリ内のスクリーンデータを計測しています。これにより、スクリーンビューの集計等の分析を行うことができます。スク…",
         "image_url": "/static/images/external_ogp//fefc59882c98a9c97a4892622419eae4.webp",
         "site_name": "Yappli Tech Blog"
+    },
+    "https://note.com/times_yappli/n/n35e1f320ba35": {
+        "url_domain": "note.com",
+        "url_domain_link": "https://note.com",
+        "title": "新卒メンバー企画！「部活動紹介ランチ」とその誕生秘話 #今日のヤプリ｜#times_yappli",
+        "description": "こんにちは、4月に23新卒データサイエンティストとして入社したもっさん（ @__Y4M4MOTO__ ）です！  今回は、23新卒メンバーで企画・運営した『あなたの好きを見つけよう！23卒企画部活動紹介ランチ』についてご紹介したいと思います！  「部活動紹介ランチ」ってどんなイベント？  そもそも『部活動紹介ランチ』ってどんなイベントなのか？をご紹介します！ 部活動紹介ランチとは、その名の通りヤプリの部活動を紹介するランチ会です。ご飯を食べながら、各部の代表者の3分プレゼンを聞き、部員との交流会を実施しました！ 「部活動紹介ランチ」のイベント概要 イベント企画の誕生経緯  このイベント",
+        "image_url": "/static/images/external_ogp//27232b680e47836c12adfb5f940b60a5.webp",
+        "site_name": "note（ノート）"
+    },
+    "https://qiita.com/yamamoto-yuta/items/826de40c414655e19ced": {
+        "url_domain": "qiita.com",
+        "url_domain_link": "https://qiita.com",
+        "title": "CSV テキストと Markdown Table をキーボードショートカットで相互変換できる Chrome 拡張機能作ってみた - Qiita",
+        "description": "CSV テキストと Markdown Table をキーボードショートカットで相互変換できる Chrome 拡張機能作ってみました。この記事では、作ったものの仕組みや開発にあたって工夫・苦労した点などについて記します。\nChrome ...",
+        "image_url": "/static/images/external_ogp//967b04bdb35a942af8cf3b2cbe4fd632.webp",
+        "site_name": "Qiita"
+    },
+    "https://qiita.com/yamamoto-yuta/items/412b6e8167758e174d0a": {
+        "url_domain": "qiita.com",
+        "url_domain_link": "https://qiita.com",
+        "title": "Docker で dbt プロジェクトを始める方法をいくつか試してみた - Qiita",
+        "description": "\nこの記事は何？\nDocker を使った dbt 環境の構築方法には様々なものがあります（公式の dbt イメージを使う、 Python イメージに dbt をインストールする、 etc...）。\nこの記事ではその中からいくつかをピッ...",
+        "image_url": "/static/images/external_ogp//b2a27df4420a199df1fb61ae002f6a57.webp",
+        "site_name": "Qiita"
+    },
+    "https://tech.yappli.io/entry/tech-book-lt-understand-docker": {
+        "url_domain": "tech.yappli.io",
+        "url_domain_link": "https://tech.yappli.io",
+        "title": "「『Docker よくわからない』を終わりにする本」を読んだので社内LT発表してきた話 - Yappli Tech Blog",
+        "description": "こんにちは！データサイエンティストの山本（ @__Y4M4MOTO__ ）です。 プロダクト開発本部では毎月「プラットフォーム技術共有会」という技術共有の場が設けられています。以前、下記の技術書を読んでこちらの会で発表してきました。 zenn.dev この記事では、その時発表した利用を公開しています（発表したのが昨年なので、情報が古くなっている可能性があります。ご了承ください🙇）。 speakerdeck.com 以下、発表資料をテキストに直したものです。 どんな本？ [Q.] どんな本？ [A.] 「Docker よくわからない」を終わりにする本。 [Q.] 読んでみてどうだった？ [A.]…",
+        "image_url": "/static/images/external_ogp//13638c9601be9a316f4582e79852ecbf.webp",
+        "site_name": "Yappli Tech Blog"
+    },
+    "https://tech.yappli.io/entry/extract-app-store-review-to-spreadsheet-by-trocco": {
+        "url_domain": "tech.yappli.io",
+        "url_domain_link": "https://tech.yappli.io",
+        "title": "trocco で App Store のレビューをスプレッドシートへ書き出す - Yappli Tech Blog",
+        "description": "こんにちは！データサイエンティストの山本（ @__Y4M4MOTO__ ）です。 ヤプリは去年、 レビューダイアログ機能 をリリースしました。これによりレビューを用いた効果検証を行いたい場面が増えています。そのため、現在、 iTunes Search API と trocco を使って毎日アプリの評価点数を取得しています。 しかし、この記事を執筆している 2023年5月30日時点では iTunes Search API でレビューのコメントなどは取得できません。基本的に評価点数があれば十分ではあるのですが、コメントなどの訂正情報が欲しい場合もあります。 そこで、今回は trocco を使って …",
+        "image_url": "/static/images/external_ogp//1bac9454c8ebdd65cb94200b031ab077.webp",
+        "site_name": "Yappli Tech Blog"
+    },
+    "https://tech.yappli.io/entry/lightning-talk-8": {
+        "url_domain": "tech.yappli.io",
+        "url_domain_link": "https://tech.yappli.io",
+        "title": "プロダクト開発本部LT大会#8を開催しました - Yappli Tech Blog",
+        "description": "こんにちは！データサイエンティストの山本です（ @__Y4M4MOTO__ ）。 先日、プロダクト開発本部で LT 大会が開催されました。8回目を迎えた今回も、プロダクト開発本部を始めとして他部署の方々も参加してくださり大盛況でした！ この記事では、当日の様子やその発表内容などについてご紹介したいと思います。 どんな大会？ LT 大会は5分程度の短いプレゼン（ライトニングトーク）を行うイベントです。プロダクト開発本部の LT 大会は次のルールで開催されています: 発表者及び発表者順は基本挙手制 発表時間は1人5分目安 発表内容は自由 発表内容が自由ということで、毎回、自己紹介や過去の経験談、個…",
+        "image_url": "/static/images/external_ogp//bec037281cca17480c802a8c8bc6d991.webp",
+        "site_name": "Yappli Tech Blog"
+    },
+    "https://zenn.dev/aidemy/articles/425cf7d9f31945": {
+        "url_domain": "zenn.dev",
+        "url_domain_link": "https://zenn.dev",
+        "title": "質問対応業務を DX した話",
+        "description": null,
+        "image_url": "/static/images/external_ogp//323ba6a756022049426bd1705af3c181.webp",
+        "site_name": "Zenn"
+    },
+    "https://tech.yappli.io/entry/gig-program2022": {
+        "url_domain": "tech.yappli.io",
+        "url_domain_link": "https://tech.yappli.io",
+        "title": "内定者インターン生が G.I.G. プログラムに参加して Professional Data Engineer 認定資格を取得した話 - Yappli Tech Blog",
+        "description": "Google Cloud Japan 様主催の G.I.G. Japan Program というトレーニングプログラムに内定者インターン生が参加し、 Google Cloud Professional Data Engineer 認定資格をした体験記です。",
+        "image_url": "/static/images/external_ogp//8252492c363e32205e801495bfce4867.webp",
+        "site_name": "Yappli Tech Blog"
+    },
+    "https://tech.yappli.io/entry/optimize_notifications_release_time": {
+        "url_domain": "tech.yappli.io",
+        "url_domain_link": "https://tech.yappli.io",
+        "title": "インターン生がプッシュ通知の配信時刻最適化に取り組んでみた！ - Yappli Tech Blog",
+        "description": "はじめに 初めまして。長岡技術科学大学の山本（ もっさん / @__Y4M4MOTO__ ）と申します。9 月中旬から 11 月までの 2 カ月半、プロダクト開発本部の技術戦略室にて、データサイエンティストのインターンをさせていただきました。この記事では、私がインターン中に取り組んだ「プッシュ通知の配信時刻最適化 PoC」の話をしたいと思います。 背景 Yappliの主要機能の1つにプッシュ通知があります。今回、クライアントの満足度向上のために、プッシュ通知の開封率を高める手段を検証しました。アイデアとして、以下を考えました。 ユーザがすぐ開封しやすい時間を推定し、その時間にプッシュ通知を配信…",
+        "image_url": "/static/images/external_ogp//5982363a6569af359c39495408362211.webp",
+        "site_name": "Yappli Tech Blog"
     }
 }

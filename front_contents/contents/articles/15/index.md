@@ -6,7 +6,7 @@ slug: '15'
 tag_ids:
 - 5125635648
 title: 公開業績一覧
-updated_at: 2023-07-30 04:39:43+00:00
+updated_at: 2023-07-30 04:45:16+00:00
 
 ---
 
@@ -23,29 +23,27 @@ updated_at: 2023-07-30 04:39:43+00:00
 
 https://tech.yappli.io/entry/decoding-multi-encoded-urls
 
-> [BigQuery内にある多重エンコードされたURLのデコード - Yappli Tech Blog](https://tech.yappli.io/entry/decoding-multi-encoded-urls)
+https://note.com/times_yappli/n/n35e1f320ba35
 
-> [新卒メンバー企画！「部活動紹介ランチ」とその誕生秘話 #今日のヤプリ｜#times_yappli](https://note.com/times_yappli/n/n35e1f320ba35)
+https://qiita.com/yamamoto-yuta/items/826de40c414655e19ced
 
-> [CSV テキストと Markdown Table をキーボードショートカットで相互変換できる Chrome 拡張機能作ってみた - Qiita](https://qiita.com/yamamoto-yuta/items/826de40c414655e19ced)
+https://qiita.com/yamamoto-yuta/items/412b6e8167758e174d0a
 
-> [Docker で dbt プロジェクトを始める方法をいくつか試してみた - Qiita](https://qiita.com/yamamoto-yuta/items/412b6e8167758e174d0a)
+https://tech.yappli.io/entry/tech-book-lt-understand-docker
 
-> [「『Docker よくわからない』を終わりにする本」を読んだので社内LT発表してきた話 - Yappli Tech Blog](https://tech.yappli.io/entry/tech-book-lt-understand-docker)
+https://tech.yappli.io/entry/extract-app-store-review-to-spreadsheet-by-trocco
 
-> [trocco で App Store のレビューをスプレッドシートへ書き出す - Yappli Tech Blog](https://tech.yappli.io/entry/extract-app-store-review-to-spreadsheet-by-trocco)
-
-> [プロダクト開発本部LT大会#8を開催しました - Yappli Tech Blog](https://tech.yappli.io/entry/lightning-talk-8)
+https://tech.yappli.io/entry/lightning-talk-8
 
 ## 長岡技術科学大学｜2019 - 2023
 
 ### 記事執筆
 
-> [質問対応業務を DX した話](https://zenn.dev/aidemy/articles/425cf7d9f31945)
+https://zenn.dev/aidemy/articles/425cf7d9f31945
 
-> [内定者インターン生が G.I.G. プログラムに参加して Professional Data Engineer 認定資格を取得した話 - Yappli Tech Blog](https://tech.yappli.io/entry/gig-program2022)
+https://tech.yappli.io/entry/gig-program2022
 
-> [インターン生がプッシュ通知の配信時刻最適化に取り組んでみた！ - Yappli Tech Blog](https://tech.yappli.io/entry/optimize_notifications_release_time)
+https://tech.yappli.io/entry/optimize_notifications_release_time
 
 ### 制作物
 
