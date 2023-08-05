@@ -78,5 +78,21 @@
         "description": "はじめに 初めまして。長岡技術科学大学の山本（ もっさん / @__Y4M4MOTO__ ）と申します。9 月中旬から 11 月までの 2 カ月半、プロダクト開発本部の技術戦略室にて、データサイエンティストのインターンをさせていただきました。この記事では、私がインターン中に取り組んだ「プッシュ通知の配信時刻最適化 PoC」の話をしたいと思います。 背景 Yappliの主要機能の1つにプッシュ通知があります。今回、クライアントの満足度向上のために、プッシュ通知の開封率を高める手段を検証しました。アイデアとして、以下を考えました。 ユーザがすぐ開封しやすい時間を推定し、その時間にプッシュ通知を配信…",
         "image_url": "/static/images/external_ogp//5982363a6569af359c39495408362211.webp",
         "site_name": "Yappli Tech Blog"
+    },
+    "https://github.com/yamamoto-yuta/csv2md-shortcut/issues/35": {
+        "url_domain": "github.com",
+        "url_domain_link": "https://github.com",
+        "title": "popup でも変換できるようにする · Issue #35 · yamamoto-yuta/csv2md-shortcut · GitHub",
+        "description": "ブラウザ以外のエディタでもサクッと使いたいので。",
+        "image_url": "/static/images/external_ogp//9ad5ca706cab231c15e8cb46dfe2bf0f.webp",
+        "site_name": "GitHub"
+    },
+    "https://github.com/yamamoto-yuta/chrome-extension-injected-code-debug": {
+        "url_domain": "github.com",
+        "url_domain_link": "https://github.com",
+        "title": "GitHub - yamamoto-yuta/chrome-extension-injected-code-debug",
+        "description": "Contribute to yamamoto-yuta/chrome-extension-injected-code-debug development by creating an account on GitHub.",
+        "image_url": "/static/images/external_ogp//860351a12e290ae311686c939c45298c.webp",
+        "site_name": "GitHub"
     }
 }
