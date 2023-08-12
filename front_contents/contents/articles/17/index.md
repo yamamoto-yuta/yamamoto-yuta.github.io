@@ -5,7 +5,7 @@ posted_at: 2023-05-07 16:08:20+00:00
 slug: '17'
 tag_ids: []
 title: いつも使ってるSlack向け絵文字ジェネレーターがどうやって絵文字を生成してるか調べてみたメモ
-updated_at: 2023-08-12 02:44:18+00:00
+updated_at: 2023-08-12 02:50:25+00:00
 
 ---
 いつも使ってる Slack 向け絵文字ジェネレーター: 
@@ -18,7 +18,7 @@ updated_at: 2023-08-12 02:44:18+00:00
 
 emojilib を動かせるようにした Dockerfile を下記に示す。 emojilib 自体は `pip install` でインストールできるのだが、 libemoji を動かすため依存が [いくつかあった](https://github.com/emoji-gen/libemoji#debian-10-buster) ので別途 `apt-get install` で入れている。
 
-```dockerfile
+```
 FROM python:3.7
 
 RUN apt-get update && apt-get upgrade -y
