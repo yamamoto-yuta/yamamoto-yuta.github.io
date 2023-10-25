@@ -1,12 +1,13 @@
 ---
-description: ' ## 株式会社ヤプリ｜2023 -   ### 発表資料  技術書LT #11 実践 Docker - ソフトウェアエンジニアの「Docker
-  よくわからない」を終わりにする本  <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/9fed7e33e2b344a2b7e3f...'
+description: ' ## 株式会社ヤプリ｜2023 -   ### 発表資料  次の10年を戦える分析用データ基盤構築の第一歩 - dbtによる基盤刷新とクエリ費用90%削減への取り組み
+  - Yappli Tech Conference 2023  <iframe class="speakerdeck-iframe" frameborder="0"
+  src="https://speakerdeck.com/play...'
 posted_at: 2023-02-07 12:28:13+00:00
 slug: '15'
 tag_ids:
 - 5125635648
 title: 公開業績一覧
-updated_at: 2023-07-30 05:35:20+00:00
+updated_at: 2023-10-25 04:53:31+00:00
 
 ---
 
@@ -14,12 +15,20 @@ updated_at: 2023-07-30 05:35:20+00:00
 
 ### 発表資料
 
+次の10年を戦える分析用データ基盤構築の第一歩 - dbtによる基盤刷新とクエリ費用90%削減への取り組み - Yappli Tech Conference 2023
+
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/c6ac49123f7345f7823b02fbce1711b7" title="次の10年を戦える分析用データ基盤構築の第一歩 - dbtによる基盤刷新とクエリ費用90%削減への取り組み -" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
+
+<br />
+
 技術書LT #11 実践 Docker - ソフトウェアエンジニアの「Docker よくわからない」を終わりにする本
 
 <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/9fed7e33e2b344a2b7e3f459831225d8" title="技術書LT #11 実践 Docker - ソフトウェアエンジニアの「Docker よくわからない」を終わりにする本" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
 
 
 ### 記事執筆
+
+https://tech.yappli.io/entry/yapplitechconf2023-data
 
 https://tech.yappli.io/entry/decoding-multi-encoded-urls
 

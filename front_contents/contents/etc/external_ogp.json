@@ -18,17 +18,17 @@
     "https://qiita.com/yamamoto-yuta/items/826de40c414655e19ced": {
         "url_domain": "qiita.com",
         "url_domain_link": "https://qiita.com",
-        "title": "CSV テキストと Markdown Table をキーボードショートカットで相互変換できる Chrome 拡張機能作ってみた - Qiita",
-        "description": "CSV テキストと Markdown Table をキーボードショートカットで相互変換できる Chrome 拡張機能作ってみました。この記事では、作ったものの仕組みや開発にあたって工夫・苦労した点などについて記します。\nChrome ...",
-        "image_url": "/static/images/external_ogp//967b04bdb35a942af8cf3b2cbe4fd632.webp",
+        "title": "CSV テキストと Markdown Table をキーボードショートカットで相互変換できる Chrome 拡張機能作ってみた #JavaScript - Qiita",
+        "description": "CSV テキストと Markdown Table をキーボードショートカットで相互変換できる Chrome 拡張機能作ってみました。この記事では、作ったものの仕組みや開発にあたって工夫・苦労した点な…",
+        "image_url": "/static/images/external_ogp//fb90ff6b11831302d074d12726990ebe.webp",
         "site_name": "Qiita"
     },
     "https://qiita.com/yamamoto-yuta/items/412b6e8167758e174d0a": {
         "url_domain": "qiita.com",
         "url_domain_link": "https://qiita.com",
-        "title": "Docker で dbt プロジェクトを始める方法をいくつか試してみた - Qiita",
-        "description": "\nこの記事は何？\nDocker を使った dbt 環境の構築方法には様々なものがあります（公式の dbt イメージを使う、 Python イメージに dbt をインストールする、 etc...）。\nこの記事ではその中からいくつかをピッ...",
-        "image_url": "/static/images/external_ogp//b2a27df4420a199df1fb61ae002f6a57.webp",
+        "title": "Docker で dbt プロジェクトを始める方法をいくつか試してみた #Docker - Qiita",
+        "description": "この記事は何？Docker を使った dbt 環境の構築方法には様々なものがあります（公式の dbt イメージを使う、 Python イメージに dbt をインストールする、 etc...）。こ…",
+        "image_url": "/static/images/external_ogp//0191d6e1271561e71b362d24f553b085.webp",
         "site_name": "Qiita"
     },
     "https://tech.yappli.io/entry/tech-book-lt-understand-docker": {
@@ -60,7 +60,7 @@
         "url_domain_link": "https://zenn.dev",
         "title": "質問対応業務を DX した話",
         "description": null,
-        "image_url": "/static/images/external_ogp//323ba6a756022049426bd1705af3c181.webp",
+        "image_url": "/static/images/external_ogp//9851477567e45b90cbda805402d98132.webp",
         "site_name": "Zenn"
     },
     "https://tech.yappli.io/entry/gig-program2022": {
@@ -94,5 +94,13 @@
         "description": "Contribute to yamamoto-yuta/chrome-extension-injected-code-debug development by creating an account on GitHub.",
         "image_url": "/static/images/external_ogp//860351a12e290ae311686c939c45298c.webp",
         "site_name": "GitHub"
+    },
+    "https://tech.yappli.io/entry/yapplitechconf2023-data": {
+        "url_domain": "tech.yappli.io",
+        "url_domain_link": "https://tech.yappli.io",
+        "title": "「次の10年を戦える分析用データ基盤構築の第一歩 - dbtによる基盤刷新とクエリ費用90%削減への取り組み -」という発表をしてきました！  #Yappli Tech Conference 2023 - Yappli Tech Blog",
+        "description": "こんにちは！プロダクト開発本部・データサイエンティストの山本（@__Y4M4MOTO__ ）です。 先日開催された Yappli Tech Conference 2023 にて、 「次の10年を戦える分析用データ基盤構築の第一歩 - dbtによる基盤刷新とクエリ費用90%削減への取り組み -」というタイトルで発表してきました！（色々詰め込んだら発表タイトルが長くなってしまいました…😇） この記事では、そのときの発表動画と資料を公開しています！ アーカイブ動画 youtu.be スライド speakerdeck.com 発表概要 本発表では次の2つについてお話ししています。 ヤプリの分析用データ…",
+        "image_url": "/static/images/external_ogp//642a1ee5c7fa2a9c6fd11a82fb3ccfc6.webp",
+        "site_name": "Yappli Tech Blog"
     }
 }
