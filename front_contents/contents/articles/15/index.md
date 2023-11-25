@@ -7,7 +7,7 @@ slug: '15'
 tag_ids:
 - 5125635648
 title: 公開業績一覧
-updated_at: 2023-10-25 04:53:31+00:00
+updated_at: 2023-11-25 07:05:13+00:00
 
 ---
 
@@ -70,9 +70,7 @@ https://tech.yappli.io/entry/optimize_notifications_release_time
 
 資料:
 
-- [Chromeウェブストア](https://chrome.google.com/webstore/detail/slackdeck/cocnkjpcbmoopfpmogblnjpjdfcaohod?hl=ja&authuser=0)
-- [GitHubリポジトリ](https://github.com/yamamoto-yuta/slack-deck)
-- [Qiita記事](https://qiita.com/yamamoto-yuta/items/c9c5ea0912b02aa14e23)
+- [Qiita記事](https://qiita.com/yamamoto-yuta/items/14b776a59fcafd9830ec)
 
 分担:
 
