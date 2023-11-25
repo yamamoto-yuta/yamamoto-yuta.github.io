@@ -102,5 +102,13 @@
         "description": "こんにちは！プロダクト開発本部・データサイエンティストの山本（@__Y4M4MOTO__ ）です。 先日開催された Yappli Tech Conference 2023 にて、 「次の10年を戦える分析用データ基盤構築の第一歩 - dbtによる基盤刷新とクエリ費用90%削減への取り組み -」というタイトルで発表してきました！（色々詰め込んだら発表タイトルが長くなってしまいました…😇） この記事では、そのときの発表動画と資料を公開しています！ アーカイブ動画 youtu.be スライド speakerdeck.com 発表概要 本発表では次の2つについてお話ししています。 ヤプリの分析用データ…",
         "image_url": "/static/images/external_ogp//642a1ee5c7fa2a9c6fd11a82fb3ccfc6.webp",
         "site_name": "Yappli Tech Blog"
+    },
+    "https://dev.classmethod.jp/articles/understand-openai-function-calling/": {
+        "url_domain": "dev.classmethod.jp",
+        "url_domain_link": "https://dev.classmethod.jp",
+        "title": "[OpenAI] Function callingで遊んでみたら本質が見えてきたのでまとめてみた | DevelopersIO",
+        "description": "Function callingというよりFunction call preparingでした。",
+        "image_url": "https://devio2023-media.developers.io/wp-content/uploads/2023/04/eyecatch_openai_1200x630.png",
+        "site_name": "クラスメソッド発「やってみた」系技術メディア | DevelopersIO"
     }
 }
