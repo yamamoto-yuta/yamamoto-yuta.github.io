@@ -110,5 +110,21 @@
         "description": "Function callingというよりFunction call preparingでした。",
         "image_url": "https://devio2023-media.developers.io/wp-content/uploads/2023/04/eyecatch_openai_1200x630.png",
         "site_name": "クラスメソッド発「やってみた」系技術メディア | DevelopersIO"
+    },
+    "https://ngrok.com/download": {
+        "url_domain": "ngrok.com",
+        "url_domain_link": "https://ngrok.com",
+        "title": "Download",
+        "description": null,
+        "image_url": null,
+        "site_name": null
+    },
+    "https://ngrok.com/docs/errors/err_ngrok_6022/": {
+        "url_domain": "ngrok.com",
+        "url_domain_link": "https://ngrok.com",
+        "title": "ERR_NGROK_6022 | ngrok documentation",
+        "description": "Message",
+        "image_url": "/static/images/external_ogp//3bc3eb06ac879a94e187d8c615205e93.webp",
+        "site_name": null
     }
 }
