@@ -126,5 +126,21 @@
         "description": "Message",
         "image_url": "/static/images/external_ogp//3bc3eb06ac879a94e187d8c615205e93.webp",
         "site_name": null
+    },
+    "https://qiita.com/yamamoto-yuta/items/474e03cd28dec55fd5a2": {
+        "url_domain": "qiita.com",
+        "url_domain_link": "https://qiita.com",
+        "title": "trocco のカスタム変数ループ実行で複数の BigQuery テーブルを一括クローンする #BigQuery - Qiita",
+        "description": "この記事は trocco Advent Calendar 2023 の 2 日目の記事となります。この記事では、trocco のカスタム変数ループ実行を使い、複数の BigQuery テーブルを一…",
+        "image_url": "/static/images/external_ogp//381b5f8ca39c59f5eca1d9c08593390a.webp",
+        "site_name": "Qiita"
+    },
+    "https://tech.yappli.io/entry/lightning-talk-10": {
+        "url_domain": "tech.yappli.io",
+        "url_domain_link": "https://tech.yappli.io",
+        "title": "プロダクト開発本部LT大会#10を開催しました - Yappli Tech Blog",
+        "description": "（本記事は Yappli Advent Calendar 2023 （2枚目） の2日目の記事です！🎄📅） こんにちは！データサイエンティストの山本（ @__Y4M4MOTO__ ）です。 先日、プロダクト開発本部にてLT大会を開催しました！（遂に10回目です！✨） 今回はなんと取締役執行役員CTOのげんきさんが久々に発表者エントリー！！さらに、当日の飛び入りエントリーもあり、発表者と聴講参加者合わせて約 50 人もの方々にご参加いただきました！🙌 この記事では、当日の様子やその発表内容などについてご紹介します！ どんな大会？ 発表内容 PICK UP! 『ゴミの日リマインダー』 『植物を育て…",
+        "image_url": "/static/images/external_ogp//3b22aeddd0ff17d06ce6b89971485537.webp",
+        "site_name": "Yappli Tech Blog"
     }
 }
