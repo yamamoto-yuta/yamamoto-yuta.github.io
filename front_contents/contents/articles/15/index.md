@@ -7,7 +7,7 @@ slug: '15'
 tag_ids:
 - 5125635648
 title: 公開業績一覧
-updated_at: 2023-12-02 10:56:43+00:00
+updated_at: 2023-12-05 03:18:04+00:00
 
 ---
 
@@ -27,6 +27,8 @@ updated_at: 2023-12-02 10:56:43+00:00
 
 
 ### 記事執筆
+
+https://tech.yappli.io/entry/zapier-slack-to-jira-with-azure-openai
 
 https://qiita.com/yamamoto-yuta/items/474e03cd28dec55fd5a2
 

@@ -150,5 +150,13 @@
         "description": "Arrange channels side-by-side",
         "image_url": "/static/images/external_ogp//7a7aa934b286dbd42fc111be0535c790.webp",
         "site_name": null
+    },
+    "https://tech.yappli.io/entry/zapier-slack-to-jira-with-azure-openai": {
+        "url_domain": "tech.yappli.io",
+        "url_domain_link": "https://tech.yappli.io",
+        "title": "Zapier を使って Slack → Jira 起票＆ Azure OpenAI Service でチケットタイトル生成 - Yappli Tech Blog",
+        "description": "（本記事は Yappli Advent Calendar 2023 （1枚目） の5日目の記事です！🎄📅） こんにちは！データサイエンティストの山本（ @__Y4M4MOTO__ ）です。 最近、データサイエンスチーム（以下、 DS チーム）では社内からの依頼（集計、技術相談 etc. ）を Jira でチケット管理をするようにしました。チケット運用を始めるにあたってネックになったのが「起票するの、面倒くさくない…？」という点です。 その点を解決するため、 Slack のメッセージにリアクションを押すとその内容で Jira のチケットを作成してくれる Zapier ワークフローを作成しました。…",
+        "image_url": "/static/images/external_ogp//ad87198dd41d620ae8a30d78a13c55e2.webp",
+        "site_name": "Yappli Tech Blog"
     }
 }
