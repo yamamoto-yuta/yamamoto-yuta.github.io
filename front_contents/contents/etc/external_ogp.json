@@ -60,7 +60,7 @@
         "url_domain_link": "https://zenn.dev",
         "title": "質問対応業務を DX した話",
         "description": null,
-        "image_url": "/static/images/external_ogp//9851477567e45b90cbda805402d98132.webp",
+        "image_url": "/static/images/external_ogp//aa81bc208d05362be368f8703ccbc63b.webp",
         "site_name": "Zenn"
     },
     "https://tech.yappli.io/entry/gig-program2022": {
@@ -158,5 +158,13 @@
         "description": "（本記事は Yappli Advent Calendar 2023 （1枚目） の5日目の記事です！🎄📅） こんにちは！データサイエンティストの山本（ @__Y4M4MOTO__ ）です。 最近、データサイエンスチーム（以下、 DS チーム）では社内からの依頼（集計、技術相談 etc. ）を Jira でチケット管理をするようにしました。チケット運用を始めるにあたってネックになったのが「起票するの、面倒くさくない…？」という点です。 その点を解決するため、 Slack のメッセージにリアクションを押すとその内容で Jira のチケットを作成してくれる Zapier ワークフローを作成しました。…",
         "image_url": "/static/images/external_ogp//ad87198dd41d620ae8a30d78a13c55e2.webp",
         "site_name": "Yappli Tech Blog"
+    },
+    "https://note.com/times_yappli/n/nfc3839fc0544": {
+        "url_domain": "note.com",
+        "url_domain_link": "https://note.com",
+        "title": "ヤプリもSlack コミュニケーションガイドラインをつくった話｜#times_yappli",
+        "description": "こんにちは！23卒データサイエンティストのもっさん（ @__Y4M4MOTO__ ）です！  この度、ヤプリも社内でのSlackコミュニケーションをより円滑にするためのガイドラインをつくりました〜🎉  私もガイドラインの策定に携わったので、その経緯や過程、展開した後の社内の反応などについて、この記事でご紹介できればと思います！  ルールをつくったきっかけ  私がガイドラインづくりに携わったきっかけは、新卒 BootCamp でカスタマーサクセス本部の定例に出席したことです。その回の定例にて、 Slack でのメンションの取り扱いが議題に上がりました。  従来はお休み中の人へのメンション",
+        "image_url": "/static/images/external_ogp//7359ff90c9fd7dbb73c767e9dcdf806a.webp",
+        "site_name": "note（ノート）"
     }
 }

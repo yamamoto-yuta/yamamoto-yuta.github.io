@@ -7,7 +7,7 @@ slug: '15'
 tag_ids:
 - 5125635648
 title: 公開業績一覧
-updated_at: 2023-12-05 03:18:04+00:00
+updated_at: 2023-12-13 04:29:58+00:00
 
 ---
 
@@ -27,6 +27,8 @@ updated_at: 2023-12-05 03:18:04+00:00
 
 
 ### 記事執筆
+
+https://note.com/times_yappli/n/nfc3839fc0544
 
 https://tech.yappli.io/entry/zapier-slack-to-jira-with-azure-openai
 
