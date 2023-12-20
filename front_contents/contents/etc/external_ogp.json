@@ -166,5 +166,13 @@
         "description": "こんにちは！23卒データサイエンティストのもっさん（ @__Y4M4MOTO__ ）です！  この度、ヤプリも社内でのSlackコミュニケーションをより円滑にするためのガイドラインをつくりました〜🎉  私もガイドラインの策定に携わったので、その経緯や過程、展開した後の社内の反応などについて、この記事でご紹介できればと思います！  ルールをつくったきっかけ  私がガイドラインづくりに携わったきっかけは、新卒 BootCamp でカスタマーサクセス本部の定例に出席したことです。その回の定例にて、 Slack でのメンションの取り扱いが議題に上がりました。  従来はお休み中の人へのメンション",
         "image_url": "/static/images/external_ogp//7359ff90c9fd7dbb73c767e9dcdf806a.webp",
         "site_name": "note（ノート）"
+    },
+    "https://qiita.com/yamamoto-yuta/items/593e70a832733df5e9a1": {
+        "url_domain": "qiita.com",
+        "url_domain_link": "https://qiita.com",
+        "title": "trocco のカスタム変数ループ実行で BigQuery に作成した UDF をコピーする #BigQuery - Qiita",
+        "description": "※ この記事は trocco® Advent Calendar 2023 シリーズ2 、 Yappli Advent Calendar 2023 （2枚目）の 20 日目の投稿です。この記事では、…",
+        "image_url": "/static/images/external_ogp//ed31d9b3be01df6932479a58463db996.webp",
+        "site_name": "Qiita"
     }
 }

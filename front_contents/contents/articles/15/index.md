@@ -7,7 +7,7 @@ slug: '15'
 tag_ids:
 - 5125635648
 title: 公開業績一覧
-updated_at: 2023-12-13 04:29:58+00:00
+updated_at: 2023-12-20 09:54:53+00:00
 
 ---
 
@@ -27,6 +27,8 @@ updated_at: 2023-12-13 04:29:58+00:00
 
 
 ### 記事執筆
+
+https://qiita.com/yamamoto-yuta/items/593e70a832733df5e9a1
 
 https://note.com/times_yappli/n/nfc3839fc0544
 
