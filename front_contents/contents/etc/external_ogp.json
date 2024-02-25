@@ -174,5 +174,61 @@
         "description": "※ この記事は trocco® Advent Calendar 2023 シリーズ2 、 Yappli Advent Calendar 2023 （2枚目）の 20 日目の投稿です。この記事では、…",
         "image_url": "/static/images/external_ogp//ed31d9b3be01df6932479a58463db996.webp",
         "site_name": "Qiita"
+    },
+    "https://note.com/dd_techblog/n/n3876f38cc5fc": {
+        "url_domain": "note.com",
+        "url_domain_link": "https://note.com",
+        "title": "SQLスクリプト上でのテーブルや共通テーブル式の依存関係を可視化する｜Dentsu Digital Tech Blog",
+        "description": "電通デジタルでデータサイエンティストを務める吉田です。 こちらはDentsu Digital Tech Blogアドベントカレンダー16日目の記事です。   今回はSQLスクリプトを解析して参照されているテーブルや共通テーブル式の依存関係を可視化するツールを作成したのでご紹介いたします。   どのようなものを作ったか  電通デジタルデータサイエンスグループでは普段、主にBigQuery上でSQLスクリプトを記述してデータの抽出や集計・整形作業を行うことが多いです。   最近ではBigQuery MLでBoostingTreeやAutoML Tablesのモデルが作成できるようになるなど",
+        "image_url": "/static/images/external_ogp//c4664f94343898956e3ab7d3df306779.webp",
+        "site_name": "note（ノート）"
+    },
+    "https://github.com/yamamoto-yuta/sql-cte-visualizer?tab=readme-ov-file": {
+        "url_domain": "github.com",
+        "url_domain_link": "https://github.com",
+        "title": "GitHub - yamamoto-yuta/sql-cte-visualizer",
+        "description": "Contribute to yamamoto-yuta/sql-cte-visualizer development by creating an account on GitHub.",
+        "image_url": "/static/images/external_ogp//28f798cf51f6276d4cb3ab020a8c6b91.webp",
+        "site_name": "GitHub"
+    },
+    "https://github.com/taozhi8833998/node-sql-parser": {
+        "url_domain": "github.com",
+        "url_domain_link": "https://github.com",
+        "title": "GitHub - taozhi8833998/node-sql-parser: Parse simple SQL statements into an abstract syntax tree (AST) with the visited tableList and convert it back to SQL",
+        "description": "Parse simple SQL statements into an abstract syntax tree (AST) with the visited tableList and convert it back to SQL - taozhi8833998/node-sql-parser",
+        "image_url": "/static/images/external_ogp//02def1dc561894f82fa0e950b9ed3407.webp",
+        "site_name": "GitHub"
+    },
+    "https://zenn.dev/carenet/articles/d42b236ae69bc5": {
+        "url_domain": "zenn.dev",
+        "url_domain_link": "https://zenn.dev",
+        "title": "SQLパーサーを使用してみた",
+        "description": null,
+        "image_url": "/static/images/external_ogp//83803c4aa8a10a187949b1aa1ac241df.webp",
+        "site_name": "Zenn"
+    },
+    "https://qiita.com/kujirahand/items/eab914bc77cf1bc0837c": {
+        "url_domain": "qiita.com",
+        "url_domain_link": "https://qiita.com",
+        "title": "PEG.jsを使う #PEG - Qiita",
+        "description": "パーサジェネレータのPEG.jsを使うと手軽に構文解析器が作れます。ここに使い方をメモしておきます。始め方PEG.jsはWeb上で試すことができ、そこで文法チェックができるのがJSならではの素…",
+        "image_url": "/static/images/external_ogp//cc2f0a8f25a3a2bb2f91509064248af4.webp",
+        "site_name": "Qiita"
+    },
+    "https://zenn.dev/yuji/articles/7eb96460317222": {
+        "url_domain": "zenn.dev",
+        "url_domain_link": "https://zenn.dev",
+        "title": "【D3.js】 hierarchy で階層ツリーの作成・ノードハイライトの有効",
+        "description": null,
+        "image_url": "/static/images/external_ogp//e2538f9949504ce6c6d1c7443a6f2932.webp",
+        "site_name": "Zenn"
+    },
+    "https://qiita.com/mmmmk/items/f7c70024938b0e38e4c9": {
+        "url_domain": "qiita.com",
+        "url_domain_link": "https://qiita.com",
+        "title": "【JavaScript】手軽に綺麗な「要素を矢印で繋いだグラフ」を描く方法（画像付き） #JavaScript - Qiita",
+        "description": "概要JavaScriptでグラフ（ノードとエッジの集合の方）を作りたい。JavaScriptでグラフを描画できるd3-graphvizの使い方や、色変更などできることを調査した。基本の使い方…",
+        "image_url": "/static/images/external_ogp//70884159a21236a438fa28bf16f66038.webp",
+        "site_name": "Qiita"
     }
 }
