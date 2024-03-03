@@ -6,7 +6,7 @@ posted_at: 2024-03-03 16:13:09+00:00
 slug: '35'
 tag_ids: []
 title: Docker で clasp 環境を構築する
-updated_at: ''
+updated_at: 2024-03-03 16:27:08+00:00
 
 ---
 clasp 環境を Docker で作ってみたので、そのときの作業ログを以下に示す。
@@ -101,7 +101,7 @@ $ docker exec -it <CONTAINER_ID> bash
 
 ① 出てきた URL にアクセス
 ② Google アカウントでログイン
-③ "localhost:***" という無効な URL に遷移すれば OK
+③ `localhost:***` という無効な URL に遷移すれば OK
 ④ 別ターミナルでコンテナ内に入り、 curl 'localhost:***（さっきの無効な URL）'
 ⑤ ターミナルにログイン成功の旨が出ていればOK
 
@@ -116,6 +116,12 @@ $ docker exec -it <CONTAINER_ID> bash
 [In the container]# clasp clone <PROJECT_ID>
 ```
 
+## ローカルでの変更を GAS へ反映する
+
+```
+$ clasp push
+```
+
 ## 参考記事
 
 - [claspを使ってGoogle Apps Scriptの開発環境を構築してみた | DevelopersIO](https://dev.classmethod.jp/articles/vscode-clasp-setting/)
@@ -123,4 +129,3 @@ $ docker exec -it <CONTAINER_ID> bash
 - [DockerとClaspとTypeScriptとGitHubを使ってGASをローカル開発する - おかしんワークス](https://okash1n.works/posts/developing-gas-with-typescript-docker-clasp-github/)
 - [gasを管理するclaspのdocker環境を作成する #Docker - Qiita](https://qiita.com/rei-ta/items/61b3fde6a069b77d335d)
 - [clasp login --no-localhost が使えない #GoogleAppsScript - Qiita](https://qiita.com/naoyeah/items/0db5fc82561020f2768e)
-
