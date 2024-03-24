@@ -6,7 +6,7 @@ posted_at: 2024-03-03 16:13:09+00:00
 slug: '35'
 tag_ids: []
 title: Docker で clasp 環境を構築する
-updated_at: 2024-03-17 16:30:31+00:00
+updated_at: 2024-03-24 12:07:39+00:00
 
 ---
 clasp 環境を Docker で作ってみたので、そのときの作業ログを以下に示す。
@@ -101,7 +101,7 @@ $ docker exec -it <CONTAINER_ID> bash
 
 ```
 [In the container]# yarn init -y
-[In the container]# yarn add -D @google/clasp typescript ts-loader
+[In the container]# yarn add -D @google/clasp @types/google-apps-script typescript ts-loader
 ```
 
 clasp にログインする。
