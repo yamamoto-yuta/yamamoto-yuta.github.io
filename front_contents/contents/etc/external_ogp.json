@@ -20,7 +20,7 @@
         "url_domain_link": "https://qiita.com",
         "title": "CSV テキストと Markdown Table をキーボードショートカットで相互変換できる Chrome 拡張機能作ってみた #JavaScript - Qiita",
         "description": "CSV テキストと Markdown Table をキーボードショートカットで相互変換できる Chrome 拡張機能作ってみました。この記事では、作ったものの仕組みや開発にあたって工夫・苦労した点な…",
-        "image_url": "/static/images/external_ogp//fb90ff6b11831302d074d12726990ebe.webp",
+        "image_url": "/static/images/external_ogp//35bda613446bfdd16efd908632f3938d.webp",
         "site_name": "Qiita"
     },
     "https://qiita.com/yamamoto-yuta/items/412b6e8167758e174d0a": {
@@ -28,7 +28,7 @@
         "url_domain_link": "https://qiita.com",
         "title": "Docker で dbt プロジェクトを始める方法をいくつか試してみた #Docker - Qiita",
         "description": "この記事は何？Docker を使った dbt 環境の構築方法には様々なものがあります（公式の dbt イメージを使う、 Python イメージに dbt をインストールする、 etc...）。こ…",
-        "image_url": "/static/images/external_ogp//0191d6e1271561e71b362d24f553b085.webp",
+        "image_url": "/static/images/external_ogp//b8b958e37334b0e62cca43c00f0f696e.webp",
         "site_name": "Qiita"
     },
     "https://tech.yappli.io/entry/tech-book-lt-understand-docker": {
@@ -132,7 +132,7 @@
         "url_domain_link": "https://qiita.com",
         "title": "trocco のカスタム変数ループ実行で複数の BigQuery テーブルを一括クローンする #BigQuery - Qiita",
         "description": "この記事は trocco Advent Calendar 2023 の 2 日目の記事となります。この記事では、trocco のカスタム変数ループ実行を使い、複数の BigQuery テーブルを一…",
-        "image_url": "/static/images/external_ogp//381b5f8ca39c59f5eca1d9c08593390a.webp",
+        "image_url": "/static/images/external_ogp//6a429ed641210952ac59c2db89b32030.webp",
         "site_name": "Qiita"
     },
     "https://tech.yappli.io/entry/lightning-talk-10": {
@@ -172,7 +172,7 @@
         "url_domain_link": "https://qiita.com",
         "title": "trocco のカスタム変数ループ実行で BigQuery に作成した UDF をコピーする #BigQuery - Qiita",
         "description": "※ この記事は trocco® Advent Calendar 2023 シリーズ2 、 Yappli Advent Calendar 2023 （2枚目）の 20 日目の投稿です。この記事では、…",
-        "image_url": "/static/images/external_ogp//ed31d9b3be01df6932479a58463db996.webp",
+        "image_url": "/static/images/external_ogp//a05a4625bbda19906d7edd3ef6ba0135.webp",
         "site_name": "Qiita"
     },
     "https://note.com/dd_techblog/n/n3876f38cc5fc": {
@@ -230,5 +230,21 @@
         "description": "概要JavaScriptでグラフ（ノードとエッジの集合の方）を作りたい。JavaScriptでグラフを描画できるd3-graphvizの使い方や、色変更などできることを調査した。基本の使い方…",
         "image_url": "/static/images/external_ogp//70884159a21236a438fa28bf16f66038.webp",
         "site_name": "Qiita"
+    },
+    "https://tech.yappli.io/entry/update-dbt-infra-dev-flow": {
+        "url_domain": "tech.yappli.io",
+        "url_domain_link": "https://tech.yappli.io",
+        "title": "dbt 基盤の開発フローを改善した話 - Yappli Tech Blog",
+        "description": "こんにちは！データサイエンスグループの山本です（ @__Y4M4MOTO__ ）です。 さて、ヤプリのデータサイエンスグループ（以下、DSグループ）では2023年から分析用データ基盤の dbt 移行に取り組んでいます。 dbt 移行に至った経緯などについては昨年開催された Yappli Tech Conference 2023 にて発表しているので、そちらをご覧いただければ幸いです。 tech.yappli.io dbt 移行に伴い、ヤプリの各種サービスが参照しているデータマートも dbt 移行後のものへ切り替えを行っています。 dbt 移行後の分析用データ基盤（以後、 dbt 基盤）の運用が…",
+        "image_url": "/static/images/external_ogp//8843a08bfdf8d6096506f9c793057798.webp",
+        "site_name": "Yappli Tech Blog"
+    },
+    "https://tech.yappli.io/entry/replace-ya-mart-to-dbt": {
+        "url_domain": "tech.yappli.io",
+        "url_domain_link": "https://tech.yappli.io",
+        "title": "Yappli Analytics のデータマートを dbt へ切り替えた話 - Yappli Tech Blog",
+        "description": "こんにちは！データサイエンスグループの山本です（ @__Y4M4MOTO__ ）です。今年の4月で入社して1年が経ちました。あっという間ですね…。 さて、ヤプリのデータサイエンスグループ（以下、DSグループ）では2023年から分析用データ基盤の dbt 移行に取り組んでいます。 dbt 移行に至った経緯などについては昨年開催された Yappli Tech Conference 2023 にて発表しているので、そちらをご覧いただければ幸いです。 tech.yappli.io dbt 移行に伴い、ヤプリの各種サービスが参照しているデータマートも dbt 移行後のものへ切り替えを行っています。昨年1…",
+        "image_url": "/static/images/external_ogp//5491c78ddbe36683f9e644909a287ea2.webp",
+        "site_name": "Yappli Tech Blog"
     }
 }

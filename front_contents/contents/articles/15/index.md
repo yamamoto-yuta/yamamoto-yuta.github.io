@@ -7,7 +7,7 @@ slug: '15'
 tag_ids:
 - 5125635648
 title: 公開業績一覧
-updated_at: 2023-12-20 09:54:53+00:00
+updated_at: 2024-05-12 14:01:22+00:00
 
 ---
 
@@ -27,6 +27,10 @@ updated_at: 2023-12-20 09:54:53+00:00
 
 
 ### 記事執筆
+
+https://tech.yappli.io/entry/update-dbt-infra-dev-flow
+
+https://tech.yappli.io/entry/replace-ya-mart-to-dbt
 
 https://qiita.com/yamamoto-yuta/items/593e70a832733df5e9a1
 
