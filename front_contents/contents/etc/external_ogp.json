@@ -246,5 +246,13 @@
         "description": "こんにちは！データサイエンスグループの山本です（ @__Y4M4MOTO__ ）です。今年の4月で入社して1年が経ちました。あっという間ですね…。 さて、ヤプリのデータサイエンスグループ（以下、DSグループ）では2023年から分析用データ基盤の dbt 移行に取り組んでいます。 dbt 移行に至った経緯などについては昨年開催された Yappli Tech Conference 2023 にて発表しているので、そちらをご覧いただければ幸いです。 tech.yappli.io dbt 移行に伴い、ヤプリの各種サービスが参照しているデータマートも dbt 移行後のものへ切り替えを行っています。昨年1…",
         "image_url": "/static/images/external_ogp//5491c78ddbe36683f9e644909a287ea2.webp",
         "site_name": "Yappli Tech Blog"
+    },
+    "https://tech.yappli.io/entry/speak-at-troccoug-vol9": {
+        "url_domain": "tech.yappli.io",
+        "url_domain_link": "https://tech.yappli.io",
+        "title": "#TROCCOUG にて「データカタログの最初の一歩 〜データ組織向けに dbt docs を整備している話〜」について話しました - Yappli Tech Blog",
+        "description": "こんにちは！データサイエンスグループの山本です（ @__Y4M4MOTO__ ）です。 先日、 TROCCO のユーザ会「 #TROCCOUG 」にて、「データカタログの最初の一歩 〜データ組織向けに dbt docs を整備している話〜」というタイトルで発表させていただきました。 この記事では、そのときの発表資料を公開しています。 発表資料 speakerdeck.com 発表概要 弊社のデータサイエンスグループ内向けに dbt docs を整備している話です。 これまで社内にデータサイエンティストは1人しかいませんでしたが、2023年に3人に増え、グループ体制が始動しました。グループ体制に…",
+        "image_url": "/static/images/external_ogp//b1dc45751b1d691b5b628c8e6079a375.webp",
+        "site_name": "Yappli Tech Blog"
     }
 }
