@@ -6,7 +6,7 @@ slug: '15'
 tag_ids:
 - 5125635648
 title: 公開業績一覧
-updated_at: 2024-05-30 15:49:51+00:00
+updated_at: 2024-06-25 04:45:04+00:00
 
 ---
 
@@ -32,6 +32,8 @@ updated_at: 2024-05-30 15:49:51+00:00
 
 
 ### 記事執筆
+
+https://findy-tools.io/products/dbt/37/113
 
 https://tech.yappli.io/entry/speak-at-troccoug-vol9
 

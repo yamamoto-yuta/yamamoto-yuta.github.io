@@ -26,7 +26,7 @@
     "https://qiita.com/yamamoto-yuta/items/412b6e8167758e174d0a": {
         "url_domain": "qiita.com",
         "url_domain_link": "https://qiita.com",
-        "title": "Docker で dbt プロジェクトを始める方法をいくつか試してみた #Docker - Qiita",
+        "title": "Docker で dbt プロジェクトを始める方法をいくつか試してみた #GoogleCloud - Qiita",
         "description": "この記事は何？Docker を使った dbt 環境の構築方法には様々なものがあります（公式の dbt イメージを使う、 Python イメージに dbt をインストールする、 etc...）。こ…",
         "image_url": "/static/images/external_ogp//b8b958e37334b0e62cca43c00f0f696e.webp",
         "site_name": "Qiita"
@@ -130,7 +130,7 @@
     "https://qiita.com/yamamoto-yuta/items/474e03cd28dec55fd5a2": {
         "url_domain": "qiita.com",
         "url_domain_link": "https://qiita.com",
-        "title": "trocco のカスタム変数ループ実行で複数の BigQuery テーブルを一括クローンする #BigQuery - Qiita",
+        "title": "trocco のカスタム変数ループ実行で複数の BigQuery テーブルを一括クローンする #dbt - Qiita",
         "description": "この記事は trocco Advent Calendar 2023 の 2 日目の記事となります。この記事では、trocco のカスタム変数ループ実行を使い、複数の BigQuery テーブルを一…",
         "image_url": "/static/images/external_ogp//6a429ed641210952ac59c2db89b32030.webp",
         "site_name": "Qiita"
@@ -254,5 +254,13 @@
         "description": "こんにちは！データサイエンスグループの山本です（ @__Y4M4MOTO__ ）です。 先日、 TROCCO のユーザ会「 #TROCCOUG 」にて、「データカタログの最初の一歩 〜データ組織向けに dbt docs を整備している話〜」というタイトルで発表させていただきました。 この記事では、そのときの発表資料を公開しています。 発表資料 speakerdeck.com 発表概要 弊社のデータサイエンスグループ内向けに dbt docs を整備している話です。 これまで社内にデータサイエンティストは1人しかいませんでしたが、2023年に3人に増え、グループ体制が始動しました。グループ体制に…",
         "image_url": "/static/images/external_ogp//b1dc45751b1d691b5b628c8e6079a375.webp",
         "site_name": "Yappli Tech Blog"
+    },
+    "https://findy-tools.io/products/dbt/37/113": {
+        "url_domain": "findy-tools.io",
+        "url_domain_link": "https://findy-tools.io",
+        "title": "データ組織・基盤をスケール可能にするために dbt Core を導入した話",
+        "description": "株式会社ヤプリのdbtのレビューです。導入に至った背景や導入検討時の悩み、実際に導入してから感じたdbtのメリットと課題感を導入効果とともにレビューしていただきました。",
+        "image_url": "/static/images/external_ogp//d9c6109574c5c9105d4c9dadad22fa03.webp",
+        "site_name": null
     }
 }
