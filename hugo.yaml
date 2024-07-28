@@ -1,4 +1,4 @@
-baseurl: https://yamamoto-yuta.github.io/tmp-hugo-test/
+baseurl: https://yamamoto-yuta.github.io/
 languageCode: ja
 theme: hugo-theme-stack
 paginate: 10
@@ -51,7 +51,7 @@ params:
     - post
   featuredImageField: image
   rssFullContent: true
-  favicon: /tmp-hugo-test/images/favicon.ico # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+  favicon: /images/favicon.ico # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
   footer:
     since: 2020
@@ -67,7 +67,7 @@ params:
     avatar:
       enabled: true
       local: false
-      src: /tmp-hugo-test/images/avatar.png
+      src: /images/avatar.png
 
   article:
     math: true
@@ -187,7 +187,7 @@ params:
     opengraph:
       enabled: false
       local: false
-      src: /tmp-hugo-test/images/avatar.png
+      src: /images/avatar.png
 
   colorScheme:
     # Display toggle
