@@ -1,0 +1,14 @@
+services:
+  site:
+    build: .
+    image: hugo
+    # image: ubuntu:latest
+    env_file:
+      - ./.env
+    volumes:
+      - .:/$WORKING_DIR
+    working_dir: /$WORKING_DIR
+    # working_dir: /$WORKING_DIR
+    ports:
+      - "1313:1313"
+    tty: true

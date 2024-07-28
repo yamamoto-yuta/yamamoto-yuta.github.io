@@ -1,55 +1,44 @@
-![RibbonCMS_wide_background](https://user-images.githubusercontent.com/42331656/168180348-764a8f83-9f26-488f-a128-2b9651a1268b.png)
+apt で入る
+https://gohugo.io/installation/linux/#debian
+が、そのままだとバージョンが古かったので、GitHub から最新版を取得してインストール
+https://github.com/gohugoio/hugo/releases/tag/v0.129.0
 
-# GitHubIssuesCMS
-GitHub Issues driven Contents M@nagement System
+初回構築は Quickstart の通り
+https://gohugo.io/getting-started/quick-start/
 
-## How to setup
-### The simplest setup
-1. Create a new empty **private** repository on Github. (Memo: repository name will be your site URL.)
-1. `git clone --bare git@github.com:RibbonCMS/RibbonCMS.git ./{Your repository name}.git`  
-   `cd {Your repository name}.git`  
-   `git push --mirror git@github.com:<your_username>/{Your repository name}.git`
-1. `cd ..`  
-   `rm -rf {Your repository name}.git`
-1. `git clone git@github.com:<your_username>/{Your repository name}.git`  
-   `cd ./{Your repository name}`
-1. `./init_settings.sh`
-1. Edit `settings.config`
-    1. Please make sure your name and email address are correct.
-    1. Set `FRONTEND_REPOSITORY` and `SIDE_M_REPOSITORY` to the name repositories you want to use.
-1. `./setup.sh`
-1. `git add .`  
-   `git commit -m 'exec first setup.sh'`  
-   `git push origin main`
-1. [Create new Labels](https://docs.github.com/ja/issues/using-labels-and-milestones-to-track-work/managing-labels#creating-a-label) on your Repository.
-    1. Add `publish`, `article`, `config` and `delete` labels.
-    1. Add labels such as `tag/xx` or `fixed/xx` as needed.
-1. Create & Edit Config Issue on your Repository.
-    1. Create New Issue & use "Config" template.
-    1. Edit all values.
-        1. If `{Your repository name}` is `"<your_user_name>.github.io"`, set the value of `root_url` to `https://<your user name>.github.io`.  
-           Else, set the value of `root_url` to `https://<your user name>.github.io/{Your repository name}`
-    1. Create & Add `publish` label. (Rest assured that each value can be re-set at any time by re-labeling `publish`.)
-    1. Wait GitHub Actions end.
-1. (Your Repository) Settings -> Pages -> Source branch `"build"` `"/(root)" `
+https://stack.jimmycai.com/guide/getting-started
 
-## How to manage contents
-### Post Articles
-1. Create issue with `Article` (or `Reserved Article`) template.
-1. You can add `tag/` prefix labels to the issue; it become the article tags. (named `tag/{tag_name}` issues label will be article `{tag_name}` tag.)
-1. Fill out YAML frontmatter follow a format.
-1. Fill in the body text in markdown under YAML frontmatter.
-1. Add `publish` label to the issue and wait GitHub Actions end.
+hugo site new blog
+cd blog/
+git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
 
-### Edit Articles
-1. Remove `publish` label from the issue.
-1. Edit the issue content.
-1. Add `publish` label to the issue and wait GitHub Actions end.
+cd ..
+mv \
+ .env \
+ docker-compose.yml \
+ Dockerfile \
+ Makefile \
+ blog/
 
-### Delete Articles
-1. Add `delete` label. Or delete the issue.
-1. Wait GitHub Actions end.
+cp -r \
+ blog/themes/hugo-theme-stack/exampleSite/hugo.yaml \
+ blog/themes/hugo-theme-stack/exampleSite/content \
+ blog/themes/hugo-theme-stack/archetypes \
+ blog/
 
-### Re-Post Articles
-1. Remove `delete` label from the issue.
-1. Add `publish` label to the issue and wait GitHub Actions end.
+rm blog/hugo.toml
+
+[非エンジニアの初心者が Hugo(テーマ Stack)+GitHub Pages でブログを開設するまで](https://miiitomi.github.io/p/hugo/)
+
+GitHub と Twitter しかアイコンがなかったのでこちらで追加
+[Custom Menu | Stack](https://stack.jimmycai.com/config/menu#add-custom-icon)
+
+漢字が中国語フォントになっていたので日本語フォントに変更
+[Custom Header / Footer | Stack](https://stack.jimmycai.com/config/header-footer#example-custom-font-family-for-article-content)
+
+埋め込み対応、Hugo 側で対応させたかったけど想像以上に工数かかりそうだったので iframely で生成した<div>タグをそのまま貼り付けることにした
+[自サービスに埋め込みコード対応をする方法 #oEmbed - Qiita](https://qiita.com/blue_islands/items/33ee08bc73652893c413)
+
+dc up -d
+
+hugo server --bind 0.0.0.0
