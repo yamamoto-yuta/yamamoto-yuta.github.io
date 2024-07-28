@@ -1,4 +1,375 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on YAMAMOTO Yuta</title><link>https://yamamoto-yuta.github.io/post/</link><description>Recent content in Posts on YAMAMOTO Yuta</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>YAMAMOTO Yuta</copyright><lastBuildDate>Sun, 12 May 2024 17:15:00 +0000</lastBuildDate><atom:link href="https://yamamoto-yuta.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>SQL の LEFT JOIN の挙動についての調査メモ</title><link>https://yamamoto-yuta.github.io/p/sql-left-join-behavior-investigation-memo/</link><pubDate>Sun, 12 May 2024 17:15:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/sql-left-join-behavior-investigation-memo/</guid><description>&lt;p>この前、 BigQuery で LEFT JOIN するクエリを書いていた時に少しつまづいたので、その時の調査結果を備忘録として残す（おそらく BigQuery に限らず SQL 全般の話だと思うので、記事タイトルは「SQL の」としている）。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on YAMAMOTO Yuta</title><link>https://yamamoto-yuta.github.io/post/</link><description>Recent content in Posts on YAMAMOTO Yuta</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>YAMAMOTO Yuta</copyright><lastBuildDate>Sun, 28 Jul 2024 06:27:45 +0000</lastBuildDate><atom:link href="https://yamamoto-yuta.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo+Stackテーマの導入メモ</title><link>https://yamamoto-yuta.github.io/p/hugo-stack-theme-installation-notes/</link><pubDate>Sun, 28 Jul 2024 06:27:45 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/hugo-stack-theme-installation-notes/</guid><description>&lt;p>今回、自分の github.io を &lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
+>Hugo&lt;/a> に乗り換えた。テーマは &lt;a class="link" href="https://themes.gohugo.io/themes/hugo-theme-stack/" target="_blank" rel="noopener"
+>Stack&lt;/a> を選んだ。この記事では導入時のメモを残す。&lt;/p>
+&lt;p>なお、次の記事が大変参考になった。&lt;/p>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://miiitomi.github.io/p/hugo/" data-iframely-url="//iframely.net/b8MWdeU">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;h2 id="hugo-のインストール">Hugo のインストール
+&lt;/h2>&lt;p>ローカルを汚したくなかったので Docker で環境構築を行うことにした。&lt;/p>
+&lt;p>apt install で入るが、そのままだとバージョンが古かったので、GitHub から最新版を取得してインストールした。&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>Dockerfile&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-Dockerfile" data-lang="Dockerfile">&lt;span class="line">&lt;span class="cl">&lt;span class="k">FROM&lt;/span>&lt;span class="s"> ubuntu:latest&lt;/span>&lt;span class="err">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">&lt;/span>&lt;span class="k">RUN&lt;/span> apt-get update &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> apt-get upgrade -y &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> apt-get install -y &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> git &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> curl&lt;span class="err">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">&lt;/span>&lt;span class="k">RUN&lt;/span> curl -L -o hugo_extended.deb https://github.com/gohugoio/hugo/releases/download/v0.129.0/hugo_extended_0.129.0_linux-arm64.deb &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> apt-get install -y ./hugo_extended.deb &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span> &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> rm hugo_extended.deb&lt;span class="err">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>docker-compose.yml&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">services&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">site&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">build&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">.&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">hugo&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">env_file&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">./.env&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">volumes&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">.:/$WORKING_DIR&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">working_dir&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">/$WORKING_DIR&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">ports&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="s2">&amp;#34;1313:1313&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">tty&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;blockquote>
+&lt;p>公式ドキュメント: &lt;a class="link" href="https://gohugo.io/installation/linux/#debian" target="_blank" rel="noopener"
+>Linux | Hugo&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="hugo-の初回セットとアップ">Hugo の初回セットとアップ
+&lt;/h2>&lt;p>基本的には公式ドキュメントの &lt;a class="link" href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener"
+>Quickstart&lt;/a> の通りに進めた。&lt;/p>
+&lt;p>サイト名は &lt;code>blog&lt;/code> に設定。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">hugo site new blog
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Stack テーマを submodule として追加。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cd blog/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>以後、Dockerfile 等は &lt;code>blog/&lt;/code> にあったほうが都合が良いので移動。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cd ..
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mv \
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> .env \
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> docker-compose.yml \
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Dockerfile \
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Makefile \
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> blog/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Stack テーマは&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack/tree/master/exampleSite" target="_blank" rel="noopener"
+>サンプル&lt;/a>を用意してくれているので、それをベースに作成。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cp -r \
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> blog/themes/hugo-theme-stack/exampleSite/hugo.yaml \
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> blog/themes/hugo-theme-stack/exampleSite/content \
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> blog/themes/hugo-theme-stack/archetypes \
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> blog/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>元々あった &lt;code>hugo.toml&lt;/code> は先ほどコピーした&lt;code>hugo.yaml&lt;/code>に置き換わって不要になったので削除。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">rm blog/hugo.toml
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;blockquote>
+&lt;p>参考:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener"
+>Quick start | Hugo&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://stack.jimmycai.com/guide/getting-started" target="_blank" rel="noopener"
+>Getting Started | Stack&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://miiitomi.github.io/p/hugo/" target="_blank" rel="noopener"
+>非エンジニアの初心者が Hugo(テーマ Stack)+GitHub Pages でブログを開設するまで&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="ローカルでの確認">ローカルでの確認
+&lt;/h2>&lt;p>ここまでで一旦 Hugo+Stack テーマの導入は完了したので、ローカルで動作確認を行った。コマンドは Makefile にまとめた。Docker 環境だと&lt;code>hugo server&lt;/code> 時に &lt;code>--bind 0.0.0.0&lt;/code> を付けないと表示されないので注意。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-Makefile" data-lang="Makefile">&lt;span class="line">&lt;span class="cl">&lt;span class="nf">.PHONY&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="n">new&lt;/span>-&lt;span class="n">content&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nf">new-content&lt;/span>&lt;span class="o">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> @echo &lt;span class="s1">&amp;#39;Enter article title (e.g. &amp;#34;my-new-article&amp;#34;):&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> @read TITLE&lt;span class="p">;&lt;/span> docker compose run --rm site hugo new content content/post/&lt;span class="nv">$$&lt;/span>TITLE/index.md
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nf">.PHONY&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="n">server&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nf">server&lt;/span>&lt;span class="o">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> docker compose run --rm --service-ports site hugo server --bind 0.0.0.0 --buildDrafts
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nf">.PHONY&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="n">server&lt;/span>-&lt;span class="n">prod&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nf">server-prod&lt;/span>&lt;span class="o">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> docker compose run --rm --service-ports site hugo server --bind 0.0.0.0
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nf">.PHONY&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="n">build&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nf">build&lt;/span>&lt;span class="o">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> docker compose run --rm site hugo --minify
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="hugoyaml-の微調整">&lt;code>hugo.yaml&lt;/code> の微調整
+&lt;/h2>&lt;p>次の記事が参考になった。&lt;/p>
+&lt;blockquote>
+&lt;p>参考:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://miiitomi.github.io/p/hugo/" target="_blank" rel="noopener"
+>非エンジニアの初心者が Hugo(テーマ Stack)+GitHub Pages でブログを開設するまで&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/miiitomi/miiitomi.github.io/blob/main/config.yaml" target="_blank" rel="noopener"
+>miiitomi.github.io/config.yaml at main · miiitomi/miiitomi.github.io&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="日本語フォントの変更">日本語フォントの変更
+&lt;/h2>&lt;p>漢字が中国語フォントになっていたので日本語フォントに変更した。変更方法は&lt;code>layouts/partials/head/custom.html&lt;/code>を次の内容で作成することで行った。&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>layouts/partials/head/custom.html&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">style&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c">/* Overwrite CSS variable */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">:&lt;/span>&lt;span class="nd">root&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">--ja-font-family&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;游ゴシック体&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;Yu Gothic&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">YuGothic&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;ヒラギノ角ゴ Pro&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;Hiragino Kaku Gothic Pro&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;メイリオ&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;Meiryo&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">--base-font-family&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Lato&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">sys&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">font&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">family&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">ja&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">font&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">family&lt;/span>&lt;span class="p">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kc">sans-serif&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">style&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">(&lt;/span>&lt;span class="kd">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">customFont&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nb">document&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">createElement&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;link&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">customFont&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">href&lt;/span> &lt;span class="o">=&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&amp;amp;display=swap&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">customFont&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">type&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;text/css&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">customFont&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">rel&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;stylesheet&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">document&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">head&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">appendChild&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">customFont&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">})();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;blockquote>
+&lt;p>参考:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://stack.jimmycai.com/config/header-footer#example-custom-font-family-for-article-content" target="_blank" rel="noopener"
+>Custom Header / Footer | Stack&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://miiitomi.github.io/p/hugo/" target="_blank" rel="noopener"
+>非エンジニアの初心者が Hugo(テーマ Stack)+GitHub Pages でブログを開設するまで&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="カスタムアイコンの追加">カスタムアイコンの追加
+&lt;/h2>&lt;blockquote>
+&lt;p>公式ドキュメント: &lt;a class="link" href="https://stack.jimmycai.com/config/menu#add-custom-icon" target="_blank" rel="noopener"
+>Custom Menu | Stack&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="埋め込みリンクの対応断念">埋め込みリンクの対応（断念）
+&lt;/h2>&lt;p>Hugo の &lt;a class="link" href="https://gohugo.io/content-management/shortcodes/" target="_blank" rel="noopener"
+>Shortcodes&lt;/a> を使ってはてなブログや Qiita のように簡単に埋め込みリンクを実現したかったが、想像以上に工数かかりそうだったのでので一旦 &lt;a class="link" href="https://iframely.com/try" target="_blank" rel="noopener"
+>iframely&lt;/a> で生成した DIV タグをそのまま貼り付けることにした。&lt;/p>
+&lt;blockquote>
+&lt;p>参考:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://qiita.com/blue_islands/items/33ee08bc73652893c413" target="_blank" rel="noopener"
+>自サービスに埋め込みコード対応をする方法 #oEmbed - Qiita&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="デプロイ">デプロイ
+&lt;/h2>&lt;p>GitHub Actions を使って GitHub Pages にデプロイするように設定した。ワークフローは次のとおり。コメントのある箇所が注意点。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;span class="lnt">35
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Deploy Hugo site to GitHub Pages&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">push&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">branches&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">main&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">workflow_dispatch&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">jobs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">deploy&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">runs-on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ubuntu-latest&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">permissions&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">contents&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">write&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Required for deploying to GitHub Pages&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">steps&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Checkout repository&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">actions/checkout@v4&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">submodules&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Fetch Hugo themes&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Setup Hugo&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-hugo@v3&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">hugo-version&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;latest&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">extended&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Use Hugo extended version&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Build Hugo site&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">run&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">hugo --minify&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Deploy to GitHub Pages&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-gh-pages@v4&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">github_token&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">${{ secrets.GITHUB_TOKEN }}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">publish_branch&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">gh-pages&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">publish_dir&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">./public&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;blockquote>
+&lt;p>参考:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/peaceiris/actions-gh-pages?tab=readme-ov-file#getting-started" target="_blank" rel="noopener"
+>peaceiris/actions-gh-pages: GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote></description></item><item><title>SQL の LEFT JOIN の挙動についての調査メモ</title><link>https://yamamoto-yuta.github.io/p/sql-left-join-behavior-investigation-memo/</link><pubDate>Sun, 12 May 2024 17:15:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/sql-left-join-behavior-investigation-memo/</guid><description>&lt;p>この前、 BigQuery で LEFT JOIN するクエリを書いていた時に少しつまづいたので、その時の調査結果を備忘録として残す（おそらく BigQuery に限らず SQL 全般の話だと思うので、記事タイトルは「SQL の」としている）。&lt;/p>
 &lt;h2 id="前提-対象データ">前提: 対象データ
 &lt;/h2>&lt;p>次のような 3 つのテーブルを考える。&lt;/p>
 &lt;p>&lt;img src="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/assets/55144709/62220c0c-8dae-4194-a2b5-d4a85cd65915"
