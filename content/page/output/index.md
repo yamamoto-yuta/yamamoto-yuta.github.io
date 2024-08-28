@@ -17,7 +17,11 @@ menu:
 
 ## 2024 年
 
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/improve-dbt-docs-description-with-dbt-osmosis" data-iframely-url="//iframely.net/qVLLLHE?card=small&media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
+
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://findy-tools.io/products/dbt/37/113" data-iframely-url="//iframely.net/ROD4g5x?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>
+
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/dbt-split-output-billing-gc-projects" data-iframely-url="//iframely.net/31qeQPA?media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/speak-at-troccoug-vol9" data-iframely-url="//iframely.net/h2kq5F4?card=small&media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
