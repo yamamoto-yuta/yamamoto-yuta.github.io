@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/statistical-significance-and-p-value/index.md)
+
+</font>
+
 ## 風邪薬の効果を検証
 
 新しく開発した風邪薬に「回復を早める効果があるか」を検証する

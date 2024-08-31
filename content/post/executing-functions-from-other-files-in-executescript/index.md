@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/executing-functions-from-other-files-in-executescript/index.md)
+
+</font>
+
 先日、ブラウザ拡張機能「 [CSV2MD Shortcut](https://chrome.google.com/webstore/detail/csv2md-shortcut/fakcffdpcdlhgphdbcanlningmnoigoe?hl=ja) 」の [v0.2.0 をリリースした](https://github.com/yamamoto-yuta/csv2md-shortcut/releases/tag/v0.2.0) 。このバージョンでは新機能として Popup からテキスト変換を行えるようにした。
 <br />
 v0.1.0 では BSW にテキスト変換処理を実装していた。 Popup からテキスト変換を行えるようにするにあたってその処理を BSW から切り出そうとした。が、うまくいかなかった…。

@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/hugo-stack-theme-installation-notes/index.md)
+
+</font>
+
 今回、自分の github.io を [Hugo](https://gohugo.io/) に乗り換えた。テーマは [Stack](https://themes.gohugo.io/themes/hugo-theme-stack/) を選んだ。この記事では導入時のメモを残す。
 
 なお、次の記事が大変参考になった。

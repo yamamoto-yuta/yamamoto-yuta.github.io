@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/function-calling-memo/index.md)
+
+</font>
+
 Function Calling が説明等を読んでもイマイチよくわからなかったので実際に試してみた。これはその時のメモ。
 
 今回は次の公式ドキュメントの手順をやってみた。

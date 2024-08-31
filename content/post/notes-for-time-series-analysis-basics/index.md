@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/notes-for-time-series-analysis-basics/index.md)
+
+</font>
+
 ## 時系列解析とは？
 
 時系列データ（毎日の売り上げ，日々の気温 etc…）を分析する手法

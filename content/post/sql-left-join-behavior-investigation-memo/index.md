@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/sql-left-join-behavior-investigation-memo/index.md)
+
+</font>
+
 この前、 BigQuery で LEFT JOIN するクエリを書いていた時に少しつまづいたので、その時の調査結果を備忘録として残す（おそらく BigQuery に限らず SQL 全般の話だと思うので、記事タイトルは「SQL の」としている）。
 
 ## 前提: 対象データ

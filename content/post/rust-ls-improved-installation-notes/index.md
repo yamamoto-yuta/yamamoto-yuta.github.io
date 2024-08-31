@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/rust-ls-improved-installation-notes/index.md)
+
+</font>
+
 2024/06/30 に v1.0.0 がリリースされたので、以後は README の手順で OK。
 
 > https://github.com/ShotaroKataoka/ls-Improved

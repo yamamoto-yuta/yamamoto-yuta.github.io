@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/pagerank-memo/index.md)
+
+</font>
+
 ## PageRank とは？
 
 - Google の検索エンジンに用いられている Web ページの価値評価を行うアルゴリズム

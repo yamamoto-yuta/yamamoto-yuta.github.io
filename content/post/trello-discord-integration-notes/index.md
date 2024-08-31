@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/trello-discord-integration-notes/index.md)
+
+</font>
+
 公式ドキュメント:
 
 - [The Trello REST API](https://developer.atlassian.com/cloud/trello/rest/api-group-actions/)

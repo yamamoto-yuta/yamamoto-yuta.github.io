@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/problem-with-slackdeck-notification-duplication/index.md)
+
+</font>
+
 ## ３行で
 
 - SlackDeck は複数の `<iframe>` に Web 版 Slack を表示するため，通知が来ると多重で音が鳴ってしまう

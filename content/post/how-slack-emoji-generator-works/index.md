@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/how-slack-emoji-generator-works/index.md)
+
+</font>
+
 いつも使ってる Slack 向け絵文字ジェネレーター:
 
 > [絵文字ジェネレーター - Slack 向け絵文字を無料で簡単生成](https://emoji-gen.ninja/)

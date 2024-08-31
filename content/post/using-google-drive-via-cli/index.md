@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/using-google-drive-via-cli/index.md)
+
+</font>
+
 ## 方法
 
 - skicka を使う

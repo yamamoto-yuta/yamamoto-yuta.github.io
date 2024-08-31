@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/slack-slash-commands-notes/index.md)
+
+</font>
+
 Slack の Slash Commands を作成した際に色々つまづいたのでメモに残す。
 
 ## 今回のゴール

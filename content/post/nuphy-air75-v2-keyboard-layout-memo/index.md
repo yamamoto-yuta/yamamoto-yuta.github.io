@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/nuphy-air75-v2-keyboard-layout-memo/index.md)
+
+</font>
+
 ## 買ったキーボード
 
 NuPhy Air75 V2 ワイヤレスメカニカルキーボード

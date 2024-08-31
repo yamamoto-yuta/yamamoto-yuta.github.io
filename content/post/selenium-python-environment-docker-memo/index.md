@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/selenium-python-environment-docker-memo/index.md)
+
+</font>
+
 ## はじめに
 
 Selenium+Python 環境を Docker で作った際のメモ．基本的に下記の記事を参考に行った:

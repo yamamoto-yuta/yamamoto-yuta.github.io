@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/qq-plot-study-notes/index.md)
+
+</font>
+
 ## 「Q-Q プロット」って何？
 
 2 つの確率分布の分位数を互いにプロットして，両者がどのくらい類似した確率分布なのかを可視化する手法．

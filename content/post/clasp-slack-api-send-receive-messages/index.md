@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/clasp-slack-api-send-receive-messages/index.md)
+
+</font>
+
 Clasp 環境から Slack API を使ってメッセージの送受信を行ってみたので、その時のメモを残す。
 
 Clasp 環境は過去記事の環境を使用している。

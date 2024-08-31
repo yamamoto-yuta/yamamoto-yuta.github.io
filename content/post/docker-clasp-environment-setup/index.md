@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/docker-clasp-environment-setup/index.md)
+
+</font>
+
 clasp 環境を Docker で作ってみたので、そのときの作業ログを以下に示す。
 
 ## Clasp とは
