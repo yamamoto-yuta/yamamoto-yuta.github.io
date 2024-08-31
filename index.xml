@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>YAMAMOTO Yuta</title><link>https://yamamoto-yuta.github.io/</link><description>Recent content on YAMAMOTO Yuta</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>YAMAMOTO Yuta</copyright><lastBuildDate>Sun, 28 Jul 2024 06:27:45 +0000</lastBuildDate><atom:link href="https://yamamoto-yuta.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo+Stackテーマの導入メモ</title><link>https://yamamoto-yuta.github.io/p/hugo-stack-theme-installation-notes/</link><pubDate>Sun, 28 Jul 2024 06:27:45 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/hugo-stack-theme-installation-notes/</guid><description>&lt;p>今回、自分の github.io を &lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>YAMAMOTO Yuta</title><link>https://yamamoto-yuta.github.io/</link><description>Recent content on YAMAMOTO Yuta</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>YAMAMOTO Yuta</copyright><lastBuildDate>Sun, 28 Jul 2024 06:27:45 +0000</lastBuildDate><atom:link href="https://yamamoto-yuta.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo+Stackテーマの導入メモ</title><link>https://yamamoto-yuta.github.io/p/hugo-stack-theme-installation-notes/</link><pubDate>Sun, 28 Jul 2024 06:27:45 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/hugo-stack-theme-installation-notes/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/hugo-stack-theme-installation-notes/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;p>今回、自分の github.io を &lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
 >Hugo&lt;/a> に乗り換えた。テーマは &lt;a class="link" href="https://themes.gohugo.io/themes/hugo-theme-stack/" target="_blank" rel="noopener"
 >Stack&lt;/a> を選んだ。この記事では導入時のメモを残す。&lt;/p>
 &lt;p>なお、次の記事が大変参考になった。&lt;/p>
@@ -369,7 +373,11 @@
 &lt;li>&lt;a class="link" href="https://github.com/peaceiris/actions-gh-pages?tab=readme-ov-file#getting-started" target="_blank" rel="noopener"
 >peaceiris/actions-gh-pages: GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;/blockquote></description></item><item><title>SQL の LEFT JOIN の挙動についての調査メモ</title><link>https://yamamoto-yuta.github.io/p/sql-left-join-behavior-investigation-memo/</link><pubDate>Sun, 12 May 2024 17:15:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/sql-left-join-behavior-investigation-memo/</guid><description>&lt;p>この前、 BigQuery で LEFT JOIN するクエリを書いていた時に少しつまづいたので、その時の調査結果を備忘録として残す（おそらく BigQuery に限らず SQL 全般の話だと思うので、記事タイトルは「SQL の」としている）。&lt;/p>
+&lt;/blockquote></description></item><item><title>SQL の LEFT JOIN の挙動についての調査メモ</title><link>https://yamamoto-yuta.github.io/p/sql-left-join-behavior-investigation-memo/</link><pubDate>Sun, 12 May 2024 17:15:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/sql-left-join-behavior-investigation-memo/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/sql-left-join-behavior-investigation-memo/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;p>この前、 BigQuery で LEFT JOIN するクエリを書いていた時に少しつまづいたので、その時の調査結果を備忘録として残す（おそらく BigQuery に限らず SQL 全般の話だと思うので、記事タイトルは「SQL の」としている）。&lt;/p>
 &lt;h2 id="前提-対象データ">前提: 対象データ
 &lt;/h2>&lt;p>次のような 3 つのテーブルを考える。&lt;/p>
 &lt;p>&lt;img src="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/assets/55144709/62220c0c-8dae-4194-a2b5-d4a85cd65915"
@@ -911,7 +919,11 @@ loading="lazy"
 alt="image"
 >&lt;/p>
 &lt;h2 id="所感">所感
-&lt;/h2>&lt;p>LEFT JOIN するときは JOIN 順に気をつけよう（それはそう）&lt;/p></description></item><item><title>Clasp 環境下で Slack API を使ってメッセージを送受信する</title><link>https://yamamoto-yuta.github.io/p/clasp-slack-api-send-receive-messages/</link><pubDate>Sun, 24 Mar 2024 16:56:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/clasp-slack-api-send-receive-messages/</guid><description>&lt;p>Clasp 環境から Slack API を使ってメッセージの送受信を行ってみたので、その時のメモを残す。&lt;/p>
+&lt;/h2>&lt;p>LEFT JOIN するときは JOIN 順に気をつけよう（それはそう）&lt;/p></description></item><item><title>Clasp 環境下で Slack API を使ってメッセージを送受信する</title><link>https://yamamoto-yuta.github.io/p/clasp-slack-api-send-receive-messages/</link><pubDate>Sun, 24 Mar 2024 16:56:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/clasp-slack-api-send-receive-messages/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/clasp-slack-api-send-receive-messages/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;p>Clasp 環境から Slack API を使ってメッセージの送受信を行ってみたので、その時のメモを残す。&lt;/p>
 &lt;p>Clasp 環境は過去記事の環境を使用している。&lt;/p>
 &lt;p>&lt;a class="link" href="https://yamamoto-yuta.github.io/articles/35" target="_blank" rel="noopener"
 >Docker で clasp 環境を構築する | yamamoto-yuta.github.io&lt;/a>&lt;/p>
@@ -1167,7 +1179,11 @@ alt="image"
 >GAS Web app を Clasp からデプロイ #JavaScript - Qiita&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://www.aruse.net/entry/2022/10/09/130019" target="_blank" rel="noopener"
 >Google Apps Script の Clasp で Web アプリの URL を変えないでデプロイする方法 - ある SE のつぶやき・改&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>NuPhy Air75 V2 キーボードを買ったので、キー割り当てメモ</title><link>https://yamamoto-yuta.github.io/p/nuphy-air75-v2-keyboard-layout-memo/</link><pubDate>Fri, 22 Mar 2024 17:27:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/nuphy-air75-v2-keyboard-layout-memo/</guid><description>&lt;h2 id="買ったキーボード">買ったキーボード
+&lt;/ul></description></item><item><title>NuPhy Air75 V2 キーボードを買ったので、キー割り当てメモ</title><link>https://yamamoto-yuta.github.io/p/nuphy-air75-v2-keyboard-layout-memo/</link><pubDate>Fri, 22 Mar 2024 17:27:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/nuphy-air75-v2-keyboard-layout-memo/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/nuphy-air75-v2-keyboard-layout-memo/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;h2 id="買ったキーボード">買ったキーボード
 &lt;/h2>&lt;p>NuPhy Air75 V2 ワイヤレスメカニカルキーボード&lt;/p>
 &lt;ul>
 &lt;li>日本の販売ページ: &lt;a class="link" href="https://sanyoshop.jp/products/air75-v2" target="_blank" rel="noopener"
@@ -1258,7 +1274,11 @@ alt="image"
 &lt;p>&lt;img src="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/assets/55144709/869c7ddf-580e-4e75-a307-77b42795bd72"
 loading="lazy"
 alt="image"
->&lt;/p></description></item><item><title>Docker で clasp 環境を構築する</title><link>https://yamamoto-yuta.github.io/p/docker-clasp-environment-setup/</link><pubDate>Sun, 03 Mar 2024 16:13:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/docker-clasp-environment-setup/</guid><description>&lt;p>clasp 環境を Docker で作ってみたので、そのときの作業ログを以下に示す。&lt;/p>
+>&lt;/p></description></item><item><title>Docker で clasp 環境を構築する</title><link>https://yamamoto-yuta.github.io/p/docker-clasp-environment-setup/</link><pubDate>Sun, 03 Mar 2024 16:13:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/docker-clasp-environment-setup/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/docker-clasp-environment-setup/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;p>clasp 環境を Docker で作ってみたので、そのときの作業ログを以下に示す。&lt;/p>
 &lt;h2 id="clasp-とは">Clasp とは
 &lt;/h2>&lt;p>GAS をローカルで開発するためのツール。&lt;/p>
 &lt;blockquote>
@@ -1686,7 +1706,11 @@ alt="image"
 >GAS + Typescript のいい感じのビルド環境を整える&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://qiita.com/cajonito/items/3a5c7da8965e28e485bf" target="_blank" rel="noopener"
 >[初心者向け] GoogleAppsScript(GAS)の開発環境をインクリメンタルに構築(TypeScript / Module / Polyfill) #Docker - Qiita&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>SQL の CTE の依存関係を JavaScript で可視化してみる</title><link>https://yamamoto-yuta.github.io/p/visualizing-cte-dependencies-in-javascript/</link><pubDate>Sun, 25 Feb 2024 11:53:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/visualizing-cte-dependencies-in-javascript/</guid><description>&lt;h2 id="やったこと">やったこと
+&lt;/ul></description></item><item><title>SQL の CTE の依存関係を JavaScript で可視化してみる</title><link>https://yamamoto-yuta.github.io/p/visualizing-cte-dependencies-in-javascript/</link><pubDate>Sun, 25 Feb 2024 11:53:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/visualizing-cte-dependencies-in-javascript/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/visualizing-cte-dependencies-in-javascript/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;h2 id="やったこと">やったこと
 &lt;/h2>&lt;p>次の記事で実装されていた SQL の CTE を可視化するツールが便利だった。&lt;/p>
 &lt;p>&lt;a class="link" href="https://note.com/dd_techblog/n/n3876f38cc5fc" target="_blank" rel="noopener"
 >https://note.com/dd_techblog/n/n3876f38cc5fc&lt;/a>&lt;/p>
@@ -3184,7 +3208,11 @@ alt="image"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Slack の Slash Commands 作成メモ</title><link>https://yamamoto-yuta.github.io/p/slack-slash-commands-notes/</link><pubDate>Sat, 25 Nov 2023 17:45:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/slack-slash-commands-notes/</guid><description>&lt;p>Slack の Slash Commands を作成した際に色々つまづいたのでメモに残す。&lt;/p>
+&lt;/div></description></item><item><title>Slack の Slash Commands 作成メモ</title><link>https://yamamoto-yuta.github.io/p/slack-slash-commands-notes/</link><pubDate>Sat, 25 Nov 2023 17:45:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/slack-slash-commands-notes/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/slack-slash-commands-notes/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;p>Slack の Slash Commands を作成した際に色々つまづいたのでメモに残す。&lt;/p>
 &lt;h2 id="今回のゴール">今回のゴール
 &lt;/h2>&lt;ul>
 &lt;li>&lt;code>/echo&lt;/code> で &lt;code>echo&lt;/code> と返すスラッシュコマンドを作成する&lt;/li>
@@ -3440,7 +3468,11 @@ alt="image"
 >&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Function Calling 触ってみたメモ</title><link>https://yamamoto-yuta.github.io/p/function-calling-memo/</link><pubDate>Sat, 25 Nov 2023 11:54:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/function-calling-memo/</guid><description>&lt;p>Function Calling が説明等を読んでもイマイチよくわからなかったので実際に試してみた。これはその時のメモ。&lt;/p>
+&lt;/table></description></item><item><title>Function Calling 触ってみたメモ</title><link>https://yamamoto-yuta.github.io/p/function-calling-memo/</link><pubDate>Sat, 25 Nov 2023 11:54:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/function-calling-memo/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/function-calling-memo/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;p>Function Calling が説明等を読んでもイマイチよくわからなかったので実際に試してみた。これはその時のメモ。&lt;/p>
 &lt;p>今回は次の公式ドキュメントの手順をやってみた。&lt;/p>
 &lt;p>&lt;a class="link" href="https://platform.openai.com/docs/guides/function-calling" target="_blank" rel="noopener"
 >https://platform.openai.com/docs/guides/function-calling&lt;/a>&lt;/p>
@@ -4196,7 +4228,11 @@ alt="image"
 &lt;p>パリ（フランス）：気温は 41°F（約 5°C）で、一部に雲があります。体感温度は 39°F（約 4°C）です。今後の予報では最高気温が 56°F（約 13°C）、最低気温が 40°F（約 4°C）となる見込みです。風速は北西から 3mph（約 5km/h）です&lt;a class="link" href="https://www.timeanddate.com/weather/france/paris#:~:text=Weather%20Today%20Weather%20Hourly%2014,hour%20forecast%20for%20next%20week" target="_blank" rel="noopener"
 >[”]&lt;/a>。&lt;/p>
 &lt;p>これらの情報は、各都市の現在の気象条件を反映しています。天候は変わりやすいので、最新の情報を得るためには、定期的に天気予報を確認することをお勧めします。&lt;/p>
-&lt;/blockquote></description></item><item><title>executeScript() で呼ぶ関数の中で別ファイルの関数を呼び出したい</title><link>https://yamamoto-yuta.github.io/p/executing-functions-from-other-files-in-executescript/</link><pubDate>Sat, 05 Aug 2023 15:57:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/executing-functions-from-other-files-in-executescript/</guid><description>&lt;p>先日、ブラウザ拡張機能「 &lt;a class="link" href="https://chrome.google.com/webstore/detail/csv2md-shortcut/fakcffdpcdlhgphdbcanlningmnoigoe?hl=ja" target="_blank" rel="noopener"
+&lt;/blockquote></description></item><item><title>executeScript() で呼ぶ関数の中で別ファイルの関数を呼び出したい</title><link>https://yamamoto-yuta.github.io/p/executing-functions-from-other-files-in-executescript/</link><pubDate>Sat, 05 Aug 2023 15:57:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/executing-functions-from-other-files-in-executescript/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/executing-functions-from-other-files-in-executescript/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;p>先日、ブラウザ拡張機能「 &lt;a class="link" href="https://chrome.google.com/webstore/detail/csv2md-shortcut/fakcffdpcdlhgphdbcanlningmnoigoe?hl=ja" target="_blank" rel="noopener"
 >CSV2MD Shortcut&lt;/a> 」の &lt;a class="link" href="https://github.com/yamamoto-yuta/csv2md-shortcut/releases/tag/v0.2.0" target="_blank" rel="noopener"
 >v0.2.0 をリリースした&lt;/a> 。このバージョンでは新機能として Popup からテキスト変換を行えるようにした。
 &lt;br />
@@ -4216,7 +4252,11 @@ v0.1.0 では BSW にテキスト変換処理を実装していた。 Popup か�
 &lt;blockquote>
 &lt;p>For the &lt;code>func&lt;/code> key, you can pass in a TS function from your project. It will be transpiled into JS when your extension bundles. You may also use the &lt;code>files&lt;/code> key to inject a file from the root of the built bundle.&lt;/p>
 &lt;/blockquote>
-&lt;p>これを読む限り、ビルド済みファイルに手を加えるしか無さそう…？（であれば、それは管理面倒くさくなりそうなのでやらない方が良さそう…）&lt;/p></description></item><item><title>Rust 版 ls-Improved 導入メモ</title><link>https://yamamoto-yuta.github.io/p/rust-ls-improved-installation-notes/</link><pubDate>Sun, 23 Jul 2023 14:50:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/rust-ls-improved-installation-notes/</guid><description>&lt;p>2024/06/30 に v1.0.0 がリリースされたので、以後は README の手順で OK。&lt;/p>
+&lt;p>これを読む限り、ビルド済みファイルに手を加えるしか無さそう…？（であれば、それは管理面倒くさくなりそうなのでやらない方が良さそう…）&lt;/p></description></item><item><title>Rust 版 ls-Improved 導入メモ</title><link>https://yamamoto-yuta.github.io/p/rust-ls-improved-installation-notes/</link><pubDate>Sun, 23 Jul 2023 14:50:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/rust-ls-improved-installation-notes/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/rust-ls-improved-installation-notes/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;p>2024/06/30 に v1.0.0 がリリースされたので、以後は README の手順で OK。&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;a class="link" href="https://github.com/ShotaroKataoka/ls-Improved" target="_blank" rel="noopener"
 >https://github.com/ShotaroKataoka/ls-Improved&lt;/a>&lt;/p>
@@ -4321,7 +4361,11 @@ v0.1.0 では BSW にテキスト変換処理を実装していた。 Popup か�
 >.deb ファイルをカスタマイズして、GitHub で PPA をホストして、Debian にインストールする方法（その 4: ホスティングした PPA から、パッケージを Debian にインストールする）｜ Ryo Nakano&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://cloud.google.com/sdk/docs/install?hl=ja" target="_blank" rel="noopener"
 >gcloud CLI をインストールする  |  Google Cloud&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Plasmo 触ってみたメモ</title><link>https://yamamoto-yuta.github.io/p/memo-on-trying-plasmo/</link><pubDate>Sun, 04 Jun 2023 12:54:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/memo-on-trying-plasmo/</guid><description>&lt;p>前から気になっていたブラウザ拡張機能の開発フレームワーク「Plasmo」を触ってみたので、その時のメモ。&lt;/p>
+&lt;/ul></description></item><item><title>Plasmo 触ってみたメモ</title><link>https://yamamoto-yuta.github.io/p/memo-on-trying-plasmo/</link><pubDate>Sun, 04 Jun 2023 12:54:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/memo-on-trying-plasmo/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/memo-on-trying-plasmo/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;p>前から気になっていたブラウザ拡張機能の開発フレームワーク「Plasmo」を触ってみたので、その時のメモ。&lt;/p>
 &lt;p>基本的に下記の記事をなぞる形で触っていった。&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;a class="link" href="https://zenn.dev/nado1001/articles/plasmo-browser-extension" target="_blank" rel="noopener"
@@ -4425,7 +4469,11 @@ v0.1.0 では BSW にテキスト変換処理を実装していた。 Popup か�
 &lt;li>Google Analytics と連携できるっぽい（→ &lt;a class="link" href="https://docs.plasmo.com/quickstarts/with-google-analytics" target="_blank" rel="noopener"
 >公式ドキュメント&lt;/a> ）&lt;/li>
 &lt;/ul>
-&lt;p>メンテナンスもこまめにされてそうなので、これから拡張機能作るときは Plasmo 使うようにしてみようかな…&lt;/p></description></item><item><title>いつも使ってるSlack向け絵文字ジェネレーターがどうやって絵文字を生成してるか調べてみたメモ</title><link>https://yamamoto-yuta.github.io/p/how-slack-emoji-generator-works/</link><pubDate>Sun, 07 May 2023 16:08:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/how-slack-emoji-generator-works/</guid><description>&lt;p>いつも使ってる Slack 向け絵文字ジェネレーター:&lt;/p>
+&lt;p>メンテナンスもこまめにされてそうなので、これから拡張機能作るときは Plasmo 使うようにしてみようかな…&lt;/p></description></item><item><title>いつも使ってるSlack向け絵文字ジェネレーターがどうやって絵文字を生成してるか調べてみたメモ</title><link>https://yamamoto-yuta.github.io/p/how-slack-emoji-generator-works/</link><pubDate>Sun, 07 May 2023 16:08:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/how-slack-emoji-generator-works/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/how-slack-emoji-generator-works/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;p>いつも使ってる Slack 向け絵文字ジェネレーター:&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;a class="link" href="https://emoji-gen.ninja/" target="_blank" rel="noopener"
 >絵文字ジェネレーター - Slack 向け絵文字を無料で簡単生成&lt;/a>&lt;/p>
@@ -4626,7 +4674,11 @@ v0.1.0 では BSW にテキスト変換処理を実装していた。 Popup か�
 >Fauntleroy/neutral-face-emoji-tools: Utilities that make life as a Slack emoji addict a little easier.&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://github.com/jackellenberger/emojme/tree/master" target="_blank" rel="noopener"
 >jackellenberger/emojme: very powerful very stupid Slack emoji tools, holy cow!&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Q-Qプロット勉強メモ</title><link>https://yamamoto-yuta.github.io/p/qq-plot-study-notes/</link><pubDate>Sat, 07 Jan 2023 15:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/qq-plot-study-notes/</guid><description>&lt;h2 id="q-q-プロットって何">「Q-Q プロット」って何？
+&lt;/ul></description></item><item><title>Q-Qプロット勉強メモ</title><link>https://yamamoto-yuta.github.io/p/qq-plot-study-notes/</link><pubDate>Sat, 07 Jan 2023 15:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/qq-plot-study-notes/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/qq-plot-study-notes/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;h2 id="q-q-プロットって何">「Q-Q プロット」って何？
 &lt;/h2>&lt;p>2 つの確率分布の分位数を互いにプロットして，両者がどのくらい類似した確率分布なのかを可視化する手法．&lt;/p>
 &lt;p>縦軸に調べたい確率分布の分位数，横軸に理論分布の確率密度関数の逆関数をプロットする．分布が類似していれば $y=x$ 的な直前上にプロットされる．&lt;/p>
 &lt;p>Q-Q プロットの一例:&lt;/p>
@@ -4845,7 +4897,11 @@ loading="lazy"
 >【統計学】Q-Q プロットの仕組みをアニメーションで理解する。 - Qiita&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://ja.wikipedia.org/wiki/Q-Q%E3%83%97%E3%83%AD%E3%83%83%E3%83%88" target="_blank" rel="noopener"
 >Q-Q プロット - Wikipedia&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Selenium+Python環境をDockerで作ったときのメモ</title><link>https://yamamoto-yuta.github.io/p/selenium-python-environment-docker-memo/</link><pubDate>Fri, 30 Dec 2022 15:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/selenium-python-environment-docker-memo/</guid><description>&lt;h2 id="はじめに">はじめに
+&lt;/ul></description></item><item><title>Selenium+Python環境をDockerで作ったときのメモ</title><link>https://yamamoto-yuta.github.io/p/selenium-python-environment-docker-memo/</link><pubDate>Fri, 30 Dec 2022 15:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/selenium-python-environment-docker-memo/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/selenium-python-environment-docker-memo/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;h2 id="はじめに">はじめに
 &lt;/h2>&lt;p>Selenium+Python 環境を Docker で作った際のメモ．基本的に下記の記事を参考に行った:&lt;/p>
 &lt;blockquote>
 &lt;p>参考記事: &lt;a class="link" href="https://gihyo.jp/admin/serial/01/ubuntu-recipe/0662" target="_blank" rel="noopener"
@@ -5152,7 +5208,11 @@ loading="lazy"
 &lt;/div>&lt;blockquote>
 &lt;p>引用: &lt;a class="link" href="https://qiita.com/syoshika_/items/288fc8bf552672589f4c" target="_blank" rel="noopener"
 >【Selenium】急に AttributeError: &amp;lsquo;WebDriver&amp;rsquo; object has no attribute が起きた - Qiita&lt;/a>&lt;/p>
-&lt;/blockquote></description></item><item><title>SlackDeckの通知多重で鳴っちゃう問題で詰んだ話</title><link>https://yamamoto-yuta.github.io/p/problem-with-slackdeck-notification-duplication/</link><pubDate>Mon, 19 Dec 2022 15:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/problem-with-slackdeck-notification-duplication/</guid><description>&lt;h2 id="３行で">３行で
+&lt;/blockquote></description></item><item><title>SlackDeckの通知多重で鳴っちゃう問題で詰んだ話</title><link>https://yamamoto-yuta.github.io/p/problem-with-slackdeck-notification-duplication/</link><pubDate>Mon, 19 Dec 2022 15:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/problem-with-slackdeck-notification-duplication/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/problem-with-slackdeck-notification-duplication/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;h2 id="３行で">３行で
 &lt;/h2>&lt;ul>
 &lt;li>SlackDeck は複数の &lt;code>&amp;lt;iframe&amp;gt;&lt;/code> に Web 版 Slack を表示するため，通知が来ると多重で音が鳴ってしまう&lt;/li>
 &lt;li>この問題を解決するために色々調べてみたところ， Slack の通知は Notification API を用いて行われていることが分かった&lt;/li>
@@ -5198,7 +5258,11 @@ This change will align the requirements for notification permission with that of
 &lt;/blockquote>
 &lt;p>以上より， &lt;code>&amp;lt;body&amp;gt;&lt;/code> で表示している Slack の通知を許可したならば &lt;code>&amp;lt;iframe&amp;gt;&lt;/code> で表示している Slack も許可されているのが適切．つまり，多重で通知音が鳴っている挙動が適切となる．&lt;/p>
 &lt;h2 id="どうする">どうする？
-&lt;/h2>&lt;p>どうしよう…&lt;/p></description></item><item><title>Trello + Discord 連携メモ</title><link>https://yamamoto-yuta.github.io/p/trello-discord-integration-notes/</link><pubDate>Sun, 30 Oct 2022 15:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/trello-discord-integration-notes/</guid><description>&lt;p>公式ドキュメント:&lt;/p>
+&lt;/h2>&lt;p>どうしよう…&lt;/p></description></item><item><title>Trello + Discord 連携メモ</title><link>https://yamamoto-yuta.github.io/p/trello-discord-integration-notes/</link><pubDate>Sun, 30 Oct 2022 15:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/trello-discord-integration-notes/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/trello-discord-integration-notes/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;p>公式ドキュメント:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a class="link" href="https://developer.atlassian.com/cloud/trello/rest/api-group-actions/" target="_blank" rel="noopener"
 >The Trello REST API&lt;/a>&lt;/li>
@@ -5778,7 +5842,11 @@ This change will align the requirements for notification permission with that of
 }
 &lt;/code>
 &lt;/pre>
-&lt;/details></description></item><item><title>GoogleドライブをCLIで使えるようにしてみる</title><link>https://yamamoto-yuta.github.io/p/using-google-drive-via-cli/</link><pubDate>Thu, 24 Jun 2021 15:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/using-google-drive-via-cli/</guid><description>&lt;h2 id="方法">方法
+&lt;/details></description></item><item><title>GoogleドライブをCLIで使えるようにしてみる</title><link>https://yamamoto-yuta.github.io/p/using-google-drive-via-cli/</link><pubDate>Thu, 24 Jun 2021 15:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/using-google-drive-via-cli/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/using-google-drive-via-cli/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;h2 id="方法">方法
 &lt;/h2>&lt;ul>
 &lt;li>skicka を使う&lt;/li>
 &lt;li>rclone を使う&lt;/li>
@@ -5820,7 +5888,11 @@ This change will align the requirements for notification permission with that of
 >Rclone&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://qiita.com/kodai-saito/items/f7597392e470863c450e" target="_blank" rel="noopener"
 >rclone を使用した Google Drive のバックアップ - Qiita&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>統計的有意とp値</title><link>https://yamamoto-yuta.github.io/p/statistical-significance-and-p-value/</link><pubDate>Wed, 01 Jul 2020 15:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/statistical-significance-and-p-value/</guid><description>&lt;h2 id="風邪薬の効果を検証">風邪薬の効果を検証
+&lt;/ul></description></item><item><title>統計的有意とp値</title><link>https://yamamoto-yuta.github.io/p/statistical-significance-and-p-value/</link><pubDate>Wed, 01 Jul 2020 15:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/statistical-significance-and-p-value/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/statistical-significance-and-p-value/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;h2 id="風邪薬の効果を検証">風邪薬の効果を検証
 &lt;/h2>&lt;p>新しく開発した風邪薬に「回復を早める効果があるか」を検証する&lt;/p>
 &lt;h2 id="データ収集">データ収集
 &lt;/h2>&lt;p>風邪を引いている人を 100 人集めて薬を飲んでもらい，回復日数を計測する&lt;/p>
@@ -5877,7 +5949,11 @@ This change will align the requirements for notification permission with that of
 &lt;/h1>&lt;ul>
 &lt;li>&lt;a class="link" href="https://note.com/tenkamere/n/n5f85b0499061" target="_blank" rel="noopener"
 >統計的有意 p 値って何ですか？&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>時系列解析の触りだけメモ</title><link>https://yamamoto-yuta.github.io/p/notes-for-time-series-analysis-basics/</link><pubDate>Tue, 30 Jun 2020 15:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/notes-for-time-series-analysis-basics/</guid><description>&lt;h2 id="時系列解析とは">時系列解析とは？
+&lt;/ul></description></item><item><title>時系列解析の触りだけメモ</title><link>https://yamamoto-yuta.github.io/p/notes-for-time-series-analysis-basics/</link><pubDate>Tue, 30 Jun 2020 15:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/notes-for-time-series-analysis-basics/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/notes-for-time-series-analysis-basics/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;h2 id="時系列解析とは">時系列解析とは？
 &lt;/h2>&lt;p>時系列データ（毎日の売り上げ，日々の気温 etc…）を分析する手法
 過去のデータから未来のデータを予測することが可能&lt;/p>
 &lt;h2 id="回帰分析で予測すればいいのでは">回帰分析で予測すればいいのでは？
@@ -5942,7 +6018,11 @@ This change will align the requirements for notification permission with that of
 >時系列解析_理論編&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://logics-of-blue.com/time-series-regression/" target="_blank" rel="noopener"
 >時系列データへの回帰分析&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>PageRankメモ</title><link>https://yamamoto-yuta.github.io/p/pagerank-memo/</link><pubDate>Mon, 02 Mar 2020 15:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/pagerank-memo/</guid><description>&lt;h2 id="pagerank-とは">PageRank とは？
+&lt;/ul></description></item><item><title>PageRankメモ</title><link>https://yamamoto-yuta.github.io/p/pagerank-memo/</link><pubDate>Mon, 02 Mar 2020 15:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/pagerank-memo/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/pagerank-memo/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;h2 id="pagerank-とは">PageRank とは？
 &lt;/h2>&lt;ul>
 &lt;li>Google の検索エンジンに用いられている Web ページの価値評価を行うアルゴリズム&lt;/li>
 &lt;li>価値評価には Web ページのリンク関係を用いている&lt;/li>
