@@ -12,6 +12,12 @@ comments: true
 draft: false
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/api-add-custom-emoji-to-slack/index.md)
+
+</font>
+
 ## やりたいこと
 
 Slack API 経由で Slack へ絵文字を追加したい
