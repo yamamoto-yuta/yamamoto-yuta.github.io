@@ -4478,7 +4478,11 @@ v0.1.0 では BSW にテキスト変換処理を実装していた。 Popup か�
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">&lt;/span>&lt;span class="k">RUN&lt;/span> pip install emojilib --extra-index-url https://repo.fury.io/emoji-gen/&lt;span class="err">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>API経由でSlackへカスタム絵文字を追加できないか調査したときのメモ</title><link>https://yamamoto-yuta.github.io/p/api-add-custom-emoji-to-slack/</link><pubDate>Sat, 06 May 2023 16:56:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/api-add-custom-emoji-to-slack/</guid><description>&lt;h2 id="やりたいこと">やりたいこと
+&lt;/div></description></item><item><title>API経由でSlackへカスタム絵文字を追加できないか調査したときのメモ</title><link>https://yamamoto-yuta.github.io/p/api-add-custom-emoji-to-slack/</link><pubDate>Sat, 06 May 2023 16:56:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/api-add-custom-emoji-to-slack/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/api-add-custom-emoji-to-slack/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;h2 id="やりたいこと">やりたいこと
 &lt;/h2>&lt;p>Slack API 経由で Slack へ絵文字を追加したい&lt;/p>
 &lt;h2 id="調べたこと">調べたこと
 &lt;/h2>&lt;h3 id="方針-1-slack-api-の-adminemojiadd-を利用する">方針 1: Slack API の admin.emoji.add を利用する
