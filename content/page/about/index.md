@@ -13,6 +13,12 @@ menu:
       icon: user
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/page/about/index.md)
+
+</font>
+
 ## Career/Education
 
 - 株式会社ヤプリ（2023.04 - )
