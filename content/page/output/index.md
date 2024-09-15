@@ -13,6 +13,12 @@ menu:
       icon: article
 ---
 
+<font size="1" align="right">
+
+[✏️ 編集](https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/page/output/index.md)
+
+</font>
+
 <!-- 埋め込みはここから: https://iframely.com/try -->
 
 ## 2024 年
