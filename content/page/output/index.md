@@ -23,6 +23,10 @@ menu:
 
 ## 2024 年
 
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/my-guide-to-evangelizing-dbt-troccoug-ver" data-iframely-url="//iframely.net/VdEkBac?card=small&media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
+
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/lightning-talk-13" data-iframely-url="//iframely.net/rpNlH18?card=small&media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
+
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/improve-dbt-docs-description-with-dbt-osmosis" data-iframely-url="//iframely.net/qVLLLHE?card=small&media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://findy-tools.io/products/dbt/37/113" data-iframely-url="//iframely.net/ROD4g5x?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>
