@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>YAMAMOTO Yuta</title><link>https://yamamoto-yuta.github.io/</link><description>Recent content on YAMAMOTO Yuta</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>YAMAMOTO Yuta</copyright><lastBuildDate>Sun, 28 Jul 2024 06:27:45 +0000</lastBuildDate><atom:link href="https://yamamoto-yuta.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo+Stackテーマの導入メモ</title><link>https://yamamoto-yuta.github.io/p/hugo-stack-theme-installation-notes/</link><pubDate>Sun, 28 Jul 2024 06:27:45 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/hugo-stack-theme-installation-notes/</guid><description>&lt;font size="1" align="right">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>YAMAMOTO Yuta</title><link>https://yamamoto-yuta.github.io/</link><description>Recent content on YAMAMOTO Yuta</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>YAMAMOTO Yuta</copyright><lastBuildDate>Sun, 29 Sep 2024 07:10:52 +0000</lastBuildDate><atom:link href="https://yamamoto-yuta.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo+Stackテーマの導入メモ</title><link>https://yamamoto-yuta.github.io/p/hugo-stack-theme-installation-notes/</link><pubDate>Sun, 28 Jul 2024 06:27:45 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/hugo-stack-theme-installation-notes/</guid><description>&lt;font size="1" align="right">
 &lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/hugo-stack-theme-installation-notes/index.md" target="_blank" rel="noopener"
 >✏️ 編集&lt;/a>&lt;/p>
 &lt;/font>
@@ -373,7 +373,223 @@
 &lt;li>&lt;a class="link" href="https://github.com/peaceiris/actions-gh-pages?tab=readme-ov-file#getting-started" target="_blank" rel="noopener"
 >peaceiris/actions-gh-pages: GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;/blockquote></description></item><item><title>SQL の LEFT JOIN の挙動についての調査メモ</title><link>https://yamamoto-yuta.github.io/p/sql-left-join-behavior-investigation-memo/</link><pubDate>Sun, 12 May 2024 17:15:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/sql-left-join-behavior-investigation-memo/</guid><description>&lt;font size="1" align="right">
+&lt;/blockquote></description></item><item><title>About</title><link>https://yamamoto-yuta.github.io/about/</link><pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/about/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/page/about/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;h2 id="careereducation">Career/Education
+&lt;/h2>&lt;ul>
+&lt;li>株式会社ヤプリ（2023.04 - )&lt;/li>
+&lt;li>長岡技術科学大学　情報・経営システム工学専攻（2021.04 - 2023.03）&lt;/li>
+&lt;li>長岡技術科学大学　情報・経営システム工学課程（2019.04 - 2021.03）&lt;/li>
+&lt;li>福井工業高等専門学校　電子情報工学科（2014.04 - 2019.03）&lt;/li>
+&lt;/ul>
+&lt;h2 id="research">Research
+&lt;/h2>&lt;ul>
+&lt;li>機械学習&lt;/li>
+&lt;li>特許解析&lt;/li>
+&lt;li>ネットワーク解析&lt;/li>
+&lt;li>時系列解析&lt;/li>
+&lt;/ul>
+&lt;h2 id="publications">Publications
+&lt;/h2>&lt;p>First author:&lt;/p>
+&lt;ol>
+&lt;li>Yuta Yamamoto, Asahi Hentona, Koji Marusaki, Kohei Watabe, Seiya Kawano, Tokimasa Goto, Yutaka Hada, Kazuhisa Fukuzawa and Hirofumi Nonaka, 2021, Development of the patent values evaluation method considering growth of technical community,IEEE Symposium Series on Computational Intelligence (IEEE SSCI 2021)
+&amp;ndash;&amp;gt; &lt;a class="link" href="https://attend.ieee.org/ssci-2021/" target="_blank" rel="noopener"
+>HP&lt;/a> ｜ &lt;a class="link" href="https://ieeexplore.ieee.org/document/9660168" target="_blank" rel="noopener"
+>Abst&lt;/a>&lt;/li>
+&lt;li>山本雄太，邊土名朝飛，中井堅誠，作本猛，片岡翔太郎，野中尋史，2021， 技術コミュニティの成長性を加味した特許価値評価手法の開発およびその有効性の検討，情報処理学会学会全国大会（第 83 回）
+&amp;ndash;&amp;gt; &lt;a class="link" href="https://www.ipsj.or.jp/event/taikai/83/" target="_blank" rel="noopener"
+>HP&lt;/a> ｜ &lt;a class="link" href="https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&amp;amp;active_action=repository_view_main_item_detail&amp;amp;item_id=215599&amp;amp;item_no=1&amp;amp;page_id=13&amp;amp;block_id=8" target="_blank" rel="noopener"
+>Paper&lt;/a>&lt;/li>
+&lt;li>山本雄太，野中尋史，邊土名朝飛，中井堅誠，作本猛，片岡翔太郎，平岡透，2020， 技術コミュニティの成長性を加味した特許価値評価手法の開発，人工知能学会全国大会（第 34 回）
+&amp;ndash;&amp;gt; &lt;a class="link" href="https://www.ai-gakkai.or.jp/jsai2020/" target="_blank" rel="noopener"
+>HP&lt;/a> ｜ &lt;a class="link" href="https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_4K2GS305/_article/-char/ja/" target="_blank" rel="noopener"
+>Paper&lt;/a>&lt;/li>
+&lt;li>Yuta YAMAMOTO, Ryusei SHIBATA, Masashi OBA, Koichiro IMAMURA, Daiki MORITA, Kaito MIDO, Takashi YAMAGUCHI, Makoto ICHITSUBO, 2019, Exploring Possibilities of Education by collaborative creative activities inHult Prize at Nagaoka University of Technology, 4th STI-Gigaku 2019
+&amp;ndash;&amp;gt; &lt;a class="link" href="https://sites.google.com/view/sti-gigaku-2019" target="_blank" rel="noopener"
+>HP&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;p>Co-author:&lt;/p>
+&lt;ol>
+&lt;li>作本猛，邊土名朝飛，山本雄太，野中尋史．2020．&amp;ldquo;実験テキストデータ構造化・情報抽出フレームワーク開発のための有機化学特許を対象とした基礎的検討 &amp;ldquo;．YANS2020&lt;/li>
+&lt;li>森雅也，山城広周，山本雄太，森楓，鈴木祥広，平岡透，野中尋史．2021．&amp;ldquo;機械学習を用いたダム湖上流における有害藻類ブルームの発生予測モデルの開発と発生要因分析への応用 &amp;ldquo;．情報処理学会第 83 回全国大会&lt;/li>
+&lt;li>作本猛，邊土名朝飛，山本雄太，森楓，野中尋史．2021．&amp;ldquo;特許文書を対象とした化学実験構造化のための基礎的検討 &amp;ldquo;．言語処理学会第 27 回年次大会(NLP2021)&lt;/li>
+&lt;/ol>
+&lt;h2 id="internship">Internship
+&lt;/h2>&lt;ul>
+&lt;li>&lt;em>2022.03.01 - 2023.03.31&lt;/em>&lt;br>
+&lt;strong>株式会社ヤプリ&lt;/strong>&lt;/li>
+&lt;li>&lt;em>2021.06.01 - 2023.03.XX&lt;/em>&lt;br>
+&lt;strong>株式会社アイデミー&lt;/strong> - 受講者からの質問対応業務およびその業務改善（ &lt;a class="link" href="https://zenn.dev/aidemy/articles/425cf7d9f31945" target="_blank" rel="noopener"
+>インターン記事&lt;/a> ）&lt;/li>
+&lt;li>&lt;em>2021.09.16 - 2021.11.30&lt;/em>&lt;br>
+&lt;strong>株式会社ヤプリ&lt;/strong> - プッシュ通知の配信時刻最適化 PoC（ &lt;a class="link" href="https://tech.yappli.io/entry/optimize_notifications_release_time" target="_blank" rel="noopener"
+>インターン記事&lt;/a> ）&lt;/li>
+&lt;li>&lt;em>2021.09.08&lt;/em>&lt;br>
+&lt;strong>クックパッド株式会社（裏 Tech 1 Day）&lt;/strong> - 簡易 EC サービスでの Rails+GraphQL を用いた API 実装&lt;/li>
+&lt;li>&lt;em>2021.08.09 - 2021.08.27&lt;/em>&lt;br>
+&lt;strong>株式会社 VOYAGE GROUP（Treasure）&lt;/strong> - バックエンド(Go)・フロントエンド(React+TypeScript)・インフラ(AWS)・データモデリング・アイデア創出の講義、チーム開発&lt;/li>
+&lt;li>&lt;em>2021.06.12-2021.06.20&lt;/em>&lt;br>
+&lt;strong>パーソルキャリア株式会社（Sprinters）&lt;/strong> - 新規サービスの立案とその Web サービスのプロトタイプ開発&lt;/li>
+&lt;li>&lt;em>2020.11.01 - 2021.02.XX&lt;/em>&lt;br>
+&lt;strong>株式会社東急エージェンシー&lt;/strong> - 機械学習を用いた社内質問回答システムの開発&lt;/li>
+&lt;li>&lt;em>2017.08.22 - 2017.09.01&lt;/em>&lt;br>
+&lt;strong>株式会社アイジュピタ&lt;/strong> - WinForms を用いたクラス名簿システムの開発&lt;/li>
+&lt;/ul>
+&lt;h2 id="awards">Awards
+&lt;/h2>&lt;ul>
+&lt;li>長岡技術科学大学 大学院工学研究科 情報・経営システム工学専攻 優秀発表賞 (2023)&lt;/li>
+&lt;li>株式会社 VOYAGE GROUP 　 Treasure 　 UI/UX 賞、グランプリ（2021）&lt;/li>
+&lt;li>パーソルキャリア株式会社　 Sprinters 　個人 MVP（2021）&lt;/li>
+&lt;li>ふくいソフトウェアコンペティション 2018 　ふくいソフトウェア大賞（2018）&lt;/li>
+&lt;li>福井発！ビジネスプランコンテスト 2018 　学生の部　福井信用金庫賞（2018）&lt;/li>
+&lt;li>第 29 回全国高等専門学校プログラミングコンテスト　課題部門　特別賞（2018）&lt;/li>
+&lt;/ul>
+&lt;h2 id="works">Works
+&lt;/h2>&lt;blockquote>
+&lt;p>次のページを参照: &lt;a class="link" href="https://yamamoto-yuta.github.io/articles/15" target="_blank" rel="noopener"
+>https://yamamoto-yuta.github.io/articles/15&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="activities">Activities
+&lt;/h2>&lt;p>2022&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>2022.03.01 - 2023.03.31&lt;/em>&lt;br>
+『株式会社ヤプリ』インターン&lt;/li>
+&lt;/ul>
+&lt;p>2021&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>2021.12.05 - 2021.12.07&lt;/em>&lt;br>
+『IEEE SSCI 2021』発表
+発表テーマ：「Development of the patent values evaluation method considering growth of technical community」&lt;/li>
+&lt;li>&lt;em>2021.09.16-2021.11.30&lt;/em>&lt;br>
+『株式会社ヤプリ』インターン&lt;/li>
+&lt;li>&lt;em>2021.09.08&lt;/em>&lt;br>
+『クックパッド株式会社』インターン&lt;/li>
+&lt;li>&lt;em>2021.08.09 - 2021.08.27&lt;/em>&lt;br>
+『株式会社 VOYAGE GROUP』インターン&lt;/li>
+&lt;li>&lt;em>2021.06.12-2021.06.20&lt;/em>&lt;br>
+『パーソルキャリア株式会社』インターン&lt;/li>
+&lt;li>&lt;em>2021.06.01 - 2023.03.XX&lt;/em>&lt;br>
+『株式会社アイデミー』インターン&lt;/li>
+&lt;li>&lt;em>2021.03.18 - 2021.03.20&lt;/em>&lt;br>
+『情報処理学会第 83 回全国大会』発表
+発表テーマ：「技術コミュニティの成長性を加味した特許価値評価手法の開発およびその有効性の検討」&lt;/li>
+&lt;/ul>
+&lt;p>2020&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>2020.11.01 - 2021.02.XX&lt;/em>&lt;br>
+株式会社東急エージェンシー&lt;/li>
+&lt;li>&lt;em>2020.08.08 - 2020.08.16&lt;/em>&lt;br>
+『株式会社 VOYAGE GROUP』『株式会社サポーターズ』共催 &amp;ldquo;サマーハッカソン〜オンラインで LVup する夏合宿〜&amp;rdquo;　出場&lt;/li>
+&lt;li>&lt;em>2020.06.09 - 2020.06.12&lt;/em>&lt;br>
+『人工知能学会第 34 回全国大会』発表
+発表テーマ：「技術コミュニティの成長性を加味した特許価値評価手法の開発」&lt;/li>
+&lt;/ul>
+&lt;p>2019&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>2019.12.08&lt;/em>&lt;br>
+『Hult Prize On Campus Program at Nagaoka University of Technology』企画・運営&lt;/li>
+&lt;li>&lt;em>2019.11.08 - 2019.11.09&lt;/em>&lt;br>
+『4th STI-Gigaku 2019』発表
+発表テーマ：「Exploring Possibilities of Education by collaborative creative activities inHult Prize at Nagaoka University of Technology」&lt;/li>
+&lt;li>&lt;em>2019.08.30 - 2019.09.01&lt;/em>&lt;br>
+『ながおか・若者・しごと機構』アイデア実現 RPG &amp;ldquo;あいキャン&amp;rdquo;　参加（ &lt;a class="link" href="https://n-wakamonokikou.net/icam/report/nidcampv1.html" target="_blank" rel="noopener"
+>開催レポート&lt;/a> ）&lt;/li>
+&lt;li>&lt;em>2019.08.26 - 2019.08.30&lt;/em>&lt;br>
+『ながおか・若者・しごと機構 × デザイントーク株式会社（合同インターン）』参加&lt;/li>
+&lt;li>&lt;em>2019.05.XX - 2019.08.XX&lt;/em>&lt;br>
+『リーンローンチパッドプログラム（長岡）』参加&lt;/li>
+&lt;/ul>
+&lt;p>2018&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>2018.12.22&lt;/em>&lt;br>
+『福井発！ビジネスプランコンテスト 2018』学生の部　参加
+福井信用金庫賞受賞&lt;/li>
+&lt;li>&lt;em>2018.12.01&lt;/em>&lt;br>
+『ふくいソフトウェアコンペティション 2018』
+ふくいソフトウェア大賞受賞&lt;/li>
+&lt;li>&lt;em>2018.10.26 - 2018.10.27&lt;/em>&lt;br>
+『第 29 回全国高等専門学校プログラミングコンテスト』課題部門　本選出場
+特別賞受賞&lt;/li>
+&lt;/ul>
+&lt;p>2017&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>2017.03.XX - 2017.12.XX&lt;/em>&lt;br>
+『スペースバルーンプロジェクト「ふーせん宇宙船」』参加（&lt;a class="link" href="https://www.youtube.com/watch?v=3dknwDvaEGQ" target="_blank" rel="noopener"
+>ドキュメンタリー映像&lt;/a>）&lt;/li>
+&lt;li>&lt;em>2017.10.08 - 2017.10.09&lt;/em>&lt;br>
+『第 28 回全国高等専門学校プログラミングコンテスト』競技部門　参加&lt;/li>
+&lt;li>&lt;em>2017.08.22 - 2017.09.01&lt;/em>&lt;br>
+『株式会社アイジュピタ』インターン&lt;/li>
+&lt;/ul>
+&lt;p>2016&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>2016.09.10&lt;/em>&lt;br>
+『パソコン甲子園』出場&lt;/li>
+&lt;/ul></description></item><item><title>Output</title><link>https://yamamoto-yuta.github.io/output/</link><pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/output/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/page/output/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;!-- 埋め込みはここから: https://iframely.com/try -->
+&lt;h2 id="2024-年">2024 年
+&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/my-guide-to-evangelizing-dbt-troccoug-ver" data-iframely-url="//iframely.net/VdEkBac?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/lightning-talk-13" data-iframely-url="//iframely.net/rpNlH18?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/improve-dbt-docs-description-with-dbt-osmosis" data-iframely-url="//iframely.net/qVLLLHE?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://findy-tools.io/products/dbt/37/113" data-iframely-url="//iframely.net/ROD4g5x?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/dbt-split-output-billing-gc-projects" data-iframely-url="//iframely.net/31qeQPA?media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/speak-at-troccoug-vol9" data-iframely-url="//iframely.net/h2kq5F4?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/update-dbt-infra-dev-flow" data-iframely-url="//iframely.net/7fF7k7q?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/replace-ya-mart-to-dbt" data-iframely-url="//iframely.net/QDCu6fV?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;h2 id="2023-年">2023 年
+&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/593e70a832733df5e9a1" data-iframely-url="//iframely.net/bvZIvFA?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://note.com/times_yappli/n/nfc3839fc0544" data-iframely-url="//iframely.net/meCxP0h?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/zapier-slack-to-jira-with-azure-openai" data-iframely-url="//iframely.net/iowviML?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/474e03cd28dec55fd5a2" data-iframely-url="//iframely.net/lw95lfQ?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/lightning-talk-10" data-iframely-url="//iframely.net/CxeGgDK?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/yapplitechconf2023-data" data-iframely-url="//iframely.net/8DMvgbf?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/decoding-multi-encoded-urls" data-iframely-url="//iframely.net/LRnrlNP?media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://note.com/times_yappli/n/n35e1f320ba35" data-iframely-url="//iframely.net/wqqU9Zi?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/826de40c414655e19ced" data-iframely-url="//iframely.net/z5ztbOV?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/412b6e8167758e174d0a" data-iframely-url="//iframely.net/7JwoJTZ?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/tech-book-lt-understand-docker" data-iframely-url="//iframely.net/NSA5WbG?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/extract-app-store-review-to-spreadsheet-by-trocco" data-iframely-url="//iframely.net/hxlU4RN?media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/lightning-talk-8" data-iframely-url="//iframely.net/49fq8zk?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;h2 id="2022-年">2022 年
+&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://zenn.dev/aidemy/articles/425cf7d9f31945" data-iframely-url="//iframely.net/2qOt7KB?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/gig-program2022" data-iframely-url="//iframely.net/EZVbiFG?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/b6d64929ce035059bc53" data-iframely-url="//iframely.net/pzchlPC?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/5e67a9150f68ae0850ae" data-iframely-url="//iframely.net/3BYLuSW?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/14b776a59fcafd9830ec" data-iframely-url="//iframely.net/8QSEH87?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;h2 id="2021-年">2021 年
+&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/c9c5ea0912b02aa14e23" data-iframely-url="//iframely.net/nx0rYzd?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/optimize_notifications_release_time" data-iframely-url="//iframely.net/EXHLwxX?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;h2 id="2020-年">2020 年
+&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://github.com/yamamoto-yuta/tictactoe-js" data-iframely-url="//iframely.net/oYWMrnU?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;details>&lt;summary>補足資料&lt;/summary>
+&lt;div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">&lt;iframe src="https://drive.google.com/file/d/1jd-qchsKh1V7VsjbN-YLSPhVmvX0Vrvh/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;">&lt;/iframe>&lt;/div>
+&lt;/details>
+&lt;h2 id="2019-年">2019 年
+&lt;/h2>&lt;h2 id="2018-年">2018 年
+&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 170px; padding-bottom: 0;">&lt;a href="https://www.procon.gr.jp/?page_id=64541" data-iframely-url="//iframely.net/uEhCc1V">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;details>&lt;summary>補足資料&lt;/summary>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.procon.gr.jp/wp-content/uploads/2019/02/29_app10029.pdf" target="_blank" rel="noopener"
+>予選資料&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.procon.gr.jp/wp-content/uploads/2019/02/29_pmp10029.pdf" target="_blank" rel="noopener"
+>本選パンフレット&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/details>
+&lt;h2 id="2017-年">2017 年
+&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://yume.fukuishimbun.co.jp/sb" data-iframely-url="//iframely.net/NM3d2sC?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
+&lt;details>&lt;summary>補足資料&lt;/summary>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://youtu.be/XxP2_zDJ9_A" target="_blank" rel="noopener"
+>飛行映像&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://youtu.be/3dknwDvaEGQ" target="_blank" rel="noopener"
+>ドキュメンタリー映像&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/details></description></item><item><title>SQL の LEFT JOIN の挙動についての調査メモ</title><link>https://yamamoto-yuta.github.io/p/sql-left-join-behavior-investigation-memo/</link><pubDate>Sun, 12 May 2024 17:15:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/sql-left-join-behavior-investigation-memo/</guid><description>&lt;font size="1" align="right">
 &lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/sql-left-join-behavior-investigation-memo/index.md" target="_blank" rel="noopener"
 >✏️ 編集&lt;/a>&lt;/p>
 &lt;/font>
@@ -6101,220 +6317,4 @@ $$&lt;/p>
 >PageRank アルゴリズムおよびそれに関連する研究について&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://ohke.hateblo.jp/entry/2018/12/29/230000" target="_blank" rel="noopener"
 >いまさら学ぶ PageRank アルゴリズム&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Archives</title><link>https://yamamoto-yuta.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/archives/</guid><description/></item><item><title>About</title><link>https://yamamoto-yuta.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/about/</guid><description>&lt;font size="1" align="right">
-&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/page/about/index.md" target="_blank" rel="noopener"
->✏️ 編集&lt;/a>&lt;/p>
-&lt;/font>
-&lt;h2 id="careereducation">Career/Education
-&lt;/h2>&lt;ul>
-&lt;li>株式会社ヤプリ（2023.04 - )&lt;/li>
-&lt;li>長岡技術科学大学　情報・経営システム工学専攻（2021.04 - 2023.03）&lt;/li>
-&lt;li>長岡技術科学大学　情報・経営システム工学課程（2019.04 - 2021.03）&lt;/li>
-&lt;li>福井工業高等専門学校　電子情報工学科（2014.04 - 2019.03）&lt;/li>
-&lt;/ul>
-&lt;h2 id="research">Research
-&lt;/h2>&lt;ul>
-&lt;li>機械学習&lt;/li>
-&lt;li>特許解析&lt;/li>
-&lt;li>ネットワーク解析&lt;/li>
-&lt;li>時系列解析&lt;/li>
-&lt;/ul>
-&lt;h2 id="publications">Publications
-&lt;/h2>&lt;p>First author:&lt;/p>
-&lt;ol>
-&lt;li>Yuta Yamamoto, Asahi Hentona, Koji Marusaki, Kohei Watabe, Seiya Kawano, Tokimasa Goto, Yutaka Hada, Kazuhisa Fukuzawa and Hirofumi Nonaka, 2021, Development of the patent values evaluation method considering growth of technical community,IEEE Symposium Series on Computational Intelligence (IEEE SSCI 2021)
-&amp;ndash;&amp;gt; &lt;a class="link" href="https://attend.ieee.org/ssci-2021/" target="_blank" rel="noopener"
->HP&lt;/a> ｜ &lt;a class="link" href="https://ieeexplore.ieee.org/document/9660168" target="_blank" rel="noopener"
->Abst&lt;/a>&lt;/li>
-&lt;li>山本雄太，邊土名朝飛，中井堅誠，作本猛，片岡翔太郎，野中尋史，2021， 技術コミュニティの成長性を加味した特許価値評価手法の開発およびその有効性の検討，情報処理学会学会全国大会（第 83 回）
-&amp;ndash;&amp;gt; &lt;a class="link" href="https://www.ipsj.or.jp/event/taikai/83/" target="_blank" rel="noopener"
->HP&lt;/a> ｜ &lt;a class="link" href="https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&amp;amp;active_action=repository_view_main_item_detail&amp;amp;item_id=215599&amp;amp;item_no=1&amp;amp;page_id=13&amp;amp;block_id=8" target="_blank" rel="noopener"
->Paper&lt;/a>&lt;/li>
-&lt;li>山本雄太，野中尋史，邊土名朝飛，中井堅誠，作本猛，片岡翔太郎，平岡透，2020， 技術コミュニティの成長性を加味した特許価値評価手法の開発，人工知能学会全国大会（第 34 回）
-&amp;ndash;&amp;gt; &lt;a class="link" href="https://www.ai-gakkai.or.jp/jsai2020/" target="_blank" rel="noopener"
->HP&lt;/a> ｜ &lt;a class="link" href="https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_4K2GS305/_article/-char/ja/" target="_blank" rel="noopener"
->Paper&lt;/a>&lt;/li>
-&lt;li>Yuta YAMAMOTO, Ryusei SHIBATA, Masashi OBA, Koichiro IMAMURA, Daiki MORITA, Kaito MIDO, Takashi YAMAGUCHI, Makoto ICHITSUBO, 2019, Exploring Possibilities of Education by collaborative creative activities inHult Prize at Nagaoka University of Technology, 4th STI-Gigaku 2019
-&amp;ndash;&amp;gt; &lt;a class="link" href="https://sites.google.com/view/sti-gigaku-2019" target="_blank" rel="noopener"
->HP&lt;/a>&lt;/li>
-&lt;/ol>
-&lt;p>Co-author:&lt;/p>
-&lt;ol>
-&lt;li>作本猛，邊土名朝飛，山本雄太，野中尋史．2020．&amp;ldquo;実験テキストデータ構造化・情報抽出フレームワーク開発のための有機化学特許を対象とした基礎的検討 &amp;ldquo;．YANS2020&lt;/li>
-&lt;li>森雅也，山城広周，山本雄太，森楓，鈴木祥広，平岡透，野中尋史．2021．&amp;ldquo;機械学習を用いたダム湖上流における有害藻類ブルームの発生予測モデルの開発と発生要因分析への応用 &amp;ldquo;．情報処理学会第 83 回全国大会&lt;/li>
-&lt;li>作本猛，邊土名朝飛，山本雄太，森楓，野中尋史．2021．&amp;ldquo;特許文書を対象とした化学実験構造化のための基礎的検討 &amp;ldquo;．言語処理学会第 27 回年次大会(NLP2021)&lt;/li>
-&lt;/ol>
-&lt;h2 id="internship">Internship
-&lt;/h2>&lt;ul>
-&lt;li>&lt;em>2022.03.01 - 2023.03.31&lt;/em>&lt;br>
-&lt;strong>株式会社ヤプリ&lt;/strong>&lt;/li>
-&lt;li>&lt;em>2021.06.01 - 2023.03.XX&lt;/em>&lt;br>
-&lt;strong>株式会社アイデミー&lt;/strong> - 受講者からの質問対応業務およびその業務改善（ &lt;a class="link" href="https://zenn.dev/aidemy/articles/425cf7d9f31945" target="_blank" rel="noopener"
->インターン記事&lt;/a> ）&lt;/li>
-&lt;li>&lt;em>2021.09.16 - 2021.11.30&lt;/em>&lt;br>
-&lt;strong>株式会社ヤプリ&lt;/strong> - プッシュ通知の配信時刻最適化 PoC（ &lt;a class="link" href="https://tech.yappli.io/entry/optimize_notifications_release_time" target="_blank" rel="noopener"
->インターン記事&lt;/a> ）&lt;/li>
-&lt;li>&lt;em>2021.09.08&lt;/em>&lt;br>
-&lt;strong>クックパッド株式会社（裏 Tech 1 Day）&lt;/strong> - 簡易 EC サービスでの Rails+GraphQL を用いた API 実装&lt;/li>
-&lt;li>&lt;em>2021.08.09 - 2021.08.27&lt;/em>&lt;br>
-&lt;strong>株式会社 VOYAGE GROUP（Treasure）&lt;/strong> - バックエンド(Go)・フロントエンド(React+TypeScript)・インフラ(AWS)・データモデリング・アイデア創出の講義、チーム開発&lt;/li>
-&lt;li>&lt;em>2021.06.12-2021.06.20&lt;/em>&lt;br>
-&lt;strong>パーソルキャリア株式会社（Sprinters）&lt;/strong> - 新規サービスの立案とその Web サービスのプロトタイプ開発&lt;/li>
-&lt;li>&lt;em>2020.11.01 - 2021.02.XX&lt;/em>&lt;br>
-&lt;strong>株式会社東急エージェンシー&lt;/strong> - 機械学習を用いた社内質問回答システムの開発&lt;/li>
-&lt;li>&lt;em>2017.08.22 - 2017.09.01&lt;/em>&lt;br>
-&lt;strong>株式会社アイジュピタ&lt;/strong> - WinForms を用いたクラス名簿システムの開発&lt;/li>
-&lt;/ul>
-&lt;h2 id="awards">Awards
-&lt;/h2>&lt;ul>
-&lt;li>長岡技術科学大学 大学院工学研究科 情報・経営システム工学専攻 優秀発表賞 (2023)&lt;/li>
-&lt;li>株式会社 VOYAGE GROUP 　 Treasure 　 UI/UX 賞、グランプリ（2021）&lt;/li>
-&lt;li>パーソルキャリア株式会社　 Sprinters 　個人 MVP（2021）&lt;/li>
-&lt;li>ふくいソフトウェアコンペティション 2018 　ふくいソフトウェア大賞（2018）&lt;/li>
-&lt;li>福井発！ビジネスプランコンテスト 2018 　学生の部　福井信用金庫賞（2018）&lt;/li>
-&lt;li>第 29 回全国高等専門学校プログラミングコンテスト　課題部門　特別賞（2018）&lt;/li>
-&lt;/ul>
-&lt;h2 id="works">Works
-&lt;/h2>&lt;blockquote>
-&lt;p>次のページを参照: &lt;a class="link" href="https://yamamoto-yuta.github.io/articles/15" target="_blank" rel="noopener"
->https://yamamoto-yuta.github.io/articles/15&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="activities">Activities
-&lt;/h2>&lt;p>2022&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>2022.03.01 - 2023.03.31&lt;/em>&lt;br>
-『株式会社ヤプリ』インターン&lt;/li>
-&lt;/ul>
-&lt;p>2021&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>2021.12.05 - 2021.12.07&lt;/em>&lt;br>
-『IEEE SSCI 2021』発表
-発表テーマ：「Development of the patent values evaluation method considering growth of technical community」&lt;/li>
-&lt;li>&lt;em>2021.09.16-2021.11.30&lt;/em>&lt;br>
-『株式会社ヤプリ』インターン&lt;/li>
-&lt;li>&lt;em>2021.09.08&lt;/em>&lt;br>
-『クックパッド株式会社』インターン&lt;/li>
-&lt;li>&lt;em>2021.08.09 - 2021.08.27&lt;/em>&lt;br>
-『株式会社 VOYAGE GROUP』インターン&lt;/li>
-&lt;li>&lt;em>2021.06.12-2021.06.20&lt;/em>&lt;br>
-『パーソルキャリア株式会社』インターン&lt;/li>
-&lt;li>&lt;em>2021.06.01 - 2023.03.XX&lt;/em>&lt;br>
-『株式会社アイデミー』インターン&lt;/li>
-&lt;li>&lt;em>2021.03.18 - 2021.03.20&lt;/em>&lt;br>
-『情報処理学会第 83 回全国大会』発表
-発表テーマ：「技術コミュニティの成長性を加味した特許価値評価手法の開発およびその有効性の検討」&lt;/li>
-&lt;/ul>
-&lt;p>2020&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>2020.11.01 - 2021.02.XX&lt;/em>&lt;br>
-株式会社東急エージェンシー&lt;/li>
-&lt;li>&lt;em>2020.08.08 - 2020.08.16&lt;/em>&lt;br>
-『株式会社 VOYAGE GROUP』『株式会社サポーターズ』共催 &amp;ldquo;サマーハッカソン〜オンラインで LVup する夏合宿〜&amp;rdquo;　出場&lt;/li>
-&lt;li>&lt;em>2020.06.09 - 2020.06.12&lt;/em>&lt;br>
-『人工知能学会第 34 回全国大会』発表
-発表テーマ：「技術コミュニティの成長性を加味した特許価値評価手法の開発」&lt;/li>
-&lt;/ul>
-&lt;p>2019&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>2019.12.08&lt;/em>&lt;br>
-『Hult Prize On Campus Program at Nagaoka University of Technology』企画・運営&lt;/li>
-&lt;li>&lt;em>2019.11.08 - 2019.11.09&lt;/em>&lt;br>
-『4th STI-Gigaku 2019』発表
-発表テーマ：「Exploring Possibilities of Education by collaborative creative activities inHult Prize at Nagaoka University of Technology」&lt;/li>
-&lt;li>&lt;em>2019.08.30 - 2019.09.01&lt;/em>&lt;br>
-『ながおか・若者・しごと機構』アイデア実現 RPG &amp;ldquo;あいキャン&amp;rdquo;　参加（ &lt;a class="link" href="https://n-wakamonokikou.net/icam/report/nidcampv1.html" target="_blank" rel="noopener"
->開催レポート&lt;/a> ）&lt;/li>
-&lt;li>&lt;em>2019.08.26 - 2019.08.30&lt;/em>&lt;br>
-『ながおか・若者・しごと機構 × デザイントーク株式会社（合同インターン）』参加&lt;/li>
-&lt;li>&lt;em>2019.05.XX - 2019.08.XX&lt;/em>&lt;br>
-『リーンローンチパッドプログラム（長岡）』参加&lt;/li>
-&lt;/ul>
-&lt;p>2018&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>2018.12.22&lt;/em>&lt;br>
-『福井発！ビジネスプランコンテスト 2018』学生の部　参加
-福井信用金庫賞受賞&lt;/li>
-&lt;li>&lt;em>2018.12.01&lt;/em>&lt;br>
-『ふくいソフトウェアコンペティション 2018』
-ふくいソフトウェア大賞受賞&lt;/li>
-&lt;li>&lt;em>2018.10.26 - 2018.10.27&lt;/em>&lt;br>
-『第 29 回全国高等専門学校プログラミングコンテスト』課題部門　本選出場
-特別賞受賞&lt;/li>
-&lt;/ul>
-&lt;p>2017&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>2017.03.XX - 2017.12.XX&lt;/em>&lt;br>
-『スペースバルーンプロジェクト「ふーせん宇宙船」』参加（&lt;a class="link" href="https://www.youtube.com/watch?v=3dknwDvaEGQ" target="_blank" rel="noopener"
->ドキュメンタリー映像&lt;/a>）&lt;/li>
-&lt;li>&lt;em>2017.10.08 - 2017.10.09&lt;/em>&lt;br>
-『第 28 回全国高等専門学校プログラミングコンテスト』競技部門　参加&lt;/li>
-&lt;li>&lt;em>2017.08.22 - 2017.09.01&lt;/em>&lt;br>
-『株式会社アイジュピタ』インターン&lt;/li>
-&lt;/ul>
-&lt;p>2016&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>2016.09.10&lt;/em>&lt;br>
-『パソコン甲子園』出場&lt;/li>
-&lt;/ul></description></item><item><title>Output</title><link>https://yamamoto-yuta.github.io/output/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/output/</guid><description>&lt;font size="1" align="right">
-&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/page/output/index.md" target="_blank" rel="noopener"
->✏️ 編集&lt;/a>&lt;/p>
-&lt;/font>
-&lt;!-- 埋め込みはここから: https://iframely.com/try -->
-&lt;h2 id="2024-年">2024 年
-&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/my-guide-to-evangelizing-dbt-troccoug-ver" data-iframely-url="//iframely.net/VdEkBac?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/lightning-talk-13" data-iframely-url="//iframely.net/rpNlH18?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/improve-dbt-docs-description-with-dbt-osmosis" data-iframely-url="//iframely.net/qVLLLHE?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://findy-tools.io/products/dbt/37/113" data-iframely-url="//iframely.net/ROD4g5x?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/dbt-split-output-billing-gc-projects" data-iframely-url="//iframely.net/31qeQPA?media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/speak-at-troccoug-vol9" data-iframely-url="//iframely.net/h2kq5F4?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/update-dbt-infra-dev-flow" data-iframely-url="//iframely.net/7fF7k7q?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/replace-ya-mart-to-dbt" data-iframely-url="//iframely.net/QDCu6fV?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;h2 id="2023-年">2023 年
-&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/593e70a832733df5e9a1" data-iframely-url="//iframely.net/bvZIvFA?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://note.com/times_yappli/n/nfc3839fc0544" data-iframely-url="//iframely.net/meCxP0h?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/zapier-slack-to-jira-with-azure-openai" data-iframely-url="//iframely.net/iowviML?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/474e03cd28dec55fd5a2" data-iframely-url="//iframely.net/lw95lfQ?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/lightning-talk-10" data-iframely-url="//iframely.net/CxeGgDK?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/yapplitechconf2023-data" data-iframely-url="//iframely.net/8DMvgbf?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/decoding-multi-encoded-urls" data-iframely-url="//iframely.net/LRnrlNP?media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://note.com/times_yappli/n/n35e1f320ba35" data-iframely-url="//iframely.net/wqqU9Zi?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/826de40c414655e19ced" data-iframely-url="//iframely.net/z5ztbOV?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/412b6e8167758e174d0a" data-iframely-url="//iframely.net/7JwoJTZ?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/tech-book-lt-understand-docker" data-iframely-url="//iframely.net/NSA5WbG?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/extract-app-store-review-to-spreadsheet-by-trocco" data-iframely-url="//iframely.net/hxlU4RN?media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/lightning-talk-8" data-iframely-url="//iframely.net/49fq8zk?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;h2 id="2022-年">2022 年
-&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://zenn.dev/aidemy/articles/425cf7d9f31945" data-iframely-url="//iframely.net/2qOt7KB?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/gig-program2022" data-iframely-url="//iframely.net/EZVbiFG?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/b6d64929ce035059bc53" data-iframely-url="//iframely.net/pzchlPC?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/5e67a9150f68ae0850ae" data-iframely-url="//iframely.net/3BYLuSW?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/14b776a59fcafd9830ec" data-iframely-url="//iframely.net/8QSEH87?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;h2 id="2021-年">2021 年
-&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/c9c5ea0912b02aa14e23" data-iframely-url="//iframely.net/nx0rYzd?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/optimize_notifications_release_time" data-iframely-url="//iframely.net/EXHLwxX?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;h2 id="2020-年">2020 年
-&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://github.com/yamamoto-yuta/tictactoe-js" data-iframely-url="//iframely.net/oYWMrnU?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;details>&lt;summary>補足資料&lt;/summary>
-&lt;div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">&lt;iframe src="https://drive.google.com/file/d/1jd-qchsKh1V7VsjbN-YLSPhVmvX0Vrvh/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;">&lt;/iframe>&lt;/div>
-&lt;/details>
-&lt;h2 id="2019-年">2019 年
-&lt;/h2>&lt;h2 id="2018-年">2018 年
-&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 170px; padding-bottom: 0;">&lt;a href="https://www.procon.gr.jp/?page_id=64541" data-iframely-url="//iframely.net/uEhCc1V">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;details>&lt;summary>補足資料&lt;/summary>
-&lt;ul>
-&lt;li>&lt;a class="link" href="https://www.procon.gr.jp/wp-content/uploads/2019/02/29_app10029.pdf" target="_blank" rel="noopener"
->予選資料&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://www.procon.gr.jp/wp-content/uploads/2019/02/29_pmp10029.pdf" target="_blank" rel="noopener"
->本選パンフレット&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/details>
-&lt;h2 id="2017-年">2017 年
-&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://yume.fukuishimbun.co.jp/sb" data-iframely-url="//iframely.net/NM3d2sC?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;details>&lt;summary>補足資料&lt;/summary>
-&lt;ul>
-&lt;li>&lt;a class="link" href="https://youtu.be/XxP2_zDJ9_A" target="_blank" rel="noopener"
->飛行映像&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://youtu.be/3dknwDvaEGQ" target="_blank" rel="noopener"
->ドキュメンタリー映像&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/details></description></item><item><title>Search</title><link>https://yamamoto-yuta.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/search/</guid><description/></item></channel></rss>
+&lt;/ul></description></item><item><title>Archives</title><link>https://yamamoto-yuta.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/archives/</guid><description/></item><item><title>Search</title><link>https://yamamoto-yuta.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/search/</guid><description/></item></channel></rss>
