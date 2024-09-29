@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on YAMAMOTO Yuta</title><link>https://yamamoto-yuta.github.io/post/</link><description>Recent content in Posts on YAMAMOTO Yuta</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>YAMAMOTO Yuta</copyright><lastBuildDate>Sun, 29 Sep 2024 07:10:52 +0000</lastBuildDate><atom:link href="https://yamamoto-yuta.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo+Stackテーマの導入メモ</title><link>https://yamamoto-yuta.github.io/p/hugo-stack-theme-installation-notes/</link><pubDate>Sun, 28 Jul 2024 06:27:45 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/hugo-stack-theme-installation-notes/</guid><description>&lt;font size="1" align="right">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on YAMAMOTO Yuta</title><link>https://yamamoto-yuta.github.io/post/</link><description>Recent content in Posts on YAMAMOTO Yuta</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>YAMAMOTO Yuta</copyright><lastBuildDate>Sun, 29 Sep 2024 07:10:52 +0000</lastBuildDate><atom:link href="https://yamamoto-yuta.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Meta Queset3 + Immersed 設定メモ</title><link>https://yamamoto-yuta.github.io/p/meta-quest3-immsered-config-memo/</link><pubDate>Sun, 29 Sep 2024 07:10:52 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/meta-quest3-immsered-config-memo/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/meta-quest3-immsered-config-memo/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;p>Meta Queset3 を買ったので Immsersed を使って作業環境を作れないか試してみた。その時の作業ログをここへ残す。&lt;/p>
+&lt;h2 id="接続">接続
+&lt;/h2>&lt;ul>
+&lt;li>接続は有線推奨。無線だとマウスカーソルの移動が少しラグい。頑張れば行けなくもないが、作業環境として使うには妥協できない遅延具合&lt;/li>
+&lt;li>有線接続は結構な頻度でうまくいかないことがあるので、Meta Quest3の再起動で暫定対応している&lt;/li>
+&lt;/ul>
+&lt;h2 id="メニュー">メニュー
+&lt;/h2>&lt;ul>
+&lt;li>設定
+&lt;ul>
+&lt;li>スクリーン設定
+&lt;ul>
+&lt;li>スナップグリッド: ON
+&lt;ul>
+&lt;li>OFFだとスクリーン配置を自力で微調整しないといけない＆自力調整は辛すぎることが分かったので…&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>VRマウスカーソル: OFF
+&lt;ul>
+&lt;li>ONだとテキスト入力時のマウスカーソルが黒一色になり、どこにいるのかわからなくなって地味に不便だったので&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>スクリーンの解像度
+&lt;ul>
+&lt;li>基本デフォルトで大丈夫なはず&lt;/li>
+&lt;li>下手に高解像度に上げるとImmersedが固まるので、1920x1080あたりを上限に設定するのが良さそう&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="スクリーン配置">スクリーン配置
+&lt;/h2>&lt;ul>
+&lt;li>スナップグリッドをONにしている場合は、距離と角度が調整できる。配置は上下左右固定。&lt;/li>
+&lt;li>自分的には次の設定がしっくりきた:
+&lt;ul>
+&lt;li>平面で角度MAX
+&lt;ul>
+&lt;li>これが一番首振り角度が少なくて疲れにくい感じがしたので…&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Hugo+Stackテーマの導入メモ</title><link>https://yamamoto-yuta.github.io/p/hugo-stack-theme-installation-notes/</link><pubDate>Sun, 28 Jul 2024 06:27:45 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/hugo-stack-theme-installation-notes/</guid><description>&lt;font size="1" align="right">
 &lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/hugo-stack-theme-installation-notes/index.md" target="_blank" rel="noopener"
 >✏️ 編集&lt;/a>&lt;/p>
 &lt;/font>
