@@ -3,7 +3,7 @@ title: "GoogleドライブをCLIで使えるようにしてみる"
 description:
 slug: using-google-drive-via-cli
 date: 2021-06-24T15:00:00Z
-lastmod:
+lastmod: 2021-06-24T15:00:00Z
 image:
 math:
 license:

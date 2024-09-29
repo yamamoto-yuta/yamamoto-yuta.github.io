@@ -3,7 +3,7 @@ title: "NuPhy Air75 V2 キーボードを買ったので、キー割り当てメ
 description:
 slug: nuphy-air75-v2-keyboard-layout-memo
 date: 2024-03-22T17:27:00Z
-lastmod:
+lastmod: 2024-03-22T17:27:00Z
 image:
 math:
 license:

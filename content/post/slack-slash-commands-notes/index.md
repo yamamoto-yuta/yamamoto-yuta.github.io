@@ -3,7 +3,7 @@ title: "Slack の Slash Commands 作成メモ"
 description:
 slug: slack-slash-commands-notes
 date: 2023-11-25T17:45:00Z
-lastmod:
+lastmod: 2023-11-25T17:45:00Z
 image:
 math:
 license:

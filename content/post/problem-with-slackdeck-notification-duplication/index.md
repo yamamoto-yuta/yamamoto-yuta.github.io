@@ -3,7 +3,7 @@ title: "SlackDeckの通知多重で鳴っちゃう問題で詰んだ話"
 description:
 slug: problem-with-slackdeck-notification-duplication
 date: 2022-12-19T15:00:00Z
-lastmod:
+lastmod: 2022-12-19T15:00:00Z
 image:
 math:
 license:

@@ -3,7 +3,7 @@ title: "時系列解析の触りだけメモ"
 description:
 slug: notes-for-time-series-analysis-basics
 date: 2020-06-30T15:00:00Z
-lastmod:
+lastmod: 2020-06-30T15:00:00Z
 image:
 math:
 license:

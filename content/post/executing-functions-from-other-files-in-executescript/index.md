@@ -3,7 +3,7 @@ title: "executeScript() で呼ぶ関数の中で別ファイルの関数を呼�
 description:
 slug: executing-functions-from-other-files-in-executescript
 date: 2023-08-05T15:57:00Z
-lastmod:
+lastmod: 2023-08-05T15:57:00Z
 image:
 math:
 license:

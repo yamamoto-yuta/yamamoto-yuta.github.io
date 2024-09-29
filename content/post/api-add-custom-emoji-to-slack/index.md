@@ -3,7 +3,7 @@ title: "API経由でSlackへカスタム絵文字を追加できないか調査�
 description:
 slug: "api-add-custom-emoji-to-slack"
 date: 2023-05-06T16:56:00Z
-lastmod:
+lastmod: 2023-05-06T16:56:00Z
 image:
 math:
 license:

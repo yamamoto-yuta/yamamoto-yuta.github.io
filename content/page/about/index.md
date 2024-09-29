@@ -1,10 +1,9 @@
 ---
 title: About
 description: 過去の経歴などをまとめています。
-date:
+date: 2024-07-28
 aliases:
 license:
-lastmod:
 readingTime: false
 menu:
   main:

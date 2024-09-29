@@ -3,7 +3,7 @@ title: "PageRankメモ"
 description:
 slug: pagerank-memo
 date: 2020-03-02T15:00:00Z
-lastmod:
+lastmod: 2020-03-02T15:00:00Z
 image:
 math:
 license:

@@ -3,7 +3,7 @@ title: "Meta Queset3 + Immersed 設定メモ"
 description: 
 slug: meta-quest3-immsered-config-memo
 date: 2024-09-29T07:10:52Z
-lastmod:
+lastmod: 2024-09-29T07:10:52Z
 image: 
 math: 
 license: 

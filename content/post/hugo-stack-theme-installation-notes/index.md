@@ -3,7 +3,7 @@ title: "Hugo+Stackテーマの導入メモ"
 description:
 slug: hugo-stack-theme-installation-notes
 date: 2024-07-28T06:27:45Z
-lastmod:
+lastmod: 2024-07-28T06:27:45Z
 image:
 math:
 license:

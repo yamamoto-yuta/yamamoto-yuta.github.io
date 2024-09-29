@@ -3,7 +3,7 @@ title: "Trello + Discord 連携メモ"
 description:
 slug: trello-discord-integration-notes
 date: 2022-10-30T15:00:00Z
-lastmod:
+lastmod: 2022-10-30T15:00:00Z
 image:
 math:
 license:

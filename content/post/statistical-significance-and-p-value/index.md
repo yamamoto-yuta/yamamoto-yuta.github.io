@@ -3,7 +3,7 @@ title: "統計的有意とp値"
 description:
 slug: statistical-significance-and-p-value
 date: 2020-07-01T15:00:00Z
-lastmod:
+lastmod: 2020-07-01T15:00:00Z
 image:
 math:
 license:

@@ -3,7 +3,7 @@ title: "Clasp 環境下で Slack API を使ってメッセージを送受信す�
 description:
 slug: clasp-slack-api-send-receive-messages
 date: 2024-03-24T16:56:00Z
-lastmod:
+lastmod: 2024-03-24T16:56:00Z
 image:
 math:
 license:

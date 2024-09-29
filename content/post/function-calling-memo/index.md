@@ -3,7 +3,7 @@ title: "Function Calling 触ってみたメモ"
 description:
 slug: function-calling-memo
 date: 2023-11-25T11:54:00Z
-lastmod:
+lastmod: 2023-11-25T11:54:00Z
 image:
 math:
 license:

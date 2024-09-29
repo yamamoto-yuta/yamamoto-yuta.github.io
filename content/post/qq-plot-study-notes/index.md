@@ -3,7 +3,7 @@ title: "Q-Qプロット勉強メモ"
 description:
 slug: qq-plot-study-notes
 date: 2023-01-07T15:00:00Z
-lastmod:
+lastmod: 2023-01-07T15:00:00Z
 image:
 math:
 license:
