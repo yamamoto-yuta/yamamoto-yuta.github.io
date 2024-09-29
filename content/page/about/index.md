@@ -4,6 +4,7 @@ description: 過去の経歴などをまとめています。
 date: 2024-07-28
 aliases:
 license:
+lastmod: 2024-07-28
 readingTime: false
 menu:
   main:
