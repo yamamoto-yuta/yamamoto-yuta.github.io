@@ -24,6 +24,11 @@
 &lt;li>ONだとテキスト入力時のマウスカーソルが黒一色になり、どこにいるのかわからなくなって地味に不便だったので&lt;/li>
 &lt;/ul>
 &lt;/li>
+&lt;li>スクリーンの角でリサイズ: ON
+&lt;ul>
+&lt;li>文字通りスクリーンの角でリサイズできるようになる。スマホのミラーリング画面はリサイズ必須なので重宝する&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;li>スクリーンの解像度
 &lt;ul>
 &lt;li>基本デフォルトで大丈夫なはず&lt;/li>
@@ -51,6 +56,30 @@
 &lt;/li>
 &lt;/ul>
 &lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他
+&lt;/h2>&lt;ul>
+&lt;li>両手の親指と薬指を数秒くっつけるとハンドトラッキングをOFFにできる
+&lt;ul>
+&lt;li>キーボードやトラックパッドの操作で割と誤反応するので、OFFにしておくのが良い&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>スマホ版Immersedを入れることでミラーリングができる
+&lt;ul>
+&lt;li>画質は良い&lt;/li>
+&lt;li>ちょいちょい画面が固まったりラグったりする&lt;/li>
+&lt;li>操作はスマホで行う必要がある
+&lt;ul>
+&lt;li>なので。ゲームには向かない。漫画とか読むのに使うのが良さそう？&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="参考">参考
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://youtu.be/tdBKGmhU7Mw?si=2l74v4Hriw9Lj5Db" target="_blank" rel="noopener"
+>【immersed 基本的な使い方】無料！日本語対応！VR・MRで最大5画面を空間配置し、動画編集ができる!! Meta Quest2、Quest3 、Quest pro、Pico4他対応&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Hugo+Stackテーマの導入メモ</title><link>https://yamamoto-yuta.github.io/p/hugo-stack-theme-installation-notes/</link><pubDate>Sun, 28 Jul 2024 06:27:45 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/hugo-stack-theme-installation-notes/</guid><description>&lt;font size="1" align="right">
 &lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/hugo-stack-theme-installation-notes/index.md" target="_blank" rel="noopener"
 >✏️ 編集&lt;/a>&lt;/p>
