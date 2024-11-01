@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>YAMAMOTO Yuta</title><link>https://yamamoto-yuta.github.io/</link><description>Recent content on YAMAMOTO Yuta</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>YAMAMOTO Yuta</copyright><lastBuildDate>Sun, 29 Sep 2024 07:10:52 +0000</lastBuildDate><atom:link href="https://yamamoto-yuta.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Meta Queset3 + Immersed 設定メモ</title><link>https://yamamoto-yuta.github.io/p/meta-quest3-immsered-config-memo/</link><pubDate>Sun, 29 Sep 2024 07:10:52 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/meta-quest3-immsered-config-memo/</guid><description>&lt;font size="1" align="right">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>YAMAMOTO Yuta</title><link>https://yamamoto-yuta.github.io/</link><description>Recent content on YAMAMOTO Yuta</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>YAMAMOTO Yuta</copyright><lastBuildDate>Fri, 01 Nov 2024 15:02:19 +0000</lastBuildDate><atom:link href="https://yamamoto-yuta.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Meta Queset3 + Immersed 設定メモ</title><link>https://yamamoto-yuta.github.io/p/meta-quest3-immsered-config-memo/</link><pubDate>Sun, 29 Sep 2024 07:10:52 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/meta-quest3-immsered-config-memo/</guid><description>&lt;font size="1" align="right">
 &lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/meta-quest3-immsered-config-memo/index.md" target="_blank" rel="noopener"
 >✏️ 編集&lt;/a>&lt;/p>
 &lt;/font>
@@ -2824,17 +2824,17 @@ alt="image"
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align: left">正規表現による可視化（本来）&lt;/th>
-&lt;th style="text-align: left">hierarchy による可視化&lt;/th>
+&lt;th>正規表現による可視化（本来）&lt;/th>
+&lt;th>hierarchy による可視化&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align: left">このように可視化してほしい。 &lt;img src="https://github.com/yamamoto-yuta/sql-cte-visualizer-js/assets/55144709/ec98b212-c5af-4ecd-94fc-fdda235bfe69"
+&lt;td>このように可視化してほしい。 &lt;img src="https://github.com/yamamoto-yuta/sql-cte-visualizer-js/assets/55144709/ec98b212-c5af-4ecd-94fc-fdda235bfe69"
 loading="lazy"
 alt="image"
 >&lt;/td>
-&lt;td style="text-align: left">しかし、 hierarchy だと次のような可視化になってしまう。 &lt;img src="https://github.com/yamamoto-yuta/sql-cte-visualizer-js/assets/55144709/5c26db28-6a91-4a8a-b0aa-ee66eaed7dce"
+&lt;td>しかし、 hierarchy だと次のような可視化になってしまう。 &lt;img src="https://github.com/yamamoto-yuta/sql-cte-visualizer-js/assets/55144709/5c26db28-6a91-4a8a-b0aa-ee66eaed7dce"
 loading="lazy"
 alt="image"
 >&lt;/td>
@@ -3740,27 +3740,27 @@ alt="image"
 &lt;/h2>&lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align: left">入力&lt;/th>
-&lt;th style="text-align: left">実行結果&lt;/th>
+&lt;th>入力&lt;/th>
+&lt;th>実行結果&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align: left">&lt;img src="https://github.com/yamamoto-yuta/article-summarize-bot/assets/55144709/83a521fd-f0c4-4811-bb05-f9691bda87c2"
+&lt;td>&lt;img src="https://github.com/yamamoto-yuta/article-summarize-bot/assets/55144709/83a521fd-f0c4-4811-bb05-f9691bda87c2"
 loading="lazy"
 alt="image"
 >&lt;/td>
-&lt;td style="text-align: left">&lt;img src="https://github.com/yamamoto-yuta/article-summarize-bot/assets/55144709/604b0883-79a4-4de9-a2bc-bef60f723b95"
+&lt;td>&lt;img src="https://github.com/yamamoto-yuta/article-summarize-bot/assets/55144709/604b0883-79a4-4de9-a2bc-bef60f723b95"
 loading="lazy"
 alt="image"
 >&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: left">&lt;img src="https://github.com/yamamoto-yuta/article-summarize-bot/assets/55144709/64f3c44a-574e-4bf6-89d0-77f6279b1c16"
+&lt;td>&lt;img src="https://github.com/yamamoto-yuta/article-summarize-bot/assets/55144709/64f3c44a-574e-4bf6-89d0-77f6279b1c16"
 loading="lazy"
 alt="image"
 >&lt;/td>
-&lt;td style="text-align: left">&lt;img src="https://github.com/yamamoto-yuta/article-summarize-bot/assets/55144709/cf2f8f26-81c3-458f-8296-e16f220789ce"
+&lt;td>&lt;img src="https://github.com/yamamoto-yuta/article-summarize-bot/assets/55144709/cf2f8f26-81c3-458f-8296-e16f220789ce"
 loading="lazy"
 alt="image"
 >&lt;/td>
