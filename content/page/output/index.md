@@ -53,7 +53,7 @@ menu:
 
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/yapplitechconf2023-data" data-iframely-url="//iframely.net/8DMvgbf?card=small&media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/decoding-multi-encoded-urls" data-iframely-url="//iframely.net/LRnrlNP?media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/decoding-multi-encoded-urls" data-iframely-url="//iframely.net/LRnrlNP?card=small&media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://note.com/times_yappli/n/n35e1f320ba35" data-iframely-url="//iframely.net/wqqU9Zi?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
