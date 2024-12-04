@@ -23,6 +23,8 @@ menu:
 
 ## 2024 年
 
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/managing-bigquery-udf-with-dbt-macro" data-iframely-url="//iframely.net/xfbERju?card=small&media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
+
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/rebuild-slack-datapipeline-with-trocco" data-iframely-url="//iframely.net/oCUYpDN?card=small&media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/progress-of-building-a-data-catalog-at-yappli" data-iframely-url="//iframely.net/w7TM1Y5?card=small&media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
