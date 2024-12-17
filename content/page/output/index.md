@@ -23,6 +23,8 @@ menu:
 
 ## 2024 年
 
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://qiita.com/yamamoto-yuta/items/e7f415d6ee4913f033ca" data-iframely-url="//iframely.net/tcoD41a?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>
+
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/managing-bigquery-udf-with-dbt-macro" data-iframely-url="//iframely.net/xfbERju?card=small&media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/rebuild-slack-datapipeline-with-trocco" data-iframely-url="//iframely.net/oCUYpDN?card=small&media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
