@@ -21,7 +21,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "latest"
+          # hugo-version: "latest"
+          hugo-version: "0.139.4" # 2024/12/22現在、最新版v0.139.5で404エラーが発生してしまうため、手動でバージョンを下げている ref: https://github.com/peaceiris/actions-hugo/issues/652
           extended: true # Use Hugo extended version
 
       - name: Build Hugo site
