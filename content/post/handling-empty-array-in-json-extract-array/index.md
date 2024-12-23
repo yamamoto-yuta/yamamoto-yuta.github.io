@@ -3,7 +3,7 @@ title: "値が空配列の場合を考慮したJSON_EXTRACT_ARRAY"
 description: 
 slug: handling-empty-array-in-json-extract-array
 date: 2024-11-01T15:02:19Z
-lastmod:
+lastmod: 2024-11-01T15:02:19Z
 image: 
 math: 
 license: 
