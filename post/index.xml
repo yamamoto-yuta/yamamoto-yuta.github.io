@@ -1,4 +1,228 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on YAMAMOTO Yuta</title><link>https://yamamoto-yuta.github.io/post/</link><description>Recent content in Posts on YAMAMOTO Yuta</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>YAMAMOTO Yuta</copyright><lastBuildDate>Mon, 23 Dec 2024 13:38:07 +0000</lastBuildDate><atom:link href="https://yamamoto-yuta.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>値が空配列の場合を考慮したJSON_EXTRACT_ARRAY</title><link>https://yamamoto-yuta.github.io/p/handling-empty-array-in-json-extract-array/</link><pubDate>Fri, 01 Nov 2024 15:02:19 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/handling-empty-array-in-json-extract-array/</guid><description>&lt;font size="1" align="right">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on YAMAMOTO Yuta</title><link>https://yamamoto-yuta.github.io/post/</link><description>Recent content in Posts on YAMAMOTO Yuta</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>YAMAMOTO Yuta</copyright><lastBuildDate>Mon, 23 Dec 2024 13:38:07 +0000</lastBuildDate><atom:link href="https://yamamoto-yuta.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Gmail to Slack Using Gas</title><link>https://yamamoto-yuta.github.io/p/gmail-to-slack-using-gas/</link><pubDate>Mon, 23 Dec 2024 13:38:07 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/gmail-to-slack-using-gas/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/gmail-to-slack-using-gas/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;h2 id="動機">動機
+&lt;/h2>&lt;p>Gmailに未読が溜まりまくる。なんとかしたい。Slackなら常に見てるからここに転送させれば解消できるのでは？&lt;/p>
+&lt;h2 id="方法">方法
+&lt;/h2>&lt;ol>
+&lt;li>Gmailでラベルを振り分ける&lt;/li>
+&lt;li>Slack Appを作成し、Bot Token Scopesに &lt;code>chat:write&lt;/code> を追加してワークスペースへインストールする&lt;/li>
+&lt;li>通知先のチャンネルにインストールしたSlack Appを招待する&lt;/li>
+&lt;li>GASのスクリプトプロパティに &lt;code>SLACK_BOT_USER_OAUTH_TOKEN&lt;/code> を設定する&lt;/li>
+&lt;li>次のスクリプトを定期的に（自分は10分にしている）実行するトリガーを設定する&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;span class="lnt">35
+&lt;/span>&lt;span class="lnt">36
+&lt;/span>&lt;span class="lnt">37
+&lt;/span>&lt;span class="lnt">38
+&lt;/span>&lt;span class="lnt">39
+&lt;/span>&lt;span class="lnt">40
+&lt;/span>&lt;span class="lnt">41
+&lt;/span>&lt;span class="lnt">42
+&lt;/span>&lt;span class="lnt">43
+&lt;/span>&lt;span class="lnt">44
+&lt;/span>&lt;span class="lnt">45
+&lt;/span>&lt;span class="lnt">46
+&lt;/span>&lt;span class="lnt">47
+&lt;/span>&lt;span class="lnt">48
+&lt;/span>&lt;span class="lnt">49
+&lt;/span>&lt;span class="lnt">50
+&lt;/span>&lt;span class="lnt">51
+&lt;/span>&lt;span class="lnt">52
+&lt;/span>&lt;span class="lnt">53
+&lt;/span>&lt;span class="lnt">54
+&lt;/span>&lt;span class="lnt">55
+&lt;/span>&lt;span class="lnt">56
+&lt;/span>&lt;span class="lnt">57
+&lt;/span>&lt;span class="lnt">58
+&lt;/span>&lt;span class="lnt">59
+&lt;/span>&lt;span class="lnt">60
+&lt;/span>&lt;span class="lnt">61
+&lt;/span>&lt;span class="lnt">62
+&lt;/span>&lt;span class="lnt">63
+&lt;/span>&lt;span class="lnt">64
+&lt;/span>&lt;span class="lnt">65
+&lt;/span>&lt;span class="lnt">66
+&lt;/span>&lt;span class="lnt">67
+&lt;/span>&lt;span class="lnt">68
+&lt;/span>&lt;span class="lnt">69
+&lt;/span>&lt;span class="lnt">70
+&lt;/span>&lt;span class="lnt">71
+&lt;/span>&lt;span class="lnt">72
+&lt;/span>&lt;span class="lnt">73
+&lt;/span>&lt;span class="lnt">74
+&lt;/span>&lt;span class="lnt">75
+&lt;/span>&lt;span class="lnt">76
+&lt;/span>&lt;span class="lnt">77
+&lt;/span>&lt;span class="lnt">78
+&lt;/span>&lt;span class="lnt">79
+&lt;/span>&lt;span class="lnt">80
+&lt;/span>&lt;span class="lnt">81
+&lt;/span>&lt;span class="lnt">82
+&lt;/span>&lt;span class="lnt">83
+&lt;/span>&lt;span class="lnt">84
+&lt;/span>&lt;span class="lnt">85
+&lt;/span>&lt;span class="lnt">86
+&lt;/span>&lt;span class="lnt">87
+&lt;/span>&lt;span class="lnt">88
+&lt;/span>&lt;span class="lnt">89
+&lt;/span>&lt;span class="lnt">90
+&lt;/span>&lt;span class="lnt">91
+&lt;/span>&lt;span class="lnt">92
+&lt;/span>&lt;span class="lnt">93
+&lt;/span>&lt;span class="lnt">94
+&lt;/span>&lt;span class="lnt">95
+&lt;/span>&lt;span class="lnt">96
+&lt;/span>&lt;span class="lnt">97
+&lt;/span>&lt;span class="lnt">98
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="kr">const&lt;/span> &lt;span class="nx">main&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">forwardGmailToSlack&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;label:&amp;lt;YOUR_LABEL&amp;gt; is:unread &amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;YOUR_CHANNEL_ID&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">forwardGmailToSlack&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;is:unread &amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;OTHERS_CHANNEL_ID&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">// 先に分類可能な未読メールを転送させてから、最後に残った未読を転送させること
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">const&lt;/span> &lt;span class="nx">forwardGmailToSlack&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">query&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">channel&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">threads&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">GmailApp&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">search&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">query&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">threads&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">length&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">Logger&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="sb">`新規メッセージなし: &lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nx">query&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="sb">`&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Logger.log(threads.length);
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">threads&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">forEach&lt;/span>&lt;span class="p">((&lt;/span>&lt;span class="nx">thread&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">messages&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">thread&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getMessages&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Logger.log(messages.length);
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="nx">messages&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">forEach&lt;/span>&lt;span class="p">((&lt;/span>&lt;span class="nx">message&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">message&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getFrom&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">subject&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">message&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getSubject&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">body&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">message&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getPlainBody&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">mailId&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">message&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getId&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">received_date&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">message&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getDate&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">profileId&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">// デフォルトプロファイルを使用
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="kr">const&lt;/span> &lt;span class="nx">mailUrl&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;https://mail.google.com/mail/u/&amp;#39;&lt;/span>&lt;span class="o">+&lt;/span> &lt;span class="nx">profileId&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="s1">&amp;#39;/#inbox/&amp;#39;&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="nx">mailId&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">try&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 件名をチャンネルに投稿
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="kr">const&lt;/span> &lt;span class="nx">subjectMessage&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="sb">`*件名*: &lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nx">subject&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="sb">\n*送信者*: &lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nx">from&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="sb">\n*受信日時*: &lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nx">formatDate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">received_date&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="sb">\n*メールURL*: &lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nx">mailUrl&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="sb">`&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">subjectResponse&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">postToSlack&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">channel&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">subjectMessage&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">threadTs&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">subjectResponse&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">ts&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">// 投稿されたメッセージのタイムスタンプ
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// 本文をスレッドに投稿
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="kr">const&lt;/span> &lt;span class="nx">bodyMessage&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="sb">`*本文*:\n&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nx">body&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="sb">`&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">postToSlack&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">channel&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">bodyMessage&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">threadTs&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// メールを既読に変更
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="nx">message&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">markRead&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span> &lt;span class="k">catch&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">e&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">Logger&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="sb">`Slackへの送信エラー: &lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nx">e&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">message&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="sb">`&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">const&lt;/span> &lt;span class="nx">postToSlack&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">channel&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">threadTs&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">getSlackBotToken&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">scriptProperties&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">PropertiesService&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getScriptProperties&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">token&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">scriptProperties&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getProperty&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;SLACK_BOT_USER_OAUTH_TOKEN&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="o">!&lt;/span>&lt;span class="nx">token&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">throw&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="nb">Error&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;スクリプトプロパティに SLACK_BOT_USER_OAUTH_TOKEN が見つかりません。&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">token&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">slackBotToken&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">getSlackBotToken&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">url&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;https://slack.com/api/chat.postMessage&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">payload&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">channel&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">channel&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">text&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">text&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="c1">// 投稿するメッセージ
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="p">};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// スレッドへの投稿
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">threadTs&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">payload&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">thread_ts&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">threadTs&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">options&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">method&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;post&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">contentType&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;application/json&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">headers&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;Authorization&amp;#39;&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="sb">`Bearer &lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nx">slackBotToken&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="sb">`&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">payload&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">JSON&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">stringify&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">payload&lt;/span>&lt;span class="p">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">response&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">UrlFetchApp&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">fetch&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">url&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">options&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">result&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">JSON&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">parse&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">response&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getContentText&lt;/span>&lt;span class="p">());&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="o">!&lt;/span>&lt;span class="nx">result&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">ok&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">throw&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="nb">Error&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="sb">`Slack投稿エラー: &lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nx">channel&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="sb"> &lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nx">text&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="sb"> &lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nx">result&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">error&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="sb">`&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">result&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">const&lt;/span> &lt;span class="nx">formatDate&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">date&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">year&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">date&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getFullYear&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">month&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;0&amp;#39;&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">date&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getMonth&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">)).&lt;/span>&lt;span class="nx">slice&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">// 月を2桁にフォーマット
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="kr">const&lt;/span> &lt;span class="nx">day&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;0&amp;#39;&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="nx">date&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getDate&lt;/span>&lt;span class="p">()).&lt;/span>&lt;span class="nx">slice&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">// 日を2桁にフォーマット
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="kr">const&lt;/span> &lt;span class="nx">hours&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;0&amp;#39;&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="nx">date&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getHours&lt;/span>&lt;span class="p">()).&lt;/span>&lt;span class="nx">slice&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">// 時間を2桁にフォーマット
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="kr">const&lt;/span> &lt;span class="nx">minutes&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;0&amp;#39;&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="nx">date&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getMinutes&lt;/span>&lt;span class="p">()).&lt;/span>&lt;span class="nx">slice&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="c1">// 分を2桁にフォーマット
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="k">return&lt;/span> &lt;span class="sb">`&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nx">year&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="sb">/&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nx">month&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="sb">/&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nx">day&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="sb"> &lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nx">hours&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="sb">:&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nx">minutes&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="sb">`&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">};&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>こんな感じでSlackへ通知される。&lt;/p>
+&lt;p>チャンネル:&lt;/p>
+&lt;p>&lt;img src="https://github.com/user-attachments/assets/01877625-5fe5-4ba6-b599-271e2b0732f9"
+loading="lazy"
+>&lt;/p>
+&lt;p>スレッド:&lt;/p>
+&lt;p>&lt;img src="https://github.com/user-attachments/assets/62f89735-37d7-40d5-9168-c91601c3e31a"
+loading="lazy"
+>&lt;/p></description></item><item><title>値が空配列の場合を考慮したJSON_EXTRACT_ARRAY</title><link>https://yamamoto-yuta.github.io/p/handling-empty-array-in-json-extract-array/</link><pubDate>Fri, 01 Nov 2024 15:02:19 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/handling-empty-array-in-json-extract-array/</guid><description>&lt;font size="1" align="right">
 &lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/handling-empty-array-in-json-extract-array/index.md" target="_blank" rel="noopener"
 >✏️ 編集&lt;/a>&lt;/p>
 &lt;/font>
