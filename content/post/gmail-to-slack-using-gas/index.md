@@ -1,5 +1,5 @@
 ---
-title: "Gmail to Slack Using Gas"
+title: "GASを使って、Gmailに届いたメールをSlackへ転送する"
 description: 
 slug: gmail-to-slack-using-gas
 date: 2024-12-23T13:38:07Z
