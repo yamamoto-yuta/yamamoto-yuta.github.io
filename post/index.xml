@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on YAMAMOTO Yuta</title><link>https://yamamoto-yuta.github.io/post/</link><description>Recent content in Posts on YAMAMOTO Yuta</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>YAMAMOTO Yuta</copyright><lastBuildDate>Mon, 23 Dec 2024 13:38:07 +0000</lastBuildDate><atom:link href="https://yamamoto-yuta.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>GASを使って、Gmailに届いたメールをSlackへ転送する</title><link>https://yamamoto-yuta.github.io/p/gmail-to-slack-using-gas/</link><pubDate>Mon, 23 Dec 2024 13:38:07 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/gmail-to-slack-using-gas/</guid><description>&lt;font size="1" align="right">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on YAMAMOTO Yuta</title><link>https://yamamoto-yuta.github.io/post/</link><description>Recent content in Posts on YAMAMOTO Yuta</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>YAMAMOTO Yuta</copyright><lastBuildDate>Sun, 29 Dec 2024 02:38:10 +0000</lastBuildDate><atom:link href="https://yamamoto-yuta.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>ExcelファイルをGASで操作する場合はスプレッドシートへの変換が必要（2024/12/29時点）</title><link>https://yamamoto-yuta.github.io/p/convert-xlsx-to-spreadsheet-with-gas/</link><pubDate>Sun, 29 Dec 2024 02:38:10 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/convert-xlsx-to-spreadsheet-with-gas/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/convert-xlsx-to-spreadsheet-with-gas/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;p>タイトルの通り。ExcelファイルをGASでそのまま操作しようとすると次のエラーが出る。&lt;/p>
+&lt;p>検証用スクリプト:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="kr">const&lt;/span> &lt;span class="nx">main&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">spreadsheetId&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;YOUR_SPREADSHEET_ID&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">spreadsheetFromSpreadsheet&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">SpreadsheetApp&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">openById&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">spreadsheetId&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">spreadsheetFromSpreadsheet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getName&lt;/span>&lt;span class="p">());&lt;/span> &lt;span class="c1">// スプレッドシートのファイル名が出力される
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">xlsxId&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;YOUR_XLSX_ID&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">spreadsheetFromXlsx&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">SpreadsheetApp&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">openById&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">xlsxId&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">spreadsheetFromXlsx&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getName&lt;/span>&lt;span class="p">());&lt;/span> &lt;span class="c1">// Exception: Service Spreadsheets failed while accessing document with id 1RgRpia4esAR9xXsoxs5xDZRlySzvGpsW.
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">};&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>そのため、Excelファイルをスプレッドシートに変換する必要がある。調べると色々な方法が見つかるがどれも微妙にうまくいかなかったので、現時点でうまくいった方法を記載する（この方法もそのうち使えなくなるかもしれないが…）。&lt;/p>
+&lt;ol>
+&lt;li>「サービス」からDrive APIを有効にする（バージョンは現時点での最新版であるv3を使用する）&lt;/li>
+&lt;li>次のスクリプトを実行する&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="kr">const&lt;/span> &lt;span class="nx">main&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">parentFolderId&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;YOUR_PARENT_FOLDER_ID&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">xlsxId&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;YOUR_XLSX_ID&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">xlsxFile&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">DriveApp&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getFileById&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">xlsxId&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">options&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">name&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">xlsxFile&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getName&lt;/span>&lt;span class="p">(),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">mimeType&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">MimeType&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">GOOGLE_SHEETS&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">parents&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="nx">parentFolderId&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">const&lt;/span> &lt;span class="nx">spreadsheetFromXlsx&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">Drive&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">Files&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">create&lt;/span>&lt;span class="p">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">options&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">xlsxFile&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getBlob&lt;/span>&lt;span class="p">(),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>&lt;span class="nx">supportsAllDrives&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="kc">true&lt;/span>&lt;span class="p">}&lt;/span> &lt;span class="c1">// 共有ドライブ内のファイルを操作する場合に必要 ref: https://developers.google.com/drive/api/guides/enable-shareddrives?hl=ja
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">spreadsheetFromXlsx&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getName&lt;/span>&lt;span class="p">());&lt;/span> &lt;span class="c1">// ファイル名が表示される
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">};&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>GASを使って、Gmailに届いたメールをSlackへ転送する</title><link>https://yamamoto-yuta.github.io/p/gmail-to-slack-using-gas/</link><pubDate>Mon, 23 Dec 2024 13:38:07 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/gmail-to-slack-using-gas/</guid><description>&lt;font size="1" align="right">
 &lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/gmail-to-slack-using-gas/index.md" target="_blank" rel="noopener"
 >✏️ 編集&lt;/a>&lt;/p>
 &lt;/font>
