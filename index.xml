@@ -12,98 +12,43 @@
 &lt;h2 id="シチュエーション">シチュエーション
 &lt;/h2>&lt;p>今回、次のようなシチュエーションを考えます。&lt;/p>
 &lt;p>元々、次のように並列でジョブが実行されているパイプラインがあったとします。&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">graph LR
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> データ取り込みジョブ --&amp;gt; データ集計ジョブ1 --&amp;gt; データ設置ジョブ1
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> データ取り込みジョブ --&amp;gt; データ集計ジョブ2 --&amp;gt; データ設置ジョブ2
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;div class="mermaid" style="background-color: white">
+graph LR
+データ取り込みジョブ --> データ集計ジョブ1 --> データ設置ジョブ1
+データ取り込みジョブ --> データ集計ジョブ2 --> データ設置ジョブ2
 &lt;/div>
-&lt;/div>&lt;p>後からdbtを導入し、まずデータ集計ジョブ1をdbtに移行しました。続いてデータ集計ジョブ2もdbtに移行しようとしましたが、諸事情（◯時までに×××にデータを設置する必要があり、dbtに移行すると間に合わない、など）でできませんでした。&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">graph LR
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> データ取り込みジョブ --&amp;gt; dbt --&amp;gt; データ設置ジョブ1
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> データ取り込みジョブ --&amp;gt; データ集計ジョブ2 --&amp;gt; データ設置ジョブ2
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;p>後からdbtを導入し、まずデータ集計ジョブ1をdbtに移行しました。続いてデータ集計ジョブ2もdbtに移行しようとしましたが、諸事情（◯時までに×××にデータを設置する必要があり、dbtに移行すると間に合わない、など）でできませんでした。&lt;/p>
+&lt;div class="mermaid" style="background-color: white">
+graph LR
+データ取り込みジョブ --> dbt --> データ設置ジョブ1
+データ取り込みジョブ --> データ集計ジョブ2 --> データ設置ジョブ2
 &lt;/div>
-&lt;/div>&lt;p>しかし、このままだと集計ロジックがdbtとデータ集計ジョブ2の2つに分散し、管理が煩雑になってしまいます。&lt;/p>
+&lt;p>しかし、このままだと集計ロジックがdbtとデータ集計ジョブ2の2つに分散し、管理が煩雑になってしまいます。&lt;/p>
 &lt;h2 id="アイデア">アイデア
 &lt;/h2>&lt;p>この問題に対し、次のアイデアで解決を試みてみます。&lt;/p>
 &lt;p>データ集計ジョブ2の集計ロジックを &lt;code>mart_for_job2&lt;/code> モデルとしてdbtに移行します。 &lt;code>mart_for_job2&lt;/code> モデルは集計ロジックの実装を &lt;code>mart_for_job2_view&lt;/code> ビュー、実際のデータ保持を &lt;code>mart_for_job2&lt;/code> テーブルで行うようにします。データ集計ジョブ2は &lt;code>mart_for_job2_view&lt;/code> ビューを呼び出すことで集計処理を行うようにします。&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;span class="lnt">13
-&lt;/span>&lt;span class="lnt">14
-&lt;/span>&lt;span class="lnt">15
-&lt;/span>&lt;span class="lnt">16
-&lt;/span>&lt;span class="lnt">17
-&lt;/span>&lt;span class="lnt">18
-&lt;/span>&lt;span class="lnt">19
-&lt;/span>&lt;span class="lnt">20
-&lt;/span>&lt;span class="lnt">21
-&lt;/span>&lt;span class="lnt">22
-&lt;/span>&lt;span class="lnt">23
-&lt;/span>&lt;span class="lnt">24
-&lt;/span>&lt;span class="lnt">25
-&lt;/span>&lt;span class="lnt">26
-&lt;/span>&lt;span class="lnt">27
-&lt;/span>&lt;span class="lnt">28
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">graph LR
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> %% subgraph パイプライン
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> データ取り込みジョブ
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> subgraph dbt
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> stg_hoge
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> stg_bar
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> subgraph mart_for_job2モデル
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> mart_for_job2_view
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> mart_for_job2
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> end
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> end
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> データ設置ジョブ1
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> データ集計ジョブ2
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> データ設置ジョブ2
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> %% end
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> %%
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> stg_hoge --&amp;gt; mart_for_job2_view
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> stg_bar --&amp;gt; mart_for_job2_view
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> mart_for_job2_view --&amp;gt; mart_for_job2
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> データ取り込みジョブ --&amp;gt; dbt --&amp;gt; データ設置ジョブ1
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> データ取り込みジョブ --&amp;gt; データ集計ジョブ2 --&amp;gt; データ設置ジョブ2
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> mart_for_job2_view -. 呼び出し .-&amp;gt; データ集計ジョブ2
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;div class="mermaid" style="background-color: white">
+graph LR
+データ取り込みジョブ
+subgraph dbt
+stg_hoge
+stg_bar
+subgraph mart_for_job2モデル
+mart_for_job2_view
+mart_for_job2
+end
+end
+データ設置ジョブ1
+データ集計ジョブ2
+データ設置ジョブ2
+stg_hoge --> mart_for_job2_view
+stg_bar --> mart_for_job2_view
+mart_for_job2_view --> mart_for_job2
+データ取り込みジョブ --> dbt --> データ設置ジョブ1
+データ取り込みジョブ --> データ集計ジョブ2 --> データ設置ジョブ2
+mart_for_job2_view -. 呼び出し .-> データ集計ジョブ2
 &lt;/div>
-&lt;/div>&lt;p>こうすることで、ジョブが分かれていても集計ロジックはdbtへ集約させることができます。&lt;/p>
+&lt;p>こうすることで、ジョブが分かれていても集計ロジックはdbtへ集約させることができます。&lt;/p>
 &lt;p>時間に着目して言い換えると、データ集計ジョブ2は本来 &lt;code>mart_for_job2&lt;/code> テーブルに格納されてからでないと使えないはずの集計結果をそれより前に使えていることになります。これは時の流れを超越したと言っても過言ではないでしょうか（過言）。&lt;/p>
 &lt;h2 id="実際に実装してみた">実際に実装してみた
 &lt;/h2>&lt;p>次のデータリネージを持つdbtプロジェクトを作成し、 &lt;code>order_items&lt;/code> モデルをデータ集計ジョブ2で使う想定で &lt;code>order_items_view&lt;/code> ビューを実装しました。&lt;/p>
@@ -122,86 +67,40 @@ data-flex-basis="1258px"
 &lt;h2 id="アイデアの限界">アイデアの限界
 &lt;/h2>&lt;p>共通データマートを使いたい場合、使いたいテーブルができるまでの全てのdbtモデルでビューを作成する必要があります。dbtの実行完了より先にデータ集計ジョブ2が動き始めるため、dbtで作成したテーブルは使えません。&lt;/p>
 &lt;p>例えば、 &lt;code>mart_for_job2&lt;/code> モデルで共通データマートである &lt;code>dim_foo&lt;/code> モデルを使いたい場合、次のようにする必要があります。&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;span class="lnt">13
-&lt;/span>&lt;span class="lnt">14
-&lt;/span>&lt;span class="lnt">15
-&lt;/span>&lt;span class="lnt">16
-&lt;/span>&lt;span class="lnt">17
-&lt;/span>&lt;span class="lnt">18
-&lt;/span>&lt;span class="lnt">19
-&lt;/span>&lt;span class="lnt">20
-&lt;/span>&lt;span class="lnt">21
-&lt;/span>&lt;span class="lnt">22
-&lt;/span>&lt;span class="lnt">23
-&lt;/span>&lt;span class="lnt">24
-&lt;/span>&lt;span class="lnt">25
-&lt;/span>&lt;span class="lnt">26
-&lt;/span>&lt;span class="lnt">27
-&lt;/span>&lt;span class="lnt">28
-&lt;/span>&lt;span class="lnt">29
-&lt;/span>&lt;span class="lnt">30
-&lt;/span>&lt;span class="lnt">31
-&lt;/span>&lt;span class="lnt">32
-&lt;/span>&lt;span class="lnt">33
-&lt;/span>&lt;span class="lnt">34
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">graph LR
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> %% subgraph パイプライン
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> データ取り込みジョブ
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> subgraph dbt
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> stg_hoge
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> stg_bar
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> subgraph dim_fooモデル
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> dim_foo_view
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> dim_foo
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> end
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> subgraph mart_for_job2モデル
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> mart_for_job2_view
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> mart_for_job2
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> end
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> end
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> データ設置ジョブ1
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> データ集計ジョブ2
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> データ設置ジョブ2
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> %% end
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> %%
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> stg_hoge --&amp;gt; dim_foo_view
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> stg_bar --&amp;gt; dim_foo_view
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> dim_foo_view --&amp;gt; dim_foo
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> dim_foo_view --&amp;gt; mart_for_job2_view
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> mart_for_job2_view --&amp;gt; mart_for_job2
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> データ取り込みジョブ --&amp;gt; dbt --&amp;gt; データ設置ジョブ1
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> データ取り込みジョブ --&amp;gt; データ集計ジョブ2 --&amp;gt; データ設置ジョブ2
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> mart_for_job2_view -. 呼び出し .-&amp;gt; データ集計ジョブ2
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;div class="mermaid" style="background-color: white">
+graph LR
+データ取り込みジョブ
+subgraph dbt
+stg_hoge
+stg_bar
+subgraph dim_fooモデル
+dim_foo_view
+dim_foo
+end
+subgraph mart_for_job2モデル
+mart_for_job2_view
+mart_for_job2
+end
+end
+データ設置ジョブ1
+データ集計ジョブ2
+データ設置ジョブ2
+stg_hoge --> dim_foo_view
+stg_bar --> dim_foo_view
+dim_foo_view --> dim_foo
+dim_foo_view --> mart_for_job2_view
+mart_for_job2_view --> mart_for_job2
+データ取り込みジョブ --> dbt --> データ設置ジョブ1
+データ取り込みジョブ --> データ集計ジョブ2 --> データ設置ジョブ2
+mart_for_job2_view -. 呼び出し .-> データ集計ジョブ2
 &lt;/div>
-&lt;/div>&lt;p>これにより、データリネージが本来より複雑になります。これはdbt docsの使い勝手やdbt testの行いやすさなどに影響を与える可能性があります。&lt;/p>
+&lt;p>これにより、データリネージが本来より複雑になります。これはdbt docsの使い勝手やdbt testの行いやすさなどに影響を与える可能性があります。&lt;/p>
 &lt;p>このあたりはCustom Materializationを使えば（1つのdbtモデルでビューとテーブルの2つを実体化できるようなmaterializationを自作する、など）改善できるかもしれません（要検証）。&lt;/p>
 &lt;h2 id="結び">結び
 &lt;/h2>&lt;p>この記事では、ビューを使ってジョブの実行順によらず集計ロジックをdbtへ集約するアイデアについて記しました。&lt;/p>
 &lt;p>冒頭にも書いた通り、「エモいな」という感情に任せて勢いで書いてますし、多分やらないで済む方向で出来る限り頑張ったほうが良いと思います。&lt;/p>
-&lt;p>とはいえ、今回挙げたシチュエーションに実際に陥ってしまったなど、何かしらお役に立てれば幸いです🙇&lt;/p></description></item><item><title>VSCodeでBigQuery実行環境を整える</title><link>https://yamamoto-yuta.github.io/p/run-bq-with-vscode/</link><pubDate>Sun, 29 Dec 2024 04:49:32 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/run-bq-with-vscode/</guid><description>&lt;font size="1" align="right">
+&lt;p>とはいえ、今回挙げたシチュエーションに実際に陥ってしまったなど、何かしらお役に立てれば幸いです🙇&lt;/p>
+&lt;script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js">&lt;/script></description></item><item><title>VSCodeでBigQuery実行環境を整える</title><link>https://yamamoto-yuta.github.io/p/run-bq-with-vscode/</link><pubDate>Sun, 29 Dec 2024 04:49:32 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/run-bq-with-vscode/</guid><description>&lt;font size="1" align="right">
 &lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/run-bq-with-vscode/index.md" target="_blank" rel="noopener"
 >✏️ 編集&lt;/a>&lt;/p>
 &lt;/font>

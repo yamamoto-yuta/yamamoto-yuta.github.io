@@ -9,143 +9,53 @@
 <svg class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="16" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg>
 <span>ダークモード</span></li></ol></li></ol></aside><aside class="sidebar right-sidebar sticky"><section class="widget archives"><div class=widget-icon><svg class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg></div><h2 class="widget-title section-title">目次</h2><div class=widget--toc><nav id=TableOfContents><ol><li><a href=#シチュエーション>シチュエーション</a></li><li><a href=#アイデア>アイデア</a></li><li><a href=#実際に実装してみた>実際に実装してみた</a></li><li><a href=#アイデアの限界>アイデアの限界</a></li><li><a href=#結び>結び</a></li></ol></nav></div></section></aside><main class="main full-width"><article class=main-article><header class=article-header><div class=article-details><div class=article-title-wrapper><h2 class=article-title><a href=/p/dbt-cross-time-with-view/>ビューを使ってジョブの実行順によらず集計ロジックをdbtへ集約するアイデア</a></h2></div><footer class=article-time><div><svg class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
 <time class=article-time--published>2024-12-30</time></div><div><svg class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
-<time class=article-time--reading>読了時間: 4分</time></div></footer></div></header><section class=article-content><font size=1 align=right><p><a class=link href=https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/dbt-cross-time-with-view/index.md target=_blank rel=noopener>✏️ 編集</a></p></font><p>インターステラーのIMAX再上映を観てから、「時の流れ」がマイブームになっています。そんな中、次のアイデアが浮かんで「エモいな」と思ったのでこの記事で少し書いてみたいと思います。</p><p><strong>データそのものは時の流れに逆らえない（ある瞬間に生成された集計結果を過去から利用することはできない）が、その集計ロジックは（大元のデータの構造やロジックに変更が入らない限り）いつ実行しても同じだから時間を超越できる。</strong></p><p>注意:</p><ul><li>「エモいな」という感情に任せて勢いで書いているので、実践で役に立つかは考慮していません（多分、やらないで済む方向に出来る限り頑張ったほうが良いと思います）</li><li>そもそも普通にもっと良い方法があるかもしれませんので、その際はご指摘いただけると幸いです</li></ul><h2 id=シチュエーション>シチュエーション</h2><p>今回、次のようなシチュエーションを考えます。</p><p>元々、次のように並列でジョブが実行されているパイプラインがあったとします。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
-</span><span class=lnt>2
-</span><span class=lnt>3
-</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>graph LR
-</span></span><span class=line><span class=cl>    データ取り込みジョブ --&gt; データ集計ジョブ1 --&gt; データ設置ジョブ1
-</span></span><span class=line><span class=cl>    データ取り込みジョブ --&gt; データ集計ジョブ2 --&gt; データ設置ジョブ2
-</span></span></code></pre></td></tr></table></div></div><p>後からdbtを導入し、まずデータ集計ジョブ1をdbtに移行しました。続いてデータ集計ジョブ2もdbtに移行しようとしましたが、諸事情（◯時までに×××にデータを設置する必要があり、dbtに移行すると間に合わない、など）でできませんでした。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
-</span><span class=lnt>2
-</span><span class=lnt>3
-</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>graph LR
-</span></span><span class=line><span class=cl>    データ取り込みジョブ --&gt; dbt --&gt; データ設置ジョブ1
-</span></span><span class=line><span class=cl>    データ取り込みジョブ --&gt; データ集計ジョブ2 --&gt; データ設置ジョブ2
-</span></span></code></pre></td></tr></table></div></div><p>しかし、このままだと集計ロジックがdbtとデータ集計ジョブ2の2つに分散し、管理が煩雑になってしまいます。</p><h2 id=アイデア>アイデア</h2><p>この問題に対し、次のアイデアで解決を試みてみます。</p><p>データ集計ジョブ2の集計ロジックを <code>mart_for_job2</code> モデルとしてdbtに移行します。 <code>mart_for_job2</code> モデルは集計ロジックの実装を <code>mart_for_job2_view</code> ビュー、実際のデータ保持を <code>mart_for_job2</code> テーブルで行うようにします。データ集計ジョブ2は <code>mart_for_job2_view</code> ビューを呼び出すことで集計処理を行うようにします。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
-</span><span class=lnt> 2
-</span><span class=lnt> 3
-</span><span class=lnt> 4
-</span><span class=lnt> 5
-</span><span class=lnt> 6
-</span><span class=lnt> 7
-</span><span class=lnt> 8
-</span><span class=lnt> 9
-</span><span class=lnt>10
-</span><span class=lnt>11
-</span><span class=lnt>12
-</span><span class=lnt>13
-</span><span class=lnt>14
-</span><span class=lnt>15
-</span><span class=lnt>16
-</span><span class=lnt>17
-</span><span class=lnt>18
-</span><span class=lnt>19
-</span><span class=lnt>20
-</span><span class=lnt>21
-</span><span class=lnt>22
-</span><span class=lnt>23
-</span><span class=lnt>24
-</span><span class=lnt>25
-</span><span class=lnt>26
-</span><span class=lnt>27
-</span><span class=lnt>28
-</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>graph LR
-</span></span><span class=line><span class=cl>    %% subgraph パイプライン
-</span></span><span class=line><span class=cl>        データ取り込みジョブ
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        subgraph dbt
-</span></span><span class=line><span class=cl>            stg_hoge
-</span></span><span class=line><span class=cl>            stg_bar
-</span></span><span class=line><span class=cl>            subgraph mart_for_job2モデル
-</span></span><span class=line><span class=cl>                mart_for_job2_view
-</span></span><span class=line><span class=cl>                mart_for_job2
-</span></span><span class=line><span class=cl>            end
-</span></span><span class=line><span class=cl>        end
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        データ設置ジョブ1
-</span></span><span class=line><span class=cl>        データ集計ジョブ2
-</span></span><span class=line><span class=cl>        データ設置ジョブ2
-</span></span><span class=line><span class=cl>    %% end
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    %% 
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    stg_hoge --&gt; mart_for_job2_view
-</span></span><span class=line><span class=cl>    stg_bar --&gt; mart_for_job2_view
-</span></span><span class=line><span class=cl>    mart_for_job2_view --&gt; mart_for_job2
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    データ取り込みジョブ --&gt; dbt --&gt; データ設置ジョブ1
-</span></span><span class=line><span class=cl>    データ取り込みジョブ --&gt; データ集計ジョブ2 --&gt; データ設置ジョブ2
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    mart_for_job2_view -. 呼び出し .-&gt; データ集計ジョブ2
-</span></span></code></pre></td></tr></table></div></div><p>こうすることで、ジョブが分かれていても集計ロジックはdbtへ集約させることができます。</p><p>時間に着目して言い換えると、データ集計ジョブ2は本来 <code>mart_for_job2</code> テーブルに格納されてからでないと使えないはずの集計結果をそれより前に使えていることになります。これは時の流れを超越したと言っても過言ではないでしょうか（過言）。</p><h2 id=実際に実装してみた>実際に実装してみた</h2><p>次のデータリネージを持つdbtプロジェクトを作成し、 <code>order_items</code> モデルをデータ集計ジョブ2で使う想定で <code>order_items_view</code> ビューを実装しました。</p><p><img src=/p/dbt-cross-time-with-view/image-1.png width=1820 height=347 srcset="/p/dbt-cross-time-with-view/image-1_hu7645327253076017008.png 480w, /p/dbt-cross-time-with-view/image-1_hu10961529322284048148.png 1024w" loading=lazy class=gallery-image data-flex-grow=524 data-flex-basis=1258px></p><p>実装したリポジトリがこちらです。</p><p><a class=link href=https://github.com/yamamoto-yuta/dbt-cross-time-with-view target=_blank rel=noopener>https://github.com/yamamoto-yuta/dbt-cross-time-with-view</a></p><h2 id=アイデアの限界>アイデアの限界</h2><p>共通データマートを使いたい場合、使いたいテーブルができるまでの全てのdbtモデルでビューを作成する必要があります。dbtの実行完了より先にデータ集計ジョブ2が動き始めるため、dbtで作成したテーブルは使えません。</p><p>例えば、 <code>mart_for_job2</code> モデルで共通データマートである <code>dim_foo</code> モデルを使いたい場合、次のようにする必要があります。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
-</span><span class=lnt> 2
-</span><span class=lnt> 3
-</span><span class=lnt> 4
-</span><span class=lnt> 5
-</span><span class=lnt> 6
-</span><span class=lnt> 7
-</span><span class=lnt> 8
-</span><span class=lnt> 9
-</span><span class=lnt>10
-</span><span class=lnt>11
-</span><span class=lnt>12
-</span><span class=lnt>13
-</span><span class=lnt>14
-</span><span class=lnt>15
-</span><span class=lnt>16
-</span><span class=lnt>17
-</span><span class=lnt>18
-</span><span class=lnt>19
-</span><span class=lnt>20
-</span><span class=lnt>21
-</span><span class=lnt>22
-</span><span class=lnt>23
-</span><span class=lnt>24
-</span><span class=lnt>25
-</span><span class=lnt>26
-</span><span class=lnt>27
-</span><span class=lnt>28
-</span><span class=lnt>29
-</span><span class=lnt>30
-</span><span class=lnt>31
-</span><span class=lnt>32
-</span><span class=lnt>33
-</span><span class=lnt>34
-</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>graph LR
-</span></span><span class=line><span class=cl>    %% subgraph パイプライン
-</span></span><span class=line><span class=cl>        データ取り込みジョブ
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        subgraph dbt
-</span></span><span class=line><span class=cl>            stg_hoge
-</span></span><span class=line><span class=cl>            stg_bar
-</span></span><span class=line><span class=cl>            subgraph dim_fooモデル
-</span></span><span class=line><span class=cl>                dim_foo_view
-</span></span><span class=line><span class=cl>                dim_foo
-</span></span><span class=line><span class=cl>            end
-</span></span><span class=line><span class=cl>            subgraph mart_for_job2モデル
-</span></span><span class=line><span class=cl>                mart_for_job2_view
-</span></span><span class=line><span class=cl>                mart_for_job2
-</span></span><span class=line><span class=cl>            end
-</span></span><span class=line><span class=cl>        end
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>        データ設置ジョブ1
-</span></span><span class=line><span class=cl>        データ集計ジョブ2
-</span></span><span class=line><span class=cl>        データ設置ジョブ2
-</span></span><span class=line><span class=cl>    %% end
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    %% 
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    stg_hoge --&gt; dim_foo_view
-</span></span><span class=line><span class=cl>    stg_bar --&gt; dim_foo_view
-</span></span><span class=line><span class=cl>    dim_foo_view --&gt; dim_foo
-</span></span><span class=line><span class=cl>    dim_foo_view --&gt; mart_for_job2_view
-</span></span><span class=line><span class=cl>    mart_for_job2_view --&gt; mart_for_job2
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    データ取り込みジョブ --&gt; dbt --&gt; データ設置ジョブ1
-</span></span><span class=line><span class=cl>    データ取り込みジョブ --&gt; データ集計ジョブ2 --&gt; データ設置ジョブ2
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    mart_for_job2_view -. 呼び出し .-&gt; データ集計ジョブ2
-</span></span></code></pre></td></tr></table></div></div><p>これにより、データリネージが本来より複雑になります。これはdbt docsの使い勝手やdbt testの行いやすさなどに影響を与える可能性があります。</p><p>このあたりはCustom Materializationを使えば（1つのdbtモデルでビューとテーブルの2つを実体化できるようなmaterializationを自作する、など）改善できるかもしれません（要検証）。</p><h2 id=結び>結び</h2><p>この記事では、ビューを使ってジョブの実行順によらず集計ロジックをdbtへ集約するアイデアについて記しました。</p><p>冒頭にも書いた通り、「エモいな」という感情に任せて勢いで書いてますし、多分やらないで済む方向で出来る限り頑張ったほうが良いと思います。</p><p>とはいえ、今回挙げたシチュエーションに実際に陥ってしまったなど、何かしらお役に立てれば幸いです🙇</p></section><footer class=article-footer></footer><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css integrity=sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV crossorigin=anonymous><script src=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js integrity=sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8 crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js integrity=sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05 crossorigin=anonymous defer></script><script>window.addEventListener("DOMContentLoaded",()=>{renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}],ignoredClasses:["gist"]})})</script></article><footer class=site-footer><section class=copyright>&copy;
+<time class=article-time--reading>読了時間: 4分</time></div></footer></div></header><section class=article-content><font size=1 align=right><p><a class=link href=https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/dbt-cross-time-with-view/index.md target=_blank rel=noopener>✏️ 編集</a></p></font><p>インターステラーのIMAX再上映を観てから、「時の流れ」がマイブームになっています。そんな中、次のアイデアが浮かんで「エモいな」と思ったのでこの記事で少し書いてみたいと思います。</p><p><strong>データそのものは時の流れに逆らえない（ある瞬間に生成された集計結果を過去から利用することはできない）が、その集計ロジックは（大元のデータの構造やロジックに変更が入らない限り）いつ実行しても同じだから時間を超越できる。</strong></p><p>注意:</p><ul><li>「エモいな」という感情に任せて勢いで書いているので、実践で役に立つかは考慮していません（多分、やらないで済む方向に出来る限り頑張ったほうが良いと思います）</li><li>そもそも普通にもっと良い方法があるかもしれませんので、その際はご指摘いただけると幸いです</li></ul><h2 id=シチュエーション>シチュエーション</h2><p>今回、次のようなシチュエーションを考えます。</p><p>元々、次のように並列でジョブが実行されているパイプラインがあったとします。</p><div class=mermaid style=background-color:#fff>graph LR
+データ取り込みジョブ --> データ集計ジョブ1 --> データ設置ジョブ1
+データ取り込みジョブ --> データ集計ジョブ2 --> データ設置ジョブ2</div><p>後からdbtを導入し、まずデータ集計ジョブ1をdbtに移行しました。続いてデータ集計ジョブ2もdbtに移行しようとしましたが、諸事情（◯時までに×××にデータを設置する必要があり、dbtに移行すると間に合わない、など）でできませんでした。</p><div class=mermaid style=background-color:#fff>graph LR
+データ取り込みジョブ --> dbt --> データ設置ジョブ1
+データ取り込みジョブ --> データ集計ジョブ2 --> データ設置ジョブ2</div><p>しかし、このままだと集計ロジックがdbtとデータ集計ジョブ2の2つに分散し、管理が煩雑になってしまいます。</p><h2 id=アイデア>アイデア</h2><p>この問題に対し、次のアイデアで解決を試みてみます。</p><p>データ集計ジョブ2の集計ロジックを <code>mart_for_job2</code> モデルとしてdbtに移行します。 <code>mart_for_job2</code> モデルは集計ロジックの実装を <code>mart_for_job2_view</code> ビュー、実際のデータ保持を <code>mart_for_job2</code> テーブルで行うようにします。データ集計ジョブ2は <code>mart_for_job2_view</code> ビューを呼び出すことで集計処理を行うようにします。</p><div class=mermaid style=background-color:#fff>graph LR
+データ取り込みジョブ
+subgraph dbt
+stg_hoge
+stg_bar
+subgraph mart_for_job2モデル
+mart_for_job2_view
+mart_for_job2
+end
+end
+データ設置ジョブ1
+データ集計ジョブ2
+データ設置ジョブ2
+stg_hoge --> mart_for_job2_view
+stg_bar --> mart_for_job2_view
+mart_for_job2_view --> mart_for_job2
+データ取り込みジョブ --> dbt --> データ設置ジョブ1
+データ取り込みジョブ --> データ集計ジョブ2 --> データ設置ジョブ2
+mart_for_job2_view -. 呼び出し .-> データ集計ジョブ2</div><p>こうすることで、ジョブが分かれていても集計ロジックはdbtへ集約させることができます。</p><p>時間に着目して言い換えると、データ集計ジョブ2は本来 <code>mart_for_job2</code> テーブルに格納されてからでないと使えないはずの集計結果をそれより前に使えていることになります。これは時の流れを超越したと言っても過言ではないでしょうか（過言）。</p><h2 id=実際に実装してみた>実際に実装してみた</h2><p>次のデータリネージを持つdbtプロジェクトを作成し、 <code>order_items</code> モデルをデータ集計ジョブ2で使う想定で <code>order_items_view</code> ビューを実装しました。</p><p><img src=/p/dbt-cross-time-with-view/image-1.png width=1820 height=347 srcset="/p/dbt-cross-time-with-view/image-1_hu7645327253076017008.png 480w, /p/dbt-cross-time-with-view/image-1_hu10961529322284048148.png 1024w" loading=lazy class=gallery-image data-flex-grow=524 data-flex-basis=1258px></p><p>実装したリポジトリがこちらです。</p><p><a class=link href=https://github.com/yamamoto-yuta/dbt-cross-time-with-view target=_blank rel=noopener>https://github.com/yamamoto-yuta/dbt-cross-time-with-view</a></p><h2 id=アイデアの限界>アイデアの限界</h2><p>共通データマートを使いたい場合、使いたいテーブルができるまでの全てのdbtモデルでビューを作成する必要があります。dbtの実行完了より先にデータ集計ジョブ2が動き始めるため、dbtで作成したテーブルは使えません。</p><p>例えば、 <code>mart_for_job2</code> モデルで共通データマートである <code>dim_foo</code> モデルを使いたい場合、次のようにする必要があります。</p><div class=mermaid style=background-color:#fff>graph LR
+データ取り込みジョブ
+subgraph dbt
+stg_hoge
+stg_bar
+subgraph dim_fooモデル
+dim_foo_view
+dim_foo
+end
+subgraph mart_for_job2モデル
+mart_for_job2_view
+mart_for_job2
+end
+end
+データ設置ジョブ1
+データ集計ジョブ2
+データ設置ジョブ2
+stg_hoge --> dim_foo_view
+stg_bar --> dim_foo_view
+dim_foo_view --> dim_foo
+dim_foo_view --> mart_for_job2_view
+mart_for_job2_view --> mart_for_job2
+データ取り込みジョブ --> dbt --> データ設置ジョブ1
+データ取り込みジョブ --> データ集計ジョブ2 --> データ設置ジョブ2
+mart_for_job2_view -. 呼び出し .-> データ集計ジョブ2</div><p>これにより、データリネージが本来より複雑になります。これはdbt docsの使い勝手やdbt testの行いやすさなどに影響を与える可能性があります。</p><p>このあたりはCustom Materializationを使えば（1つのdbtモデルでビューとテーブルの2つを実体化できるようなmaterializationを自作する、など）改善できるかもしれません（要検証）。</p><h2 id=結び>結び</h2><p>この記事では、ビューを使ってジョブの実行順によらず集計ロジックをdbtへ集約するアイデアについて記しました。</p><p>冒頭にも書いた通り、「エモいな」という感情に任せて勢いで書いてますし、多分やらないで済む方向で出来る限り頑張ったほうが良いと思います。</p><p>とはいえ、今回挙げたシチュエーションに実際に陥ってしまったなど、何かしらお役に立てれば幸いです🙇</p><script src=https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js></script></section><footer class=article-footer></footer><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css integrity=sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV crossorigin=anonymous><script src=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js integrity=sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8 crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js integrity=sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05 crossorigin=anonymous defer></script><script>window.addEventListener("DOMContentLoaded",()=>{renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}],ignoredClasses:["gist"]})})</script></article><footer class=site-footer><section class=copyright>&copy;
 2020 -
 2024 YAMAMOTO Yuta</section><section class=powerby><a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> で構築されています。<br>テーマ <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.26.0>Stack</a></b> は <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a> によって設計されています。</section></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
 <button class="pswp__button pswp__button--share" title=Share></button>
