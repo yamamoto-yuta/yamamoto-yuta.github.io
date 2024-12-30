@@ -33,19 +33,19 @@ draft: false
 
 元々、次のように並列でジョブが実行されているパイプラインがあったとします。
 
-```mermaid
+<div class="mermaid" style="background-color: white">
 graph LR
     データ取り込みジョブ --> データ集計ジョブ1 --> データ設置ジョブ1
     データ取り込みジョブ --> データ集計ジョブ2 --> データ設置ジョブ2
-```
+</div>
 
 後からdbtを導入し、まずデータ集計ジョブ1をdbtに移行しました。続いてデータ集計ジョブ2もdbtに移行しようとしましたが、諸事情（◯時までに×××にデータを設置する必要があり、dbtに移行すると間に合わない、など）でできませんでした。
 
-```mermaid
+<div class="mermaid" style="background-color: white">
 graph LR
     データ取り込みジョブ --> dbt --> データ設置ジョブ1
     データ取り込みジョブ --> データ集計ジョブ2 --> データ設置ジョブ2
-```
+</div>
 
 しかし、このままだと集計ロジックがdbtとデータ集計ジョブ2の2つに分散し、管理が煩雑になってしまいます。
 
@@ -55,36 +55,27 @@ graph LR
 
 データ集計ジョブ2の集計ロジックを `mart_for_job2` モデルとしてdbtに移行します。 `mart_for_job2` モデルは集計ロジックの実装を `mart_for_job2_view` ビュー、実際のデータ保持を `mart_for_job2` テーブルで行うようにします。データ集計ジョブ2は `mart_for_job2_view` ビューを呼び出すことで集計処理を行うようにします。
 
-```mermaid
+<div class="mermaid" style="background-color: white">
 graph LR
-    %% subgraph パイプライン
-        データ取り込みジョブ
-
-        subgraph dbt
-            stg_hoge
-            stg_bar
-            subgraph mart_for_job2モデル
-                mart_for_job2_view
-                mart_for_job2
-            end
+    データ取り込みジョブ
+    subgraph dbt
+        stg_hoge
+        stg_bar
+        subgraph mart_for_job2モデル
+            mart_for_job2_view
+            mart_for_job2
         end
-
-        データ設置ジョブ1
-        データ集計ジョブ2
-        データ設置ジョブ2
-    %% end
-
-    %% 
-
+    end
+    データ設置ジョブ1
+    データ集計ジョブ2
+    データ設置ジョブ2
     stg_hoge --> mart_for_job2_view
     stg_bar --> mart_for_job2_view
     mart_for_job2_view --> mart_for_job2
-
     データ取り込みジョブ --> dbt --> データ設置ジョブ1
     データ取り込みジョブ --> データ集計ジョブ2 --> データ設置ジョブ2
-
     mart_for_job2_view -. 呼び出し .-> データ集計ジョブ2
-```
+</div>
 
 こうすることで、ジョブが分かれていても集計ロジックはdbtへ集約させることができます。
 
@@ -106,42 +97,33 @@ https://github.com/yamamoto-yuta/dbt-cross-time-with-view
 
 例えば、 `mart_for_job2` モデルで共通データマートである `dim_foo` モデルを使いたい場合、次のようにする必要があります。
 
-```mermaid
+<div class="mermaid" style="background-color: white">
 graph LR
-    %% subgraph パイプライン
-        データ取り込みジョブ
-
-        subgraph dbt
-            stg_hoge
-            stg_bar
-            subgraph dim_fooモデル
-                dim_foo_view
-                dim_foo
-            end
-            subgraph mart_for_job2モデル
-                mart_for_job2_view
-                mart_for_job2
-            end
+    データ取り込みジョブ
+    subgraph dbt
+        stg_hoge
+        stg_bar
+        subgraph dim_fooモデル
+            dim_foo_view
+            dim_foo
         end
-
-        データ設置ジョブ1
-        データ集計ジョブ2
-        データ設置ジョブ2
-    %% end
-
-    %% 
-
+        subgraph mart_for_job2モデル
+            mart_for_job2_view
+            mart_for_job2
+        end
+    end
+    データ設置ジョブ1
+    データ集計ジョブ2
+    データ設置ジョブ2
     stg_hoge --> dim_foo_view
     stg_bar --> dim_foo_view
     dim_foo_view --> dim_foo
     dim_foo_view --> mart_for_job2_view
     mart_for_job2_view --> mart_for_job2
-
     データ取り込みジョブ --> dbt --> データ設置ジョブ1
     データ取り込みジョブ --> データ集計ジョブ2 --> データ設置ジョブ2
-
     mart_for_job2_view -. 呼び出し .-> データ集計ジョブ2
-```
+</div>
 
 これにより、データリネージが本来より複雑になります。これはdbt docsの使い勝手やdbt testの行いやすさなどに影響を与える可能性があります。
 
@@ -154,3 +136,5 @@ graph LR
 冒頭にも書いた通り、「エモいな」という感情に任せて勢いで書いてますし、多分やらないで済む方向で出来る限り頑張ったほうが良いと思います。
 
 とはいえ、今回挙げたシチュエーションに実際に陥ってしまったなど、何かしらお役に立てれば幸いです🙇
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
