@@ -21,6 +21,10 @@ menu:
 
 <!-- 埋め込みはここから: https://iframely.com/try -->
 
+## 2025 年
+
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/minkyo-2025" data-iframely-url="//iframely.net/cwnJwuR?card=small&media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
+
 ## 2024 年
 
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://qiita.com/yamamoto-yuta/items/4c2478625cc62e6523cf" data-iframely-url="//iframely.net/3lK5202?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>
