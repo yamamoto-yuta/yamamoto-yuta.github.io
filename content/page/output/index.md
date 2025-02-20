@@ -23,6 +23,8 @@ menu:
 
 ## 2025 年
 
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://pug.connpass.com/event/344460/" data-iframely-url="//iframely.net/6vf0kXi?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>
+
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/minkyo-2025" data-iframely-url="//iframely.net/cwnJwuR?card=small&media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
 ## 2024 年
@@ -40,6 +42,8 @@ menu:
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/my-guide-to-evangelizing-dbt-troccoug-ver" data-iframely-url="//iframely.net/VdEkBac?card=small&media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/lightning-talk-13" data-iframely-url="//iframely.net/rpNlH18?card=small&media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
+
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://connpass.com/event/325997/" data-iframely-url="//iframely.net/D7FOj6s"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://qiita.com/yamamoto-yuta/items/df2add3a8cdeae131ec2" data-iframely-url="//iframely.net/MIC0Kbu?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
