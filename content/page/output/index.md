@@ -23,6 +23,8 @@ menu:
 
 ## 2025 年
 
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://qiita.com/yamamoto-yuta/items/1f895c23dea3c611af32" data-iframely-url="//iframely.net/yUT9qsE?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>
+
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://pug.connpass.com/event/344460/" data-iframely-url="//iframely.net/6vf0kXi?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/minkyo-2025" data-iframely-url="//iframely.net/cwnJwuR?card=small&media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
