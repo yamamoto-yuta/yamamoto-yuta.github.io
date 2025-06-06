@@ -23,6 +23,10 @@ menu:
 
 ## 2025 年
 
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/dataopsnight-7" data-iframely-url="//iframely.net/iGDEJLMQ?media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
+
+<iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Ftech.yappli.io%2Fentry%2Flightning-talk-15" title="プロダクト開発本部LT大会#15を開催しました - Yappli Tech Blog" class="embed-card embed-blogcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;"></iframe>
+
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/bigquery-multiple-projects-table-usage-dashboard" data-iframely-url="//iframely.net/5LfwhRB?card=small&media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
 
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://qiita.com/yamamoto-yuta/items/1f895c23dea3c611af32" data-iframely-url="//iframely.net/yUT9qsE?card=small"></a></div></div><script async src="//iframely.net/embed.js"></script>
