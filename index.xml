@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>YAMAMOTO Yuta</title><link>https://yamamoto-yuta.github.io/</link><description>Recent content on YAMAMOTO Yuta</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>YAMAMOTO Yuta</copyright><lastBuildDate>Sun, 29 Dec 2024 04:49:32 +0000</lastBuildDate><atom:link href="https://yamamoto-yuta.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>VSCodeでBigQuery実行環境を整える</title><link>https://yamamoto-yuta.github.io/p/run-bq-with-vscode/</link><pubDate>Sun, 29 Dec 2024 04:49:32 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/run-bq-with-vscode/</guid><description>&lt;font size="1" align="right">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>YAMAMOTO Yuta</title><link>https://yamamoto-yuta.github.io/</link><description>Recent content on YAMAMOTO Yuta</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>YAMAMOTO Yuta</copyright><lastBuildDate>Mon, 07 Jul 2025 03:31:49 +0000</lastBuildDate><atom:link href="https://yamamoto-yuta.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Redash→スプレッドシートへの自動反映をやってみたメモ</title><link>https://yamamoto-yuta.github.io/p/redash-to-spreadsheet/</link><pubDate>Mon, 07 Jul 2025 03:31:49 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/redash-to-spreadsheet/</guid><description>&lt;font size="1" align="right">
+&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/redash-to-spreadsheet/index.md" target="_blank" rel="noopener"
+>✏️ 編集&lt;/a>&lt;/p>
+&lt;/font>
+&lt;p>記事タイトルの通り。&lt;/p>
+&lt;p>基本的に次の記事の通りにやれば行けた。&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;a class="link" href="https://qiita.com/yamaking/items/aa6ef37ec0f2b0b3de3d" target="_blank" rel="noopener"
+>RedashのデータをGoogleスプレッドシートに自動で反映する方法 #redash - Qiita&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>この記事では、実際にやってつまづいたところをメモする。&lt;/p>
+&lt;p>##　スプレッドシート側で勝手に数値へ変換されてしまう&lt;/p>
+&lt;p>カラムの値が全部数値だったり &lt;code>12e9&lt;/code> のように指数表記だったりすると、スプレッドシート側で勝手に数値変換されてしまう。その場合は Redash 側で先頭に &lt;code>'&lt;/code> を入れると良い。スプレッドシートでは先頭に &lt;code>'&lt;/code> が入ったセルは自動変換が走らずそのまま文字列として扱ってくれる。&lt;/p>
+&lt;p>MySQLの場合は次のように CONCAT してあげれば良い。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">SELECT&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="n">CONCAT&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;&amp;#39;&amp;#39;&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">col&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">AS&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">col&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">FROM&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">table&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>ちなみに表示形式を「書式なしテキスト」にするのは意味がなかった（普通に数値へ変換されてしまった）。&lt;/p>
+&lt;h2 id="クエリに変更を加えた場合の更新手順">クエリに変更を加えた場合の更新手順
+&lt;/h2>&lt;ol>
+&lt;li>Redash側で save -&amp;gt; execute して、API keyのURLで取ってこれるデータを更新&lt;/li>
+&lt;li>スプレッドシートのIMPORTDATA関数を一度消して再設定&lt;/li>
+&lt;/ol></description></item><item><title>VSCodeでBigQuery実行環境を整える</title><link>https://yamamoto-yuta.github.io/p/run-bq-with-vscode/</link><pubDate>Sun, 29 Dec 2024 04:49:32 +0000</pubDate><guid>https://yamamoto-yuta.github.io/p/run-bq-with-vscode/</guid><description>&lt;font size="1" align="right">
 &lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/run-bq-with-vscode/index.md" target="_blank" rel="noopener"
 >✏️ 編集&lt;/a>&lt;/p>
 &lt;/font>
