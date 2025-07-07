@@ -9,8 +9,8 @@
 >RedashのデータをGoogleスプレッドシートに自動で反映する方法 #redash - Qiita&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>この記事では、実際にやってつまづいたところをメモする。&lt;/p>
-&lt;p>##　スプレッドシート側で勝手に数値へ変換されてしまう&lt;/p>
-&lt;p>カラムの値が全部数値だったり &lt;code>12e9&lt;/code> のように指数表記だったりすると、スプレッドシート側で勝手に数値変換されてしまう。その場合は Redash 側で先頭に &lt;code>'&lt;/code> を入れると良い。スプレッドシートでは先頭に &lt;code>'&lt;/code> が入ったセルは自動変換が走らずそのまま文字列として扱ってくれる。&lt;/p>
+&lt;h2 id="スプレッドシート側で勝手に数値へ変換されてしまう">スプレッドシート側で勝手に数値へ変換されてしまう
+&lt;/h2>&lt;p>カラムの値が全部数値だったり &lt;code>12e9&lt;/code> のように指数表記だったりすると、スプレッドシート側で勝手に数値変換されてしまう。その場合は Redash 側で先頭に &lt;code>'&lt;/code> を入れると良い。スプレッドシートでは先頭に &lt;code>'&lt;/code> が入ったセルは自動変換が走らずそのまま文字列として扱ってくれる。&lt;/p>
 &lt;p>MySQLの場合は次のように CONCAT してあげれば良い。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
