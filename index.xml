@@ -35,6 +35,9 @@
 &lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/post/run-bq-with-vscode/index.md" target="_blank" rel="noopener"
 >✏️ 編集&lt;/a>&lt;/p>
 &lt;/font>
+&lt;h2 id="20250821追記リポジトリにまとめた">（2025/08/21追記）リポジトリにまとめた
+&lt;/h2>&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/vscode-bigquery-env" target="_blank" rel="noopener"
+>https://github.com/yamamoto-yuta/vscode-bigquery-env&lt;/a>&lt;/p>
 &lt;h2 id="やろうと思った理由">やろうと思った理由
 &lt;/h2>&lt;p>GitHub Copilotで書かせたクエリをBQコンソールへコピペするのも面倒になってきたため。&lt;/p>
 &lt;h2 id="やった方法">やった方法
