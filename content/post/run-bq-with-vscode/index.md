@@ -18,6 +18,10 @@ draft: false
 
 </font>
 
+## （2025/08/21追記）リポジトリにまとめた
+
+https://github.com/yamamoto-yuta/vscode-bigquery-env
+
 ## やろうと思った理由
 
 GitHub Copilotで書かせたクエリをBQコンソールへコピペするのも面倒になってきたため。
