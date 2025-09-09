@@ -23,6 +23,8 @@ menu:
 
 ## 2025 年
 
+<iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Ftech.yappli.io%2Fentry%2Flevtechmeetup-2025" title="#レバテックMeetup に「『必要とされるデータ基盤』であり続けるためにやってきたこと」という題で登壇しました！ - Yappli Tech Blog" class="embed-card embed-blogcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;"></iframe>
+
 <iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Ftech.yappli.io%2Fentry%2Fsave-information-schema-jobs-by-project" title="INFORMATION_SCHEMA.JOBS_BY_PROJECTを全カラムで定期保存するのが地味に面倒だった話 - Yappli Tech Blog" class="embed-card embed-blogcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;"></iframe>
 
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://tech.yappli.io/entry/dataopsnight-7" data-iframely-url="//iframely.net/iGDEJLMQ?media=0"></a></div></div><script async src="//iframely.net/embed.js"></script>
