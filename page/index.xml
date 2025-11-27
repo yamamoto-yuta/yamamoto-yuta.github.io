@@ -2,14 +2,40 @@
 &lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/page/about/index.md" target="_blank" rel="noopener"
 >✏️ 編集&lt;/a>&lt;/p>
 &lt;/font>
-&lt;h2 id="careereducation">Career/Education
-&lt;/h2>&lt;ul>
+&lt;h2 id="経歴">経歴
+&lt;/h2>&lt;p>経歴/学歴:&lt;/p>
+&lt;ul>
 &lt;li>株式会社ヤプリ（2023.04 - )&lt;/li>
 &lt;li>長岡技術科学大学　情報・経営システム工学専攻（2021.04 - 2023.03）&lt;/li>
 &lt;li>長岡技術科学大学　情報・経営システム工学課程（2019.04 - 2021.03）&lt;/li>
 &lt;li>福井工業高等専門学校　電子情報工学科（2014.04 - 2019.03）&lt;/li>
 &lt;/ul>
-&lt;h2 id="research">Research
+&lt;p>コミュニティ活動:&lt;/p>
+&lt;ul>
+&lt;li>dbt Tokyo Crew （2025 - ）&lt;/li>
+&lt;li>primeNumber User Group コミュニティリーダー （2024 - ）&lt;/li>
+&lt;/ul>
+&lt;h2 id="ブログ登壇">ブログ・登壇
+&lt;/h2>&lt;blockquote>
+&lt;p>こちらをご覧ください: &lt;a class="link" href="https://yamamoto-yuta.github.io/output/" target="_blank" rel="noopener"
+>https://yamamoto-yuta.github.io/output/&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="受賞">受賞
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://primenumber.com/news/2032" target="_blank" rel="noopener"
+>primeNumber DATA CHAMPIONS 2025&lt;/a> （2025）&lt;/li>
+&lt;li>長岡技術科学大学 大学院工学研究科 情報・経営システム工学専攻 優秀発表賞 (2023)&lt;/li>
+&lt;li>株式会社 VOYAGE GROUP 　 Treasure 　 UI/UX 賞、グランプリ（2021）&lt;/li>
+&lt;li>パーソルキャリア株式会社　 Sprinters 　個人 MVP（2021）&lt;/li>
+&lt;li>ふくいソフトウェアコンペティション 2018 　ふくいソフトウェア大賞（2018）&lt;/li>
+&lt;li>福井発！ビジネスプランコンテスト 2018 　学生の部　福井信用金庫賞（2018）&lt;/li>
+&lt;li>第 29 回全国高等専門学校プログラミングコンテスト　課題部門　特別賞（2018）&lt;/li>
+&lt;/ul>
+&lt;h2 id="資格">資格
+&lt;/h2>&lt;ul>
+&lt;li>Google Cloud Professional Data Engineer Certified （2022.08.01 - 2024.08.01）&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-interests">Research interests
 &lt;/h2>&lt;ul>
 &lt;li>機械学習&lt;/li>
 &lt;li>特許解析&lt;/li>
@@ -41,7 +67,7 @@
 &lt;li>森雅也，山城広周，山本雄太，森楓，鈴木祥広，平岡透，野中尋史．2021．&amp;ldquo;機械学習を用いたダム湖上流における有害藻類ブルームの発生予測モデルの開発と発生要因分析への応用 &amp;ldquo;．情報処理学会第 83 回全国大会&lt;/li>
 &lt;li>作本猛，邊土名朝飛，山本雄太，森楓，野中尋史．2021．&amp;ldquo;特許文書を対象とした化学実験構造化のための基礎的検討 &amp;ldquo;．言語処理学会第 27 回年次大会(NLP2021)&lt;/li>
 &lt;/ol>
-&lt;h2 id="internship">Internship
+&lt;h2 id="インターン">インターン
 &lt;/h2>&lt;ul>
 &lt;li>&lt;em>2022.03.01 - 2023.03.31&lt;/em>&lt;br>
 &lt;strong>株式会社ヤプリ&lt;/strong>&lt;/li>
@@ -62,21 +88,7 @@
 &lt;li>&lt;em>2017.08.22 - 2017.09.01&lt;/em>&lt;br>
 &lt;strong>株式会社アイジュピタ&lt;/strong> - WinForms を用いたクラス名簿システムの開発&lt;/li>
 &lt;/ul>
-&lt;h2 id="awards">Awards
-&lt;/h2>&lt;ul>
-&lt;li>長岡技術科学大学 大学院工学研究科 情報・経営システム工学専攻 優秀発表賞 (2023)&lt;/li>
-&lt;li>株式会社 VOYAGE GROUP 　 Treasure 　 UI/UX 賞、グランプリ（2021）&lt;/li>
-&lt;li>パーソルキャリア株式会社　 Sprinters 　個人 MVP（2021）&lt;/li>
-&lt;li>ふくいソフトウェアコンペティション 2018 　ふくいソフトウェア大賞（2018）&lt;/li>
-&lt;li>福井発！ビジネスプランコンテスト 2018 　学生の部　福井信用金庫賞（2018）&lt;/li>
-&lt;li>第 29 回全国高等専門学校プログラミングコンテスト　課題部門　特別賞（2018）&lt;/li>
-&lt;/ul>
-&lt;h2 id="works">Works
-&lt;/h2>&lt;blockquote>
-&lt;p>次のページを参照: &lt;a class="link" href="https://yamamoto-yuta.github.io/articles/15" target="_blank" rel="noopener"
->https://yamamoto-yuta.github.io/articles/15&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="activities">Activities
+&lt;h2 id="活動履歴">活動履歴
 &lt;/h2>&lt;p>2022&lt;/p>
 &lt;ul>
 &lt;li>&lt;em>2022.03.01 - 2023.03.31&lt;/em>&lt;br>
