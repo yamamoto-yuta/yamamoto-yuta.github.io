@@ -23,6 +23,8 @@ menu:
 
 ## 2025 年
 
+<iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Ftech.yappli.io%2Fentry%2Fdata-summit-2025-theater-session" title="DATA SUMMIT 2025に「プロダクトデザイナーに学ぶ、『見る気が起きる』ダッシュボードの作り方」という題で登壇しました！ - Yappli Tech Blog" class="embed-card embed-blogcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;" loading="lazy"></iframe>
+
 <iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Ffindy-tools.io%2Fproducts%2Fbigquery%2F49%2F778" title="プロダクト用途から始まった、ヤプリのBigQuery導入事例" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" loading="lazy"></iframe>
 
 <iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Ftech.yappli.io%2Fentry%2Flevtechmeetup-2025" title="#レバテックMeetup に「『必要とされるデータ基盤』であり続けるためにやってきたこと」という題で登壇しました！ - Yappli Tech Blog" class="embed-card embed-blogcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;"></iframe>
