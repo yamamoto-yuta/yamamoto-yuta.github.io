@@ -81,7 +81,8 @@ cd blog/
 git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
 ```
 
-> [!NOTE] 2026/03/23追記
+> [!NOTE] 
+> （2026/03/23追記）
 > 知らないうちにsubmoduleが外れてたので、Makefileに再登録のコマンドを追加した。
 >
 > 参考:
