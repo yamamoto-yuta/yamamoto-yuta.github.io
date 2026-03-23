@@ -1,7 +1,9 @@
 .PHONY: new-content
 new-content:
 	@echo 'Enter article title (e.g. "my-new-article"):'
-	@read TITLE; docker compose run --rm site hugo new content content/post/$$TITLE/index.md
+	@read TITLE; \
+	docker compose run --rm site hugo new content content/post/$$TITLE/index.md; \
+	sed -i '' 's/{slug}/'"$$TITLE"'/g' content/post/$$TITLE/index.md
 
 .PHONY: server
 server:
