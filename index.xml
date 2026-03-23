@@ -786,7 +786,8 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;blockquote>
-&lt;p>[!NOTE] 2026/03/23追記
+&lt;p>[!NOTE]
+（2026/03/23追記）
 知らないうちにsubmoduleが外れてたので、Makefileに再登録のコマンドを追加した。&lt;/p>
 &lt;p>参考:&lt;/p>
 &lt;ul>
