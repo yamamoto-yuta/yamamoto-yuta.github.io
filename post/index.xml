@@ -785,7 +785,16 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>以後、Dockerfile 等は &lt;code>blog/&lt;/code> にあったほうが都合が良いので移動。&lt;/p>
+&lt;/div>&lt;blockquote>
+&lt;p>[!NOTE] 2026/03/23追記
+知らないうちにsubmoduleが外れてたので、Makefileに再登録のコマンドを追加した。&lt;/p>
+&lt;p>参考:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.m3tech.blog/entry/git-submodule" target="_blank" rel="noopener"
+>git submodule はトモダチ！怖くないよ！ （チートシート付き） - エムスリーテックブログ&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>以後、Dockerfile 等は &lt;code>blog/&lt;/code> にあったほうが都合が良いので移動。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
