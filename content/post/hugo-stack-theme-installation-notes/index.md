@@ -81,6 +81,12 @@ cd blog/
 git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
 ```
 
+> [!NOTE] 2026/03/23追記
+> 知らないうちにsubmoduleが外れてたので、Makefileに再登録のコマンドを追加した。
+>
+> 参考:
+> - [git submodule はトモダチ！怖くないよ！ （チートシート付き） - エムスリーテックブログ](https://www.m3tech.blog/entry/git-submodule)
+
 以後、Dockerfile 等は `blog/` にあったほうが都合が良いので移動。
 
 ```
