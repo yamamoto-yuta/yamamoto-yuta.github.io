@@ -215,7 +215,7 @@ Webpack と gas-webpack-plugin をインストール。
 +     "rootDir": "/usr/src/app/dist"
 ```
 
-`webpack.config.json` を作成し、次の内容を設定する。
+`webpack.config.js` を作成し、次の内容を設定する。
 
 ```js
 const path = require("path");
@@ -263,6 +263,8 @@ module.exports = {
 [In the container]# yarn clasp push
 ```
 
+2026/03/29追記: `The 'files' list in config file 'tsconfig.json' is empty.` というエラーが出る場合、 `tsconfig.json` を作成すること。中身は空で問題ない。
+
 Web 上でローカルのコードが確認できたら OK 。
 
 ## サンプルコード
@@ -274,7 +276,7 @@ Web 上でローカルのコードが確認できたら OK 。
 ```
 .
 |-- src/
-|-- index.ts
+|   |-- index.ts
 |   |-- main.ts
 ```
 
