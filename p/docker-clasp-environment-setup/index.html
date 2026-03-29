@@ -111,7 +111,7 @@
 </span><span class=lnt>2
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-diff data-lang=diff><span class=line><span class=cl><span class=gd>-     &#34;rootDir&#34;: &#34;/usr/src/app/src&#34;
 </span></span></span><span class=line><span class=cl><span class=gd></span><span class=gi>+     &#34;rootDir&#34;: &#34;/usr/src/app/dist&#34;
-</span></span></span></code></pre></td></tr></table></div></div><p><code>webpack.config.json</code> を作成し、次の内容を設定する。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span></span></span></code></pre></td></tr></table></div></div><p><code>webpack.config.js</code> を作成し、次の内容を設定する。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
 </span><span class=lnt> 2
 </span><span class=lnt> 3
 </span><span class=lnt> 4
@@ -177,13 +177,13 @@
 </span><span class=lnt>2
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>[In the container]# yarn webpack --mode production
 </span></span><span class=line><span class=cl>[In the container]# yarn clasp push
-</span></span></code></pre></td></tr></table></div></div><p>Web 上でローカルのコードが確認できたら OK 。</p><h2 id=サンプルコード>サンプルコード</h2><p><code>clasp create</code> 等の際の動作確認用サンプルコードを以下に示す。</p><p>ディレクトリ構造:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></span></code></pre></td></tr></table></div></div><p>2026/03/29追記: <code>The 'files' list in config file 'tsconfig.json' is empty.</code> というエラーが出る場合、 <code>tsconfig.json</code> を作成すること。中身は空で問題ない。</p><p>Web 上でローカルのコードが確認できたら OK 。</p><h2 id=サンプルコード>サンプルコード</h2><p><code>clasp create</code> 等の際の動作確認用サンプルコードを以下に示す。</p><p>ディレクトリ構造:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span><span class=lnt>2
 </span><span class=lnt>3
 </span><span class=lnt>4
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>.
 </span></span><span class=line><span class=cl>|-- src/
-</span></span><span class=line><span class=cl>|-- index.ts
+</span></span><span class=line><span class=cl>|   |-- index.ts
 </span></span><span class=line><span class=cl>|   |-- main.ts
 </span></span></code></pre></td></tr></table></div></div><p>index.ts</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span><span class=lnt>2

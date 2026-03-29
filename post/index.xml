@@ -2242,7 +2242,7 @@ alt="image"
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gd">&lt;/span>&lt;span class="gi">+ &amp;#34;rootDir&amp;#34;: &amp;#34;/usr/src/app/dist&amp;#34;
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>&lt;code>webpack.config.json&lt;/code> を作成し、次の内容を設定する。&lt;/p>
+&lt;/div>&lt;p>&lt;code>webpack.config.js&lt;/code> を作成し、次の内容を設定する。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -2329,7 +2329,8 @@ alt="image"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[In the container]# yarn clasp push
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>Web 上でローカルのコードが確認できたら OK 。&lt;/p>
+&lt;/div>&lt;p>2026/03/29追記: &lt;code>The 'files' list in config file 'tsconfig.json' is empty.&lt;/code> というエラーが出る場合、 &lt;code>tsconfig.json&lt;/code> を作成すること。中身は空で問題ない。&lt;/p>
+&lt;p>Web 上でローカルのコードが確認できたら OK 。&lt;/p>
 &lt;h2 id="サンプルコード">サンプルコード
 &lt;/h2>&lt;p>&lt;code>clasp create&lt;/code> 等の際の動作確認用サンプルコードを以下に示す。&lt;/p>
 &lt;p>ディレクトリ構造:&lt;/p>
@@ -2343,7 +2344,7 @@ alt="image"
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">.
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">|-- src/
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">|-- index.ts
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| |-- index.ts
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| |-- main.ts
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
