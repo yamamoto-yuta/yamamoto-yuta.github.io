@@ -263,7 +263,25 @@ module.exports = {
 [In the container]# yarn clasp push
 ```
 
-2026/03/29追記: `The 'files' list in config file 'tsconfig.json' is empty.` というエラーが出る場合、 `tsconfig.json` を作成すること。中身は空で問題ない。
+2026/03/29追記: `The 'files' list in config file 'tsconfig.json' is empty.` というエラーが出る場合、 `tsconfig.json` を作成すること。中身は次のようにする（ 型がインストールされていなくて、 `DripveApp` などが動かないため）。
+
+```ts
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": [
+      "ESNext"
+    ],
+    "types": [
+      "google-apps-script"
+    ],
+    "esModuleInterop": true,
+    "strict": true
+  }
+}
+```
+
 
 Web 上でローカルのコードが確認できたら OK 。
 
