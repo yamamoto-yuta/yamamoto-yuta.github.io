@@ -177,7 +177,35 @@
 </span><span class=lnt>2
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>[In the container]# yarn webpack --mode production
 </span></span><span class=line><span class=cl>[In the container]# yarn clasp push
-</span></span></code></pre></td></tr></table></div></div><p>2026/03/29追記: <code>The 'files' list in config file 'tsconfig.json' is empty.</code> というエラーが出る場合、 <code>tsconfig.json</code> を作成すること。中身は空で問題ない。</p><p>Web 上でローカルのコードが確認できたら OK 。</p><h2 id=サンプルコード>サンプルコード</h2><p><code>clasp create</code> 等の際の動作確認用サンプルコードを以下に示す。</p><p>ディレクトリ構造:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></span></code></pre></td></tr></table></div></div><p>2026/03/29追記: <code>The 'files' list in config file 'tsconfig.json' is empty.</code> というエラーが出る場合、 <code>tsconfig.json</code> を作成すること。中身は次のようにする（ 型がインストールされていなくて、 <code>DripveApp</code> などが動かないため）。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-ts data-lang=ts><span class=line><span class=cl><span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=s2>&#34;compilerOptions&#34;</span><span class=o>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;target&#34;</span><span class=o>:</span> <span class=s2>&#34;ESNext&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;module&#34;</span><span class=o>:</span> <span class=s2>&#34;CommonJS&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;lib&#34;</span><span class=o>:</span> <span class=p>[</span>
+</span></span><span class=line><span class=cl>      <span class=s2>&#34;ESNext&#34;</span>
+</span></span><span class=line><span class=cl>    <span class=p>],</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;types&#34;</span><span class=o>:</span> <span class=p>[</span>
+</span></span><span class=line><span class=cl>      <span class=s2>&#34;google-apps-script&#34;</span>
+</span></span><span class=line><span class=cl>    <span class=p>],</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;esModuleInterop&#34;</span><span class=o>:</span> <span class=kc>true</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;strict&#34;</span><span class=o>:</span> <span class=kc>true</span>
+</span></span><span class=line><span class=cl>  <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div><p>Web 上でローカルのコードが確認できたら OK 。</p><h2 id=サンプルコード>サンプルコード</h2><p><code>clasp create</code> 等の際の動作確認用サンプルコードを以下に示す。</p><p>ディレクトリ構造:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span><span class=lnt>2
 </span><span class=lnt>3
 </span><span class=lnt>4
