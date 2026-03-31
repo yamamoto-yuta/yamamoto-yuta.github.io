@@ -21,6 +21,10 @@ menu:
 
 <!-- 埋め込みはここから: https://iframely.com/try -->
 
+## 2026 年
+
+<iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fnote.com%2Ftimes_yappli%2Fn%2Fn9d51d60309b6" title="AIで「無邪気」に遊ぶ1日。ヤプリ初の社内AIハッカソン「ヤッ祭」開催レポ｜#times_yappli" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" loading="lazy"></iframe>
+
 ## 2025 年
 
 <iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Ftech.yappli.io%2Fentry%2Fya-benchmark-update-pj" title="Yappli Analyticsのベンチマーク機能改善プロジェクトの裏側 - Yappli Tech Blog" class="embed-card embed-blogcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;" loading="lazy" data-gtm-yt-inspected-29="true"></iframe>
