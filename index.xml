@@ -974,17 +974,50 @@ loading="lazy"
 &lt;p&gt;公式ドキュメント: &lt;a class="link" href="https://stack.jimmycai.com/config/menu#add-custom-icon" target="_blank" rel="noopener"
 &gt;Custom Menu | Stack&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id="埋め込みリンクの対応断念"&gt;埋め込みリンクの対応（断念）
-&lt;/h2&gt;&lt;p&gt;Hugo の &lt;a class="link" href="https://gohugo.io/content-management/shortcodes/" target="_blank" rel="noopener"
+&lt;h2 id="埋め込みリンクの対応"&gt;埋め込みリンクの対応
+&lt;/h2&gt;&lt;p&gt;2026/04/06追記:&lt;/p&gt;
+&lt;p&gt;次の記事の方法でいけた。&lt;/p&gt;
+&lt;a href="https://blog.konboi.com/post/2026/01/18/113441/" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;Hugo で URLをカード形式で表示するcustom short code を作った&lt;/div&gt;
+&lt;div&gt;Konboi Note · blog.konboi.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;p&gt;デザインはHTMLタグに直接スタイルを当てる形で実装した（テーマのスタイルはsubmoduleで管理されているため編集が難しい。styleタグを設置するとリンクの数だけタグが増えてしまうので良くない）。&lt;/p&gt;
+&lt;p&gt;Qiitaだけ画像 URL 中の &lt;code&gt;&amp;amp;&lt;/code&gt; が &lt;code&gt;&amp;amp;amp;&lt;/code&gt; になってしまい、そのままだと表示されなかったので、置換する処理を追加した。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-jinja" data-lang="jinja"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="o"&gt;/*&lt;/span&gt; &lt;span class="nv"&gt;Qiita&lt;/span&gt; &lt;span class="err"&gt;の場合、画像&lt;/span&gt; &lt;span class="nv"&gt;URL&lt;/span&gt; &lt;span class="err"&gt;の&lt;/span&gt; &lt;span class="err"&gt;&amp;amp;&lt;/span&gt;&lt;span class="nv"&gt;amp&lt;/span&gt;&lt;span class="err"&gt;;&lt;/span&gt; &lt;span class="err"&gt;を&lt;/span&gt; &lt;span class="err"&gt;&amp;amp;&lt;/span&gt; &lt;span class="err"&gt;に置換&lt;/span&gt; &lt;span class="o"&gt;*/&lt;/span&gt;&lt;span class="cp"&gt;}}&lt;/span&gt;&lt;span class="x"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="k"&gt;and&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;image&lt;/span&gt; &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="k"&gt;in&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;url&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;qiita.com&amp;#34;&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; -&lt;span class="cp"&gt;}}&lt;/span&gt;&lt;span class="x"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="x"&gt; &lt;/span&gt;&lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;image&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nv"&gt;replace&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;image&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;&amp;amp;amp;&amp;#34;&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;&amp;amp;&amp;#34;&lt;/span&gt; -&lt;span class="cp"&gt;}}&lt;/span&gt;&lt;span class="x"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="nv"&gt;end&lt;/span&gt; -&lt;span class="cp"&gt;}}&lt;/span&gt;&lt;span class="x"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;del&gt;Hugo の &lt;a class="link" href="https://gohugo.io/content-management/shortcodes/" target="_blank" rel="noopener"
 &gt;Shortcodes&lt;/a&gt; を使ってはてなブログや Qiita のように簡単に埋め込みリンクを実現したかったが、想像以上に工数かかりそうだったのでので一旦 &lt;a class="link" href="https://iframely.com/try" target="_blank" rel="noopener"
-&gt;iframely&lt;/a&gt; で生成した DIV タグをそのまま貼り付けることにした。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;参考:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class="link" href="https://qiita.com/blue_islands/items/33ee08bc73652893c413" target="_blank" rel="noopener"
-&gt;自サービスに埋め込みコード対応をする方法 #oEmbed - Qiita&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
+&gt;iframely&lt;/a&gt; で生成した DIV タグをそのまま貼り付けることにした。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;参考: &lt;a class="link" href="https://qiita.com/blue_islands/items/33ee08bc73652893c413" target="_blank" rel="noopener"
+&gt;自サービスに埋め込みコード対応をする方法 #oEmbed - Qiita&lt;/a&gt;&lt;/del&gt;&lt;/p&gt;
 &lt;h2 id="デプロイ"&gt;デプロイ
 &lt;/h2&gt;&lt;p&gt;GitHub Actions を使って GitHub Pages にデプロイするように設定した。ワークフローは次のとおり。コメントのある箇所が注意点。&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
