@@ -1,0 +1,106 @@
+{{- $url := .Get 0 -}}
+{{- $title := "" -}}
+{{- $description := "" -}}
+{{- $image := "" -}}
+{{- $siteName := "" -}}
+
+{{- $result := try (resources.GetRemote $url) -}}
+{{- if $result.Err -}}
+  {{- warnf "Unable to fetch %s: %s" $url $result.Err -}}
+{{- else -}}
+  {{- with $result.Value -}}
+    {{- $html := .Content -}}
+    {{/* og:title */}}
+    {{- $ogTitle := findRE `<meta[^>]*property=["']og:title["'][^>]*content=["']([^"']+)["'][^>]*>` $html 1 -}}
+    {{- if not $ogTitle -}}
+      {{- $ogTitle = findRE `<meta[^>]*content=["']([^"']+)["'][^>]*property=["']og:title["'][^>]*>` $html 1 -}}
+    {{- end -}}
+    {{- with $ogTitle -}}
+      {{- $title = index . 0 | replaceRE `.*content=["']([^"']+)["'].*` "$1" -}}
+    {{- end -}}
+    {{/* og:description */}}
+    {{- $ogDesc := findRE `<meta[^>]*property=["']og:description["'][^>]*content=["']([^"']+)["'][^>]*>` $html 1 -}}
+    {{- if not $ogDesc -}}
+      {{- $ogDesc = findRE `<meta[^>]*content=["']([^"']+)["'][^>]*property=["']og:description["'][^>]*>` $html 1 -}}
+    {{- end -}}
+    {{- with $ogDesc -}}
+      {{- $description = index . 0 | replaceRE `.*content=["']([^"']+)["'].*` "$1" -}}
+    {{- end -}}
+    {{/* og:image */}}
+    {{- $ogImage := findRE `<meta[^>]*property=["']og:image["'][^>]*content=["']([^"']+)["'][^>]*>` $html 1 -}}
+    {{- if not $ogImage -}}
+      {{- $ogImage = findRE `<meta[^>]*content=["']([^"']+)["'][^>]*property=["']og:image["'][^>]*>` $html 1 -}}
+    {{- end -}}
+    {{- with $ogImage -}}
+      {{- $image = index . 0 | replaceRE `.*content=["']([^"']+)["'].*` "$1" -}}
+    {{- end -}}
+    {{/* og:site_name */}}
+    {{- $ogSite := findRE `<meta[^>]*property=["']og:site_name["'][^>]*content=["']([^"']+)["'][^>]*>` $html 1 -}}
+    {{- if not $ogSite -}}
+      {{- $ogSite = findRE `<meta[^>]*content=["']([^"']+)["'][^>]*property=["']og:site_name["'][^>]*>` $html 1 -}}
+    {{- end -}}
+    {{- with $ogSite -}}
+      {{- $siteName = index . 0 | replaceRE `.*content=["']([^"']+)["'].*` "$1" -}}
+    {{- end -}}
+    {{/* fallback: <title> */}}
+    {{- if not $title -}}
+      {{- $htmlTitle := findRE `<title[^>]*>([^<]+)</title>` $html 1 -}}
+      {{- with $htmlTitle -}}
+        {{- $title = index . 0 | replaceRE `<title[^>]*>([^<]+)</title>` "$1" -}}
+      {{- end -}}
+    {{- end -}}
+    {{/* fallback: meta description */}}
+    {{- if not $description -}}
+      {{- $metaDesc := findRE `<meta[^>]*name=["']description["'][^>]*content=["']([^"']+)["'][^>]*>` $html 1 -}}
+      {{- if not $metaDesc -}}
+        {{- $metaDesc = findRE `<meta[^>]*content=["']([^"']+)["'][^>]*name=["']description["'][^>]*>` $html 1 -}}
+      {{- end -}}
+      {{- with $metaDesc -}}
+        {{- $description = index . 0 | replaceRE `.*content=["']([^"']+)["'].*` "$1" -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $domain := $url | replaceRE `^https?://([^/]+).*` "$1" -}}
+{{- if not $title -}}
+  {{- $title = $domain -}}
+{{- end -}}
+
+{{/* Qiita の場合、画像 URL の &amp; を & に置換 */}}
+{{- if and $image (in $url "qiita.com") -}}
+  {{- $image = replace $image "&amp;" "&" -}}
+{{- end -}}
+
+<a href="{{ $url }}" target="_blank" rel="noopener noreferrer" style="
+  display: block;
+  border: 1px solid #ccc;
+  margin: 2rem 0;
+">
+  <div style="
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  ">
+    <div style="
+      flex: 1;
+      padding: 1rem 2rem;
+    ">
+      <div style="font-weight: bold;">{{ $title | htmlUnescape }}</div>
+      <div>{{ if $siteName }}{{ $siteName }} · {{ end }}{{ $domain }}</div>
+    </div>
+    {{- if $image }}
+    <div style="
+      display: flex;
+      align-items: center;
+    ">
+      <img src="{{ $image }}" alt="{{ $title }}" loading="lazy" style="
+        width: 100%;
+        max-width: 300px;
+        aspect-ratio: 16 / 9;
+      "/>
+    </div>
+    {{- end }}
+  </div>
+</a>
