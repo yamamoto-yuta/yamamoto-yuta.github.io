@@ -194,13 +194,28 @@ build:
 
 > 公式ドキュメント: [Custom Menu | Stack](https://stack.jimmycai.com/config/menu#add-custom-icon)
 
-## 埋め込みリンクの対応（断念）
+## 埋め込みリンクの対応
 
-Hugo の [Shortcodes](https://gohugo.io/content-management/shortcodes/) を使ってはてなブログや Qiita のように簡単に埋め込みリンクを実現したかったが、想像以上に工数かかりそうだったのでので一旦 [iframely](https://iframely.com/try) で生成した DIV タグをそのまま貼り付けることにした。
+2026/04/06追記:
 
-> 参考:
->
-> - [自サービスに埋め込みコード対応をする方法 #oEmbed - Qiita](https://qiita.com/blue_islands/items/33ee08bc73652893c413)
+次の記事の方法でいけた。
+
+{{<card "https://blog.konboi.com/post/2026/01/18/113441/">}}
+
+デザインはHTMLタグに直接スタイルを当てる形で実装した（テーマのスタイルはsubmoduleで管理されているため編集が難しい。styleタグを設置するとリンクの数だけタグが増えてしまうので良くない）。
+
+Qiitaだけ画像 URL 中の `&` が `&amp;` になってしまい、そのままだと表示されなかったので、置換する処理を追加した。
+
+```jinja
+{{/* Qiita の場合、画像 URL の &amp; を & に置換 */}}
+{{- if and $image (in $url "qiita.com") -}}
+  {{- $image = replace $image "&amp;" "&" -}}
+{{- end -}}
+```
+
+~~Hugo の [Shortcodes](https://gohugo.io/content-management/shortcodes/) を使ってはてなブログや Qiita のように簡単に埋め込みリンクを実現したかったが、想像以上に工数かかりそうだったのでので一旦 [iframely](https://iframely.com/try) で生成した DIV タグをそのまま貼り付けることにした。~~
+
+~~参考: [自サービスに埋め込みコード対応をする方法 #oEmbed - Qiita](https://qiita.com/blue_islands/items/33ee08bc73652893c413)~~
 
 ## デプロイ
 
