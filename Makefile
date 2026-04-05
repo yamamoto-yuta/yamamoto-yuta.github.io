@@ -27,3 +27,4 @@ remove-theme:
 add-theme:
 	git submodule add -f git@github.com:CaiJimmy/hugo-theme-stack.git themes/hugo-theme-stack
 	cd themes/hugo-theme-stack && git reset --hard v3.29.0 # バージョン固定
+	git submodule update --init --recursive
