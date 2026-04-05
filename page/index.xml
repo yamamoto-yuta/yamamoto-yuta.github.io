@@ -1,253 +1,1750 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on YAMAMOTO Yuta</title><link>https://yamamoto-yuta.github.io/page/</link><description>Recent content in Pages on YAMAMOTO Yuta</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>YAMAMOTO Yuta</copyright><lastBuildDate>Thu, 27 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yamamoto-yuta.github.io/page/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://yamamoto-yuta.github.io/about/</link><pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/about/</guid><description>&lt;font size="1" align="right">
-&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/page/about/index.md" target="_blank" rel="noopener"
->✏️ 編集&lt;/a>&lt;/p>
-&lt;/font>
-&lt;h2 id="経歴">経歴
-&lt;/h2>&lt;p>経歴/学歴:&lt;/p>
-&lt;ul>
-&lt;li>株式会社ヤプリ（2023.04 - )&lt;/li>
-&lt;li>長岡技術科学大学　情報・経営システム工学専攻（2021.04 - 2023.03）&lt;/li>
-&lt;li>長岡技術科学大学　情報・経営システム工学課程（2019.04 - 2021.03）&lt;/li>
-&lt;li>福井工業高等専門学校　電子情報工学科（2014.04 - 2019.03）&lt;/li>
-&lt;/ul>
-&lt;p>コミュニティ活動:&lt;/p>
-&lt;ul>
-&lt;li>dbt Tokyo Crew （2025 - ）&lt;/li>
-&lt;li>primeNumber User Group コミュニティリーダー （2024 - ）&lt;/li>
-&lt;/ul>
-&lt;h2 id="ブログ登壇">ブログ・登壇
-&lt;/h2>&lt;blockquote>
-&lt;p>こちらをご覧ください: &lt;a class="link" href="https://yamamoto-yuta.github.io/output/" target="_blank" rel="noopener"
->https://yamamoto-yuta.github.io/output/&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="受賞">受賞
-&lt;/h2>&lt;ul>
-&lt;li>&lt;a class="link" href="https://primenumber.com/news/2032" target="_blank" rel="noopener"
->primeNumber DATA CHAMPIONS 2025&lt;/a> （2025）&lt;/li>
-&lt;li>長岡技術科学大学 大学院工学研究科 情報・経営システム工学専攻 優秀発表賞 (2023)&lt;/li>
-&lt;li>株式会社 VOYAGE GROUP 　 Treasure 　 UI/UX 賞、グランプリ（2021）&lt;/li>
-&lt;li>パーソルキャリア株式会社　 Sprinters 　個人 MVP（2021）&lt;/li>
-&lt;li>ふくいソフトウェアコンペティション 2018 　ふくいソフトウェア大賞（2018）&lt;/li>
-&lt;li>福井発！ビジネスプランコンテスト 2018 　学生の部　福井信用金庫賞（2018）&lt;/li>
-&lt;li>第 29 回全国高等専門学校プログラミングコンテスト　課題部門　特別賞（2018）&lt;/li>
-&lt;/ul>
-&lt;h2 id="資格">資格
-&lt;/h2>&lt;ul>
-&lt;li>Google Cloud Professional Data Engineer Certified （2022.08.01 - 2024.08.01）&lt;/li>
-&lt;/ul>
-&lt;h2 id="research-interests">Research interests
-&lt;/h2>&lt;ul>
-&lt;li>機械学習&lt;/li>
-&lt;li>特許解析&lt;/li>
-&lt;li>ネットワーク解析&lt;/li>
-&lt;li>時系列解析&lt;/li>
-&lt;/ul>
-&lt;h2 id="publications">Publications
-&lt;/h2>&lt;p>First author:&lt;/p>
-&lt;ol>
-&lt;li>Yuta Yamamoto, Asahi Hentona, Koji Marusaki, Kohei Watabe, Seiya Kawano, Tokimasa Goto, Yutaka Hada, Kazuhisa Fukuzawa and Hirofumi Nonaka, 2021, Development of the patent values evaluation method considering growth of technical community,IEEE Symposium Series on Computational Intelligence (IEEE SSCI 2021)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on YAMAMOTO Yuta</title><link>https://yamamoto-yuta.github.io/page/</link><description>Recent content in Pages on YAMAMOTO Yuta</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>YAMAMOTO Yuta</copyright><lastBuildDate>Thu, 27 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yamamoto-yuta.github.io/page/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://yamamoto-yuta.github.io/about/</link><pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/about/</guid><description>&lt;font size="1" align="right"&gt;
+&lt;p&gt;&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/page/about/index.md" target="_blank" rel="noopener"
+&gt;✏️ 編集&lt;/a&gt;&lt;/p&gt;
+&lt;/font&gt;
+&lt;h2 id="経歴"&gt;経歴
+&lt;/h2&gt;&lt;p&gt;経歴/学歴:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;株式会社ヤプリ（2023.04 - )&lt;/li&gt;
+&lt;li&gt;長岡技術科学大学　情報・経営システム工学専攻（2021.04 - 2023.03）&lt;/li&gt;
+&lt;li&gt;長岡技術科学大学　情報・経営システム工学課程（2019.04 - 2021.03）&lt;/li&gt;
+&lt;li&gt;福井工業高等専門学校　電子情報工学科（2014.04 - 2019.03）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;コミュニティ活動:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dbt Tokyo Crew （2025 - ）&lt;/li&gt;
+&lt;li&gt;primeNumber User Group コミュニティリーダー （2024 - ）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="ブログ登壇"&gt;ブログ・登壇
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;こちらをご覧ください: &lt;a class="link" href="https://yamamoto-yuta.github.io/output/" target="_blank" rel="noopener"
+&gt;https://yamamoto-yuta.github.io/output/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="受賞"&gt;受賞
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://primenumber.com/news/2032" target="_blank" rel="noopener"
+&gt;primeNumber DATA CHAMPIONS 2025&lt;/a&gt; （2025）&lt;/li&gt;
+&lt;li&gt;長岡技術科学大学 大学院工学研究科 情報・経営システム工学専攻 優秀発表賞 (2023)&lt;/li&gt;
+&lt;li&gt;株式会社 VOYAGE GROUP 　 Treasure 　 UI/UX 賞、グランプリ（2021）&lt;/li&gt;
+&lt;li&gt;パーソルキャリア株式会社　 Sprinters 　個人 MVP（2021）&lt;/li&gt;
+&lt;li&gt;ふくいソフトウェアコンペティション 2018 　ふくいソフトウェア大賞（2018）&lt;/li&gt;
+&lt;li&gt;福井発！ビジネスプランコンテスト 2018 　学生の部　福井信用金庫賞（2018）&lt;/li&gt;
+&lt;li&gt;第 29 回全国高等専門学校プログラミングコンテスト　課題部門　特別賞（2018）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="資格"&gt;資格
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Google Cloud Professional Data Engineer Certified （2022.08.01 - 2024.08.01）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="research-interests"&gt;Research interests
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;機械学習&lt;/li&gt;
+&lt;li&gt;特許解析&lt;/li&gt;
+&lt;li&gt;ネットワーク解析&lt;/li&gt;
+&lt;li&gt;時系列解析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="publications"&gt;Publications
+&lt;/h2&gt;&lt;p&gt;First author:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Yuta Yamamoto, Asahi Hentona, Koji Marusaki, Kohei Watabe, Seiya Kawano, Tokimasa Goto, Yutaka Hada, Kazuhisa Fukuzawa and Hirofumi Nonaka, 2021, Development of the patent values evaluation method considering growth of technical community,IEEE Symposium Series on Computational Intelligence (IEEE SSCI 2021)
 &amp;ndash;&amp;gt; &lt;a class="link" href="https://attend.ieee.org/ssci-2021/" target="_blank" rel="noopener"
->HP&lt;/a> ｜ &lt;a class="link" href="https://ieeexplore.ieee.org/document/9660168" target="_blank" rel="noopener"
->Abst&lt;/a>&lt;/li>
-&lt;li>山本雄太，邊土名朝飛，中井堅誠，作本猛，片岡翔太郎，野中尋史，2021， 技術コミュニティの成長性を加味した特許価値評価手法の開発およびその有効性の検討，情報処理学会学会全国大会（第 83 回）
+&gt;HP&lt;/a&gt; ｜ &lt;a class="link" href="https://ieeexplore.ieee.org/document/9660168" target="_blank" rel="noopener"
+&gt;Abst&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;山本雄太，邊土名朝飛，中井堅誠，作本猛，片岡翔太郎，野中尋史，2021， 技術コミュニティの成長性を加味した特許価値評価手法の開発およびその有効性の検討，情報処理学会学会全国大会（第 83 回）
 &amp;ndash;&amp;gt; &lt;a class="link" href="https://www.ipsj.or.jp/event/taikai/83/" target="_blank" rel="noopener"
->HP&lt;/a> ｜ &lt;a class="link" href="https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&amp;amp;active_action=repository_view_main_item_detail&amp;amp;item_id=215599&amp;amp;item_no=1&amp;amp;page_id=13&amp;amp;block_id=8" target="_blank" rel="noopener"
->Paper&lt;/a>&lt;/li>
-&lt;li>山本雄太，野中尋史，邊土名朝飛，中井堅誠，作本猛，片岡翔太郎，平岡透，2020， 技術コミュニティの成長性を加味した特許価値評価手法の開発，人工知能学会全国大会（第 34 回）
+&gt;HP&lt;/a&gt; ｜ &lt;a class="link" href="https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&amp;amp;active_action=repository_view_main_item_detail&amp;amp;item_id=215599&amp;amp;item_no=1&amp;amp;page_id=13&amp;amp;block_id=8" target="_blank" rel="noopener"
+&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;山本雄太，野中尋史，邊土名朝飛，中井堅誠，作本猛，片岡翔太郎，平岡透，2020， 技術コミュニティの成長性を加味した特許価値評価手法の開発，人工知能学会全国大会（第 34 回）
 &amp;ndash;&amp;gt; &lt;a class="link" href="https://www.ai-gakkai.or.jp/jsai2020/" target="_blank" rel="noopener"
->HP&lt;/a> ｜ &lt;a class="link" href="https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_4K2GS305/_article/-char/ja/" target="_blank" rel="noopener"
->Paper&lt;/a>&lt;/li>
-&lt;li>Yuta YAMAMOTO, Ryusei SHIBATA, Masashi OBA, Koichiro IMAMURA, Daiki MORITA, Kaito MIDO, Takashi YAMAGUCHI, Makoto ICHITSUBO, 2019, Exploring Possibilities of Education by collaborative creative activities inHult Prize at Nagaoka University of Technology, 4th STI-Gigaku 2019
+&gt;HP&lt;/a&gt; ｜ &lt;a class="link" href="https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_4K2GS305/_article/-char/ja/" target="_blank" rel="noopener"
+&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Yuta YAMAMOTO, Ryusei SHIBATA, Masashi OBA, Koichiro IMAMURA, Daiki MORITA, Kaito MIDO, Takashi YAMAGUCHI, Makoto ICHITSUBO, 2019, Exploring Possibilities of Education by collaborative creative activities inHult Prize at Nagaoka University of Technology, 4th STI-Gigaku 2019
 &amp;ndash;&amp;gt; &lt;a class="link" href="https://sites.google.com/view/sti-gigaku-2019" target="_blank" rel="noopener"
->HP&lt;/a>&lt;/li>
-&lt;/ol>
-&lt;p>Co-author:&lt;/p>
-&lt;ol>
-&lt;li>作本猛，邊土名朝飛，山本雄太，野中尋史．2020．&amp;ldquo;実験テキストデータ構造化・情報抽出フレームワーク開発のための有機化学特許を対象とした基礎的検討 &amp;ldquo;．YANS2020&lt;/li>
-&lt;li>森雅也，山城広周，山本雄太，森楓，鈴木祥広，平岡透，野中尋史．2021．&amp;ldquo;機械学習を用いたダム湖上流における有害藻類ブルームの発生予測モデルの開発と発生要因分析への応用 &amp;ldquo;．情報処理学会第 83 回全国大会&lt;/li>
-&lt;li>作本猛，邊土名朝飛，山本雄太，森楓，野中尋史．2021．&amp;ldquo;特許文書を対象とした化学実験構造化のための基礎的検討 &amp;ldquo;．言語処理学会第 27 回年次大会(NLP2021)&lt;/li>
-&lt;/ol>
-&lt;h2 id="インターン">インターン
-&lt;/h2>&lt;ul>
-&lt;li>&lt;em>2022.03.01 - 2023.03.31&lt;/em>&lt;br>
-&lt;strong>株式会社ヤプリ&lt;/strong>&lt;/li>
-&lt;li>&lt;em>2021.06.01 - 2023.03.XX&lt;/em>&lt;br>
-&lt;strong>株式会社アイデミー&lt;/strong> - 受講者からの質問対応業務およびその業務改善（ &lt;a class="link" href="https://zenn.dev/aidemy/articles/425cf7d9f31945" target="_blank" rel="noopener"
->インターン記事&lt;/a> ）&lt;/li>
-&lt;li>&lt;em>2021.09.16 - 2021.11.30&lt;/em>&lt;br>
-&lt;strong>株式会社ヤプリ&lt;/strong> - プッシュ通知の配信時刻最適化 PoC（ &lt;a class="link" href="https://tech.yappli.io/entry/optimize_notifications_release_time" target="_blank" rel="noopener"
->インターン記事&lt;/a> ）&lt;/li>
-&lt;li>&lt;em>2021.09.08&lt;/em>&lt;br>
-&lt;strong>クックパッド株式会社（裏 Tech 1 Day）&lt;/strong> - 簡易 EC サービスでの Rails+GraphQL を用いた API 実装&lt;/li>
-&lt;li>&lt;em>2021.08.09 - 2021.08.27&lt;/em>&lt;br>
-&lt;strong>株式会社 VOYAGE GROUP（Treasure）&lt;/strong> - バックエンド(Go)・フロントエンド(React+TypeScript)・インフラ(AWS)・データモデリング・アイデア創出の講義、チーム開発&lt;/li>
-&lt;li>&lt;em>2021.06.12-2021.06.20&lt;/em>&lt;br>
-&lt;strong>パーソルキャリア株式会社（Sprinters）&lt;/strong> - 新規サービスの立案とその Web サービスのプロトタイプ開発&lt;/li>
-&lt;li>&lt;em>2020.11.01 - 2021.02.XX&lt;/em>&lt;br>
-&lt;strong>株式会社東急エージェンシー&lt;/strong> - 機械学習を用いた社内質問回答システムの開発&lt;/li>
-&lt;li>&lt;em>2017.08.22 - 2017.09.01&lt;/em>&lt;br>
-&lt;strong>株式会社アイジュピタ&lt;/strong> - WinForms を用いたクラス名簿システムの開発&lt;/li>
-&lt;/ul>
-&lt;h2 id="活動履歴">活動履歴
-&lt;/h2>&lt;p>2022&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>2022.03.01 - 2023.03.31&lt;/em>&lt;br>
-『株式会社ヤプリ』インターン&lt;/li>
-&lt;/ul>
-&lt;p>2021&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>2021.12.05 - 2021.12.07&lt;/em>&lt;br>
+&gt;HP&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Co-author:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;作本猛，邊土名朝飛，山本雄太，野中尋史．2020．&amp;ldquo;実験テキストデータ構造化・情報抽出フレームワーク開発のための有機化学特許を対象とした基礎的検討 &amp;ldquo;．YANS2020&lt;/li&gt;
+&lt;li&gt;森雅也，山城広周，山本雄太，森楓，鈴木祥広，平岡透，野中尋史．2021．&amp;ldquo;機械学習を用いたダム湖上流における有害藻類ブルームの発生予測モデルの開発と発生要因分析への応用 &amp;ldquo;．情報処理学会第 83 回全国大会&lt;/li&gt;
+&lt;li&gt;作本猛，邊土名朝飛，山本雄太，森楓，野中尋史．2021．&amp;ldquo;特許文書を対象とした化学実験構造化のための基礎的検討 &amp;ldquo;．言語処理学会第 27 回年次大会(NLP2021)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="インターン"&gt;インターン
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;2022.03.01 - 2023.03.31&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;株式会社ヤプリ&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2021.06.01 - 2023.03.XX&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;株式会社アイデミー&lt;/strong&gt; - 受講者からの質問対応業務およびその業務改善（ &lt;a class="link" href="https://zenn.dev/aidemy/articles/425cf7d9f31945" target="_blank" rel="noopener"
+&gt;インターン記事&lt;/a&gt; ）&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2021.09.16 - 2021.11.30&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;株式会社ヤプリ&lt;/strong&gt; - プッシュ通知の配信時刻最適化 PoC（ &lt;a class="link" href="https://tech.yappli.io/entry/optimize_notifications_release_time" target="_blank" rel="noopener"
+&gt;インターン記事&lt;/a&gt; ）&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2021.09.08&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;クックパッド株式会社（裏 Tech 1 Day）&lt;/strong&gt; - 簡易 EC サービスでの Rails+GraphQL を用いた API 実装&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2021.08.09 - 2021.08.27&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;株式会社 VOYAGE GROUP（Treasure）&lt;/strong&gt; - バックエンド(Go)・フロントエンド(React+TypeScript)・インフラ(AWS)・データモデリング・アイデア創出の講義、チーム開発&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2021.06.12-2021.06.20&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;パーソルキャリア株式会社（Sprinters）&lt;/strong&gt; - 新規サービスの立案とその Web サービスのプロトタイプ開発&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2020.11.01 - 2021.02.XX&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;株式会社東急エージェンシー&lt;/strong&gt; - 機械学習を用いた社内質問回答システムの開発&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2017.08.22 - 2017.09.01&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;株式会社アイジュピタ&lt;/strong&gt; - WinForms を用いたクラス名簿システムの開発&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="活動履歴"&gt;活動履歴
+&lt;/h2&gt;&lt;p&gt;2022&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;2022.03.01 - 2023.03.31&lt;/em&gt;&lt;br&gt;
+『株式会社ヤプリ』インターン&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2021&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;2021.12.05 - 2021.12.07&lt;/em&gt;&lt;br&gt;
 『IEEE SSCI 2021』発表
-発表テーマ：「Development of the patent values evaluation method considering growth of technical community」&lt;/li>
-&lt;li>&lt;em>2021.09.16-2021.11.30&lt;/em>&lt;br>
-『株式会社ヤプリ』インターン&lt;/li>
-&lt;li>&lt;em>2021.09.08&lt;/em>&lt;br>
-『クックパッド株式会社』インターン&lt;/li>
-&lt;li>&lt;em>2021.08.09 - 2021.08.27&lt;/em>&lt;br>
-『株式会社 VOYAGE GROUP』インターン&lt;/li>
-&lt;li>&lt;em>2021.06.12-2021.06.20&lt;/em>&lt;br>
-『パーソルキャリア株式会社』インターン&lt;/li>
-&lt;li>&lt;em>2021.06.01 - 2023.03.XX&lt;/em>&lt;br>
-『株式会社アイデミー』インターン&lt;/li>
-&lt;li>&lt;em>2021.03.18 - 2021.03.20&lt;/em>&lt;br>
+発表テーマ：「Development of the patent values evaluation method considering growth of technical community」&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2021.09.16-2021.11.30&lt;/em&gt;&lt;br&gt;
+『株式会社ヤプリ』インターン&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2021.09.08&lt;/em&gt;&lt;br&gt;
+『クックパッド株式会社』インターン&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2021.08.09 - 2021.08.27&lt;/em&gt;&lt;br&gt;
+『株式会社 VOYAGE GROUP』インターン&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2021.06.12-2021.06.20&lt;/em&gt;&lt;br&gt;
+『パーソルキャリア株式会社』インターン&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2021.06.01 - 2023.03.XX&lt;/em&gt;&lt;br&gt;
+『株式会社アイデミー』インターン&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2021.03.18 - 2021.03.20&lt;/em&gt;&lt;br&gt;
 『情報処理学会第 83 回全国大会』発表
-発表テーマ：「技術コミュニティの成長性を加味した特許価値評価手法の開発およびその有効性の検討」&lt;/li>
-&lt;/ul>
-&lt;p>2020&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>2020.11.01 - 2021.02.XX&lt;/em>&lt;br>
-株式会社東急エージェンシー&lt;/li>
-&lt;li>&lt;em>2020.08.08 - 2020.08.16&lt;/em>&lt;br>
-『株式会社 VOYAGE GROUP』『株式会社サポーターズ』共催 &amp;ldquo;サマーハッカソン〜オンラインで LVup する夏合宿〜&amp;rdquo;　出場&lt;/li>
-&lt;li>&lt;em>2020.06.09 - 2020.06.12&lt;/em>&lt;br>
+発表テーマ：「技術コミュニティの成長性を加味した特許価値評価手法の開発およびその有効性の検討」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2020&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;2020.11.01 - 2021.02.XX&lt;/em&gt;&lt;br&gt;
+株式会社東急エージェンシー&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2020.08.08 - 2020.08.16&lt;/em&gt;&lt;br&gt;
+『株式会社 VOYAGE GROUP』『株式会社サポーターズ』共催 &amp;ldquo;サマーハッカソン〜オンラインで LVup する夏合宿〜&amp;rdquo;　出場&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2020.06.09 - 2020.06.12&lt;/em&gt;&lt;br&gt;
 『人工知能学会第 34 回全国大会』発表
-発表テーマ：「技術コミュニティの成長性を加味した特許価値評価手法の開発」&lt;/li>
-&lt;/ul>
-&lt;p>2019&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>2019.12.08&lt;/em>&lt;br>
-『Hult Prize On Campus Program at Nagaoka University of Technology』企画・運営&lt;/li>
-&lt;li>&lt;em>2019.11.08 - 2019.11.09&lt;/em>&lt;br>
+発表テーマ：「技術コミュニティの成長性を加味した特許価値評価手法の開発」&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2019&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;2019.12.08&lt;/em&gt;&lt;br&gt;
+『Hult Prize On Campus Program at Nagaoka University of Technology』企画・運営&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2019.11.08 - 2019.11.09&lt;/em&gt;&lt;br&gt;
 『4th STI-Gigaku 2019』発表
-発表テーマ：「Exploring Possibilities of Education by collaborative creative activities inHult Prize at Nagaoka University of Technology」&lt;/li>
-&lt;li>&lt;em>2019.08.30 - 2019.09.01&lt;/em>&lt;br>
+発表テーマ：「Exploring Possibilities of Education by collaborative creative activities inHult Prize at Nagaoka University of Technology」&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2019.08.30 - 2019.09.01&lt;/em&gt;&lt;br&gt;
 『ながおか・若者・しごと機構』アイデア実現 RPG &amp;ldquo;あいキャン&amp;rdquo;　参加（ &lt;a class="link" href="https://n-wakamonokikou.net/icam/report/nidcampv1.html" target="_blank" rel="noopener"
->開催レポート&lt;/a> ）&lt;/li>
-&lt;li>&lt;em>2019.08.26 - 2019.08.30&lt;/em>&lt;br>
-『ながおか・若者・しごと機構 × デザイントーク株式会社（合同インターン）』参加&lt;/li>
-&lt;li>&lt;em>2019.05.XX - 2019.08.XX&lt;/em>&lt;br>
-『リーンローンチパッドプログラム（長岡）』参加&lt;/li>
-&lt;/ul>
-&lt;p>2018&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>2018.12.22&lt;/em>&lt;br>
+&gt;開催レポート&lt;/a&gt; ）&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2019.08.26 - 2019.08.30&lt;/em&gt;&lt;br&gt;
+『ながおか・若者・しごと機構 × デザイントーク株式会社（合同インターン）』参加&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2019.05.XX - 2019.08.XX&lt;/em&gt;&lt;br&gt;
+『リーンローンチパッドプログラム（長岡）』参加&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2018&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;2018.12.22&lt;/em&gt;&lt;br&gt;
 『福井発！ビジネスプランコンテスト 2018』学生の部　参加
-福井信用金庫賞受賞&lt;/li>
-&lt;li>&lt;em>2018.12.01&lt;/em>&lt;br>
+福井信用金庫賞受賞&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2018.12.01&lt;/em&gt;&lt;br&gt;
 『ふくいソフトウェアコンペティション 2018』
-ふくいソフトウェア大賞受賞&lt;/li>
-&lt;li>&lt;em>2018.10.26 - 2018.10.27&lt;/em>&lt;br>
+ふくいソフトウェア大賞受賞&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2018.10.26 - 2018.10.27&lt;/em&gt;&lt;br&gt;
 『第 29 回全国高等専門学校プログラミングコンテスト』課題部門　本選出場
-特別賞受賞&lt;/li>
-&lt;/ul>
-&lt;p>2017&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>2017.03.XX - 2017.12.XX&lt;/em>&lt;br>
+特別賞受賞&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2017&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;2017.03.XX - 2017.12.XX&lt;/em&gt;&lt;br&gt;
 『スペースバルーンプロジェクト「ふーせん宇宙船」』参加（&lt;a class="link" href="https://www.youtube.com/watch?v=3dknwDvaEGQ" target="_blank" rel="noopener"
->ドキュメンタリー映像&lt;/a>）&lt;/li>
-&lt;li>&lt;em>2017.10.08 - 2017.10.09&lt;/em>&lt;br>
-『第 28 回全国高等専門学校プログラミングコンテスト』競技部門　参加&lt;/li>
-&lt;li>&lt;em>2017.08.22 - 2017.09.01&lt;/em>&lt;br>
-『株式会社アイジュピタ』インターン&lt;/li>
-&lt;/ul>
-&lt;p>2016&lt;/p>
-&lt;ul>
-&lt;li>&lt;em>2016.09.10&lt;/em>&lt;br>
-『パソコン甲子園』出場&lt;/li>
-&lt;/ul></description></item><item><title>Output</title><link>https://yamamoto-yuta.github.io/output/</link><pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/output/</guid><description>&lt;font size="1" align="right">
-&lt;p>&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/page/output/index.md" target="_blank" rel="noopener"
->✏️ 編集&lt;/a>&lt;/p>
-&lt;/font>
-&lt;!-- 埋め込みはここから: https://iframely.com/try -->
-&lt;h2 id="2026-年">2026 年
-&lt;/h2>&lt;iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fnote.com%2Ftimes_yappli%2Fn%2Fn9d51d60309b6" title="AIで「無邪気」に遊ぶ1日。ヤプリ初の社内AIハッカソン「ヤッ祭」開催レポ｜#times_yappli" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" loading="lazy">&lt;/iframe>
-&lt;h2 id="2025-年">2025 年
-&lt;/h2>&lt;iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Ftech.yappli.io%2Fentry%2Fya-benchmark-update-pj" title="Yappli Analyticsのベンチマーク機能改善プロジェクトの裏側 - Yappli Tech Blog" class="embed-card embed-blogcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;" loading="lazy" data-gtm-yt-inspected-29="true">&lt;/iframe>
-&lt;iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Ftech.yappli.io%2Fentry%2Fdbt-models-restructure" title="dbtプロジェクトのmodelsのディレクトリ構造を再構築してみた - Yappli Tech Blog" class="embed-card embed-blogcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;" loading="lazy">&lt;/iframe>
-&lt;iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Ftech.yappli.io%2Fentry%2Fdata-summit-2025-theater-session" title="DATA SUMMIT 2025に「プロダクトデザイナーに学ぶ、『見る気が起きる』ダッシュボードの作り方」という題で登壇しました！ - Yappli Tech Blog" class="embed-card embed-blogcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;" loading="lazy">&lt;/iframe>
-&lt;iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Ffindy-tools.io%2Fproducts%2Fbigquery%2F49%2F778" title="プロダクト用途から始まった、ヤプリのBigQuery導入事例" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" loading="lazy">&lt;/iframe>
-&lt;iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Ftech.yappli.io%2Fentry%2Flevtechmeetup-2025" title="#レバテックMeetup に「『必要とされるデータ基盤』であり続けるためにやってきたこと」という題で登壇しました！ - Yappli Tech Blog" class="embed-card embed-blogcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;">&lt;/iframe>
-&lt;iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Ftech.yappli.io%2Fentry%2Fsave-information-schema-jobs-by-project" title="INFORMATION_SCHEMA.JOBS_BY_PROJECTを全カラムで定期保存するのが地味に面倒だった話 - Yappli Tech Blog" class="embed-card embed-blogcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;">&lt;/iframe>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/dataopsnight-7" data-iframely-url="//iframely.net/iGDEJLMQ?media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Ftech.yappli.io%2Fentry%2Flightning-talk-15" title="プロダクト開発本部LT大会#15を開催しました - Yappli Tech Blog" class="embed-card embed-blogcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;">&lt;/iframe>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/bigquery-multiple-projects-table-usage-dashboard" data-iframely-url="//iframely.net/5LfwhRB?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/1f895c23dea3c611af32" data-iframely-url="//iframely.net/yUT9qsE?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://pug.connpass.com/event/344460/" data-iframely-url="//iframely.net/6vf0kXi?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/minkyo-2025" data-iframely-url="//iframely.net/cwnJwuR?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;h2 id="2024-年">2024 年
-&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/4c2478625cc62e6523cf" data-iframely-url="//iframely.net/3lK5202?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/e7f415d6ee4913f033ca" data-iframely-url="//iframely.net/tcoD41a?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/managing-bigquery-udf-with-dbt-macro" data-iframely-url="//iframely.net/xfbERju?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/rebuild-slack-datapipeline-with-trocco" data-iframely-url="//iframely.net/oCUYpDN?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/progress-of-building-a-data-catalog-at-yappli" data-iframely-url="//iframely.net/w7TM1Y5?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/my-guide-to-evangelizing-dbt-troccoug-ver" data-iframely-url="//iframely.net/VdEkBac?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/lightning-talk-13" data-iframely-url="//iframely.net/rpNlH18?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://connpass.com/event/325997/" data-iframely-url="//iframely.net/D7FOj6s">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/df2add3a8cdeae131ec2" data-iframely-url="//iframely.net/MIC0Kbu?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/642f225c47cdcdff0e6f" data-iframely-url="//iframely.net/TiAmDEQ?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/improve-dbt-docs-description-with-dbt-osmosis" data-iframely-url="//iframely.net/qVLLLHE?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;iframe src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Ffindy-tools.io%2Fproducts%2Fdbt%2F37%2F113" title="データ組織・基盤をスケール可能にするために dbt Core を導入した話" class="embed-card embed-webcard" scrolling="no" frameborder="0" style="display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;" loading="lazy">&lt;/iframe>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://findy-tools.io/products/dbt/37/113" data-iframely-url="//iframely.net/ROD4g5x?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/dbt-split-output-billing-gc-projects" data-iframely-url="//iframely.net/31qeQPA?media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/speak-at-troccoug-vol9" data-iframely-url="//iframely.net/h2kq5F4?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/update-dbt-infra-dev-flow" data-iframely-url="//iframely.net/7fF7k7q?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/replace-ya-mart-to-dbt" data-iframely-url="//iframely.net/QDCu6fV?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;h2 id="2023-年">2023 年
-&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/593e70a832733df5e9a1" data-iframely-url="//iframely.net/bvZIvFA?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://note.com/times_yappli/n/nfc3839fc0544" data-iframely-url="//iframely.net/meCxP0h?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/zapier-slack-to-jira-with-azure-openai" data-iframely-url="//iframely.net/iowviML?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/474e03cd28dec55fd5a2" data-iframely-url="//iframely.net/lw95lfQ?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/lightning-talk-10" data-iframely-url="//iframely.net/CxeGgDK?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/yapplitechconf2023-data" data-iframely-url="//iframely.net/8DMvgbf?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/decoding-multi-encoded-urls" data-iframely-url="//iframely.net/LRnrlNP?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://note.com/times_yappli/n/n35e1f320ba35" data-iframely-url="//iframely.net/wqqU9Zi?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/826de40c414655e19ced" data-iframely-url="//iframely.net/z5ztbOV?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/412b6e8167758e174d0a" data-iframely-url="//iframely.net/7JwoJTZ?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/tech-book-lt-understand-docker" data-iframely-url="//iframely.net/NSA5WbG?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/extract-app-store-review-to-spreadsheet-by-trocco" data-iframely-url="//iframely.net/hxlU4RN?media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/lightning-talk-8" data-iframely-url="//iframely.net/49fq8zk?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;h2 id="2022-年">2022 年
-&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://zenn.dev/aidemy/articles/425cf7d9f31945" data-iframely-url="//iframely.net/2qOt7KB?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/gig-program2022" data-iframely-url="//iframely.net/EZVbiFG?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/b6d64929ce035059bc53" data-iframely-url="//iframely.net/pzchlPC?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/5e67a9150f68ae0850ae" data-iframely-url="//iframely.net/3BYLuSW?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/14b776a59fcafd9830ec" data-iframely-url="//iframely.net/8QSEH87?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;h2 id="2021-年">2021 年
-&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://qiita.com/yamamoto-yuta/items/c9c5ea0912b02aa14e23" data-iframely-url="//iframely.net/nx0rYzd?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://tech.yappli.io/entry/optimize_notifications_release_time" data-iframely-url="//iframely.net/EXHLwxX?card=small&amp;media=0">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;h2 id="2020-年">2020 年
-&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://github.com/yamamoto-yuta/tictactoe-js" data-iframely-url="//iframely.net/oYWMrnU?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;details>&lt;summary>補足資料&lt;/summary>
-&lt;div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">&lt;iframe src="https://drive.google.com/file/d/1jd-qchsKh1V7VsjbN-YLSPhVmvX0Vrvh/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;">&lt;/iframe>&lt;/div>
-&lt;/details>
-&lt;h2 id="2019-年">2019 年
-&lt;/h2>&lt;h2 id="2018-年">2018 年
-&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 170px; padding-bottom: 0;">&lt;a href="https://www.procon.gr.jp/?page_id=64541" data-iframely-url="//iframely.net/uEhCc1V">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;details>&lt;summary>補足資料&lt;/summary>
-&lt;ul>
-&lt;li>&lt;a class="link" href="https://www.procon.gr.jp/wp-content/uploads/2019/02/29_app10029.pdf" target="_blank" rel="noopener"
->予選資料&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://www.procon.gr.jp/wp-content/uploads/2019/02/29_pmp10029.pdf" target="_blank" rel="noopener"
->本選パンフレット&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/details>
-&lt;h2 id="2017-年">2017 年
-&lt;/h2>&lt;div class="iframely-embed">&lt;div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">&lt;a href="https://yume.fukuishimbun.co.jp/sb" data-iframely-url="//iframely.net/NM3d2sC?card=small">&lt;/a>&lt;/div>&lt;/div>&lt;script async src="//iframely.net/embed.js">&lt;/script>
-&lt;details>&lt;summary>補足資料&lt;/summary>
-&lt;ul>
-&lt;li>&lt;a class="link" href="https://youtu.be/XxP2_zDJ9_A" target="_blank" rel="noopener"
->飛行映像&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="https://youtu.be/3dknwDvaEGQ" target="_blank" rel="noopener"
->ドキュメンタリー映像&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/details></description></item><item><title>Archives</title><link>https://yamamoto-yuta.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/archives/</guid><description/></item><item><title>Search</title><link>https://yamamoto-yuta.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/search/</guid><description/></item></channel></rss>
+&gt;ドキュメンタリー映像&lt;/a&gt;）&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2017.10.08 - 2017.10.09&lt;/em&gt;&lt;br&gt;
+『第 28 回全国高等専門学校プログラミングコンテスト』競技部門　参加&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;2017.08.22 - 2017.09.01&lt;/em&gt;&lt;br&gt;
+『株式会社アイジュピタ』インターン&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2016&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;2016.09.10&lt;/em&gt;&lt;br&gt;
+『パソコン甲子園』出場&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Output</title><link>https://yamamoto-yuta.github.io/output/</link><pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/output/</guid><description>&lt;font size="1" align="right"&gt;
+&lt;p&gt;&lt;a class="link" href="https://github.com/yamamoto-yuta/yamamoto-yuta.github.io/blob/main/content/page/output/index.md" target="_blank" rel="noopener"
+&gt;✏️ 編集&lt;/a&gt;&lt;/p&gt;
+&lt;/font&gt;
+&lt;!-- 埋め込みはここから: https://iframely.com/try --&gt;
+&lt;h2 id="2026-年"&gt;2026 年
+&lt;/h2&gt;&lt;a href="https://note.com/times_yappli/n/n9d51d60309b6" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;AIで「無邪気」に遊ぶ1日。ヤプリ初の社内AIハッカソン「ヤッ祭」開催レポ｜#times_yappli&lt;/div&gt;
+&lt;div&gt;note（ノート） · note.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://assets.st-note.com/production/uploads/images/263607444/rectangle_large_type_2_78d173c5c9b73b075989f6f771918e2f.jpeg?fit=bounds&amp;amp;quality=85&amp;amp;width=1280" alt="AIで「無邪気」に遊ぶ1日。ヤプリ初の社内AIハッカソン「ヤッ祭」開催レポ｜#times_yappli" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;h2 id="2025-年"&gt;2025 年
+&lt;/h2&gt;&lt;a href="https://tech.yappli.io/entry/ya-benchmark-update-pj" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;Yappli Analyticsのベンチマーク機能改善プロジェクトの裏側 - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/6a58e857989008c977a75944e292a74121f3ac7c/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20251217%2F20251217230013.jpg" alt="Yappli Analyticsのベンチマーク機能改善プロジェクトの裏側 - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/dbt-models-restructure" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;dbtプロジェクトのmodelsのディレクトリ構造を再構築してみた - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/b4fa4948c56118b270b5f12a60cef1865be1972b/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20251212%2F20251212023913.jpg" alt="dbtプロジェクトのmodelsのディレクトリ構造を再構築してみた - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/data-summit-2025-theater-session" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;DATA SUMMIT 2025に「プロダクトデザイナーに学ぶ、『見る気が起きる』ダッシュボードの作り方」という題で登壇しました！ - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/653f1074c42bcbd090a25dbd318f9c736797e93d/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ftech-yappli%2F20251127%2F20251127140556.png" alt="DATA SUMMIT 2025に「プロダクトデザイナーに学ぶ、『見る気が起きる』ダッシュボードの作り方」という題で登壇しました！ - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://findy-tools.io/products/bigquery/49/778" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;プロダクト用途から始まった、ヤプリのBigQuery導入事例&lt;/div&gt;
+&lt;div&gt;findy-tools.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://findy-tools.io/products/bigquery/49/778/opengraph-image?de479d738d5ec9b6" alt="プロダクト用途から始まった、ヤプリのBigQuery導入事例" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/levtechmeetup-2025" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;#レバテックMeetup に「『必要とされるデータ基盤』であり続けるためにやってきたこと」という題で登壇しました！ - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/501ee1287ad574fe75a6e78d766f8084d813fb9f/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20250907%2F20250907183352.jpg" alt="#レバテックMeetup に「『必要とされるデータ基盤』であり続けるためにやってきたこと」という題で登壇しました！ - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/save-information-schema-jobs-by-project" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;INFORMATION_SCHEMA.JOBS_BY_PROJECTを全カラムで定期保存するのが地味に面倒だった話 - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/3e9063c3dc55985023f591312823086b7c13a392/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20250611%2F20250611122835.jpg" alt="INFORMATION_SCHEMA.JOBS_BY_PROJECTを全カラムで定期保存するのが地味に面倒だった話 - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/dataopsnight-7" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;DataOps Night #7に『他チームへ越境したら、生データ提供ソリューションのクエリ費用95%削減へ繋がった話』という題で登壇しました！ #dataopsnight - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/612ca1b99f02ddbf83ab6e9c5c07a33cdd34a234/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn.user.blog.st-hatena.com%2Fdefault_entry_og_image%2F153221285%2F1600243384103025" alt="DataOps Night #7に『他チームへ越境したら、生データ提供ソリューションのクエリ費用95%削減へ繋がった話』という題で登壇しました！ #dataopsnight - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/lightning-talk-15" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;プロダクト開発本部LT大会#15を開催しました - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/c76082b7f14ae66ee551bc0d30f17389b0f75ca0/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ftech-yappli%2F20250603%2F20250603174708.png" alt="プロダクト開発本部LT大会#15を開催しました - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/bigquery-multiple-projects-table-usage-dashboard" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;BigQueryで複数プロジェクトのテーブル参照状況をINFORMATION_SCHEMAから調べてLooker Studioでダッシュボード化してみた - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/715913bfb4b9490263f30ec6e483788fdbb6978b/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20250414%2F20250414161048.jpg" alt="BigQueryで複数プロジェクトのテーブル参照状況をINFORMATION_SCHEMAから調べてLooker Studioでダッシュボード化してみた - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://qiita.com/yamamoto-yuta/items/1f895c23dea3c611af32" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;TROCCOで同じカスタム変数ループ（文字列展開）を複数のジョブで使い回す方法 - Qiita&lt;/div&gt;
+&lt;div&gt;Qiita · qiita.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.0.0%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDg5MDMwJTJGcHJvZmlsZS1pbWFnZXMlMkYxNjM4NTE1OTAxP2l4bGliPXJiLTQuMC4wJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz1mYzQ3MzNiZTQ2YjkxZDYyOGE4NzU2ZmI3ZDk3NjRhMg%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D86a904e13e5a567689de36161343d9dc?ixlib=rb-4.0.0&amp;amp;w=1200&amp;amp;fm=jpg&amp;amp;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTk2MCZoPTMyNCZ0eHQ9VFJPQ0NPJUUzJTgxJUE3JUU1JTkwJThDJUUzJTgxJTk4JUUzJTgyJUFCJUUzJTgyJUI5JUUzJTgyJUJGJUUzJTgzJUEwJUU1JUE0JTg5JUU2JTk1JUIwJUUzJTgzJUFCJUUzJTgzJUJDJUUzJTgzJTk3JUVGJUJDJTg4JUU2JTk2JTg3JUU1JUFEJTk3JUU1JTg4JTk3JUU1JUIxJTk1JUU5JTk2JThCJUVGJUJDJTg5JUUzJTgyJTkyJUU4JUE0JTg3JUU2JTk1JUIwJUUzJTgxJUFFJUUzJTgyJUI4JUUzJTgzJUE3JUUzJTgzJTk2JUUzJTgxJUE3JUU0JUJEJUJGJUUzJTgxJTg0JUU1JTlCJTlFJUUzJTgxJTk5JUU2JTk2JUI5JUU2JUIzJTk1JnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9MjJhMWYyMmY2ZTg4NzRiNmI2MTMzOWFmMzdkNjgxMWI&amp;amp;mark-x=120&amp;amp;mark-y=112&amp;amp;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTgzOCZoPTU4JnR4dD0lNDB5YW1hbW90by15dXRhJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9NzA4YzY0ZTE3NjJhNWM3NjcxYmQ5MzI4MThkMzI0YTY&amp;amp;blend-x=242&amp;amp;blend-y=480&amp;amp;blend-w=838&amp;amp;blend-h=46&amp;amp;blend-fit=crop&amp;amp;blend-crop=left%2Cbottom&amp;amp;blend-mode=normal&amp;amp;s=12c8bc2424ccb6e305568e8bcf4561ef" alt="TROCCOで同じカスタム変数ループ（文字列展開）を複数のジョブで使い回す方法 - Qiita" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://pug.connpass.com/event/344460/" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;【オンライン】#p_UG 一人データエンジニアだからこそ感じるアウトプットの重要性 (2025/02/19 21:00〜)&lt;/div&gt;
+&lt;div&gt;connpass · pug.connpass.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://media.connpass.com/thumbs/df/0a/df0a3670c62ca288046bf9c5e6aa1a27.png" alt="【オンライン】#p_UG 一人データエンジニアだからこそ感じるアウトプットの重要性 (2025/02/19 21:00〜)" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/minkyo-2025" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;#みん強 に『プロダクト観点で考えるデータ基盤の育成戦略』という題で登壇しました！ - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/82224e04b6d86f768ce5785bd8c034cdb383a7f7/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ftech-yappli%2F20250205%2F20250205154646.png" alt="#みん強 に『プロダクト観点で考えるデータ基盤の育成戦略』という題で登壇しました！ - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;h2 id="2024-年"&gt;2024 年
+&lt;/h2&gt;&lt;a href="https://qiita.com/yamamoto-yuta/items/4c2478625cc62e6523cf" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;ビューを使ってジョブの実行順によらず集計ロジックをdbtへ集約するアイデア - Qiita&lt;/div&gt;
+&lt;div&gt;Qiita · qiita.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.0.0%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDg5MDMwJTJGcHJvZmlsZS1pbWFnZXMlMkYxNjM4NTE1OTAxP2l4bGliPXJiLTQuMC4wJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz1mYzQ3MzNiZTQ2YjkxZDYyOGE4NzU2ZmI3ZDk3NjRhMg%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D86a904e13e5a567689de36161343d9dc?ixlib=rb-4.0.0&amp;amp;w=1200&amp;amp;fm=jpg&amp;amp;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTk2MCZoPTMyNCZ0eHQ9JUUzJTgzJTkzJUUzJTgzJUE1JUUzJTgzJUJDJUUzJTgyJTkyJUU0JUJEJUJGJUUzJTgxJUEzJUUzJTgxJUE2JUUzJTgyJUI4JUUzJTgzJUE3JUUzJTgzJTk2JUUzJTgxJUFFJUU1JUFFJTlGJUU4JUExJThDJUU5JUEwJTg2JUUzJTgxJUFCJUUzJTgyJTg4JUUzJTgyJTg5JUUzJTgxJTlBJUU5JTlCJTg2JUU4JUE4JTg4JUUzJTgzJUFEJUUzJTgyJUI4JUUzJTgzJTgzJUUzJTgyJUFGJUUzJTgyJTkyZGJ0JUUzJTgxJUI4JUU5JTlCJTg2JUU3JUI0JTg0JUUzJTgxJTk5JUUzJTgyJThCJUUzJTgyJUEyJUUzJTgyJUE0JUUzJTgzJTg3JUUzJTgyJUEyJnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9YjhhMWZhZDUzYzE1MTM5ODgwYjVkMzI0NmYyM2M3OGQ&amp;amp;mark-x=120&amp;amp;mark-y=112&amp;amp;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTgzOCZoPTU4JnR4dD0lNDB5YW1hbW90by15dXRhJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9NzA4YzY0ZTE3NjJhNWM3NjcxYmQ5MzI4MThkMzI0YTY&amp;amp;blend-x=242&amp;amp;blend-y=480&amp;amp;blend-w=838&amp;amp;blend-h=46&amp;amp;blend-fit=crop&amp;amp;blend-crop=left%2Cbottom&amp;amp;blend-mode=normal&amp;amp;s=4b00b389e50f37eae810ac88c06f6738" alt="ビューを使ってジョブの実行順によらず集計ロジックをdbtへ集約するアイデア - Qiita" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://qiita.com/yamamoto-yuta/items/e7f415d6ee4913f033ca" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;TROCCOのHTTPS転送でSlack APIのページングを無理やり実現してみた - Qiita&lt;/div&gt;
+&lt;div&gt;Qiita · qiita.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Fadvent-calendar-ogp-background-7940cd1c8db80a7ec40711d90f43539e.jpg%3Fixlib%3Drb-4.0.0%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDg5MDMwJTJGcHJvZmlsZS1pbWFnZXMlMkYxNjM4NTE1OTAxP2l4bGliPXJiLTQuMC4wJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz1mYzQ3MzNiZTQ2YjkxZDYyOGE4NzU2ZmI3ZDk3NjRhMg%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D23a1e731c7951400cd2b69d9d7c02edc?ixlib=rb-4.0.0&amp;amp;w=1200&amp;amp;fm=jpg&amp;amp;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTk2MCZoPTMyNCZ0eHQ9VFJPQ0NPJUUzJTgxJUFFSFRUUFMlRTglQkIlQTIlRTklODAlODElRTMlODElQTdTbGFjayUyMEFQSSVFMyU4MSVBRSVFMyU4MyU5QSVFMyU4MyVCQyVFMyU4MiVCOCVFMyU4MyVCMyVFMyU4MiVCMCVFMyU4MiU5MiVFNyU4NCVBMSVFNyU5MCU4NiVFMyU4MiU4NCVFMyU4MiU4QSVFNSVBRSU5RiVFNyU4RiVCRSVFMyU4MSU5NyVFMyU4MSVBNiVFMyU4MSVCRiVFMyU4MSU5RiZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzM0EzQzNDJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPWU0OWM5MDgzNjdlM2JlZWE4ZTMwZWE2OTA1MTk0Y2Ri&amp;amp;mark-x=120&amp;amp;mark-y=112&amp;amp;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTgzOCZoPTU4JnR4dD0lNDB5YW1hbW90by15dXRhJnR4dC1jb2xvcj0lMjMzQTNDM0MmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9ZmY4ODUyZDYxOThkNzBkOGZkZWQ1YmMyZjIyYzdkZWY&amp;amp;blend-x=242&amp;amp;blend-y=480&amp;amp;blend-w=838&amp;amp;blend-h=46&amp;amp;blend-fit=crop&amp;amp;blend-crop=left%2Cbottom&amp;amp;blend-mode=normal&amp;amp;s=0537891252e31cee4ef3229d60d74fe1" alt="TROCCOのHTTPS転送でSlack APIのページングを無理やり実現してみた - Qiita" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/managing-bigquery-udf-with-dbt-macro" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;BigQuery上にあるUDFをdbt macroで管理するようにした話 - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/306676e76c64a0d0c1ff58f34817d838ba18e344/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20241118%2F20241118123229.png" alt="BigQuery上にあるUDFをdbt macroで管理するようにした話 - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/rebuild-slack-datapipeline-with-trocco" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;「内定者インターン時代に半年かけて作った全社横断のSlackデータ基盤、TROCCOなら爆速構築できる説」の検証 - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/057fe872bfd6e3bfdb6bf61ec4179463d66b9f58/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20241203%2F20241203144013.jpg" alt="「内定者インターン時代に半年かけて作った全社横断のSlackデータ基盤、TROCCOなら爆速構築できる説」の検証 - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/progress-of-building-a-data-catalog-at-yappli" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;Findy Lunch LTに『ヤプリのデータカタログ整備 1年間の歩み』という題で登壇しました！ - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/b1868e7c52d6125874ee7da68aae065839f625fc/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20241127%2F20241127185506.jpg" alt="Findy Lunch LTに『ヤプリのデータカタログ整備 1年間の歩み』という題で登壇しました！ - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/my-guide-to-evangelizing-dbt-troccoug-ver" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;#TROCCOUG にて「私のdbt布教用資料 〜TROCCOUG Ver.〜」という題で登壇してきました - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/05046cf20beeea0be82d9c83b8aae4ecd39dcb89/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20240920%2F20240920002253.jpg" alt="#TROCCOUG にて「私のdbt布教用資料 〜TROCCOUG Ver.〜」という題で登壇してきました - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/lightning-talk-13" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;プロダクト開発本部LT大会#13を開催しました - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/c69491a9b9a8bb96d728208e5d64284272b7f03a/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20240912%2F20240912112207.jpg" alt="プロダクト開発本部LT大会#13を開催しました - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://connpass.com/event/325997/" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;全日本dbt-osmosisを愛でる会 (2024/08/26 18:30〜)&lt;/div&gt;
+&lt;div&gt;connpass · connpass.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://media.connpass.com/thumbs/21/7a/217a0aa1aeb25852eacb884ecd7d4647.png" alt="全日本dbt-osmosisを愛でる会 (2024/08/26 18:30〜)" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://qiita.com/yamamoto-yuta/items/df2add3a8cdeae131ec2" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;dbt-osmosisの挙動を調べてみた　〜②Refactor機能のコマンドオプション編〜 - Qiita&lt;/div&gt;
+&lt;div&gt;Qiita · qiita.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Fengineer-festa-ogp-background-074608b13b4bbe67c10ada41e7e2d292.png%3Fixlib%3Drb-4.0.0%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDg5MDMwJTJGcHJvZmlsZS1pbWFnZXMlMkYxNjM4NTE1OTAxP2l4bGliPXJiLTQuMC4wJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz1mYzQ3MzNiZTQ2YjkxZDYyOGE4NzU2ZmI3ZDk3NjRhMg%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D8d2fd4b8257756eaca97cac8f27a9402?ixlib=rb-4.0.0&amp;amp;w=1200&amp;amp;fm=jpg&amp;amp;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTk2MCZoPTMyNCZ0eHQ9ZGJ0LW9zbW9zaXMlRTMlODElQUUlRTYlOEMlOTklRTUlOEIlOTUlRTMlODIlOTIlRTglQUElQkYlRTMlODElQjklRTMlODElQTYlRTMlODElQkYlRTMlODElOUYlRTMlODAlODAlRTMlODAlOUMlRTIlOTElQTFSZWZhY3RvciVFNiVBOSU5RiVFOCU4MyVCRCVFMyU4MSVBRSVFMyU4MiVCMyVFMyU4MyU5RSVFMyU4MyVCMyVFMyU4MyU4OSVFMyU4MiVBQSVFMyU4MyU5NyVFMyU4MiVCNyVFMyU4MyVBNyVFMyU4MyVCMyVFNyVCNyVBOCVFMyU4MCU5QyZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzRkZGRkZGJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPTlkYWJhMzhkOGZlMWFmMGUzMzkxZWE2YzcwNWRmNmE5&amp;amp;mark-x=120&amp;amp;mark-y=112&amp;amp;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTgzOCZoPTU4JnR4dD0lNDB5YW1hbW90by15dXRhJnR4dC1jb2xvcj0lMjNGRkZGRkYmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9M2UzMmIwOGUwNGQzZGQyMTc2YTA3YTVhYmQyNjZmNzM&amp;amp;blend-x=242&amp;amp;blend-y=480&amp;amp;blend-w=838&amp;amp;blend-h=46&amp;amp;blend-fit=crop&amp;amp;blend-crop=left%2Cbottom&amp;amp;blend-mode=normal&amp;amp;s=1b0e6ddfa1d5d820601cca93bbb0abb5" alt="dbt-osmosisの挙動を調べてみた　〜②Refactor機能のコマンドオプション編〜 - Qiita" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://qiita.com/yamamoto-yuta/items/642f225c47cdcdff0e6f" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;dbt-osmosisの挙動を調べてみた　〜①標準機能編〜 - Qiita&lt;/div&gt;
+&lt;div&gt;Qiita · qiita.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Fengineer-festa-ogp-background-074608b13b4bbe67c10ada41e7e2d292.png%3Fixlib%3Drb-4.0.0%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDg5MDMwJTJGcHJvZmlsZS1pbWFnZXMlMkYxNjM4NTE1OTAxP2l4bGliPXJiLTQuMC4wJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz1mYzQ3MzNiZTQ2YjkxZDYyOGE4NzU2ZmI3ZDk3NjRhMg%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D8d2fd4b8257756eaca97cac8f27a9402?ixlib=rb-4.0.0&amp;amp;w=1200&amp;amp;fm=jpg&amp;amp;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTk2MCZoPTMyNCZ0eHQ9ZGJ0LW9zbW9zaXMlRTMlODElQUUlRTYlOEMlOTklRTUlOEIlOTUlRTMlODIlOTIlRTglQUElQkYlRTMlODElQjklRTMlODElQTYlRTMlODElQkYlRTMlODElOUYlRTMlODAlODAlRTMlODAlOUMlRTIlOTElQTAlRTYlQTglOTklRTYlQkElOTYlRTYlQTklOUYlRTglODMlQkQlRTclQjclQTglRTMlODAlOUMmdHh0LWFsaWduPWxlZnQlMkN0b3AmdHh0LWNvbG9yPSUyM0ZGRkZGRiZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT01NiZ0eHQtcGFkPTAmcz1iY2ZiOTk2MjVkNGI2NzkwY2JkZTdiNGMzNjZkNTU3Yw&amp;amp;mark-x=120&amp;amp;mark-y=112&amp;amp;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTgzOCZoPTU4JnR4dD0lNDB5YW1hbW90by15dXRhJnR4dC1jb2xvcj0lMjNGRkZGRkYmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9M2UzMmIwOGUwNGQzZGQyMTc2YTA3YTVhYmQyNjZmNzM&amp;amp;blend-x=242&amp;amp;blend-y=480&amp;amp;blend-w=838&amp;amp;blend-h=46&amp;amp;blend-fit=crop&amp;amp;blend-crop=left%2Cbottom&amp;amp;blend-mode=normal&amp;amp;s=296f5137cdf8640f299402cc91254fea" alt="dbt-osmosisの挙動を調べてみた　〜①標準機能編〜 - Qiita" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/improve-dbt-docs-description-with-dbt-osmosis" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;dbt-osmosisを導入してdbt docsのdescriptionの拡充率を30%→80%まで上げた話 - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/baa76fc106572cd9db3ac8a9fe03d12a74cbc00e/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ftech-yappli%2F20240714%2F20240714194643.png" alt="dbt-osmosisを導入してdbt docsのdescriptionの拡充率を30%→80%まで上げた話 - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://findy-tools.io/products/dbt/37/113" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;データ組織・基盤をスケール可能にするために dbt Core を導入した話&lt;/div&gt;
+&lt;div&gt;findy-tools.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://findy-tools.io/products/dbt/37/113/opengraph-image?de479d738d5ec9b6" alt="データ組織・基盤をスケール可能にするために dbt Core を導入した話" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/dbt-split-output-billing-gc-projects" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;dbt Core で GCP の出力先プロジェクトと課金プロジェクトを分ける - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/612ca1b99f02ddbf83ab6e9c5c07a33cdd34a234/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn.user.blog.st-hatena.com%2Fdefault_entry_og_image%2F153221285%2F1600243384103025" alt="dbt Core で GCP の出力先プロジェクトと課金プロジェクトを分ける - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/speak-at-troccoug-vol9" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;#TROCCOUG にて「データカタログの最初の一歩 〜データ組織向けに dbt docs を整備している話〜」について話しました - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/69e7adf74bd7a3dae504fe8f6314b3cfbfcbf462/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20240527%2F20240527155719.png" alt="#TROCCOUG にて「データカタログの最初の一歩 〜データ組織向けに dbt docs を整備している話〜」について話しました - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/update-dbt-infra-dev-flow" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;dbt 基盤の開発フローを改善した話 - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/a5c1b10642fdff3efbdd0e4923286d16c58540fd/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20240423%2F20240423015429.png" alt="dbt 基盤の開発フローを改善した話 - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/replace-ya-mart-to-dbt" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;Yappli Analytics のデータマートを dbt へ切り替えた話 - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/30381b468ebd6190b6ae7961e70bff1ddfb687a6/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20240423%2F20240423015742.png" alt="Yappli Analytics のデータマートを dbt へ切り替えた話 - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;h2 id="2023-年"&gt;2023 年
+&lt;/h2&gt;&lt;a href="https://qiita.com/yamamoto-yuta/items/593e70a832733df5e9a1" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;trocco のカスタム変数ループ実行で BigQuery に作成した UDF をコピーする - Qiita&lt;/div&gt;
+&lt;div&gt;Qiita · qiita.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Fadvent-calendar-ogp-background-7940cd1c8db80a7ec40711d90f43539e.jpg%3Fixlib%3Drb-4.0.0%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDg5MDMwJTJGcHJvZmlsZS1pbWFnZXMlMkYxNjM4NTE1OTAxP2l4bGliPXJiLTQuMC4wJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz1mYzQ3MzNiZTQ2YjkxZDYyOGE4NzU2ZmI3ZDk3NjRhMg%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D23a1e731c7951400cd2b69d9d7c02edc?ixlib=rb-4.0.0&amp;amp;w=1200&amp;amp;fm=jpg&amp;amp;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTk2MCZoPTMyNCZ0eHQ9dHJvY2NvJTIwJUUzJTgxJUFFJUUzJTgyJUFCJUUzJTgyJUI5JUUzJTgyJUJGJUUzJTgzJUEwJUU1JUE0JTg5JUU2JTk1JUIwJUUzJTgzJUFCJUUzJTgzJUJDJUUzJTgzJTk3JUU1JUFFJTlGJUU4JUExJThDJUUzJTgxJUE3JTIwQmlnUXVlcnklMjAlRTMlODElQUIlRTQlQkQlOUMlRTYlODglOTAlRTMlODElOTclRTMlODElOUYlMjBVREYlMjAlRTMlODIlOTIlRTMlODIlQjMlRTMlODMlOTQlRTMlODMlQkMlRTMlODElOTklRTMlODIlOEImdHh0LWFsaWduPWxlZnQlMkN0b3AmdHh0LWNvbG9yPSUyMzNBM0MzQyZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT01NiZ0eHQtcGFkPTAmcz1iNDViYzJkNGE1YmE2Y2QyNzIxMTBkMGZkNWEwZDUzYg&amp;amp;mark-x=120&amp;amp;mark-y=112&amp;amp;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTgzOCZoPTU4JnR4dD0lNDB5YW1hbW90by15dXRhJnR4dC1jb2xvcj0lMjMzQTNDM0MmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9ZmY4ODUyZDYxOThkNzBkOGZkZWQ1YmMyZjIyYzdkZWY&amp;amp;blend-x=242&amp;amp;blend-y=480&amp;amp;blend-w=838&amp;amp;blend-h=46&amp;amp;blend-fit=crop&amp;amp;blend-crop=left%2Cbottom&amp;amp;blend-mode=normal&amp;amp;s=e1d1c60fca48dce9d3320881abd2f94e" alt="trocco のカスタム変数ループ実行で BigQuery に作成した UDF をコピーする - Qiita" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://note.com/times_yappli/n/nfc3839fc0544" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;ヤプリもSlack コミュニケーションガイドラインをつくった話｜#times_yappli&lt;/div&gt;
+&lt;div&gt;note（ノート） · note.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://assets.st-note.com/production/uploads/images/123140183/rectangle_large_type_2_77a9971569116193e4edb1959971a5ea.jpeg?fit=bounds&amp;amp;quality=85&amp;amp;width=1280" alt="ヤプリもSlack コミュニケーションガイドラインをつくった話｜#times_yappli" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/zapier-slack-to-jira-with-azure-openai" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;Zapier を使って Slack → Jira 起票＆ Azure OpenAI Service でチケットタイトル生成 - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/dec3fd71861b2237954a64550315c64d5eb2fe52/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20231202%2F20231202164508.png" alt="Zapier を使って Slack → Jira 起票＆ Azure OpenAI Service でチケットタイトル生成 - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://qiita.com/yamamoto-yuta/items/474e03cd28dec55fd5a2" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;trocco のカスタム変数ループ実行で複数の BigQuery テーブルを一括クローンする - Qiita&lt;/div&gt;
+&lt;div&gt;Qiita · qiita.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Fadvent-calendar-ogp-background-7940cd1c8db80a7ec40711d90f43539e.jpg%3Fixlib%3Drb-4.0.0%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDg5MDMwJTJGcHJvZmlsZS1pbWFnZXMlMkYxNjM4NTE1OTAxP2l4bGliPXJiLTQuMC4wJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz1mYzQ3MzNiZTQ2YjkxZDYyOGE4NzU2ZmI3ZDk3NjRhMg%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D23a1e731c7951400cd2b69d9d7c02edc?ixlib=rb-4.0.0&amp;amp;w=1200&amp;amp;fm=jpg&amp;amp;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTk2MCZoPTMyNCZ0eHQ9dHJvY2NvJTIwJUUzJTgxJUFFJUUzJTgyJUFCJUUzJTgyJUI5JUUzJTgyJUJGJUUzJTgzJUEwJUU1JUE0JTg5JUU2JTk1JUIwJUUzJTgzJUFCJUUzJTgzJUJDJUUzJTgzJTk3JUU1JUFFJTlGJUU4JUExJThDJUUzJTgxJUE3JUU4JUE0JTg3JUU2JTk1JUIwJUUzJTgxJUFFJTIwQmlnUXVlcnklMjAlRTMlODMlODYlRTMlODMlQkMlRTMlODMlOTYlRTMlODMlQUIlRTMlODIlOTIlRTQlQjglODAlRTYlOEIlQUMlRTMlODIlQUYlRTMlODMlQUQlRTMlODMlQkMlRTMlODMlQjMlRTMlODElOTklRTMlODIlOEImdHh0LWFsaWduPWxlZnQlMkN0b3AmdHh0LWNvbG9yPSUyMzNBM0MzQyZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT01NiZ0eHQtcGFkPTAmcz04YjY5ZjFiYjBlMjIyMGUzNzc3ZjY5OTIxZGE3NDE1ZA&amp;amp;mark-x=120&amp;amp;mark-y=112&amp;amp;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTgzOCZoPTU4JnR4dD0lNDB5YW1hbW90by15dXRhJnR4dC1jb2xvcj0lMjMzQTNDM0MmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9ZmY4ODUyZDYxOThkNzBkOGZkZWQ1YmMyZjIyYzdkZWY&amp;amp;blend-x=242&amp;amp;blend-y=480&amp;amp;blend-w=838&amp;amp;blend-h=46&amp;amp;blend-fit=crop&amp;amp;blend-crop=left%2Cbottom&amp;amp;blend-mode=normal&amp;amp;s=260ffc7dbe850781128d16bb0a28c1e1" alt="trocco のカスタム変数ループ実行で複数の BigQuery テーブルを一括クローンする - Qiita" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/lightning-talk-10" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;プロダクト開発本部LT大会#10を開催しました - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/a3aa4b4eca69cac9077f2d35679cfb1a80222f96/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20231118%2F20231118235150.png" alt="プロダクト開発本部LT大会#10を開催しました - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/yapplitechconf2023-data" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;「次の10年を戦える分析用データ基盤構築の第一歩 - dbtによる基盤刷新とクエリ費用90%削減への取り組み -」という発表をしてきました！ #Yappli Tech Conference 2023 - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/f59d1964b79ef141b2ca94714064b34d37573d13/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20231020%2F20231020095455.jpg" alt="「次の10年を戦える分析用データ基盤構築の第一歩 - dbtによる基盤刷新とクエリ費用90%削減への取り組み -」という発表をしてきました！ #Yappli Tech Conference 2023 - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/decoding-multi-encoded-urls" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;BigQuery内にある多重エンコードされたURLのデコード - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/49975990dbe2f38b24c045cabb96859846ca1bee/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20230727%2F20230727195901.png" alt="BigQuery内にある多重エンコードされたURLのデコード - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://note.com/times_yappli/n/n35e1f320ba35" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;新卒メンバー企画！「部活動紹介ランチ」とその誕生秘話 #今日のヤプリ｜#times_yappli&lt;/div&gt;
+&lt;div&gt;note（ノート） · note.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://assets.st-note.com/production/uploads/images/110748745/rectangle_large_type_2_4ab3a1db10145e8be19c4d30c436a021.jpeg?fit=bounds&amp;amp;quality=85&amp;amp;width=1280" alt="新卒メンバー企画！「部活動紹介ランチ」とその誕生秘話 #今日のヤプリ｜#times_yappli" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://qiita.com/yamamoto-yuta/items/826de40c414655e19ced" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;CSV テキストと Markdown Table をキーボードショートカットで相互変換できる Chrome 拡張機能作ってみた - Qiita&lt;/div&gt;
+&lt;div&gt;Qiita · qiita.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.0.0%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDg5MDMwJTJGcHJvZmlsZS1pbWFnZXMlMkYxNjM4NTE1OTAxP2l4bGliPXJiLTQuMC4wJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz1mYzQ3MzNiZTQ2YjkxZDYyOGE4NzU2ZmI3ZDk3NjRhMg%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D86a904e13e5a567689de36161343d9dc?ixlib=rb-4.0.0&amp;amp;w=1200&amp;amp;fm=jpg&amp;amp;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTk2MCZoPTMyNCZ0eHQ9Q1NWJTIwJUUzJTgzJTg2JUUzJTgyJUFEJUUzJTgyJUI5JUUzJTgzJTg4JUUzJTgxJUE4JTIwTWFya2Rvd24lMjBUYWJsZSUyMCVFMyU4MiU5MiVFMyU4MiVBRCVFMyU4MyVCQyVFMyU4MyU5QyVFMyU4MyVCQyVFMyU4MyU4OSVFMyU4MiVCNyVFMyU4MyVBNyVFMyU4MyVCQyVFMyU4MyU4OCVFMyU4MiVBQiVFMyU4MyU4MyVFMyU4MyU4OCVFMyU4MSVBNyVFNyU5QiVCOCVFNCVCQSU5MiVFNSVBNCU4OSVFNiU4RiU5QiVFMyU4MSVBNyVFMyU4MSU4RCVFMyU4MiU4QiUyMENocm9tZSUyMCVFNiU4QiVBMSVFNSVCQyVCNSVFNiVBOSU5RiVFOCU4MyVCRCVFNCVCRCU5QyVFMyU4MSVBMyVFMiU4MCVBNiZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPWFmNTQ5ZjAyNTZlZThhNTcyMzRlODZhNjQ2OWRhNjZm&amp;amp;mark-x=120&amp;amp;mark-y=112&amp;amp;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTgzOCZoPTU4JnR4dD0lNDB5YW1hbW90by15dXRhJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9NzA4YzY0ZTE3NjJhNWM3NjcxYmQ5MzI4MThkMzI0YTY&amp;amp;blend-x=242&amp;amp;blend-y=480&amp;amp;blend-w=838&amp;amp;blend-h=46&amp;amp;blend-fit=crop&amp;amp;blend-crop=left%2Cbottom&amp;amp;blend-mode=normal&amp;amp;s=3efea6df99e49f36989730d88d62645b" alt="CSV テキストと Markdown Table をキーボードショートカットで相互変換できる Chrome 拡張機能作ってみた - Qiita" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://qiita.com/yamamoto-yuta/items/412b6e8167758e174d0a" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;Docker で dbt プロジェクトを始める方法をいくつか試してみた - Qiita&lt;/div&gt;
+&lt;div&gt;Qiita · qiita.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.0.0%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDg5MDMwJTJGcHJvZmlsZS1pbWFnZXMlMkYxNjM4NTE1OTAxP2l4bGliPXJiLTQuMC4wJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz1mYzQ3MzNiZTQ2YjkxZDYyOGE4NzU2ZmI3ZDk3NjRhMg%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D86a904e13e5a567689de36161343d9dc?ixlib=rb-4.0.0&amp;amp;w=1200&amp;amp;fm=jpg&amp;amp;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTk2MCZoPTMyNCZ0eHQ9RG9ja2VyJTIwJUUzJTgxJUE3JTIwZGJ0JTIwJUUzJTgzJTk3JUUzJTgzJUFEJUUzJTgyJUI4JUUzJTgyJUE3JUUzJTgyJUFGJUUzJTgzJTg4JUUzJTgyJTkyJUU1JUE3JThCJUUzJTgyJTgxJUUzJTgyJThCJUU2JTk2JUI5JUU2JUIzJTk1JUUzJTgyJTkyJUUzJTgxJTg0JUUzJTgxJThGJUUzJTgxJUE0JUUzJTgxJThCJUU4JUE5JUE2JUUzJTgxJTk3JUUzJTgxJUE2JUUzJTgxJUJGJUUzJTgxJTlGJnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9NWNjMzhmZTFjZmFkZWI5ZTcyZTk3MDZjYWEyNzI2MWI&amp;amp;mark-x=120&amp;amp;mark-y=112&amp;amp;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTgzOCZoPTU4JnR4dD0lNDB5YW1hbW90by15dXRhJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9NzA4YzY0ZTE3NjJhNWM3NjcxYmQ5MzI4MThkMzI0YTY&amp;amp;blend-x=242&amp;amp;blend-y=480&amp;amp;blend-w=838&amp;amp;blend-h=46&amp;amp;blend-fit=crop&amp;amp;blend-crop=left%2Cbottom&amp;amp;blend-mode=normal&amp;amp;s=cf24acdc53573f33aeeb789b6463c749" alt="Docker で dbt プロジェクトを始める方法をいくつか試してみた - Qiita" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/tech-book-lt-understand-docker" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;「『Docker よくわからない』を終わりにする本」を読んだので社内LT発表してきた話 - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/846581a45f795275519e426c75c5d2a89262e28f/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20230706%2F20230706112739.png" alt="「『Docker よくわからない』を終わりにする本」を読んだので社内LT発表してきた話 - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/extract-app-store-review-to-spreadsheet-by-trocco" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;trocco で App Store のレビューをスプレッドシートへ書き出す - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/612ca1b99f02ddbf83ab6e9c5c07a33cdd34a234/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn.user.blog.st-hatena.com%2Fdefault_entry_og_image%2F153221285%2F1600243384103025" alt="trocco で App Store のレビューをスプレッドシートへ書き出す - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/lightning-talk-8" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;プロダクト開発本部LT大会#8を開催しました - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/5831520474db387de66f53d917ab5181c32df8b8/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20230411%2F20230411000328.png" alt="プロダクト開発本部LT大会#8を開催しました - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;h2 id="2022-年"&gt;2022 年
+&lt;/h2&gt;&lt;a href="https://zenn.dev/aidemy/articles/425cf7d9f31945" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;質問対応業務を DX した話&lt;/div&gt;
+&lt;div&gt;Zenn · zenn.dev&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://res.cloudinary.com/zenn/image/upload/s--nDZn6nEe--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E8%25B3%25AA%25E5%2595%258F%25E5%25AF%25BE%25E5%25BF%259C%25E6%25A5%25AD%25E5%258B%2599%25E3%2582%2592%2520DX%2520%25E3%2581%2597%25E3%2581%259F%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Yuta%2520YAMAMOTO%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3plbm4tdXNlci11cGxvYWQvYXZhdGFyLzNhNmVhZTQ3ZDkuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Aidemy%2520Tech%2520Blog%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUVkRlRwNjUyU1gwN0lEempPbVc5M2RZQV9nelRZN0RPRVNWbkxRQTNXa049czk2LWM=%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACAGSGT" alt="質問対応業務を DX した話" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/gig-program2022" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;内定者インターン生が G.I.G. プログラムに参加して Professional Data Engineer 認定資格を取得した話 - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/11486d7a1793fd8a6c0693add0ecee5d4c2ca2ce/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20220730%2F20220730184807.png" alt="内定者インターン生が G.I.G. プログラムに参加して Professional Data Engineer 認定資格を取得した話 - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://qiita.com/yamamoto-yuta/items/b6d64929ce035059bc53" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;rich な cat コマンドを1年越しにアップデートした話 - Qiita&lt;/div&gt;
+&lt;div&gt;Qiita · qiita.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.0.0%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDg5MDMwJTJGcHJvZmlsZS1pbWFnZXMlMkYxNjM4NTE1OTAxP2l4bGliPXJiLTQuMC4wJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz1mYzQ3MzNiZTQ2YjkxZDYyOGE4NzU2ZmI3ZDk3NjRhMg%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D86a904e13e5a567689de36161343d9dc?ixlib=rb-4.0.0&amp;amp;w=1200&amp;amp;fm=jpg&amp;amp;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTk2MCZoPTMyNCZ0eHQ9cmljaCUyMCVFMyU4MSVBQSUyMGNhdCUyMCVFMyU4MiVCMyVFMyU4MyU5RSVFMyU4MyVCMyVFMyU4MyU4OSVFMyU4MiU5MjElRTUlQjklQjQlRTglQjYlOEElRTMlODElOTclRTMlODElQUIlRTMlODIlQTIlRTMlODMlODMlRTMlODMlOTclRTMlODMlODclRTMlODMlQkMlRTMlODMlODglRTMlODElOTclRTMlODElOUYlRTglQTklQjEmdHh0LWFsaWduPWxlZnQlMkN0b3AmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT01NiZ0eHQtcGFkPTAmcz01NTMyODYyYzY4ZTVlYjQ2MzU2YTc4OWFhODY2MjUyYg&amp;amp;mark-x=120&amp;amp;mark-y=112&amp;amp;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTgzOCZoPTU4JnR4dD0lNDB5YW1hbW90by15dXRhJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9NzA4YzY0ZTE3NjJhNWM3NjcxYmQ5MzI4MThkMzI0YTY&amp;amp;blend-x=242&amp;amp;blend-y=480&amp;amp;blend-w=838&amp;amp;blend-h=46&amp;amp;blend-fit=crop&amp;amp;blend-crop=left%2Cbottom&amp;amp;blend-mode=normal&amp;amp;s=44271561e884230c3e5f6645cc79ffb2" alt="rich な cat コマンドを1年越しにアップデートした話 - Qiita" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://qiita.com/yamamoto-yuta/items/5e67a9150f68ae0850ae" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;richなcatコマンドを作った話 - Qiita&lt;/div&gt;
+&lt;div&gt;Qiita · qiita.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.0.0%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDg5MDMwJTJGcHJvZmlsZS1pbWFnZXMlMkYxNjM4NTE1OTAxP2l4bGliPXJiLTQuMC4wJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz1mYzQ3MzNiZTQ2YjkxZDYyOGE4NzU2ZmI3ZDk3NjRhMg%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D86a904e13e5a567689de36161343d9dc?ixlib=rb-4.0.0&amp;amp;w=1200&amp;amp;fm=jpg&amp;amp;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTk2MCZoPTMyNCZ0eHQ9cmljaCVFMyU4MSVBQWNhdCVFMyU4MiVCMyVFMyU4MyU5RSVFMyU4MyVCMyVFMyU4MyU4OSVFMyU4MiU5MiVFNCVCRCU5QyVFMyU4MSVBMyVFMyU4MSU5RiVFOCVBOSVCMSZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzMUUyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPWQyOGRmY2Y3YWY0YTkyNDljZTE4NjkzZjAwMmE4Y2Zj&amp;amp;mark-x=120&amp;amp;mark-y=112&amp;amp;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTgzOCZoPTU4JnR4dD0lNDB5YW1hbW90by15dXRhJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9NzA4YzY0ZTE3NjJhNWM3NjcxYmQ5MzI4MThkMzI0YTY&amp;amp;blend-x=242&amp;amp;blend-y=480&amp;amp;blend-w=838&amp;amp;blend-h=46&amp;amp;blend-fit=crop&amp;amp;blend-crop=left%2Cbottom&amp;amp;blend-mode=normal&amp;amp;s=441c5bc6fb5e722fa51cbc3875ebe0b1" alt="richなcatコマンドを作った話 - Qiita" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://qiita.com/yamamoto-yuta/items/14b776a59fcafd9830ec" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;長岡市内の新型コロナウイルス感染症患者の発生状況を可視化してみた - Qiita&lt;/div&gt;
+&lt;div&gt;Qiita · qiita.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.0.0%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDg5MDMwJTJGcHJvZmlsZS1pbWFnZXMlMkYxNjM4NTE1OTAxP2l4bGliPXJiLTQuMC4wJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz1mYzQ3MzNiZTQ2YjkxZDYyOGE4NzU2ZmI3ZDk3NjRhMg%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D86a904e13e5a567689de36161343d9dc?ixlib=rb-4.0.0&amp;amp;w=1200&amp;amp;fm=jpg&amp;amp;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTk2MCZoPTMyNCZ0eHQ9JUU5JTk1JUI3JUU1JUIyJUExJUU1JUI4JTgyJUU1JTg2JTg1JUUzJTgxJUFFJUU2JTk2JUIwJUU1JTlFJThCJUUzJTgyJUIzJUUzJTgzJUFEJUUzJTgzJThBJUUzJTgyJUE2JUUzJTgyJUE0JUUzJTgzJUFCJUUzJTgyJUI5JUU2JTg0JTlGJUU2JTlGJTkzJUU3JTk3JTg3JUU2JTgyJUEzJUU4JTgwJTg1JUUzJTgxJUFFJUU3JTk5JUJBJUU3JTk0JTlGJUU3JThBJUI2JUU2JUIzJTgxJUUzJTgyJTkyJUU1JThGJUFGJUU4JUE2JTk2JUU1JThDJTk2JUUzJTgxJTk3JUUzJTgxJUE2JUUzJTgxJUJGJUUzJTgxJTlGJnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9M2Y5NzU5ZmZjODY4NjcyNDUwNWIzZGMzMjBlY2JjMzM&amp;amp;mark-x=120&amp;amp;mark-y=112&amp;amp;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTgzOCZoPTU4JnR4dD0lNDB5YW1hbW90by15dXRhJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9NzA4YzY0ZTE3NjJhNWM3NjcxYmQ5MzI4MThkMzI0YTY&amp;amp;blend-x=242&amp;amp;blend-y=480&amp;amp;blend-w=838&amp;amp;blend-h=46&amp;amp;blend-fit=crop&amp;amp;blend-crop=left%2Cbottom&amp;amp;blend-mode=normal&amp;amp;s=3300acf09217fa7b7cbc3bfbbfebef07" alt="長岡市内の新型コロナウイルス感染症患者の発生状況を可視化してみた - Qiita" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;h2 id="2021-年"&gt;2021 年
+&lt;/h2&gt;&lt;a href="https://qiita.com/yamamoto-yuta/items/c9c5ea0912b02aa14e23" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;SlackをTweetDeckぽく使えるChrome拡張機能を作った話 - Qiita&lt;/div&gt;
+&lt;div&gt;Qiita · qiita.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Fadvent-calendar-ogp-background-7940cd1c8db80a7ec40711d90f43539e.jpg%3Fixlib%3Drb-4.0.0%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGNDg5MDMwJTJGcHJvZmlsZS1pbWFnZXMlMkYxNjM4NTE1OTAxP2l4bGliPXJiLTQuMC4wJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz1mYzQ3MzNiZTQ2YjkxZDYyOGE4NzU2ZmI3ZDk3NjRhMg%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D23a1e731c7951400cd2b69d9d7c02edc?ixlib=rb-4.0.0&amp;amp;w=1200&amp;amp;fm=jpg&amp;amp;mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTk2MCZoPTMyNCZ0eHQ9U2xhY2slRTMlODIlOTJUd2VldERlY2slRTMlODElQkQlRTMlODElOEYlRTQlQkQlQkYlRTMlODElODglRTMlODIlOEJDaHJvbWUlRTYlOEIlQTElRTUlQkMlQjUlRTYlQTklOUYlRTglODMlQkQlRTMlODIlOTIlRTQlQkQlOUMlRTMlODElQTMlRTMlODElOUYlRTglQTklQjEmdHh0LWFsaWduPWxlZnQlMkN0b3AmdHh0LWNvbG9yPSUyMzNBM0MzQyZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT01NiZ0eHQtcGFkPTAmcz1jMTg5YWZkOWZiY2JkMjAwYjJkZWE0MjA3YTU2YzY5MA&amp;amp;mark-x=120&amp;amp;mark-y=112&amp;amp;blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTgzOCZoPTU4JnR4dD0lNDB5YW1hbW90by15dXRhJnR4dC1jb2xvcj0lMjMzQTNDM0MmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9ZmY4ODUyZDYxOThkNzBkOGZkZWQ1YmMyZjIyYzdkZWY&amp;amp;blend-x=242&amp;amp;blend-y=480&amp;amp;blend-w=838&amp;amp;blend-h=46&amp;amp;blend-fit=crop&amp;amp;blend-crop=left%2Cbottom&amp;amp;blend-mode=normal&amp;amp;s=b6bf1a4716b6cabbf257ecb37be9563d" alt="SlackをTweetDeckぽく使えるChrome拡張機能を作った話 - Qiita" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://tech.yappli.io/entry/optimize_notifications_release_time" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;インターン生がプッシュ通知の配信時刻最適化に取り組んでみた！ - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/f155e60a383d1d2eae551a8cd2e7af0b27103172/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fy%2Fyamamoto-yuta%2F20211201%2F20211201054802.jpg" alt="インターン生がプッシュ通知の配信時刻最適化に取り組んでみた！ - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;h2 id="2020-年"&gt;2020 年
+&lt;/h2&gt;&lt;a href="https://github.com/yamamoto-yuta/tictactoe-js" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;GitHub - yamamoto-yuta/tictactoe-js&lt;/div&gt;
+&lt;div&gt;GitHub · github.com&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://opengraph.githubassets.com/e646e2782b5712b7912cd4b72c7cf3a94164af53a7e34fdc55461adb2929b031/yamamoto-yuta/tictactoe-js" alt="GitHub - yamamoto-yuta/tictactoe-js" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;details&gt;&lt;summary&gt;補足資料&lt;/summary&gt;
+&lt;div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"&gt;&lt;iframe src="https://drive.google.com/file/d/1jd-qchsKh1V7VsjbN-YLSPhVmvX0Vrvh/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/details&gt;
+&lt;h2 id="2019-年"&gt;2019 年
+&lt;/h2&gt;&lt;h2 id="2018-年"&gt;2018 年
+&lt;/h2&gt;&lt;a href="https://www.procon.gr.jp/?page_id=64541" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;全国高等専門学校プログラミングコンテスト&lt;/div&gt;
+&lt;div&gt;www.procon.gr.jp&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://www.procon.gr.jp/assets/img/ogp-default.png" alt="全国高等専門学校プログラミングコンテスト" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;details&gt;&lt;summary&gt;補足資料&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.procon.gr.jp/wp-content/uploads/2019/02/29_app10029.pdf" target="_blank" rel="noopener"
+&gt;予選資料&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.procon.gr.jp/wp-content/uploads/2019/02/29_pmp10029.pdf" target="_blank" rel="noopener"
+&gt;本選パンフレット&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
+&lt;h2 id="2017-年"&gt;2017 年
+&lt;/h2&gt;&lt;a href="https://yume.fukuishimbun.co.jp/sb" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;ふーせん宇宙船 | ゆめ・つくる・ふくい&lt;/div&gt;
+&lt;div&gt;yume.fukuishimbun.co.jp&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;details&gt;&lt;summary&gt;補足資料&lt;/summary&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://youtu.be/XxP2_zDJ9_A" target="_blank" rel="noopener"
+&gt;飛行映像&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://youtu.be/3dknwDvaEGQ" target="_blank" rel="noopener"
+&gt;ドキュメンタリー映像&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;</description></item><item><title>Archives</title><link>https://yamamoto-yuta.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/archives/</guid><description/></item><item><title>Search</title><link>https://yamamoto-yuta.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yamamoto-yuta.github.io/search/</guid><description/></item></channel></rss>
