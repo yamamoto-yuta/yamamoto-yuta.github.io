@@ -170,7 +170,37 @@
 &lt;/font&gt;
 &lt;!-- 埋め込みはここから: https://iframely.com/try --&gt;
 &lt;h2 id="2026-年"&gt;2026 年
-&lt;/h2&gt;&lt;a href="https://qiita.com/yamamoto-yuta/items/de0ebd3b04c09ab03fe6" target="_blank" rel="noopener noreferrer" style="
+&lt;/h2&gt;&lt;a href="https://tech.yappli.io/entry/speeding-up-yappli-analytics-with-native-tables" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;BigQuery外部テーブルをネイティブテーブル化してYappli Analyticsを爆速にした話 - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/e9632779a9fa716940f136dd21169a55264c898e/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ftech-yappli%2F20260325%2F20260325105125.jpg" alt="BigQuery外部テーブルをネイティブテーブル化してYappli Analyticsを爆速にした話 - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://qiita.com/yamamoto-yuta/items/de0ebd3b04c09ab03fe6" target="_blank" rel="noopener noreferrer" style="
 display: block;
 border: 1px solid #ccc;
 margin: 2rem 0;
