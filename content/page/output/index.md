@@ -23,6 +23,8 @@ menu:
 
 ## 2026 年
 
+{{<card "https://qiita.com/yamamoto-yuta/items/63c0d085e3b8ad041ee2">}}
+
 {{<card "https://tech.yappli.io/entry/speeding-up-yappli-analytics-with-native-tables">}}
 
 {{<card "https://qiita.com/yamamoto-yuta/items/de0ebd3b04c09ab03fe6">}}
