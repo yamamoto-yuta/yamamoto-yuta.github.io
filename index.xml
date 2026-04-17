@@ -1274,7 +1274,37 @@ padding: 1rem 2rem;
 &lt;/font&gt;
 &lt;!-- 埋め込みはここから: https://iframely.com/try --&gt;
 &lt;h2 id="2026-年"&gt;2026 年
-&lt;/h2&gt;&lt;a href="https://qiita.com/yamamoto-yuta/items/63c0d085e3b8ad041ee2" target="_blank" rel="noopener noreferrer" style="
+&lt;/h2&gt;&lt;a href="https://tech.yappli.io/entry/dbt-macro-cleanup-tables" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;dbt管理下にないテーブルをdbt macroで一括削除する - Yappli Tech Blog&lt;/div&gt;
+&lt;div&gt;Yappli Tech Blog · tech.yappli.io&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://cdn.image.st-hatena.com/image/scale/27f2767c28280da586acbb87a3e490756701af92/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Ft%2Ftech-yappli%2F20260414%2F20260414092857.jpg" alt="dbt管理下にないテーブルをdbt macroで一括削除する - Yappli Tech Blog" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://qiita.com/yamamoto-yuta/items/63c0d085e3b8ad041ee2" target="_blank" rel="noopener noreferrer" style="
 display: block;
 border: 1px solid #ccc;
 margin: 2rem 0;
