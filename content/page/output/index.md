@@ -23,6 +23,8 @@ menu:
 
 ## 2026 年
 
+{{<card "https://kosen-caravan.com">}}
+
 {{<card "https://tech.yappli.io/entry/dbt-macro-cleanup-tables">}}
 
 {{<card "https://qiita.com/yamamoto-yuta/items/63c0d085e3b8ad041ee2">}}
