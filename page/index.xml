@@ -170,7 +170,37 @@
 &lt;/font&gt;
 &lt;!-- 埋め込みはここから: https://iframely.com/try --&gt;
 &lt;h2 id="2026-年"&gt;2026 年
-&lt;/h2&gt;&lt;a href="https://kosen-caravan.com" target="_blank" rel="noopener noreferrer" style="
+&lt;/h2&gt;&lt;a href="https://zenn.dev/dbttokyo/articles/b73a3256f38228" target="_blank" rel="noopener noreferrer" style="
+display: block;
+border: 1px solid #ccc;
+margin: 2rem 0;
+"&gt;
+&lt;div style="
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+"&gt;
+&lt;div style="
+flex: 1;
+padding: 1rem 2rem;
+"&gt;
+&lt;div style="font-weight: bold;"&gt;【開催レポート】Tokyo dbt meetup #20 組織で広げるdbt｜#dbt_tokyo&lt;/div&gt;
+&lt;div&gt;Zenn · zenn.dev&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="
+display: flex;
+align-items: center;
+"&gt;
+&lt;img src="https://res.cloudinary.com/zenn/image/upload/s--MTyi6Jrj--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2580%2590%25E9%2596%258B%25E5%2582%25AC%25E3%2583%25AC%25E3%2583%259D%25E3%2583%25BC%25E3%2583%2588%25E3%2580%2591Tokyo%2520dbt%2520meetup%2520%252320%2520%25E7%25B5%2584%25E7%25B9%2594%25E3%2581%25A7%25E5%25BA%2583%25E3%2581%2592%25E3%2582%258Bdbt%25EF%25BD%259C%2523dbt_tokyo%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:Yuta%2520YAMAMOTO%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzNmMzU1OWVkNjguanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:dbt%2520tokyo%2Cx_220%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUVkRlRwNjUyU1gwN0lEempPbVc5M2RZQV9nelRZN0RPRVNWbkxRQTNXa049czk2LWM=%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE" alt="【開催レポート】Tokyo dbt meetup #20 組織で広げるdbt｜#dbt_tokyo" loading="lazy" style="
+width: 100%;
+max-width: 300px;
+aspect-ratio: 16 / 9;
+"/&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href="https://kosen-caravan.com" target="_blank" rel="noopener noreferrer" style="
 display: block;
 border: 1px solid #ccc;
 margin: 2rem 0;
@@ -463,7 +493,7 @@ padding: 1rem 2rem;
 display: flex;
 align-items: center;
 "&gt;
-&lt;img src="https://findy-tools.io/products/bigquery/49/778/opengraph-image?de479d738d5ec9b6" alt="プロダクト用途から始まった、ヤプリのBigQuery導入事例" loading="lazy" style="
+&lt;img src="https://findy-tools.io/products/bigquery/49/778/opengraph-image?67bf83dc4e063253" alt="プロダクト用途から始まった、ヤプリのBigQuery導入事例" loading="lazy" style="
 width: 100%;
 max-width: 300px;
 aspect-ratio: 16 / 9;
@@ -1064,7 +1094,7 @@ padding: 1rem 2rem;
 display: flex;
 align-items: center;
 "&gt;
-&lt;img src="https://findy-tools.io/products/dbt/37/113/opengraph-image?de479d738d5ec9b6" alt="データ組織・基盤をスケール可能にするために dbt Core を導入した話" loading="lazy" style="
+&lt;img src="https://findy-tools.io/products/dbt/37/113/opengraph-image?67bf83dc4e063253" alt="データ組織・基盤をスケール可能にするために dbt Core を導入した話" loading="lazy" style="
 width: 100%;
 max-width: 300px;
 aspect-ratio: 16 / 9;
