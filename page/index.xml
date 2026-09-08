@@ -493,7 +493,7 @@ padding: 1rem 2rem;
 display: flex;
 align-items: center;
 "&gt;
-&lt;img src="https://findy-tools.io/products/bigquery/49/778/opengraph-image?67bf83dc4e063253" alt="プロダクト用途から始まった、ヤプリのBigQuery導入事例" loading="lazy" style="
+&lt;img src="https://findy-tools.io/products/bigquery/49/778/opengraph-image?0f9d043230b4c6d8" alt="プロダクト用途から始まった、ヤプリのBigQuery導入事例" loading="lazy" style="
 width: 100%;
 max-width: 300px;
 aspect-ratio: 16 / 9;
@@ -1094,7 +1094,7 @@ padding: 1rem 2rem;
 display: flex;
 align-items: center;
 "&gt;
-&lt;img src="https://findy-tools.io/products/dbt/37/113/opengraph-image?67bf83dc4e063253" alt="データ組織・基盤をスケール可能にするために dbt Core を導入した話" loading="lazy" style="
+&lt;img src="https://findy-tools.io/products/dbt/37/113/opengraph-image?0f9d043230b4c6d8" alt="データ組織・基盤をスケール可能にするために dbt Core を導入した話" loading="lazy" style="
 width: 100%;
 max-width: 300px;
 aspect-ratio: 16 / 9;
