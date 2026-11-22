@@ -1,21 +1,25 @@
 .PHONY: new-content
+HOST_UID := $(shell id -u)
+HOST_GID := $(shell id -g)
+
 new-content:
 	@echo 'Enter article slug (e.g. "my-new-article"):'
 	@read SLUG; \
-	docker compose run --rm site hugo new content content/post/$$SLUG/index.md; \
-	sed -i '' 's/{slug}/'"$$SLUG"'/g' content/post/$$SLUG/index.md
+	docker compose run --rm --user "$(HOST_UID):$(HOST_GID)" site hugo new content content/post/$$SLUG/index.md && \
+	sed 's/{slug}/'"$$SLUG"'/g' content/post/$$SLUG/index.md > content/post/$$SLUG/index.md.tmp && \
+	mv content/post/$$SLUG/index.md.tmp content/post/$$SLUG/index.md
 
 .PHONY: server
 server:
-	docker compose run --rm --service-ports site hugo server --bind 0.0.0.0 --buildDrafts
+	docker compose run --rm --user "$(HOST_UID):$(HOST_GID)" --service-ports site hugo server --bind 0.0.0.0 --buildDrafts
 
 .PHONY: server-prod
 server-prod:
-	docker compose run --rm --service-ports site hugo server --bind 0.0.0.0
+	docker compose run --rm --user "$(HOST_UID):$(HOST_GID)" --service-ports site hugo server --bind 0.0.0.0
 
 .PHONY: build
 build:
-	docker compose run --rm site hugo --minify
+	docker compose run --rm --user "$(HOST_UID):$(HOST_GID)" site hugo --minify
 
 .PHONY: remove-theme
 remove-theme:
