@@ -7,7 +7,9 @@ RUN apt-get update && apt-get upgrade -y \
 
 COPY .hugo_version /tmp/.hugo_version
 
+ARG TARGETARCH
+
 RUN HUGO_VERSION=$(cat /tmp/.hugo_version) \
-    && curl -L -o hugo_extended.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-arm64.deb \
+    && curl -L -o hugo_extended.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-${TARGETARCH}.deb \
     && apt-get install -y ./hugo_extended.deb \
     && rm hugo_extended.deb /tmp/.hugo_version
